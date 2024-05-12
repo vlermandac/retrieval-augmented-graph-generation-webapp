@@ -1,0 +1,5637 @@
+{
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "HENRY",
+      "attributes": {
+        "label": "HENRY",
+        "size": 20,
+        "x": 11.55,
+        "y": 20.93,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the open trunk",
+      "attributes": {
+        "label": "the open trunk",
+        "size": 20,
+        "x": 25.36,
+        "y": 21.99,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "As far back as I can remember, I always wanted to be a gangster",
+      "attributes": {
+        "label": "As far back as I can remember, I always wanted to be a gangster",
+        "size": 20,
+        "x": 19.76,
+        "y": 4.59,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "To me, being a gangster was better than being President of the United States",
+      "attributes": {
+        "label": "To me, being a gangster was better than being President of the United States",
+        "size": 20,
+        "x": 28.12,
+        "y": 8.78,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Even before I first wandered into the cabstand for an after school job",
+      "attributes": {
+        "label": "Even before I first wandered into the cabstand for an after school job",
+        "size": 20,
+        "x": 15.97,
+        "y": 11.16,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "person",
+      "attributes": {
+        "label": "person",
+        "size": 20,
+        "x": 0.97,
+        "y": 6.41,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cabstand",
+      "attributes": {
+        "label": "cabstand",
+        "size": 20,
+        "x": 21.12,
+        "y": 16.13,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "place",
+      "attributes": {
+        "label": "place",
+        "size": 20,
+        "x": 2.72,
+        "y": 19.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "school",
+      "attributes": {
+        "label": "school",
+        "size": 20,
+        "x": 22.4,
+        "y": 11.83,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "part",
+      "attributes": {
+        "label": "part",
+        "size": 20,
+        "x": 18.54,
+        "y": 25.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cadillac",
+      "attributes": {
+        "label": "Cadillac",
+        "size": 20,
+        "x": 18.4,
+        "y": 16.34,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "car",
+      "attributes": {
+        "label": "car",
+        "size": 20,
+        "x": 7.09,
+        "y": 27.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "large diamond pinky ring",
+      "attributes": {
+        "label": "large diamond pinky ring",
+        "size": 20,
+        "x": 1.85,
+        "y": 0.51,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "accessory",
+      "attributes": {
+        "label": "accessory",
+        "size": 20,
+        "x": 7.56,
+        "y": 26.46,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HOOD #1",
+      "attributes": {
+        "label": "HOOD #1",
+        "size": 20,
+        "x": 21.03,
+        "y": 20.59,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "large diamond pinky ring on a sausage thick finger",
+      "attributes": {
+        "label": "large diamond pinky ring on a sausage thick finger",
+        "size": 20,
+        "x": 22.95,
+        "y": 9.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HOOD #2",
+      "attributes": {
+        "label": "HOOD #2",
+        "size": 20,
+        "x": 23.08,
+        "y": 7.32,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a broken-nosed hood’s tie hanging loosely across his monogrammed shirt like a silk bandolier",
+      "attributes": {
+        "label": "a broken-nosed hood’s tie hanging loosely across his monogrammed shirt like a silk bandolier",
+        "size": 20,
+        "x": 15.28,
+        "y": 15.95,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "To me it meant being somebody in a neighborhood full of nobodies",
+      "attributes": {
+        "label": "To me it meant being somebody in a neighborhood full of nobodies",
+        "size": 20,
+        "x": 1.29,
+        "y": 17.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TWO HOODS",
+      "attributes": {
+        "label": "TWO HOODS",
+        "size": 20,
+        "x": 21.68,
+        "y": 17.98,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY VARIO, the sloppily-dressed, solidly-built HOOD who runs the cabstand",
+      "attributes": {
+        "label": "TUDDY VARIO, the sloppily-dressed, solidly-built HOOD who runs the cabstand",
+        "size": 20,
+        "x": 9.91,
+        "y": 27.09,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "They weren’t like anyone else. They did whatever they wanted. They'd double-park in front of the hydrant and nobody ever gave them a ticket. In the summer when they played cards all night, nobody ever called the cops",
+      "attributes": {
+        "label": "They weren’t like anyone else. They did whatever they wanted. They'd double-park in front of the hydrant and nobody ever gave them a ticket. In the summer when they played cards all night, nobody ever called the cops",
+        "size": 20,
+        "x": 17.28,
+        "y": 26.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY",
+      "attributes": {
+        "label": "TUDDY",
+        "size": 20,
+        "x": 15.78,
+        "y": 5.76,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HOODS",
+      "attributes": {
+        "label": "HOODS",
+        "size": 20,
+        "x": 24.11,
+        "y": 9.44,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Tuddy Variо ran the cabstand and a pizzeria and a few other places for his brother, Paul, who was the boss over everybody in the neighborhood",
+      "attributes": {
+        "label": "Tuddy Variо ran the cabstand and a pizzeria and a few other places for his brother, Paul, who was the boss over everybody in the neighborhood",
+        "size": 20,
+        "x": 29.08,
+        "y": 10.41,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY's ample midsection",
+      "attributes": {
+        "label": "TUDDY's ample midsection",
+        "size": 20,
+        "x": 8.49,
+        "y": 9.23,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ning",
+      "attributes": {
+        "label": "ning",
+        "size": 20,
+        "x": 27.22,
+        "y": 19.95,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY VARIO and HOODS",
+      "attributes": {
+        "label": "TUDDY VARIO and HOODS",
+        "size": 20,
+        "x": 4.59,
+        "y": 12.26,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "PAUL VARIO",
+      "attributes": {
+        "label": "PAUL VARIO",
+        "size": 20,
+        "x": 0.78,
+        "y": 24.07,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the boss",
+      "attributes": {
+        "label": "the boss",
+        "size": 20,
+        "x": 26.33,
+        "y": 18.51,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the cabstand's doorway",
+      "attributes": {
+        "label": "the cabstand's doorway",
+        "size": 20,
+        "x": 5.39,
+        "y": 5.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "large man",
+      "attributes": {
+        "label": "large man",
+        "size": 20,
+        "x": 12.63,
+        "y": 26.76,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "six-feet tall",
+      "attributes": {
+        "label": "six-feet tall",
+        "size": 20,
+        "x": 22.32,
+        "y": 6.24,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "weighing over 240 pounds",
+      "attributes": {
+        "label": "weighing over 240 pounds",
+        "size": 20,
+        "x": 2.0,
+        "y": 25.08,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "even larger",
+      "attributes": {
+        "label": "even larger",
+        "size": 20,
+        "x": 9.07,
+        "y": 17.97,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY (V.O.)",
+      "attributes": {
+        "label": "HENRY (V.O.)",
+        "size": 20,
+        "x": 20.26,
+        "y": 25.51,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Panlie",
+      "attributes": {
+        "label": "Panlie",
+        "size": 20,
+        "x": 12.19,
+        "y": 11.42,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "anybody",
+      "attributes": {
+        "label": "anybody",
+        "size": 20,
+        "x": 13.86,
+        "y": 10.83,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TODDY and HOODS",
+      "attributes": {
+        "label": "TODDY and HOODS",
+        "size": 20,
+        "x": 25.55,
+        "y": 23.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "horsing around",
+      "attributes": {
+        "label": "horsing around",
+        "size": 20,
+        "x": 23.59,
+        "y": 8.79,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HOOD",
+      "attributes": {
+        "label": "HOOD",
+        "size": 20,
+        "x": 14.51,
+        "y": 27.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "PAUL",
+      "attributes": {
+        "label": "PAUL",
+        "size": 20,
+        "x": 0.59,
+        "y": 29.03,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "DOLLY",
+      "attributes": {
+        "label": "DOLLY",
+        "size": 20,
+        "x": 23.05,
+        "y": 26.49,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "guys",
+      "attributes": {
+        "label": "guys",
+        "size": 20,
+        "x": 18.75,
+        "y": 17.76,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Penile",
+      "attributes": {
+        "label": "Penile",
+        "size": 20,
+        "x": 14.23,
+        "y": 0.13,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "other guys",
+      "attributes": {
+        "label": "other guys",
+        "size": 20,
+        "x": 2.73,
+        "y": 18.08,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "organisation",
+      "attributes": {
+        "label": "organisation",
+        "size": 20,
+        "x": 13.03,
+        "y": 29.73,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "offer protection",
+      "attributes": {
+        "label": "offer protection",
+        "size": 20,
+        "x": 1.37,
+        "y": 3.63,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "people",
+      "attributes": {
+        "label": "people",
+        "size": 20,
+        "x": 2.84,
+        "y": 7.01,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "wiseguys",
+      "attributes": {
+        "label": "wiseguys",
+        "size": 20,
+        "x": 3.62,
+        "y": 0.86,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Paulie",
+      "attributes": {
+        "label": "Paulie",
+        "size": 20,
+        "x": 13.66,
+        "y": 22.28,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "that",
+      "attributes": {
+        "label": "that",
+        "size": 20,
+        "x": 6.53,
+        "y": 16.49,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the FBI",
+      "attributes": {
+        "label": "the FBI",
+        "size": 20,
+        "x": 27.79,
+        "y": 9.66,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "they",
+      "attributes": {
+        "label": "they",
+        "size": 20,
+        "x": 10.32,
+        "y": 23.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "protection from Paulie",
+      "attributes": {
+        "label": "protection from Paulie",
+        "size": 20,
+        "x": 17.62,
+        "y": 10.29,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "America",
+      "attributes": {
+        "label": "America",
+        "size": 20,
+        "x": 5.7,
+        "y": 16.28,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the old country",
+      "attributes": {
+        "label": "the old country",
+        "size": 20,
+        "x": 6.59,
+        "y": 6.72,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "tribute",
+      "attributes": {
+        "label": "tribute",
+        "size": 20,
+        "x": 13.51,
+        "y": 0.35,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "you",
+      "attributes": {
+        "label": "you",
+        "size": 20,
+        "x": 17.84,
+        "y": 12.93,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "I",
+      "attributes": {
+        "label": "I",
+        "size": 20,
+        "x": 28.52,
+        "y": 22.91,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "me",
+      "attributes": {
+        "label": "me",
+        "size": 20,
+        "x": 10.64,
+        "y": 8.65,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "People",
+      "attributes": {
+        "label": "People",
+        "size": 20,
+        "x": 21.85,
+        "y": 4.29,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "differently",
+      "attributes": {
+        "label": "differently",
+        "size": 20,
+        "x": 14.46,
+        "y": 18.33,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "to",
+      "attributes": {
+        "label": "to",
+        "size": 20,
+        "x": 10.85,
+        "y": 16.59,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "tu",
+      "attributes": {
+        "label": "tu",
+        "size": 20,
+        "x": 18.99,
+        "y": 26.43,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "comer",
+      "attributes": {
+        "label": "comer",
+        "size": 20,
+        "x": 13.63,
+        "y": 0.04,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "what",
+      "attributes": {
+        "label": "what",
+        "size": 20,
+        "x": 19.18,
+        "y": 18.32,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "it",
+      "attributes": {
+        "label": "it",
+        "size": 20,
+        "x": 5.11,
+        "y": 23.02,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "FBI",
+      "attributes": {
+        "label": "FBI",
+        "size": 20,
+        "x": 14.8,
+        "y": 28.89,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE SEE TUDDY",
+      "attributes": {
+        "label": "WE SEE TUDDY",
+        "size": 20,
+        "x": 12.26,
+        "y": 4.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "-",
+      "attributes": {
+        "label": "-",
+        "size": 20,
+        "x": 9.83,
+        "y": 26.73,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "matchbooks",
+      "attributes": {
+        "label": "matchbooks",
+        "size": 20,
+        "x": 25.34,
+        "y": 3.68,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "bakery",
+      "attributes": {
+        "label": "bakery",
+        "size": 20,
+        "x": 25.05,
+        "y": 26.33,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "owner",
+      "attributes": {
+        "label": "owner",
+        "size": 20,
+        "x": 21.68,
+        "y": 4.64,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "counter",
+      "attributes": {
+        "label": "counter",
+        "size": 20,
+        "x": 6.8,
+        "y": 25.44,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "night",
+      "attributes": {
+        "label": "night",
+        "size": 20,
+        "x": 29.32,
+        "y": 15.33,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "brightness",
+      "attributes": {
+        "label": "brightness",
+        "size": 20,
+        "x": 11.68,
+        "y": 12.61,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE SEE HENRY",
+      "attributes": {
+        "label": "WE SEE HENRY",
+        "size": 20,
+        "x": 1.74,
+        "y": 22.92,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY's car",
+      "attributes": {
+        "label": "TUDDY's car",
+        "size": 20,
+        "x": 7.8,
+        "y": 20.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cars",
+      "attributes": {
+        "label": "cars",
+        "size": 20,
+        "x": 23.81,
+        "y": 20.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "him",
+      "attributes": {
+        "label": "him",
+        "size": 20,
+        "x": 14.41,
+        "y": 4.01,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "grownups in the neighborhood",
+      "attributes": {
+        "label": "grownups in the neighborhood",
+        "size": 20,
+        "x": 9.42,
+        "y": 13.07,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "he could spend",
+      "attributes": {
+        "label": "he could spend",
+        "size": 20,
+        "x": 19.54,
+        "y": 19.83,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "some kids from the neighborhood",
+      "attributes": {
+        "label": "some kids from the neighborhood",
+        "size": 20,
+        "x": 25.84,
+        "y": 14.02,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY'S MOTHER",
+      "attributes": {
+        "label": "HENRY'S MOTHER",
+        "size": 20,
+        "x": 21.29,
+        "y": 2.41,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's smiling face",
+      "attributes": {
+        "label": "HENRY's smiling face",
+        "size": 20,
+        "x": 6.12,
+        "y": 26.76,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "MOTHER",
+      "attributes": {
+        "label": "MOTHER",
+        "size": 20,
+        "x": 26.01,
+        "y": 27.79,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's outfit",
+      "attributes": {
+        "label": "HENRY's outfit",
+        "size": 20,
+        "x": 15.6,
+        "y": 10.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "SCREAMING MAN",
+      "attributes": {
+        "label": "SCREAMING MAN",
+        "size": 20,
+        "x": 4.36,
+        "y": 11.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the pizzeria",
+      "attributes": {
+        "label": "the pizzeria",
+        "size": 20,
+        "x": 22.84,
+        "y": 1.71,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE",
+      "attributes": {
+        "label": "WE",
+        "size": 20,
+        "x": 14.04,
+        "y": 4.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY standing near front of store",
+      "attributes": {
+        "label": "HENRY standing near front of store",
+        "size": 20,
+        "x": 18.44,
+        "y": 14.72,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Henry to close the",
+      "attributes": {
+        "label": "Henry to close the",
+        "size": 20,
+        "x": 23.86,
+        "y": 14.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BILLY",
+      "attributes": {
+        "label": "BILLY",
+        "size": 20,
+        "x": 15.88,
+        "y": 19.75,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Tommy",
+      "attributes": {
+        "label": "Tommy",
+        "size": 20,
+        "x": 20.89,
+        "y": 3.28,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TOMMY",
+      "attributes": {
+        "label": "TOMMY",
+        "size": 20,
+        "x": 9.59,
+        "y": 17.53,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "grabbing by BILLY",
+      "attributes": {
+        "label": "grabbing by BILLY",
+        "size": 20,
+        "x": 16.61,
+        "y": 29.61,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Billy",
+      "attributes": {
+        "label": "Billy",
+        "size": 20,
+        "x": 25.11,
+        "y": 22.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Tommy's cheek",
+      "attributes": {
+        "label": "Tommy's cheek",
+        "size": 20,
+        "x": 16.51,
+        "y": 0.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "MMY",
+      "attributes": {
+        "label": "MMY",
+        "size": 20,
+        "x": 29.48,
+        "y": 27.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "MEN",
+      "attributes": {
+        "label": "MEN",
+        "size": 20,
+        "x": 3.71,
+        "y": 27.04,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "GIRL",
+      "attributes": {
+        "label": "GIRL",
+        "size": 20,
+        "x": 3.83,
+        "y": 19.53,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "her shoes",
+      "attributes": {
+        "label": "her shoes",
+        "size": 20,
+        "x": 9.15,
+        "y": 6.93,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the hoods at the bar",
+      "attributes": {
+        "label": "the hoods at the bar",
+        "size": 20,
+        "x": 27.73,
+        "y": 20.72,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS",
+      "attributes": {
+        "label": "BATTS",
+        "size": 20,
+        "x": 15.81,
+        "y": 4.31,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the bar",
+      "attributes": {
+        "label": "the bar",
+        "size": 20,
+        "x": 28.11,
+        "y": 6.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Jinny and Billy Batts",
+      "attributes": {
+        "label": "Jinny and Billy Batts",
+        "size": 20,
+        "x": 6.83,
+        "y": 5.04,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "his GIRL’s arm",
+      "attributes": {
+        "label": "his GIRL’s arm",
+        "size": 20,
+        "x": 12.18,
+        "y": 9.72,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the jukebox",
+      "attributes": {
+        "label": "the jukebox",
+        "size": 20,
+        "x": 26.23,
+        "y": 1.66,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the register receipts",
+      "attributes": {
+        "label": "the register receipts",
+        "size": 20,
+        "x": 0.01,
+        "y": 4.86,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE SEE TOMMY",
+      "attributes": {
+        "label": "WE SEE TOMMY",
+        "size": 20,
+        "x": 12.09,
+        "y": 7.86,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATT",
+      "attributes": {
+        "label": "BATT",
+        "size": 20,
+        "x": 2.1,
+        "y": 26.99,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "They’re fucking mutts",
+      "attributes": {
+        "label": "They’re fucking mutts",
+        "size": 20,
+        "x": 16.53,
+        "y": 27.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE SEE JIMMY",
+      "attributes": {
+        "label": "WE SEE JIMMY",
+        "size": 20,
+        "x": 27.97,
+        "y": 28.85,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "",
+      "attributes": {
+        "label": "",
+        "size": 20,
+        "x": 14.04,
+        "y": 28.81,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TITLES",
+      "attributes": {
+        "label": "TITLES",
+        "size": 20,
+        "x": 23.04,
+        "y": 23.98,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "CARMELLA HILL",
+      "attributes": {
+        "label": "CARMELLA HILL",
+        "size": 20,
+        "x": 10.83,
+        "y": 16.11,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's mother",
+      "attributes": {
+        "label": "HENRY's mother",
+        "size": 20,
+        "x": 22.96,
+        "y": 1.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's TWO BROTHERS",
+      "attributes": {
+        "label": "HENRY's TWO BROTHERS",
+        "size": 20,
+        "x": 2.35,
+        "y": 10.25,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "jackets",
+      "attributes": {
+        "label": "jackets",
+        "size": 20,
+        "x": 7.62,
+        "y": 14.54,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "books",
+      "attributes": {
+        "label": "books",
+        "size": 20,
+        "x": 17.32,
+        "y": 11.44,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "MICHAEL",
+      "attributes": {
+        "label": "MICHAEL",
+        "size": 20,
+        "x": 4.85,
+        "y": 4.43,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "brother's",
+      "attributes": {
+        "label": "brother's",
+        "size": 20,
+        "x": 21.7,
+        "y": 22.39,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TWO SISTERS",
+      "attributes": {
+        "label": "TWO SISTERS",
+        "size": 20,
+        "x": 1.83,
+        "y": 9.63,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "breakfast",
+      "attributes": {
+        "label": "breakfast",
+        "size": 20,
+        "x": 10.21,
+        "y": 7.47,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's FATHER",
+      "attributes": {
+        "label": "HENRY's FATHER",
+        "size": 20,
+        "x": 7.11,
+        "y": 8.77,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "coffee",
+      "attributes": {
+        "label": "coffee",
+        "size": 20,
+        "x": 10.87,
+        "y": 23.75,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "across the street",
+      "attributes": {
+        "label": "across the street",
+        "size": 20,
+        "x": 25.85,
+        "y": 11.91,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's father",
+      "attributes": {
+        "label": "HENRY's father",
+        "size": 20,
+        "x": 26.39,
+        "y": 4.94,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "age of eleven",
+      "attributes": {
+        "label": "age of eleven",
+        "size": 20,
+        "x": 17.96,
+        "y": 9.33,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY got job",
+      "attributes": {
+        "label": "HENRY got job",
+        "size": 20,
+        "x": 19.21,
+        "y": 29.58,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "father",
+      "attributes": {
+        "label": "father",
+        "size": 20,
+        "x": 8.01,
+        "y": 18.11,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "American kids were spoiled lazy",
+      "attributes": {
+        "label": "American kids were spoiled lazy",
+        "size": 20,
+        "x": 0.18,
+        "y": 15.03,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "CARMELLA",
+      "attributes": {
+        "label": "CARMELLA",
+        "size": 20,
+        "x": 3.48,
+        "y": 17.62,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "found out that the Various came from the same part of Sicily",
+      "attributes": {
+        "label": "found out that the Various came from the same part of Sicily",
+        "size": 20,
+        "x": 3.46,
+        "y": 4.48,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mother",
+      "attributes": {
+        "label": "mother",
+        "size": 20,
+        "x": 28.74,
+        "y": 16.53,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "answer to her prayers",
+      "attributes": {
+        "label": "answer to her prayers",
+        "size": 20,
+        "x": 4.19,
+        "y": 15.71,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY's MOTHER",
+      "attributes": {
+        "label": "HENRY's MOTHER",
+        "size": 20,
+        "x": 15.93,
+        "y": 16.57,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY out the door",
+      "attributes": {
+        "label": "HENRY out the door",
+        "size": 20,
+        "x": 5.79,
+        "y": 20.12,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY go down the blo'",
+      "attributes": {
+        "label": "HENRY go down the blo'",
+        "size": 20,
+        "x": 18.91,
+        "y": 27.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "OTHER SCHOOLCHILDREN",
+      "attributes": {
+        "label": "OTHER SCHOOLCHILDREN",
+        "size": 20,
+        "x": 23.64,
+        "y": 26.59,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "corner",
+      "attributes": {
+        "label": "corner",
+        "size": 20,
+        "x": 2.77,
+        "y": 1.55,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "street",
+      "attributes": {
+        "label": "street",
+        "size": 20,
+        "x": 14.61,
+        "y": 3.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "set of car keys",
+      "attributes": {
+        "label": "set of car keys",
+        "size": 20,
+        "x": 21.62,
+        "y": 19.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TWO UNIFORMED COPS",
+      "attributes": {
+        "label": "TWO UNIFORMED COPS",
+        "size": 20,
+        "x": 16.96,
+        "y": 25.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TODDY and SOME HOODS",
+      "attributes": {
+        "label": "TODDY and SOME HOODS",
+        "size": 20,
+        "x": 14.51,
+        "y": 13.17,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "whisky bottles under their tunics",
+      "attributes": {
+        "label": "whisky bottles under their tunics",
+        "size": 20,
+        "x": 24.91,
+        "y": 10.53,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "hot espresso coffee",
+      "attributes": {
+        "label": "hot espresso coffee",
+        "size": 20,
+        "x": 13.94,
+        "y": 24.56,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ONE of the PLAYERS",
+      "attributes": {
+        "label": "ONE of the PLAYERS",
+        "size": 20,
+        "x": 28.72,
+        "y": 7.29,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "JIMMY",
+      "attributes": {
+        "label": "JIMMY",
+        "size": 20,
+        "x": 15.14,
+        "y": 1.58,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "JIMMY BURKE",
+      "attributes": {
+        "label": "JIMMY BURKE",
+        "size": 20,
+        "x": 12.05,
+        "y": 7.77,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "door",
+      "attributes": {
+        "label": "door",
+        "size": 20,
+        "x": 14.49,
+        "y": 21.33,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "DOORMAN",
+      "attributes": {
+        "label": "DOORMAN",
+        "size": 20,
+        "x": 19.01,
+        "y": 14.47,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "wad of bills",
+      "attributes": {
+        "label": "wad of bills",
+        "size": 20,
+        "x": 18.77,
+        "y": 10.22,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "seven and seven",
+      "attributes": {
+        "label": "seven and seven",
+        "size": 20,
+        "x": 11.48,
+        "y": 20.69,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "drink",
+      "attributes": {
+        "label": "drink",
+        "size": 20,
+        "x": 18.3,
+        "y": 21.14,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "VARIO",
+      "attributes": {
+        "label": "VARIO",
+        "size": 20,
+        "x": 4.07,
+        "y": 12.98,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY $20 bill",
+      "attributes": {
+        "label": "HENRY $20 bill",
+        "size": 20,
+        "x": 21.59,
+        "y": 19.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "more drinks",
+      "attributes": {
+        "label": "more drinks",
+        "size": 20,
+        "x": 29.05,
+        "y": 25.42,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "$20 bill",
+      "attributes": {
+        "label": "$20 bill",
+        "size": 20,
+        "x": 8.21,
+        "y": 25.85,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Jimmy",
+      "attributes": {
+        "label": "Jimmy",
+        "size": 20,
+        "x": 24.51,
+        "y": 6.38,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "eleven",
+      "attributes": {
+        "label": "eleven",
+        "size": 20,
+        "x": 9.01,
+        "y": 3.54,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mob bosses",
+      "attributes": {
+        "label": "mob bosses",
+        "size": 20,
+        "x": 19.24,
+        "y": 5.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "bad guys",
+      "attributes": {
+        "label": "bad guys",
+        "size": 20,
+        "x": 2.41,
+        "y": 14.48,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "city",
+      "attributes": {
+        "label": "city",
+        "size": 20,
+        "x": 23.81,
+        "y": 13.44,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BILLY BATTS",
+      "attributes": {
+        "label": "BILLY BATTS",
+        "size": 20,
+        "x": 16.75,
+        "y": 2.92,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a large folded package",
+      "attributes": {
+        "label": "a large folded package",
+        "size": 20,
+        "x": 9.41,
+        "y": 10.98,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a gun",
+      "attributes": {
+        "label": "a gun",
+        "size": 20,
+        "x": 29.33,
+        "y": 2.36,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BILLY BATTS's arms",
+      "attributes": {
+        "label": "BILLY BATTS's arms",
+        "size": 20,
+        "x": 17.64,
+        "y": 13.03,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "gun into the side of BATTS’s head",
+      "attributes": {
+        "label": "gun into the side of BATTS’s head",
+        "size": 20,
+        "x": 9.89,
+        "y": 26.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS again and again",
+      "attributes": {
+        "label": "BATTS again and again",
+        "size": 20,
+        "x": 2.02,
+        "y": 14.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the door",
+      "attributes": {
+        "label": "the door",
+        "size": 20,
+        "x": 5.32,
+        "y": 25.66,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS to the ground",
+      "attributes": {
+        "label": "BATTS to the ground",
+        "size": 20,
+        "x": 20.84,
+        "y": 19.96,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "package near the bar",
+      "attributes": {
+        "label": "package near the bar",
+        "size": 20,
+        "x": 12.73,
+        "y": 27.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "package",
+      "attributes": {
+        "label": "package",
+        "size": 20,
+        "x": 16.79,
+        "y": 5.24,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mattress cover",
+      "attributes": {
+        "label": "mattress cover",
+        "size": 20,
+        "x": 14.52,
+        "y": 15.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS's legs into mattress cover",
+      "attributes": {
+        "label": "BATTS's legs into mattress cover",
+        "size": 20,
+        "x": 9.17,
+        "y": 24.64,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ТОMMY",
+      "attributes": {
+        "label": "ТОMMY",
+        "size": 20,
+        "x": 29.07,
+        "y": 9.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS's legs",
+      "attributes": {
+        "label": "BATTS's legs",
+        "size": 20,
+        "x": 24.4,
+        "y": 12.23,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "JIMMY and TOMMY",
+      "attributes": {
+        "label": "JIMMY and TOMMY",
+        "size": 20,
+        "x": 26.87,
+        "y": 15.65,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "What are we going to do with him?",
+      "attributes": {
+        "label": "What are we going to do with him?",
+        "size": 20,
+        "x": 1.23,
+        "y": 8.61,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Bring the car round back.",
+      "attributes": {
+        "label": "Bring the car round back.",
+        "size": 20,
+        "x": 27.95,
+        "y": 10.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BATTS in the mattress cover",
+      "attributes": {
+        "label": "BATTS in the mattress cover",
+        "size": 20,
+        "x": 28.05,
+        "y": 20.25,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mattress cover into the trunk",
+      "attributes": {
+        "label": "mattress cover into the trunk",
+        "size": 20,
+        "x": 12.19,
+        "y": 29.65,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a shovel at my mother's",
+      "attributes": {
+        "label": "a shovel at my mother's",
+        "size": 20,
+        "x": 14.39,
+        "y": 11.41,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "You'll wake 'er up",
+      "attributes": {
+        "label": "You'll wake 'er up",
+        "size": 20,
+        "x": 19.29,
+        "y": 12.79,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TOMMY’S MOTHER",
+      "attributes": {
+        "label": "TOMMY’S MOTHER",
+        "size": 20,
+        "x": 0.98,
+        "y": 21.08,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "SON and his F'",
+      "attributes": {
+        "label": "SON and his F'",
+        "size": 20,
+        "x": 6.09,
+        "y": 19.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "light in the entryway",
+      "attributes": {
+        "label": "light in the entryway",
+        "size": 20,
+        "x": 19.7,
+        "y": 1.99,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "WE SEE TOMMY’S MOTHER",
+      "attributes": {
+        "label": "WE SEE TOMMY’S MOTHER",
+        "size": 20,
+        "x": 12.33,
+        "y": 25.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "her SON and his FRIENDS",
+      "attributes": {
+        "label": "her SON and his FRIENDS",
+        "size": 20,
+        "x": 24.46,
+        "y": 19.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TOMMY, HENRY and JIMMY",
+      "attributes": {
+        "label": "TOMMY, HENRY and JIMMY",
+        "size": 20,
+        "x": 29.11,
+        "y": 4.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "KITCHEN TABLE",
+      "attributes": {
+        "label": "KITCHEN TABLE",
+        "size": 20,
+        "x": 27.26,
+        "y": 6.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "plates and coffee cups and the debris of dirty dishes",
+      "attributes": {
+        "label": "plates and coffee cups and the debris of dirty dishes",
+        "size": 20,
+        "x": 7.61,
+        "y": 14.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "CAR",
+      "attributes": {
+        "label": "CAR",
+        "size": 20,
+        "x": 7.64,
+        "y": 26.13,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "passenger's seat",
+      "attributes": {
+        "label": "passenger's seat",
+        "size": 20,
+        "x": 1.2,
+        "y": 5.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "rear seat",
+      "attributes": {
+        "label": "rear seat",
+        "size": 20,
+        "x": 26.93,
+        "y": 16.32,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "shovel",
+      "attributes": {
+        "label": "shovel",
+        "size": 20,
+        "x": 1.4,
+        "y": 3.39,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "curb",
+      "attributes": {
+        "label": "curb",
+        "size": 20,
+        "x": 24.0,
+        "y": 20.95,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "road",
+      "attributes": {
+        "label": "road",
+        "size": 20,
+        "x": 18.45,
+        "y": 27.01,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY, JIMMY, and TOMMY",
+      "attributes": {
+        "label": "HENRY, JIMMY, and TOMMY",
+        "size": 20,
+        "x": 16.37,
+        "y": 15.09,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "trunk",
+      "attributes": {
+        "label": "trunk",
+        "size": 20,
+        "x": 17.6,
+        "y": 20.86,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "trunk light",
+      "attributes": {
+        "label": "trunk light",
+        "size": 20,
+        "x": 3.97,
+        "y": 21.77,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "paper bag",
+      "attributes": {
+        "label": "paper bag",
+        "size": 20,
+        "x": 13.22,
+        "y": 25.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "notation",
+      "attributes": {
+        "label": "notation",
+        "size": 20,
+        "x": 14.79,
+        "y": 8.69,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Henry",
+      "attributes": {
+        "label": "Henry",
+        "size": 20,
+        "x": 27.16,
+        "y": 16.17,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HALF A DOZEN HOODS",
+      "attributes": {
+        "label": "HALF A DOZEN HOODS",
+        "size": 20,
+        "x": 24.49,
+        "y": 12.68,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cabstand door",
+      "attributes": {
+        "label": "cabstand door",
+        "size": 20,
+        "x": 18.68,
+        "y": 25.25,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "every day",
+      "attributes": {
+        "label": "every day",
+        "size": 20,
+        "x": 11.13,
+        "y": 13.96,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "FATHER",
+      "attributes": {
+        "label": "FATHER",
+        "size": 20,
+        "x": 4.05,
+        "y": 22.22,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "back of his head",
+      "attributes": {
+        "label": "back of his head",
+        "size": 20,
+        "x": 4.94,
+        "y": 4.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "FACE",
+      "attributes": {
+        "label": "FACE",
+        "size": 20,
+        "x": 27.43,
+        "y": 0.82,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRI",
+      "attributes": {
+        "label": "HENRI",
+        "size": 20,
+        "x": 19.84,
+        "y": 22.99,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "MAN",
+      "attributes": {
+        "label": "MAN",
+        "size": 20,
+        "x": 26.75,
+        "y": 9.75,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "I've been shot",
+      "attributes": {
+        "label": "I've been shot",
+        "size": 20,
+        "x": 22.6,
+        "y": 6.47,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Help",
+      "attributes": {
+        "label": "Help",
+        "size": 20,
+        "x": 25.5,
+        "y": 3.67,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Close the door",
+      "attributes": {
+        "label": "Close the door",
+        "size": 20,
+        "x": 20.18,
+        "y": 3.29,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Don't let him in",
+      "attributes": {
+        "label": "Don't let him in",
+        "size": 20,
+        "x": 3.54,
+        "y": 3.57,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a ham and cheese sandwich",
+      "attributes": {
+        "label": "a ham and cheese sandwich",
+        "size": 20,
+        "x": 24.46,
+        "y": 1.05,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the MAN'S shredded and bleeding hand",
+      "attributes": {
+        "label": "the MAN'S shredded and bleeding hand",
+        "size": 20,
+        "x": 23.89,
+        "y": 4.86,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "it outside for the MAN to sit on",
+      "attributes": {
+        "label": "it outside for the MAN to sit on",
+        "size": 20,
+        "x": 8.48,
+        "y": 21.32,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "more aprons around the man's bleeding hand",
+      "attributes": {
+        "label": "more aprons around the man's bleeding hand",
+        "size": 20,
+        "x": 8.81,
+        "y": 17.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "HENRY, Close the door. Don't let him in.",
+      "attributes": {
+        "label": "HENRY, Close the door. Don't let him in.",
+        "size": 20,
+        "x": 22.3,
+        "y": 22.48,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "You're some fucking jerk",
+      "attributes": {
+        "label": "You're some fucking jerk",
+        "size": 20,
+        "x": 8.79,
+        "y": 10.46,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "bad about the guy",
+      "attributes": {
+        "label": "bad about the guy",
+        "size": 20,
+        "x": 22.27,
+        "y": 10.51,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "It was the first time I had ever seen anyone shot",
+      "attributes": {
+        "label": "It was the first time I had ever seen anyone shot",
+        "size": 20,
+        "x": 10.4,
+        "y": 28.58,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "You wasted eight fucking aprons on that guy.",
+      "attributes": {
+        "label": "You wasted eight fucking aprons on that guy.",
+        "size": 20,
+        "x": 21.6,
+        "y": 20.63,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Don't let him in.",
+      "attributes": {
+        "label": "Don't let him in.",
+        "size": 20,
+        "x": 18.71,
+        "y": 24.47,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the MAN in his chair",
+      "attributes": {
+        "label": "the MAN in his chair",
+        "size": 20,
+        "x": 7.45,
+        "y": 29.09,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the pizzeria for more aprons",
+      "attributes": {
+        "label": "the pizzeria for more aprons",
+        "size": 20,
+        "x": 27.67,
+        "y": 27.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BENNY",
+      "attributes": {
+        "label": "BENNY",
+        "size": 20,
+        "x": 21.78,
+        "y": 1.99,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the man",
+      "attributes": {
+        "label": "the man",
+        "size": 20,
+        "x": 23.97,
+        "y": 22.56,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ham and cheese sandwich",
+      "attributes": {
+        "label": "ham and cheese sandwich",
+        "size": 20,
+        "x": 20.06,
+        "y": 18.93,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "PEOPLE",
+      "attributes": {
+        "label": "PEOPLE",
+        "size": 20,
+        "x": 8.48,
+        "y": 29.17,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "room",
+      "attributes": {
+        "label": "room",
+        "size": 20,
+        "x": 0.76,
+        "y": 11.17,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "PROFESSIONAL CARD DEALERS",
+      "attributes": {
+        "label": "PROFESSIONAL CARD DEALERS",
+        "size": 20,
+        "x": 24.98,
+        "y": 2.27,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cards",
+      "attributes": {
+        "label": "cards",
+        "size": 20,
+        "x": 15.24,
+        "y": 11.88,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BODYGUARDS",
+      "attributes": {
+        "label": "BODYGUARDS",
+        "size": 20,
+        "x": 6.3,
+        "y": 18.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "TUDDY VARIO",
+      "attributes": {
+        "label": "TUDDY VARIO",
+        "size": 20,
+        "x": 8.02,
+        "y": 9.98,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "tables",
+      "attributes": {
+        "label": "tables",
+        "size": 20,
+        "x": 28.89,
+        "y": 11.37,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "side",
+      "attributes": {
+        "label": "side",
+        "size": 20,
+        "x": 16.54,
+        "y": 9.64,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "HENRY",
+      "target": "the open trunk",
+      "attributes": {
+        "label": "is facing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "As far back as I can remember, I always wanted to be a gangster",
+      "attributes": {
+        "label": "V.O.",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "To me, being a gangster was better than being President of the United States",
+      "attributes": {
+        "label": "V.O.",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "Even before I first wandered into the cabstand for an after school job",
+      "attributes": {
+        "label": "V.O.",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "person",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "cabstand",
+      "target": "place",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "school",
+      "target": "place",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "part",
+      "target": "cabstand",
+      "attributes": {
+        "label": "of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "Cadillac",
+      "target": "car",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "car",
+      "target": "cabstand",
+      "attributes": {
+        "label": "pull up to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "large diamond pinky ring",
+      "target": "accessory",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "HOOD #1",
+      "target": "large diamond pinky ring on a sausage thick finger",
+      "attributes": {
+        "label": "WE SEE",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HOOD #2",
+      "target": "a broken-nosed hood’s tie hanging loosely across his monogrammed shirt like a silk bandolier",
+      "attributes": {
+        "label": "WE SEE",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "To me it meant being somebody in a neighborhood full of nobodies",
+      "attributes": {
+        "label": "(V.O.)",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "TWO HOODS",
+      "target": "TUDDY VARIO, the sloppily-dressed, solidly-built HOOD who runs the cabstand",
+      "attributes": {
+        "label": "WE SEE",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "They weren’t like anyone else. They did whatever they wanted. They'd double-park in front of the hydrant and nobody ever gave them a ticket. In the summer when they played cards all night, nobody ever called the cops",
+      "attributes": {
+        "label": "(V.O.)",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HOODS",
+      "attributes": {
+        "label": "laughingly try to push",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "Tuddy Variо ran the cabstand and a pizzeria and a few other places for his brother, Paul, who was the boss over everybody in the neighborhood",
+      "attributes": {
+        "label": "(V.O.)",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HOOD #1",
+      "target": "TUDDY",
+      "attributes": {
+        "label": "slyly slip behind",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "HOOD #2",
+      "target": "TUDDY's ample midsection",
+      "attributes": {
+        "label": "start feigning punches to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "ning",
+      "target": "TUDDY's ample midsection",
+      "attributes": {
+        "label": "punches to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "TUDDY VARIO and HOODS",
+      "target": "PAUL VARIO",
+      "attributes": {
+        "label": "see that",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "the boss",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "the cabstand's doorway",
+      "attributes": {
+        "label": "is standing in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "large man",
+      "attributes": {
+        "label": "is a",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "six-feet tall",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "weighing over 240 pounds",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "even larger",
+      "attributes": {
+        "label": "appears",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "HENRY (V.O.)",
+      "target": "Panlie",
+      "attributes": {
+        "label": "have moved slow",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "Panlie",
+      "target": "anybody",
+      "attributes": {
+        "label": "didn't have to move for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "TODDY and HOODS",
+      "target": "horsing around",
+      "attributes": {
+        "label": "immediately stop",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "HOOD",
+      "target": "TUDDY",
+      "attributes": {
+        "label": "talk to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "PAUL",
+      "attributes": {
+        "label": "relay",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "PAUL",
+      "target": "TUDDY",
+      "attributes": {
+        "label": "say something to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HOOD",
+      "attributes": {
+        "label": "nod back to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "motion to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "whisper in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "whisper in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "DOLLY",
+      "target": "PAUL",
+      "attributes": {
+        "label": "IN ON",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "guys",
+      "target": "Penile",
+      "attributes": {
+        "label": "depended on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "guys",
+      "target": "other guys",
+      "attributes": {
+        "label": "looking to rip off",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "organisation",
+      "target": "offer protection",
+      "attributes": {
+        "label": "does",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "organisation",
+      "target": "people",
+      "attributes": {
+        "label": "offer protection for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "organisation",
+      "target": "wiseguys",
+      "attributes": {
+        "label": "offer protection for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "Paulie",
+      "target": "organisation",
+      "attributes": {
+        "label": "and the",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "that",
+      "target": "the FBI",
+      "attributes": {
+        "label": "understand",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "they",
+      "target": "protection from Paulie",
+      "attributes": {
+        "label": "got",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "they",
+      "target": "America",
+      "attributes": {
+        "label": "doing it in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "they",
+      "target": "the old country",
+      "attributes": {
+        "label": "doing it in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "they",
+      "target": "tribute",
+      "attributes": {
+        "label": "doing it in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "you",
+      "target": "I",
+      "attributes": {
+        "label": "knew",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "me",
+      "target": "People",
+      "attributes": {
+        "label": "differently",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "me",
+      "target": "People",
+      "attributes": {
+        "label": "looked at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "me",
+      "target": "differently",
+      "attributes": {
+        "label": "looked at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "me",
+      "target": "they",
+      "attributes": {
+        "label": "was with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "to",
+      "target": "people",
+      "attributes": {
+        "label": "can't go",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "tu",
+      "target": "comer",
+      "attributes": {
+        "label": "up at the",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "what",
+      "target": "it",
+      "attributes": {
+        "label": "about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "what",
+      "target": "FBI",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "what",
+      "target": "it",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "what",
+      "target": "the FBI",
+      "attributes": {
+        "label": "understand",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "car",
+      "attributes": {
+        "label": "parks",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "WE SEE TUDDY",
+      "target": "-",
+      "attributes": {
+        "label": "locks around and nods",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "matchbooks",
+      "attributes": {
+        "label": "begins tossing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "bakery",
+      "attributes": {
+        "label": "waits at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "owner",
+      "target": "HENRY",
+      "attributes": {
+        "label": "knows",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "owner",
+      "target": "counter",
+      "attributes": {
+        "label": "comes from around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "people",
+      "target": "-",
+      "attributes": {
+        "label": "waiting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "owner",
+      "target": "HENRY",
+      "attributes": {
+        "label": "takes care of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "night",
+      "target": "brightness",
+      "attributes": {
+        "label": "explodes in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "WE SEE HENRY",
+      "target": "TUDDY's car",
+      "attributes": {
+        "label": "begin to run toward",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "cars",
+      "target": "-",
+      "attributes": {
+        "label": "has ignited",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "cars",
+      "target": "him",
+      "attributes": {
+        "label": "begin to explode behind",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "grownups in the neighborhood",
+      "attributes": {
+        "label": "is making more money than",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "he could spend",
+      "attributes": {
+        "label": "has more money than",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "some kids from the neighborhood",
+      "attributes": {
+        "label": "was carried home by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "HENRY'S MOTHER",
+      "target": "HENRY's smiling face",
+      "attributes": {
+        "label": "sees",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "MOTHER",
+      "target": "HENRY's outfit",
+      "attributes": {
+        "label": "is aghast at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "SCREAMING MAN",
+      "target": "the pizzeria",
+      "attributes": {
+        "label": "is running toward",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "WE",
+      "target": "HENRY standing near front of store",
+      "attributes": {
+        "label": "see",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "Henry to close the",
+      "attributes": {
+        "label": "is asking",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "Tommy",
+      "attributes": {
+        "label": "smiling broadly at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "grabbing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "grabbing by BILLY",
+      "attributes": {
+        "label": "not liking",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "Billy",
+      "attributes": {
+        "label": "forcing a laugh with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "Tommy's cheek",
+      "attributes": {
+        "label": "squeezing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "MMY",
+      "target": "Billy",
+      "attributes": {
+        "label": "forcing a laugh",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "Billy",
+      "attributes": {
+        "label": "squeezing Tommy's cheek",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Tommy",
+      "target": "BILLY",
+      "attributes": {
+        "label": "being made fun of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "MEN",
+      "target": "BILLY",
+      "attributes": {
+        "label": "roaring with laughter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "GIRL",
+      "target": "her shoes",
+      "attributes": {
+        "label": "looking glumly",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "the hoods at the bar",
+      "attributes": {
+        "label": "remembering Tommy's shines",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BILLY",
+      "attributes": {
+        "label": "being almost a threat",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BILLY",
+      "attributes": {
+        "label": "feeling angry",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "BILLY",
+      "target": "BILLY",
+      "attributes": {
+        "label": "turning his back on TOMMY",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "stepping in front of TOMMY",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "steps in front of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "BATTS",
+      "target": "the bar",
+      "attributes": {
+        "label": "facing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "(gently wrestling Tommy away from the bar)",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "Jinny and Billy Batts",
+      "attributes": {
+        "label": "rejoining",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "his GIRL’s arm",
+      "attributes": {
+        "label": "roughly grabs",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "storms out",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the jukebox",
+      "attributes": {
+        "label": "put another dollar in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the bar",
+      "attributes": {
+        "label": "moves back behind",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the register receipts",
+      "attributes": {
+        "label": "starts to total",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "WE SEE TOMMY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "in the doorway",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the bar",
+      "attributes": {
+        "label": "walks around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "approaches",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "BATT",
+      "target": "They’re fucking mutts",
+      "attributes": {
+        "label": "say",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "WE SEE JIMMY",
+      "target": "",
+      "attributes": {
+        "label": "nod",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "HOODS",
+      "target": "TITLES",
+      "attributes": {
+        "label": "stop horsing around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "CARMELLA HILL",
+      "target": "HENRY's mother",
+      "attributes": {
+        "label": "shoves",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's mother",
+      "target": "HENRY",
+      "attributes": {
+        "label": "pushes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's TWO BROTHERS",
+      "target": "jackets",
+      "attributes": {
+        "label": "putting on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's TWO BROTHERS",
+      "target": "books",
+      "attributes": {
+        "label": "picking up",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's TWO BROTHERS",
+      "target": "MICHAEL",
+      "attributes": {
+        "label": "tripping over",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "MICHAEL",
+      "target": "brother's",
+      "attributes": {
+        "label": "using wheelchair",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "TWO SISTERS",
+      "target": "breakfast",
+      "attributes": {
+        "label": "eating",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's FATHER",
+      "target": "coffee",
+      "attributes": {
+        "label": "sipping",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "across the street",
+      "attributes": {
+        "label": "found job",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's father",
+      "target": "age of eleven",
+      "attributes": {
+        "label": "sent to work at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's father",
+      "target": "HENRY got job",
+      "attributes": {
+        "label": "liked",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "father",
+      "target": "American kids were spoiled lazy",
+      "attributes": {
+        "label": "said",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "CARMELLA",
+      "target": "found out that the Various came from the same part of Sicily",
+      "attributes": {
+        "label": "happy",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "mother",
+      "target": "answer to her prayers",
+      "attributes": {
+        "label": "was",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "HENRY's MOTHER",
+      "target": "HENRY out the door",
+      "attributes": {
+        "label": "shove",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "CARMELLA",
+      "target": "HENRY go down the blo'",
+      "attributes": {
+        "label": "watches",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "CARMELLA",
+      "target": "HENRY",
+      "attributes": {
+        "label": "watches",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "OTHER SCHOOLCHILDREN",
+      "attributes": {
+        "label": "stops",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "corner",
+      "attributes": {
+        "label": "sticks his head around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "street",
+      "attributes": {
+        "label": "race across",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "set of car keys",
+      "attributes": {
+        "label": "catch",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TWO UNIFORMED COPS",
+      "attributes": {
+        "label": "is watching",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "TWO UNIFORMED COPS",
+      "target": "TODDY and SOME HOODS",
+      "attributes": {
+        "label": "are laughing with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "TWO UNIFORMED COPS",
+      "target": "whisky bottles under their tunics",
+      "attributes": {
+        "label": "are stuffing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "hot espresso coffee",
+      "attributes": {
+        "label": "is trying to sip",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "HENRY",
+      "attributes": {
+        "label": "standing quietly on the side",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "ONE of the PLAYERS",
+      "attributes": {
+        "label": "giving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "JIMMY",
+      "attributes": {
+        "label": "looking at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "JIMMY BURKE",
+      "target": "door",
+      "attributes": {
+        "label": "walking in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "JIMMY BURKE",
+      "target": "DOORMAN",
+      "attributes": {
+        "label": "handing money to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "wad of bills",
+      "attributes": {
+        "label": "pull out",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "33"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "seven and seven",
+      "attributes": {
+        "label": "orders",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "34"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "drink",
+      "attributes": {
+        "label": "makes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "34"
+      }
+    },
+    {
+      "source": "VARIO",
+      "target": "JIMMY",
+      "attributes": {
+        "label": "introduces",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "34"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "HENRY $20 bill",
+      "attributes": {
+        "label": "gives",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "34"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "more drinks",
+      "attributes": {
+        "label": "asks for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "34"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "$20 bill",
+      "attributes": {
+        "label": "slip",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "drink",
+      "attributes": {
+        "label": "lifting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "Jimmy",
+      "attributes": {
+        "label": "V.O.",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "Jimmy",
+      "target": "eleven",
+      "attributes": {
+        "label": "locked up at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "Jimmy",
+      "target": "mob bosses",
+      "attributes": {
+        "label": "doing hits for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "Jimmy",
+      "target": "bad guys",
+      "attributes": {
+        "label": "rooted for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "Jimmy",
+      "target": "city",
+      "attributes": {
+        "label": "biggest hijackers of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "35"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "BILLY BATTS",
+      "attributes": {
+        "label": "is talking to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "approaching",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "a large folded package",
+      "attributes": {
+        "label": "is carrying",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "a gun",
+      "attributes": {
+        "label": "is carrying",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "BILLY BATTS's arms",
+      "attributes": {
+        "label": "is holding",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "gun into the side of BATTS’s head",
+      "attributes": {
+        "label": "is smashing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BATTS again and again",
+      "attributes": {
+        "label": "is hitting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the door",
+      "attributes": {
+        "label": "is locking",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BATTS to the ground",
+      "attributes": {
+        "label": "is clubbing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "package near the bar",
+      "attributes": {
+        "label": "had dropped",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "package",
+      "attributes": {
+        "label": "unpacks",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "package",
+      "target": "mattress cover",
+      "attributes": {
+        "label": "contains",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BATTS's legs into mattress cover",
+      "attributes": {
+        "label": "puts",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "helps",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "ТОMMY",
+      "target": "BATTS's legs",
+      "attributes": {
+        "label": "start putting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "JIMMY and TOMMY",
+      "attributes": {
+        "label": "standing over",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "What are we going to do with him?",
+      "attributes": {
+        "label": "asking",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "Bring the car round back.",
+      "attributes": {
+        "label": "to Henry",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "looking brightly at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BATTS in the mattress cover",
+      "attributes": {
+        "label": "zipping",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "mattress cover into the trunk",
+      "attributes": {
+        "label": "shoving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "a shovel at my mother's",
+      "attributes": {
+        "label": "having",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "You'll wake 'er up",
+      "attributes": {
+        "label": "shushing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "TOMMY’S MOTHER",
+      "target": "SON and his F'",
+      "attributes": {
+        "label": "beaming at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "light in the entryway",
+      "target": "WE SEE TOMMY’S MOTHER",
+      "attributes": {
+        "label": "illuminates",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "TOMMY’S MOTHER",
+      "target": "her SON and his FRIENDS",
+      "attributes": {
+        "label": "beams at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "TOMMY’S MOTHER",
+      "target": "TOMMY, HENRY and JIMMY",
+      "attributes": {
+        "label": "hovers over",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "KITCHEN TABLE",
+      "target": "plates and coffee cups and the debris of dirty dishes",
+      "attributes": {
+        "label": "is filled with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "JIMMY",
+      "attributes": {
+        "label": "is driving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TOMMY",
+      "attributes": {
+        "label": "is driving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "CAR",
+      "attributes": {
+        "label": "is driving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "JIMMY",
+      "target": "passenger's seat",
+      "attributes": {
+        "label": "is sitting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "rear seat",
+      "attributes": {
+        "label": "is sitting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "shovel",
+      "attributes": {
+        "label": "is embracing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "CAR",
+      "target": "curb",
+      "attributes": {
+        "label": "is parked at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "CAR",
+      "target": "road",
+      "attributes": {
+        "label": "is on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "CAR",
+      "target": "HENRY",
+      "attributes": {
+        "label": "is driven by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "CAR",
+      "target": "HENRY, JIMMY, and TOMMY",
+      "attributes": {
+        "label": "is occupied by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "HENRY, JIMMY, and TOMMY",
+      "target": "CAR",
+      "attributes": {
+        "label": "get out of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "rear seat",
+      "attributes": {
+        "label": "is leaning forward from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "shovel",
+      "attributes": {
+        "label": "holding",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "trunk",
+      "attributes": {
+        "label": "opens",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "mattress cover",
+      "target": "trunk light",
+      "attributes": {
+        "label": "squiriming around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "shovel",
+      "attributes": {
+        "label": "raising",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "mattress cover",
+      "attributes": {
+        "label": "smashes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "shovel",
+      "attributes": {
+        "label": "smashes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "TOMMY",
+      "target": "BATTS",
+      "attributes": {
+        "label": "cursing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "WE",
+      "target": "HOODS",
+      "attributes": {
+        "label": "see",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "TUDDY",
+      "attributes": {
+        "label": "waits at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "paper bag",
+      "attributes": {
+        "label": "holds",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "notation",
+      "attributes": {
+        "label": "makes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "Henry",
+      "attributes": {
+        "label": "smiles at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "paper bag",
+      "attributes": {
+        "label": "holds",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "paper bag",
+      "attributes": {
+        "label": "carrying",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HALF A DOZEN HOODS",
+      "target": "cabstand door",
+      "attributes": {
+        "label": "lounging outside",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "every day",
+      "attributes": {
+        "label": "learning to score",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FATHER",
+      "attributes": {
+        "label": "backing away",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FATHER",
+      "attributes": {
+        "label": "dart past",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FATHER",
+      "attributes": {
+        "label": "escape",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "back of his head",
+      "attributes": {
+        "label": "gets a blow on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY'S MOTHER",
+      "target": "FATHER",
+      "attributes": {
+        "label": "interfere",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "FATHER",
+      "target": "Henry",
+      "attributes": {
+        "label": "beating",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "CARMELLA",
+      "target": "FATHER",
+      "attributes": {
+        "label": "screams",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FATHER",
+      "attributes": {
+        "label": "doubles up",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FATHER",
+      "attributes": {
+        "label": "doubles up",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "FATHER",
+      "target": "HENRY",
+      "attributes": {
+        "label": "keeps pounding away",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "FACE",
+      "attributes": {
+        "label": "FREEZE IS ACTION ON",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "HENRI",
+      "target": "",
+      "attributes": {
+        "label": "(VO)",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "MAN",
+      "target": "I've been shot",
+      "attributes": {
+        "label": "screaming",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "30"
+      }
+    },
+    {
+      "source": "MAN",
+      "target": "Help",
+      "attributes": {
+        "label": "screaming",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "30"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "Henry",
+      "attributes": {
+        "label": "from rear of store",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "30"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "Close the door",
+      "attributes": {
+        "label": "to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "30"
+      }
+    },
+    {
+      "source": "Henry",
+      "target": "Don't let him in",
+      "attributes": {
+        "label": "Close the door",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "30"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "a ham and cheese sandwich",
+      "attributes": {
+        "label": "is making",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the MAN'S shredded and bleeding hand",
+      "attributes": {
+        "label": "started wrapping",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "it outside for the MAN to sit on",
+      "attributes": {
+        "label": "takes",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "more aprons around the man's bleeding hand",
+      "attributes": {
+        "label": "wraps",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HENRY",
+      "attributes": {
+        "label": "comes up behind",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "HENRY, Close the door. Don't let him in.",
+      "attributes": {
+        "label": "told",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "You're some fucking jerk",
+      "attributes": {
+        "label": "angry",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "bad about the guy",
+      "attributes": {
+        "label": "remembered feeling",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "It was the first time I had ever seen anyone shot",
+      "attributes": {
+        "label": "says",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "You wasted eight fucking aprons on that guy.",
+      "attributes": {
+        "label": "argued",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "TUDDY",
+      "target": "Don't let him in.",
+      "attributes": {
+        "label": "warned",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the MAN in his chair",
+      "attributes": {
+        "label": "prop",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "the pizzeria for more aprons",
+      "attributes": {
+        "label": "raced into",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "BENNY",
+      "target": "the man",
+      "attributes": {
+        "label": "is soothing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "31"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "ham and cheese sandwich",
+      "attributes": {
+        "label": "making",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "PEOPLE",
+      "target": "room",
+      "attributes": {
+        "label": "playing cards",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "PROFESSIONAL CARD DEALERS",
+      "target": "cards",
+      "attributes": {
+        "label": "skittering",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "BODYGUARDS",
+      "target": "door",
+      "attributes": {
+        "label": "watching",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "TUDDY VARIO",
+      "target": "tables",
+      "attributes": {
+        "label": "walking around",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "PAUL VARIO",
+      "target": "side",
+      "attributes": {
+        "label": "standing quietly on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    },
+    {
+      "source": "HENRY",
+      "target": "ONE of the PLAYERS",
+      "attributes": {
+        "label": "giving",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "32"
+      }
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}
