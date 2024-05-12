@@ -2,6 +2,7 @@ version: '3.8'
 
 services:                                                                 
   app:                                                                    
+    container_name: fastapi
     volumes:                                                              
       - ./searcher/data:/app/data
     build:                                                                
@@ -11,7 +12,7 @@ services:
                                                                               
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
-    container_name: es01
+    container_name: elastic
     environment:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
@@ -26,6 +27,7 @@ services:
       - elastic                                                           
 
   next-app:
+    container_name: next
     ports:
       - "3000:3000"
     build:

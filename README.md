@@ -3,11 +3,14 @@
 ## Setup
 - Run docker compose.
 - Get docker password.
+docker exec -it elastic /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
 - Get docker cert.
+docker cp elastic:/usr/share/elasticsearch/config/certs/http_ca.crt - | docker cp - fastapi:/app/
 - Fill config.yml and move it to the container
-- Run the --setup
+- Run the --setup (enter the llmenv env)
 - Add files to read to the docker volume shared with the local machine.
 - Run main.py --read-files.
+- docker exec fastapi sh -c "uvicorn app:app --host localhost --port 8000"
 - Now the app is ready for usage in port 3000.
 
 ## Usage
@@ -17,32 +20,8 @@
 
 ## Dependencies outside de environment
 - charmbracalet/gum (for pretty logging)
-
-## Design
-
-### Data input
-- Expected large list of big pdf files.
-- DB server (Elastic Search docker image).
-- Automatic text chunking based on a given limit (default: LLM token size limit).
-- DB for embbeded text information (maybe a vector DB?).
-- Patch the DB APIs if necessary.
-
-### LLM app
-- Semi-automated prompt selection.
-- LLM information extraction.
-- Output parsing.
-- Transform output to triplet.
-- Triplets embedding and insertion to DB.
-
-### Input queries
-- Only communicates with the vector DB.
-- Vectorize received queries.
-- Return top-k within vector DB.
-- Use through API (fastAPI library).
-
-### Front-end
-- For the final user.
-- Simple web app to make queries and visualize outputs.
+- docker
+- docker compose
 
 ## Roadmap
 

@@ -112,6 +112,7 @@ dependencies:
     - watchfiles==0.21.0
     - websockets
     - pandas
+    - pyyaml
 prefix: /opt/homebrew/Caskroom/miniconda/base/envs/llmenv
 extra_dependencies:
   - github.com/charmbracelet/gum@latest

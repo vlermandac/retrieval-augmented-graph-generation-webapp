@@ -46,7 +46,6 @@ if __name__ == "__main__":
     # note: arreglar el uso como CLI
     # parse_args = Arguments() | "--process_data" | "--RAG" | "--KG" | "--setup"
     # selected_arg = parse_args()
-    if (sys.argv[1] == "--setup"):
-        selected_arg = sys.argv[1]
+    selected_arg = sys.argv[1]
     main = Main()
     print(main.run(selected_arg))

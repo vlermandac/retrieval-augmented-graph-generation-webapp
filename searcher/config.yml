@@ -1,8 +1,8 @@
 env-variables:
-  - openai_api_key:
-  - elastic_url:
-  - elastic_password:
-  - ca_cert:
+  - openai_api_key: 
+  - elastic_url: https://localhost:9200
+  - elastic_password: 
+  - ca_cert: ./http_ca.crt
 data: 
   unprocessed_files: ./data/
   processed_files: ./data/processed_files
