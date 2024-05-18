@@ -19,13 +19,7 @@ class RAG:
                 {"role": "user", "content": self.prompt},
             ],
         )
-        return answer.choices[0].message
-
-    def get_result_ids(self):
-        if len(self.result_ids) == 0:
-            print("No results to display.")
-            return
-        return self.result_ids
+        return answer.choices[0].message, self.result_ids
 
     def query_embedding(self, query):
         embedd = self.openai.embeddings.create(
@@ -35,30 +29,13 @@ class RAG:
         )
         return embedd.data[0].embedding
 
-    def retrieval_parser(self, response):
-        output = []
-        if len(response["hits"]["hits"]) == 0:
-            print("Your search returned no results.")
-        else:
-            for hit in response["hits"]["hits"]:
-                text = hit["_source"]["text"]
-                id = hit["_id"]
-                output.append(text)
-                self.result_ids.append(id)
-        return output
-
-    def retrieval(self, vector_query):
-        response = self.vector_store.search(
-            index=self.index,
-            knn={
-                "field": "embedding",
-                "query_vector": vector_query,
-                "k": self.k,
-                "num_candidates": self.k * 4,
-            },
-        )
-        results = self.retrieval_parser(response)
-        return "\n\n".join(results)
+    def retrieval(self, vector_query) -> str:
+        knn = self.vector_store.semantic_search(self.index, vector_query, self.k)
+        retrieved_context = ""
+        for chunk in knn:
+            self.result_ids.append(chunk.id)
+            retrieved_context += chunk.text + "\n\n"
+        return retrieved_context
 
     def contextualized_query(self, query):
         vector_query = self.query_embedding(query)

@@ -5,7 +5,7 @@ env-variables:
   - ca_cert: ./http_ca.crt
 data: 
   unprocessed_files: ./data/
-  processed_files: ./data/processed_files
+  processed_files: ./data/processed_files/
 preprocess:
   chunk_size: 1000
   overlap: 100

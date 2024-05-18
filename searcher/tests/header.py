@@ -13,6 +13,7 @@ from config import ConfigVariables  # noqa: E402
 from clients import Clients  # noqa: E402
 from rag import RAG  # noqa: E402
 import data_loading  # noqa: E402
+from core_classes import Text  # noqa: E402
 
 ROOT = "../"
 

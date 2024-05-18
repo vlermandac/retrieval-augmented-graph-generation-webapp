@@ -1,0 +1,6 @@
+__pycache__
+__pycache__/
+.env
+.git
+http_ca.crt
+node_modules/

@@ -41,23 +41,11 @@ class KnowledgeGraph(BaseModel):
     options: Any
 
 
-class KnowledgeGraphConstructor:
+class KnowledgeGraphBuilder:
     def __init__(self):
         self.added = {}
         self.nodes = []
         self.edges = []
-
-    def data_from_es(self, es_client, index_name, max_size):
-        chunks = []
-        response = es_client.search(
-                index=index_name,
-                size=max_size,
-                body={"query": {"match_all": {}}})
-        for hit in response['hits']['hits']:
-            chunk = hit['_source']['text']
-            chunk_id = hit['_id']
-            chunks.append({'text': chunk, 'id': chunk_id})
-        return chunks
 
     def chunk_to_triplets(self, oa_client, llm, chunks):
         client = instructor.from_openai(oa_client)
@@ -77,11 +65,11 @@ class KnowledgeGraphConstructor:
                            "content": f"""
                            Obtain entities and relationships between
                            them using the following text:
-                           '''{chunk['text']}'''.
+                           '''{chunk.text}'''.
                            """}],
                 response_model=TripletList,
             )
-            all_triplets[chunk['id']] = triplets.triplets
+            all_triplets[chunk.id] = triplets.triplets
         return all_triplets
 
     def process_triplets(self, triplets):

@@ -27,12 +27,13 @@ class TestClients(unittest.TestCase):
 
     def test_elastic_search_client(self):
         client = self.test_clients.elastic_search()
+        self.assertIsNotNone(client)
 
-        client.index(index='test-index', id='1', document={'test': 'test'})
-        response = client.get(index='test-index', id='1')
+        client.index(index='test-index', text=Text(id='1', text='test text', metadata={'test': 'test'}))
+        response = client.search(index='test-index', id='1')
         print(response)
         self.assertIsNotNone(response)
-        client.indices.delete(index='test-index')
+        client.delete(index='test-index')
 
 
 if __name__ == '__main__':

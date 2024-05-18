@@ -1,1 +1,1 @@
-from .knowledge_graph import KnowledgeGraphConstructor
+from .knowledge_graph import *

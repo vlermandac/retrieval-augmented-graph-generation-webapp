@@ -19,33 +19,37 @@ class Main:
                         "CA_CERT", "OPENAI_API_KEY"))
 
     def run(self, flag: str, query: str = None):
-        if flag == "--process_data":
+
+        if flag == "--load_data":
             data_loading.run(self.clients, **self.cfg_vars(
-                            'processed_files', 'chunk_size',
+                            'unprocessed_files', 'chunk_size',
                             'overlap', 'embedding_model', 'dims'))
-            # mv_cmd = \
-            #     f"""
-            #     mv {self.cfg_vars('unprocessed_files')}/*.pdf
-            #     {self.cfg_vars('processed_files')}
-            #     """
-            # os.system(mv_cmd)
+            f1 = list(self.cfg_vars('unprocessed_files').values())[0]
+            f2 = list(self.cfg_vars('processed_files').values())[0]
+            mv_cmd = f"mv {f1}/*.pdf {f2}"
+            os.system(mv_cmd)
 
         if flag == "--RAG":
-            self.rag = RAG(self.clients, 'goodfellas-chunk',
-                           **self.cfg_vars('embedding_model', 'dims', 'llm', 'k'))
-            return self.rag(query=query)
+            rag = RAG(self.clients, 'moby_dick-chunk',
+                      **self.cfg_vars('embedding_model', 'dims', 'llm', 'k'))
+            return rag(query=query)
 
         if flag == "--KG":
-            return self.rag.get_result_ids()
-
-        if flag == "--setup":
-            return "Config setup complete"
+            pass
 
 
 if __name__ == "__main__":
-    # note: arreglar el uso como CLI
-    # parse_args = Arguments() | "--process_data" | "--RAG" | "--KG" | "--setup"
-    # selected_arg = parse_args()
-    selected_arg = sys.argv[1]
+
+    parse_args = Arguments() | "--load_data" | "--RAG" | "--KG"
+    selected_arg = parse_args()
     main = Main()
-    print(main.run(selected_arg))
+
+    if selected_arg.load_data is not None:
+        main.run("--load_data")
+
+    if selected_arg.RAG is not None:
+        response = main.run("--RAG", query=selected_arg.RAG[0])
+        print(response)
+
+    if selected_arg.KG is not None:
+        main.run("--KG")

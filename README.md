@@ -1,12 +1,26 @@
 # text_to_GDB
 
+## Run elasticsearch in docker
+docker network create elastic
+docker pull docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+docker run --name es01 --net elastic -p 9200:9200 -it -m 1GB docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+
+docker exec -it es01 /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
+docker exec -it es01 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana
+
+docker cp es01:/usr/share/elasticsearch/config/certs/http_ca.crt .
+
+curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD https://localhost:9200
+
+Be sure you don't have keys or password in your .bashrc o .zshrc that could conlfict with the local env variables.
+
 ## Setup
-- Run docker compose.
-- Get docker password.
-docker exec -it elastic /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
 - Get docker cert.
 docker cp elastic:/usr/share/elasticsearch/config/certs/http_ca.crt - | docker cp - fastapi:/app/
-- Fill config.yml and move it to the container
+- Get docker password.
+docker exec -it elastic /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
+- Fill searcher/config.yml and move it to the container
+docker cp searcher/config.yml fastapi:/app/config.yml
 - Run the --setup (enter the llmenv env)
 - Add files to read to the docker volume shared with the local machine.
 - Run main.py --read-files.
@@ -44,9 +58,9 @@ docker cp elastic:/usr/share/elasticsearch/config/certs/http_ca.crt - | docker c
 - CI/CD (github actions).
 
 ### Long-term
-- Run each app in a node within a single kubernetes cluster.
-- Locally-run LLM (maybe would be useful to run it in a different cluster than the other apps).
-- Ditch python.
+- Locally run LLM.
+- Ditch python. Re write from scracth in rust.
+- Add kubernetes. LLM, DB, backend, frontend could be clusters or nodes.
 
 ## Env
 - conda activate llmenv

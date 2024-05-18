@@ -6,14 +6,14 @@ class TestConfig(unittest.TestCase):
         self.config_variables = ConfigVariables(root)
         self.expected_config_variables = [
             'data',
-            'unprocessed-files',
-            'processed-files',
+            'unprocessed_files',
+            'processed_files',
             'preprocess',
-            'chunk-size',
+            'chunk_size',
             'overlap',
             'embedding',
             'dims',
-            'embedding-model',
+            'embedding_model',
             'llm',
             'k',
             'test_control_variable',

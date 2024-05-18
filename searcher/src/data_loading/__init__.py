@@ -1,9 +1,7 @@
-from .processes import index_document, add_embedding, index_chunks, update_metadata  # noqa: F401
-from llama_index.core.node_parser import SentenceSplitter
-from llama_index.core import SimpleDirectoryReader
+from .processes import read_documents, index_document, chunking, add_embedding, index_chunks  # noqa: F401
 
 
-def run(Client, path, chunk_size, overlap, embedding_model, dims):
+def run(Client, unprocessed_files, chunk_size, overlap, embedding_model, dims):
 
     chunk_mapping = {
         "properties": {
@@ -15,25 +13,13 @@ def run(Client, path, chunk_size, overlap, embedding_model, dims):
     es_client = Client.elastic_search()
     oa_client = Client.open_ai()
 
-    chunking = SentenceSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=overlap,
-    )
+    documents = read_documents(unprocessed_files)
+    docs_chunks = []
+    for doc in documents:
+        index_document(doc, es_client)
+        chunks = chunking(doc, chunk_size, overlap)
+        chunks = add_embedding(chunks, embedding_model, dims, oa_client)
+        index_chunks(chunks, chunk_mapping, es_client)
+        docs_chunks.append(chunks)
 
-    reader = SimpleDirectoryReader(
-        input_dir=path,
-        required_exts=[".pdf"],
-        file_metadata=lambda filename: {"file_name": filename}
-    )
-
-    docs_nodes = []
-
-    for document in reader.load_data():
-        doc = index_document(document, es_client)
-        nodes = chunking.get_nodes_from_documents([doc])
-        update_metadata(nodes)
-        add_embedding(nodes, embedding_model, dims, oa_client)
-        index_chunks(nodes, chunk_mapping, es_client)
-        docs_nodes.append(nodes)
-
-    return docs_nodes
+    return docs_chunks

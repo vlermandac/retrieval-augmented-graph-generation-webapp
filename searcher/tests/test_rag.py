@@ -10,7 +10,7 @@ class TestRAG(unittest.TestCase):
         env_var['CA_CERT'] = cert_mod
         self.clients = Clients(**env_var)
 
-        self.rag = RAG(self.clients, 'goodfellas-chunk',
+        self.rag = RAG(self.clients, 'goodfellas-chunk', # CAMBIAR GOODFELLAS
                        **self.vars('embedding_model', 'dims', 'llm', 'k'))
 
     def test_generation(self):

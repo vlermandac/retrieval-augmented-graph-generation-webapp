@@ -1,13 +1,12 @@
-from elasticsearch import Elasticsearch
 from openai import OpenAI
+from .elasticsearch_client import ElasticsearchClient
 
 
 class Clients:
     def __init__(self, ELASTIC_URL, ELASTIC_PASSWORD, CA_CERT, OPENAI_API_KEY):
-        self.es_client = Elasticsearch(
-            ELASTIC_URL,
-            ca_certs=CA_CERT,
-            basic_auth=("elastic", ELASTIC_PASSWORD)
+
+        self.es_client = ElasticsearchClient(
+            ELASTIC_URL, ELASTIC_PASSWORD, CA_CERT
         )
 
         self.oa_client = OpenAI(

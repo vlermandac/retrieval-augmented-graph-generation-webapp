@@ -1,0 +1,5602 @@
+{
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "Herman Melville",
+      "attributes": {
+        "label": "Herman Melville",
+        "size": 20,
+        "x": 35.7,
+        "y": 26.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Moby Dick",
+      "attributes": {
+        "label": "Moby Dick",
+        "size": 20,
+        "x": 10.4,
+        "y": 5.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Loomings",
+      "attributes": {
+        "label": "Loomings",
+        "size": 20,
+        "x": 45.8,
+        "y": 42.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The carpet-bag",
+      "attributes": {
+        "label": "The carpet-bag",
+        "size": 20,
+        "x": 42.7,
+        "y": 25.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The Spouter-Inn",
+      "attributes": {
+        "label": "The Spouter-Inn",
+        "size": 20,
+        "x": 49.7,
+        "y": 34.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The counterpane",
+      "attributes": {
+        "label": "The counterpane",
+        "size": 20,
+        "x": 37.5,
+        "y": 3.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The street",
+      "attributes": {
+        "label": "The street",
+        "size": 20,
+        "x": 4.1,
+        "y": 25.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The chapel",
+      "attributes": {
+        "label": "The chapel",
+        "size": 20,
+        "x": 6.2,
+        "y": 10.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The pulpit",
+      "attributes": {
+        "label": "The pulpit",
+        "size": 20,
+        "x": 28.2,
+        "y": 4.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The sermon",
+      "attributes": {
+        "label": "The sermon",
+        "size": 20,
+        "x": 21.1,
+        "y": 19.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "A bosom friend",
+      "attributes": {
+        "label": "A bosom friend",
+        "size": 20,
+        "x": 9.5,
+        "y": 7.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Nightgown",
+      "attributes": {
+        "label": "Nightgown",
+        "size": 20,
+        "x": 39.6,
+        "y": 41.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Biographical",
+      "attributes": {
+        "label": "Biographical",
+        "size": 20,
+        "x": 20.7,
+        "y": 12.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Wheelbarrow",
+      "attributes": {
+        "label": "Wheelbarrow",
+        "size": 20,
+        "x": 14.6,
+        "y": 5.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Nantucket",
+      "attributes": {
+        "label": "Nantucket",
+        "size": 20,
+        "x": 34.6,
+        "y": 40.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Chowder",
+      "attributes": {
+        "label": "Chowder",
+        "size": 20,
+        "x": 15.2,
+        "y": 24.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The ship",
+      "attributes": {
+        "label": "The ship",
+        "size": 20,
+        "x": 21.1,
+        "y": 37.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "His mark",
+      "attributes": {
+        "label": "His mark",
+        "size": 20,
+        "x": 33.1,
+        "y": 17.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The prophet",
+      "attributes": {
+        "label": "The prophet",
+        "size": 20,
+        "x": 32.4,
+        "y": 21.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "All astir",
+      "attributes": {
+        "label": "All astir",
+        "size": 20,
+        "x": 37.6,
+        "y": 29.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Going aboard",
+      "attributes": {
+        "label": "Going aboard",
+        "size": 20,
+        "x": 37.1,
+        "y": 40.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Merry Christmas",
+      "attributes": {
+        "label": "Merry Christmas",
+        "size": 20,
+        "x": 46.6,
+        "y": 44.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The Lee shore",
+      "attributes": {
+        "label": "The Lee shore",
+        "size": 20,
+        "x": 30.3,
+        "y": 4.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The advocate",
+      "attributes": {
+        "label": "The advocate",
+        "size": 20,
+        "x": 0.1,
+        "y": 24.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Postscript",
+      "attributes": {
+        "label": "Postscript",
+        "size": 20,
+        "x": 37.7,
+        "y": 6.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Knights and squires",
+      "attributes": {
+        "label": "Knights and squires",
+        "size": 20,
+        "x": 25.8,
+        "y": 26.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Ahab",
+      "attributes": {
+        "label": "Ahab",
+        "size": 20,
+        "x": 39.2,
+        "y": 36.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Enter Ahab; to him, Stubb",
+      "attributes": {
+        "label": "Enter Ahab; to him, Stubb",
+        "size": 20,
+        "x": 13.7,
+        "y": 18.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The pipe",
+      "attributes": {
+        "label": "The pipe",
+        "size": 20,
+        "x": 30.3,
+        "y": 18.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Queen Mab",
+      "attributes": {
+        "label": "Queen Mab",
+        "size": 20,
+        "x": 31.4,
+        "y": 42.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cetology",
+      "attributes": {
+        "label": "Cetology",
+        "size": 20,
+        "x": 3.1,
+        "y": 16.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The Specksynder",
+      "attributes": {
+        "label": "The Specksynder",
+        "size": 20,
+        "x": 49.1,
+        "y": 12.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The cabin-table",
+      "attributes": {
+        "label": "The cabin-table",
+        "size": 20,
+        "x": 37.0,
+        "y": 30.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The mast-head",
+      "attributes": {
+        "label": "The mast-head",
+        "size": 20,
+        "x": 7.1,
+        "y": 21.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The quarter-deck",
+      "attributes": {
+        "label": "The quarter-deck",
+        "size": 20,
+        "x": 14.0,
+        "y": 43.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Sunset",
+      "attributes": {
+        "label": "Sunset",
+        "size": 20,
+        "x": 25.1,
+        "y": 27.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Dusk",
+      "attributes": {
+        "label": "Dusk",
+        "size": 20,
+        "x": 27.6,
+        "y": 48.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "First night-watch",
+      "attributes": {
+        "label": "First night-watch",
+        "size": 20,
+        "x": 29.8,
+        "y": 33.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Midnight, forecastle",
+      "attributes": {
+        "label": "Midnight, forecastle",
+        "size": 20,
+        "x": 17.5,
+        "y": 31.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The whiteness of the whale",
+      "attributes": {
+        "label": "The whiteness of the whale",
+        "size": 20,
+        "x": 21.8,
+        "y": 28.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Hark!",
+      "attributes": {
+        "label": "Hark!",
+        "size": 20,
+        "x": 2.9,
+        "y": 21.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The Chart",
+      "attributes": {
+        "label": "The Chart",
+        "size": 20,
+        "x": 38.0,
+        "y": 23.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The affidavit",
+      "attributes": {
+        "label": "The affidavit",
+        "size": 20,
+        "x": 37.5,
+        "y": 32.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Surmises",
+      "attributes": {
+        "label": "Surmises",
+        "size": 20,
+        "x": 47.3,
+        "y": 15.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The mat-maker",
+      "attributes": {
+        "label": "The mat-maker",
+        "size": 20,
+        "x": 19.2,
+        "y": 44.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "boat",
+      "attributes": {
+        "label": "boat",
+        "size": 20,
+        "x": 14.6,
+        "y": 21.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Fedallah",
+      "attributes": {
+        "label": "Fedallah",
+        "size": 20,
+        "x": 20.2,
+        "y": 38.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Ahab’s boat",
+      "attributes": {
+        "label": "Ahab’s boat",
+        "size": 20,
+        "x": 36.8,
+        "y": 44.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Stubb",
+      "attributes": {
+        "label": "Stubb",
+        "size": 20,
+        "x": 24.8,
+        "y": 42.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "whale",
+      "attributes": {
+        "label": "whale",
+        "size": 20,
+        "x": 27.7,
+        "y": 2.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "supper",
+      "attributes": {
+        "label": "supper",
+        "size": 20,
+        "x": 19.0,
+        "y": 4.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "right whale",
+      "attributes": {
+        "label": "right whale",
+        "size": 20,
+        "x": 48.4,
+        "y": 3.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Flask",
+      "attributes": {
+        "label": "Flask",
+        "size": 20,
+        "x": 36.6,
+        "y": 30.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Pequod",
+      "attributes": {
+        "label": "Pequod",
+        "size": 20,
+        "x": 4.6,
+        "y": 12.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Virgin",
+      "attributes": {
+        "label": "Virgin",
+        "size": 20,
+        "x": 40.6,
+        "y": 18.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Rose-bud",
+      "attributes": {
+        "label": "Rose-bud",
+        "size": 20,
+        "x": 25.7,
+        "y": 24.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "leg",
+      "attributes": {
+        "label": "leg",
+        "size": 20,
+        "x": 34.9,
+        "y": 6.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "carpenter",
+      "attributes": {
+        "label": "carpenter",
+        "size": 20,
+        "x": 9.5,
+        "y": 40.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Starbuck",
+      "attributes": {
+        "label": "Starbuck",
+        "size": 20,
+        "x": 4.3,
+        "y": 34.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Queequeg",
+      "attributes": {
+        "label": "Queequeg",
+        "size": 20,
+        "x": 31.7,
+        "y": 46.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "coffin",
+      "attributes": {
+        "label": "coffin",
+        "size": 20,
+        "x": 2.8,
+        "y": 37.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cabin",
+      "attributes": {
+        "label": "cabin",
+        "size": 20,
+        "x": 19.6,
+        "y": 27.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Bachelor",
+      "attributes": {
+        "label": "Bachelor",
+        "size": 20,
+        "x": 38.4,
+        "y": 15.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Rachel",
+      "attributes": {
+        "label": "Rachel",
+        "size": 20,
+        "x": 41.5,
+        "y": 12.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Delight",
+      "attributes": {
+        "label": "Delight",
+        "size": 20,
+        "x": 4.8,
+        "y": 34.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Ishmael",
+      "attributes": {
+        "label": "Ishmael",
+        "size": 20,
+        "x": 4.4,
+        "y": 31.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "world",
+      "attributes": {
+        "label": "world",
+        "size": 20,
+        "x": 33.4,
+        "y": 16.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "I",
+      "attributes": {
+        "label": "I",
+        "size": 20,
+        "x": 8.7,
+        "y": 5.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sea",
+      "attributes": {
+        "label": "sea",
+        "size": 20,
+        "x": 8.6,
+        "y": 13.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cato",
+      "attributes": {
+        "label": "Cato",
+        "size": 20,
+        "x": 37.7,
+        "y": 26.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sword",
+      "attributes": {
+        "label": "sword",
+        "size": 20,
+        "x": 15.2,
+        "y": 21.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "men",
+      "attributes": {
+        "label": "men",
+        "size": 20,
+        "x": 41.4,
+        "y": 37.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "feelings towards the ocean",
+      "attributes": {
+        "label": "feelings towards the ocean",
+        "size": 20,
+        "x": 2.1,
+        "y": 17.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "insular city",
+      "attributes": {
+        "label": "insular city",
+        "size": 20,
+        "x": 8.5,
+        "y": 7.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Manhattoes",
+      "attributes": {
+        "label": "Manhattoes",
+        "size": 20,
+        "x": 29.7,
+        "y": 32.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "streets",
+      "attributes": {
+        "label": "streets",
+        "size": 20,
+        "x": 49.3,
+        "y": 41.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "water",
+      "attributes": {
+        "label": "water",
+        "size": 20,
+        "x": 45.0,
+        "y": 6.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "down-town",
+      "attributes": {
+        "label": "down-town",
+        "size": 20,
+        "x": 40.9,
+        "y": 6.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "battery",
+      "attributes": {
+        "label": "battery",
+        "size": 20,
+        "x": 33.7,
+        "y": 48.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "waves",
+      "attributes": {
+        "label": "waves",
+        "size": 20,
+        "x": 28.5,
+        "y": 27.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mole",
+      "attributes": {
+        "label": "mole",
+        "size": 20,
+        "x": 35.9,
+        "y": 46.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "breezes",
+      "attributes": {
+        "label": "breezes",
+        "size": 20,
+        "x": 21.5,
+        "y": 45.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "water-gazers",
+      "attributes": {
+        "label": "water-gazers",
+        "size": 20,
+        "x": 33.2,
+        "y": 32.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "town",
+      "attributes": {
+        "label": "town",
+        "size": 20,
+        "x": 23.5,
+        "y": 12.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "bulwarks of ships",
+      "attributes": {
+        "label": "bulwarks of ships",
+        "size": 20,
+        "x": 33.3,
+        "y": 1.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mortal men",
+      "attributes": {
+        "label": "mortal men",
+        "size": 20,
+        "x": 40.2,
+        "y": 43.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "rigging",
+      "attributes": {
+        "label": "rigging",
+        "size": 20,
+        "x": 19.3,
+        "y": 9.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "lath and plaster",
+      "attributes": {
+        "label": "lath and plaster",
+        "size": 20,
+        "x": 43.1,
+        "y": 44.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "crowds",
+      "attributes": {
+        "label": "crowds",
+        "size": 20,
+        "x": 47.3,
+        "y": 13.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "lanes and alleys, streets and avenues",
+      "attributes": {
+        "label": "lanes and alleys, streets and avenues",
+        "size": 20,
+        "x": 12.8,
+        "y": 46.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "inlanders",
+      "attributes": {
+        "label": "inlanders",
+        "size": 20,
+        "x": 18.0,
+        "y": 19.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "man",
+      "attributes": {
+        "label": "man",
+        "size": 20,
+        "x": 10.3,
+        "y": 9.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "experiment",
+      "attributes": {
+        "label": "experiment",
+        "size": 20,
+        "x": 1.6,
+        "y": 11.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "great American desert",
+      "attributes": {
+        "label": "great American desert",
+        "size": 20,
+        "x": 6.2,
+        "y": 5.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "meditation",
+      "attributes": {
+        "label": "meditation",
+        "size": 20,
+        "x": 9.0,
+        "y": 27.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "artist",
+      "attributes": {
+        "label": "artist",
+        "size": 20,
+        "x": 9.7,
+        "y": 40.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "landscape",
+      "attributes": {
+        "label": "landscape",
+        "size": 20,
+        "x": 42.3,
+        "y": 28.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "trees",
+      "attributes": {
+        "label": "trees",
+        "size": 20,
+        "x": 8.1,
+        "y": 2.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "hollow trunk",
+      "attributes": {
+        "label": "hollow trunk",
+        "size": 20,
+        "x": 4.3,
+        "y": 24.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "smoke",
+      "attributes": {
+        "label": "smoke",
+        "size": 20,
+        "x": 20.9,
+        "y": 45.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "cottage",
+      "attributes": {
+        "label": "cottage",
+        "size": 20,
+        "x": 24.6,
+        "y": 46.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "shepherd",
+      "attributes": {
+        "label": "shepherd",
+        "size": 20,
+        "x": 11.0,
+        "y": 7.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "pine-tree",
+      "attributes": {
+        "label": "pine-tree",
+        "size": 20,
+        "x": 27.9,
+        "y": 44.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "poet of Tennessee",
+      "attributes": {
+        "label": "poet of Tennessee",
+        "size": 20,
+        "x": 5.2,
+        "y": 32.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "silver",
+      "attributes": {
+        "label": "silver",
+        "size": 20,
+        "x": 49.9,
+        "y": 29.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "purchase",
+      "attributes": {
+        "label": "purchase",
+        "size": 20,
+        "x": 10.5,
+        "y": 16.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "boy",
+      "attributes": {
+        "label": "boy",
+        "size": 20,
+        "x": 35.9,
+        "y": 14.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "old Persians",
+      "attributes": {
+        "label": "old Persians",
+        "size": 20,
+        "x": 23.1,
+        "y": 35.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Greeks",
+      "attributes": {
+        "label": "Greeks",
+        "size": 20,
+        "x": 13.3,
+        "y": 16.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Narcissus",
+      "attributes": {
+        "label": "Narcissus",
+        "size": 20,
+        "x": 41.5,
+        "y": 1.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "fountain",
+      "attributes": {
+        "label": "fountain",
+        "size": 20,
+        "x": 32.3,
+        "y": 31.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "passengers",
+      "attributes": {
+        "label": "passengers",
+        "size": 20,
+        "x": 10.9,
+        "y": 19.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sea-sick",
+      "attributes": {
+        "label": "sea-sick",
+        "size": 20,
+        "x": 38.7,
+        "y": 23.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "passenger",
+      "attributes": {
+        "label": "passenger",
+        "size": 20,
+        "x": 34.6,
+        "y": 26.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Commodore",
+      "attributes": {
+        "label": "Commodore",
+        "size": 20,
+        "x": 23.7,
+        "y": 43.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Captain",
+      "attributes": {
+        "label": "Captain",
+        "size": 20,
+        "x": 33.5,
+        "y": 35.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cook",
+      "attributes": {
+        "label": "Cook",
+        "size": 20,
+        "x": 29.8,
+        "y": 7.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "glory",
+      "attributes": {
+        "label": "glory",
+        "size": 20,
+        "x": 28.1,
+        "y": 32.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "distinction",
+      "attributes": {
+        "label": "distinction",
+        "size": 20,
+        "x": 17.5,
+        "y": 45.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "honorable respectable toils",
+      "attributes": {
+        "label": "honorable respectable toils",
+        "size": 20,
+        "x": 9.1,
+        "y": 31.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "trials",
+      "attributes": {
+        "label": "trials",
+        "size": 20,
+        "x": 0.7,
+        "y": 25.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "tribulations",
+      "attributes": {
+        "label": "tribulations",
+        "size": 20,
+        "x": 45.9,
+        "y": 2.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "taking care of ships",
+      "attributes": {
+        "label": "taking care of ships",
+        "size": 20,
+        "x": 39.2,
+        "y": 25.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "broiling fowls",
+      "attributes": {
+        "label": "broiling fowls",
+        "size": 20,
+        "x": 23.2,
+        "y": 13.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "broiled fowl",
+      "attributes": {
+        "label": "broiled fowl",
+        "size": 20,
+        "x": 33.7,
+        "y": 49.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Egyptians",
+      "attributes": {
+        "label": "Egyptians",
+        "size": 20,
+        "x": 8.7,
+        "y": 44.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ibis",
+      "attributes": {
+        "label": "ibis",
+        "size": 20,
+        "x": 39.6,
+        "y": 48.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "river horse",
+      "attributes": {
+        "label": "river horse",
+        "size": 20,
+        "x": 1.0,
+        "y": 41.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sailor",
+      "attributes": {
+        "label": "sailor",
+        "size": 20,
+        "x": 31.5,
+        "y": 44.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "simple sailor",
+      "attributes": {
+        "label": "simple sailor",
+        "size": 20,
+        "x": 41.4,
+        "y": 6.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "forecastle",
+      "attributes": {
+        "label": "forecastle",
+        "size": 20,
+        "x": 15.9,
+        "y": 1.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "mast",
+      "attributes": {
+        "label": "mast",
+        "size": 20,
+        "x": 24.6,
+        "y": 31.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "royal mast-head",
+      "attributes": {
+        "label": "royal mast-head",
+        "size": 20,
+        "x": 24.5,
+        "y": 47.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "van Rensselaers",
+      "attributes": {
+        "label": "van Rensselaers",
+        "size": 20,
+        "x": 10.1,
+        "y": 4.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "old established family",
+      "attributes": {
+        "label": "old established family",
+        "size": 20,
+        "x": 31.9,
+        "y": 35.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Randolphs",
+      "attributes": {
+        "label": "Randolphs",
+        "size": 20,
+        "x": 0.3,
+        "y": 34.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Hardicanutes",
+      "attributes": {
+        "label": "Hardicanutes",
+        "size": 20,
+        "x": 10.5,
+        "y": 20.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "others",
+      "attributes": {
+        "label": "others",
+        "size": 20,
+        "x": 36.6,
+        "y": 23.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "schoolmaster",
+      "attributes": {
+        "label": "schoolmaster",
+        "size": 20,
+        "x": 30.5,
+        "y": 3.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Gabriel",
+      "attributes": {
+        "label": "Gabriel",
+        "size": 20,
+        "x": 16.5,
+        "y": 42.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "me",
+      "attributes": {
+        "label": "me",
+        "size": 20,
+        "x": 40.4,
+        "y": 15.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sea-captains",
+      "attributes": {
+        "label": "sea-captains",
+        "size": 20,
+        "x": 7.4,
+        "y": 33.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "they",
+      "attributes": {
+        "label": "they",
+        "size": 20,
+        "x": 35.2,
+        "y": 26.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "",
+      "attributes": {
+        "label": "",
+        "size": 20,
+        "x": 32.6,
+        "y": 22.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the orchard thieves",
+      "attributes": {
+        "label": "the orchard thieves",
+        "size": 20,
+        "x": 41.4,
+        "y": 33.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the act of paying",
+      "attributes": {
+        "label": "the act of paying",
+        "size": 20,
+        "x": 9.8,
+        "y": 14.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "money",
+      "attributes": {
+        "label": "money",
+        "size": 20,
+        "x": 20.5,
+        "y": 23.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "we",
+      "attributes": {
+        "label": "we",
+        "size": 20,
+        "x": 9.8,
+        "y": 36.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "perdition",
+      "attributes": {
+        "label": "perdition",
+        "size": 20,
+        "x": 39.2,
+        "y": 19.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "wholesome exercise and pure air",
+      "attributes": {
+        "label": "wholesome exercise and pure air",
+        "size": 20,
+        "x": 15.7,
+        "y": 2.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the forecastle deck",
+      "attributes": {
+        "label": "the forecastle deck",
+        "size": 20,
+        "x": 46.9,
+        "y": 3.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "winds",
+      "attributes": {
+        "label": "winds",
+        "size": 20,
+        "x": 16.5,
+        "y": 27.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "head winds",
+      "attributes": {
+        "label": "head winds",
+        "size": 20,
+        "x": 19.3,
+        "y": 2.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sailors",
+      "attributes": {
+        "label": "sailors",
+        "size": 20,
+        "x": 25.4,
+        "y": 48.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "police officer of the Fates",
+      "attributes": {
+        "label": "police officer of the Fates",
+        "size": 20,
+        "x": 11.7,
+        "y": 24.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Providence",
+      "attributes": {
+        "label": "Providence",
+        "size": 20,
+        "x": 0.3,
+        "y": 19.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "my going on this whaling voyage",
+      "attributes": {
+        "label": "my going on this whaling voyage",
+        "size": 20,
+        "x": 3.9,
+        "y": 45.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Grand Contested Eleion",
+      "attributes": {
+        "label": "Grand Contested Eleion",
+        "size": 20,
+        "x": 26.3,
+        "y": 26.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Presidency of the United States",
+      "attributes": {
+        "label": "Presidency of the United States",
+        "size": 20,
+        "x": 19.0,
+        "y": 18.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Whaling Voyage",
+      "attributes": {
+        "label": "Whaling Voyage",
+        "size": 20,
+        "x": 40.4,
+        "y": 3.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "BLOODYBATTLE",
+      "attributes": {
+        "label": "BLOODYBATTLE",
+        "size": 20,
+        "x": 39.4,
+        "y": 13.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "AFGHANISTAN",
+      "attributes": {
+        "label": "AFGHANISTAN",
+        "size": 20,
+        "x": 18.9,
+        "y": 28.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Fates",
+      "attributes": {
+        "label": "Fates",
+        "size": 20,
+        "x": 11.9,
+        "y": 31.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the part I did",
+      "attributes": {
+        "label": "the part I did",
+        "size": 20,
+        "x": 10.2,
+        "y": 5.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "idea",
+      "attributes": {
+        "label": "idea",
+        "size": 20,
+        "x": 29.0,
+        "y": 20.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the great whale himself",
+      "attributes": {
+        "label": "the great whale himself",
+        "size": 20,
+        "x": 42.4,
+        "y": 46.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "an everlasting itch for things remote",
+      "attributes": {
+        "label": "an everlasting itch for things remote",
+        "size": 20,
+        "x": 29.9,
+        "y": 15.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "forbidden seas",
+      "attributes": {
+        "label": "forbidden seas",
+        "size": 20,
+        "x": 39.8,
+        "y": 21.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "barbarous coasts",
+      "attributes": {
+        "label": "barbarous coasts",
+        "size": 20,
+        "x": 0.1,
+        "y": 22.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the whaling voyage",
+      "attributes": {
+        "label": "the whaling voyage",
+        "size": 20,
+        "x": 39.3,
+        "y": 33.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "welcome",
+      "attributes": {
+        "label": "welcome",
+        "size": 20,
+        "x": 13.2,
+        "y": 2.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the great flood-gates of the wonder-world",
+      "attributes": {
+        "label": "the great flood-gates of the wonder-world",
+        "size": 20,
+        "x": 25.8,
+        "y": 22.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "in the wild conceits that swayed me",
+      "attributes": {
+        "label": "in the wild conceits that swayed me",
+        "size": 20,
+        "x": 11.5,
+        "y": 0.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "two and two",
+      "attributes": {
+        "label": "two and two",
+        "size": 20,
+        "x": 3.1,
+        "y": 5.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cape Horn",
+      "attributes": {
+        "label": "Cape Horn",
+        "size": 20,
+        "x": 7.1,
+        "y": 11.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "New Bedford",
+      "attributes": {
+        "label": "New Bedford",
+        "size": 20,
+        "x": 9.1,
+        "y": 3.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "little packet",
+      "attributes": {
+        "label": "little packet",
+        "size": 20,
+        "x": 4.7,
+        "y": 10.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "embarking on their voyage",
+      "attributes": {
+        "label": "embarking on their voyage",
+        "size": 20,
+        "x": 39.6,
+        "y": 36.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "business of whaling",
+      "attributes": {
+        "label": "business of whaling",
+        "size": 20,
+        "x": 8.7,
+        "y": 44.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "American whale",
+      "attributes": {
+        "label": "American whale",
+        "size": 20,
+        "x": 22.5,
+        "y": 5.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Red-Men",
+      "attributes": {
+        "label": "Red-Men",
+        "size": 20,
+        "x": 7.4,
+        "y": 47.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "adventurous little sloop",
+      "attributes": {
+        "label": "adventurous little sloop",
+        "size": 20,
+        "x": 49.6,
+        "y": 0.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "embark for destined port",
+      "attributes": {
+        "label": "embark for destined port",
+        "size": 20,
+        "x": 10.9,
+        "y": 48.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the price",
+      "attributes": {
+        "label": "the price",
+        "size": 20,
+        "x": 4.5,
+        "y": 4.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "The Crossed Harpoons",
+      "attributes": {
+        "label": "The Crossed Harpoons",
+        "size": 20,
+        "x": 37.0,
+        "y": 35.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Sword-Fish Inn",
+      "attributes": {
+        "label": "Sword-Fish Inn",
+        "size": 20,
+        "x": 13.1,
+        "y": 17.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a low, wide building",
+      "attributes": {
+        "label": "a low, wide building",
+        "size": 20,
+        "x": 13.0,
+        "y": 9.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "that quarter of the town",
+      "attributes": {
+        "label": "that quarter of the town",
+        "size": 20,
+        "x": 24.1,
+        "y": 16.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a smoky light",
+      "attributes": {
+        "label": "a smoky light",
+        "size": 20,
+        "x": 44.2,
+        "y": 48.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the building",
+      "attributes": {
+        "label": "the building",
+        "size": 20,
+        "x": 27.1,
+        "y": 25.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a careless look",
+      "attributes": {
+        "label": "a careless look",
+        "size": 20,
+        "x": 15.2,
+        "y": 44.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "an ash-box",
+      "attributes": {
+        "label": "an ash-box",
+        "size": 20,
+        "x": 20.4,
+        "y": 38.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a hundred black faces",
+      "attributes": {
+        "label": "a hundred black faces",
+        "size": 20,
+        "x": 49.1,
+        "y": 47.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "in their rows",
+      "attributes": {
+        "label": "in their rows",
+        "size": 20,
+        "x": 43.7,
+        "y": 21.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a black Angel of Doom",
+      "attributes": {
+        "label": "a black Angel of Doom",
+        "size": 20,
+        "x": 7.3,
+        "y": 22.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a book",
+      "attributes": {
+        "label": "a book",
+        "size": 20,
+        "x": 1.5,
+        "y": 8.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the preacher",
+      "attributes": {
+        "label": "the preacher",
+        "size": 20,
+        "x": 28.9,
+        "y": 2.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the blackness of darkness",
+      "attributes": {
+        "label": "the blackness of darkness",
+        "size": 20,
+        "x": 13.3,
+        "y": 11.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "preacher",
+      "attributes": {
+        "label": "preacher",
+        "size": 20,
+        "x": 15.2,
+        "y": 28.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "blackness of darkness",
+      "attributes": {
+        "label": "blackness of darkness",
+        "size": 20,
+        "x": 17.1,
+        "y": 12.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "weeping",
+      "attributes": {
+        "label": "weeping",
+        "size": 20,
+        "x": 43.9,
+        "y": 5.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "wailing",
+      "attributes": {
+        "label": "wailing",
+        "size": 20,
+        "x": 42.5,
+        "y": 40.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "teeth-gnashing",
+      "attributes": {
+        "label": "teeth-gnashing",
+        "size": 20,
+        "x": 43.5,
+        "y": 11.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Ha",
+      "attributes": {
+        "label": "Ha",
+        "size": 20,
+        "x": 34.4,
+        "y": 32.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "light",
+      "attributes": {
+        "label": "light",
+        "size": 20,
+        "x": 26.1,
+        "y": 15.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "creaking",
+      "attributes": {
+        "label": "creaking",
+        "size": 20,
+        "x": 36.4,
+        "y": 12.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "swinging sign",
+      "attributes": {
+        "label": "swinging sign",
+        "size": 20,
+        "x": 19.4,
+        "y": 6.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "sign",
+      "attributes": {
+        "label": "sign",
+        "size": 20,
+        "x": 12.3,
+        "y": 14.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "white painting",
+      "attributes": {
+        "label": "white painting",
+        "size": 20,
+        "x": 9.2,
+        "y": 31.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "painting",
+      "attributes": {
+        "label": "painting",
+        "size": 20,
+        "x": 47.9,
+        "y": 23.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "jet of misty spray",
+      "attributes": {
+        "label": "jet of misty spray",
+        "size": 20,
+        "x": 24.9,
+        "y": 35.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Peter Coffin",
+      "attributes": {
+        "label": "Peter Coffin",
+        "size": 20,
+        "x": 1.6,
+        "y": 37.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Peter",
+      "attributes": {
+        "label": "Peter",
+        "size": 20,
+        "x": 1.9,
+        "y": 38.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "creak",
+      "attributes": {
+        "label": "creak",
+        "size": 20,
+        "x": 45.7,
+        "y": 26.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a poverty-stricken sort of creak",
+      "attributes": {
+        "label": "a poverty-stricken sort of creak",
+        "size": 20,
+        "x": 43.3,
+        "y": 44.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "it",
+      "attributes": {
+        "label": "it",
+        "size": 20,
+        "x": 1.6,
+        "y": 43.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a queer sort of place",
+      "attributes": {
+        "label": "a queer sort of place",
+        "size": 20,
+        "x": 49.5,
+        "y": 0.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "house",
+      "attributes": {
+        "label": "house",
+        "size": 20,
+        "x": 21.1,
+        "y": 44.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "gable-ended",
+      "attributes": {
+        "label": "gable-ended",
+        "size": 20,
+        "x": 23.7,
+        "y": 45.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Euroclydon",
+      "attributes": {
+        "label": "Euroclydon",
+        "size": 20,
+        "x": 5.2,
+        "y": 35.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a worse howling",
+      "attributes": {
+        "label": "a worse howling",
+        "size": 20,
+        "x": 1.0,
+        "y": 6.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "a mighty pleasant zephyr",
+      "attributes": {
+        "label": "a mighty pleasant zephyr",
+        "size": 20,
+        "x": 11.7,
+        "y": 14.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the only copy extant of the old writer's works",
+      "attributes": {
+        "label": "the only copy extant of the old writer's works",
+        "size": 20,
+        "x": 27.7,
+        "y": 43.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "thou",
+      "attributes": {
+        "label": "thou",
+        "size": 20,
+        "x": 9.0,
+        "y": 48.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "at it (Euroclydon) from a glass window where the frost is all on the outside",
+      "attributes": {
+        "label": "at it (Euroclydon) from a glass window where the frost is all on the outside",
+        "size": 20,
+        "x": 39.3,
+        "y": 47.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "it (Euroclydon) from the sashless window where the frost is on both sides",
+      "attributes": {
+        "label": "it (Euroclydon) from the sashless window where the frost is on both sides",
+        "size": 20,
+        "x": 3.5,
+        "y": 25.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Death",
+      "attributes": {
+        "label": "Death",
+        "size": 20,
+        "x": 24.8,
+        "y": 50.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "the only glazier of the sashless window with frost on both sides",
+      "attributes": {
+        "label": "the only glazier of the sashless window with frost on both sides",
+        "size": 20,
+        "x": 7.0,
+        "y": 15.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "old black-letter",
+      "attributes": {
+        "label": "old black-letter",
+        "size": 20,
+        "x": 9.8,
+        "y": 42.2,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "eyes",
+      "attributes": {
+        "label": "eyes",
+        "size": 20,
+        "x": 1.5,
+        "y": 6.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "body",
+      "attributes": {
+        "label": "body",
+        "size": 20,
+        "x": 19.3,
+        "y": 37.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "universe",
+      "attributes": {
+        "label": "universe",
+        "size": 20,
+        "x": 30.0,
+        "y": 4.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "copestone",
+      "attributes": {
+        "label": "copestone",
+        "size": 20,
+        "x": 45.8,
+        "y": 4.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Lazarus",
+      "attributes": {
+        "label": "Lazarus",
+        "size": 20,
+        "x": 26.9,
+        "y": 37.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "curbstone",
+      "attributes": {
+        "label": "curbstone",
+        "size": 20,
+        "x": 10.1,
+        "y": 32.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "shiverings",
+      "attributes": {
+        "label": "shiverings",
+        "size": 20,
+        "x": 3.0,
+        "y": 16.5,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "old Dives",
+      "attributes": {
+        "label": "old Dives",
+        "size": 20,
+        "x": 47.5,
+        "y": 36.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Orion",
+      "attributes": {
+        "label": "Orion",
+        "size": 20,
+        "x": 1.2,
+        "y": 26.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "northern lights",
+      "attributes": {
+        "label": "northern lights",
+        "size": 20,
+        "x": 28.9,
+        "y": 8.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Sumatra",
+      "attributes": {
+        "label": "Sumatra",
+        "size": 20,
+        "x": 28.5,
+        "y": 15.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "curbstone before the door of Dives",
+      "attributes": {
+        "label": "curbstone before the door of Dives",
+        "size": 20,
+        "x": 25.2,
+        "y": 1.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Dives",
+      "attributes": {
+        "label": "Dives",
+        "size": 20,
+        "x": 37.0,
+        "y": 15.6,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Czar in an ice palace",
+      "attributes": {
+        "label": "Czar in an ice palace",
+        "size": 20,
+        "x": 35.2,
+        "y": 24.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "orphans",
+      "attributes": {
+        "label": "orphans",
+        "size": 20,
+        "x": 8.5,
+        "y": 39.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "you",
+      "attributes": {
+        "label": "you",
+        "size": 20,
+        "x": 26.5,
+        "y": 44.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "gable-ended Spouter-Inn",
+      "attributes": {
+        "label": "gable-ended Spouter-Inn",
+        "size": 20,
+        "x": 18.8,
+        "y": 5.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "entry",
+      "attributes": {
+        "label": "entry",
+        "size": 20,
+        "x": 19.1,
+        "y": 18.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "old-fashioned wainscots",
+      "attributes": {
+        "label": "old-fashioned wainscots",
+        "size": 20,
+        "x": 27.1,
+        "y": 27.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "black mass",
+      "attributes": {
+        "label": "black mass",
+        "size": 20,
+        "x": 24.5,
+        "y": 34.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Black Sea in a midnight gale",
+      "attributes": {
+        "label": "Black Sea in a midnight gale",
+        "size": 20,
+        "x": 37.7,
+        "y": 40.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "unnatural combat of the four primal elements",
+      "attributes": {
+        "label": "unnatural combat of the four primal elements",
+        "size": 20,
+        "x": 28.5,
+        "y": 22.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "blasted heath",
+      "attributes": {
+        "label": "blasted heath",
+        "size": 20,
+        "x": 48.3,
+        "y": 48.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Hyperborean winter scene",
+      "attributes": {
+        "label": "Hyperborean winter scene",
+        "size": 20,
+        "x": 21.1,
+        "y": 13.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "breaking-up of ice-bound stream of Time",
+      "attributes": {
+        "label": "breaking-up of ice-bound stream of Time",
+        "size": 20,
+        "x": 47.5,
+        "y": 6.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "picture",
+      "attributes": {
+        "label": "picture",
+        "size": 20,
+        "x": 24.4,
+        "y": 29.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Cape-Horner",
+      "attributes": {
+        "label": "Cape-Horner",
+        "size": 20,
+        "x": 11.0,
+        "y": 32.7,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "ship",
+      "attributes": {
+        "label": "ship",
+        "size": 20,
+        "x": 16.3,
+        "y": 14.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "hurricane",
+      "attributes": {
+        "label": "hurricane",
+        "size": 20,
+        "x": 1.6,
+        "y": 1.3,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "impaling himself",
+      "attributes": {
+        "label": "impaling himself",
+        "size": 20,
+        "x": 25.7,
+        "y": 32.1,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "masts",
+      "attributes": {
+        "label": "masts",
+        "size": 20,
+        "x": 11.8,
+        "y": 22.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "wall",
+      "attributes": {
+        "label": "wall",
+        "size": 20,
+        "x": 15.4,
+        "y": 50.0,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "clubs and spears",
+      "attributes": {
+        "label": "clubs and spears",
+        "size": 20,
+        "x": 3.2,
+        "y": 2.4,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "Nathan Swain",
+      "attributes": {
+        "label": "Nathan Swain",
+        "size": 20,
+        "x": 8.1,
+        "y": 8.9,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    },
+    {
+      "key": "fifteen whales",
+      "attributes": {
+        "label": "fifteen whales",
+        "size": 20,
+        "x": 21.9,
+        "y": 47.8,
+        "forceLabel": null,
+        "chunk_id": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Herman Melville",
+      "target": "Moby Dick",
+      "attributes": {
+        "label": "authored",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Loomings",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The carpet-bag",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The Spouter-Inn",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The counterpane",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The street",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The chapel",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The pulpit",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The sermon",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "A bosom friend",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Nightgown",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Biographical",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Wheelbarrow",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Chowder",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The ship",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "His mark",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The prophet",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "All astir",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Going aboard",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Merry Christmas",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The Lee shore",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The advocate",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Postscript",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Knights and squires",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Ahab",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Enter Ahab; to him, Stubb",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The pipe",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Queen Mab",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Cetology",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The Specksynder",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The cabin-table",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The mast-head",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The quarter-deck",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Sunset",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Dusk",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "First night-watch",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Midnight, forecastle",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Moby Dick",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The whiteness of the whale",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Hark!",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The Chart",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The affidavit",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "Surmises",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Moby Dick",
+      "target": "The mat-maker",
+      "attributes": {
+        "label": "has chapter",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "0"
+      }
+    },
+    {
+      "source": "Ahab",
+      "target": "boat",
+      "attributes": {
+        "label": "has",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Fedallah",
+      "target": "Ahab’s boat",
+      "attributes": {
+        "label": "aboard",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Stubb",
+      "target": "whale",
+      "attributes": {
+        "label": "kills",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Stubb",
+      "target": "supper",
+      "attributes": {
+        "label": "has",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Stubb",
+      "target": "right whale",
+      "attributes": {
+        "label": "kills",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Flask",
+      "target": "Stubb",
+      "attributes": {
+        "label": "assists",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "1"
+      }
+    },
+    {
+      "source": "Pequod",
+      "target": "Virgin",
+      "attributes": {
+        "label": "meets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Pequod",
+      "target": "Rose-bud",
+      "attributes": {
+        "label": "meets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Ahab",
+      "target": "leg",
+      "attributes": {
+        "label": "has",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Ahab",
+      "target": "carpenter",
+      "attributes": {
+        "label": "interactions",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Ahab",
+      "target": "Starbuck",
+      "attributes": {
+        "label": "interactions",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Queequeg",
+      "target": "coffin",
+      "attributes": {
+        "label": "in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "2"
+      }
+    },
+    {
+      "source": "Ahab",
+      "target": "cabin",
+      "attributes": {
+        "label": "in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Starbuck",
+      "target": "cabin",
+      "attributes": {
+        "label": "in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Queequeg",
+      "target": "coffin",
+      "attributes": {
+        "label": "in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Pequod",
+      "target": "Bachelor",
+      "attributes": {
+        "label": "meets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Pequod",
+      "target": "Rachel",
+      "attributes": {
+        "label": "meets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Pequod",
+      "target": "Delight",
+      "attributes": {
+        "label": "meets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "Ishmael",
+      "target": "world",
+      "attributes": {
+        "label": "sail about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "3"
+      }
+    },
+    {
+      "source": "I",
+      "target": "sea",
+      "attributes": {
+        "label": "prefer",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "Cato",
+      "target": "sword",
+      "attributes": {
+        "label": "throws himself",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "men",
+      "target": "feelings towards the ocean",
+      "attributes": {
+        "label": "cherish",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "insular city",
+      "target": "Manhattoes",
+      "attributes": {
+        "label": "location",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "4"
+      }
+    },
+    {
+      "source": "Manhattoes",
+      "target": "insular city",
+      "attributes": {
+        "label": "island",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "streets",
+      "target": "water",
+      "attributes": {
+        "label": "take",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "down-town",
+      "target": "battery",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "waves",
+      "target": "mole",
+      "attributes": {
+        "label": "wash",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "breezes",
+      "target": "mole",
+      "attributes": {
+        "label": "cool",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "water-gazers",
+      "target": "battery",
+      "attributes": {
+        "label": "crowd",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "men",
+      "target": "town",
+      "attributes": {
+        "label": "stand",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "bulwarks of ships",
+      "target": "mortal men",
+      "attributes": {
+        "label": "look over",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "rigging",
+      "target": "mortal men",
+      "attributes": {
+        "label": "sit",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "5"
+      }
+    },
+    {
+      "source": "men",
+      "target": "lath and plaster",
+      "attributes": {
+        "label": "pent up in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "crowds",
+      "target": "water",
+      "attributes": {
+        "label": "pacing for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "men",
+      "target": "lanes and alleys, streets and avenues",
+      "attributes": {
+        "label": "come from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "inlanders",
+      "target": "water",
+      "attributes": {
+        "label": "unite at",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "6"
+      }
+    },
+    {
+      "source": "man",
+      "target": "water",
+      "attributes": {
+        "label": "lead to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "experiment",
+      "target": "great American desert",
+      "attributes": {
+        "label": "try",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "meditation",
+      "target": "water",
+      "attributes": {
+        "label": "wedded to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "artist",
+      "target": "landscape",
+      "attributes": {
+        "label": "paint",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "trees",
+      "target": "hollow trunk",
+      "attributes": {
+        "label": "have",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "smoke",
+      "target": "cottage",
+      "attributes": {
+        "label": "go up from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "7"
+      }
+    },
+    {
+      "source": "shepherd",
+      "target": "pine-tree",
+      "attributes": {
+        "label": "head",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "poet of Tennessee",
+      "target": "silver",
+      "attributes": {
+        "label": "received",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "poet of Tennessee",
+      "target": "purchase",
+      "attributes": {
+        "label": "deliberate",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "boy",
+      "target": "sea",
+      "attributes": {
+        "label": "crazy",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "8"
+      }
+    },
+    {
+      "source": "old Persians",
+      "target": "sea",
+      "attributes": {
+        "label": "hold holy",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "Greeks",
+      "target": "sea",
+      "attributes": {
+        "label": "give separate deity",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "Narcissus",
+      "target": "fountain",
+      "attributes": {
+        "label": "plunged into",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "Narcissus",
+      "target": "fountain",
+      "attributes": {
+        "label": "was drowned",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "I",
+      "target": "sea",
+      "attributes": {
+        "label": "go to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "9"
+      }
+    },
+    {
+      "source": "passengers",
+      "target": "sea-sick",
+      "attributes": {
+        "label": "get",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "passenger",
+      "attributes": {
+        "label": "never go as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "Commodore",
+      "attributes": {
+        "label": "never go to sea as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "Captain",
+      "attributes": {
+        "label": "never go to sea as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "Cook",
+      "attributes": {
+        "label": "never go to sea as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "glory",
+      "attributes": {
+        "label": "abandon",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "distinction",
+      "attributes": {
+        "label": "abandon",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "honorable respectable toils",
+      "attributes": {
+        "label": "abominate",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "trials",
+      "attributes": {
+        "label": "abominate",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "tribulations",
+      "attributes": {
+        "label": "abominate",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "taking care of ships",
+      "attributes": {
+        "label": "abominate",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "broiling fowls",
+      "attributes": {
+        "label": "never fancied",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "I",
+      "target": "broiled fowl",
+      "attributes": {
+        "label": "speak respectfully of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "10"
+      }
+    },
+    {
+      "source": "Egyptians",
+      "target": "ibis",
+      "attributes": {
+        "label": "idolatrous dotings",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "Egyptians",
+      "target": "river horse",
+      "attributes": {
+        "label": "idolatrous dotings",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "sailor",
+      "target": "simple sailor",
+      "attributes": {
+        "label": "go to sea as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "forecastle",
+      "target": "mast",
+      "attributes": {
+        "label": "go down into",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "royal mast-head",
+      "target": "mast",
+      "attributes": {
+        "label": "aloft to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "van Rensselaers",
+      "target": "old established family",
+      "attributes": {
+        "label": "come of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "Randolphs",
+      "target": "old established family",
+      "attributes": {
+        "label": "come of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "Hardicanutes",
+      "target": "old established family",
+      "attributes": {
+        "label": "come of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "sailor",
+      "target": "others",
+      "attributes": {
+        "label": "being ordered by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "schoolmaster",
+      "target": "sailor",
+      "attributes": {
+        "label": "transition from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "11"
+      }
+    },
+    {
+      "source": "schoolmaster",
+      "target": "sailor",
+      "attributes": {
+        "label": "related to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "Gabriel",
+      "target": "me",
+      "attributes": {
+        "label": "thinks of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "sea-captains",
+      "target": "me",
+      "attributes": {
+        "label": "order",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "sea-captains",
+      "target": "me",
+      "attributes": {
+        "label": "treat",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "12"
+      }
+    },
+    {
+      "source": "I",
+      "target": "sailor",
+      "attributes": {
+        "label": "go to sea as",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "they",
+      "target": "me",
+      "attributes": {
+        "label": "make a point of paying",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "passengers",
+      "target": "",
+      "attributes": {
+        "label": "must pay",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "the orchard thieves",
+      "target": "the act of paying",
+      "attributes": {
+        "label": "entailed upon us",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "man",
+      "target": "money",
+      "attributes": {
+        "label": "receives",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "we",
+      "target": "perdition",
+      "attributes": {
+        "label": "consign ourselves to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "I",
+      "target": "sailor",
+      "attributes": {
+        "label": "always go to sea",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "wholesome exercise and pure air",
+      "target": "the forecastle deck",
+      "attributes": {
+        "label": "of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "13"
+      }
+    },
+    {
+      "source": "winds",
+      "target": "head winds",
+      "attributes": {
+        "label": "prevalent",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "Commodore",
+      "target": "sailors",
+      "attributes": {
+        "label": "gets atmosphere from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "police officer of the Fates",
+      "target": "me",
+      "attributes": {
+        "label": "dogs",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "Providence",
+      "target": "my going on this whaling voyage",
+      "attributes": {
+        "label": "formed part of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "14"
+      }
+    },
+    {
+      "source": "Grand Contested Eleion",
+      "target": "Presidency of the United States",
+      "attributes": {
+        "label": "for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "Whaling Voyage",
+      "target": "Ishmael",
+      "attributes": {
+        "label": "by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "BLOODYBATTLE",
+      "target": "AFGHANISTAN",
+      "attributes": {
+        "label": "in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "Fates",
+      "target": "me",
+      "attributes": {
+        "label": "put down",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "me",
+      "target": "the part I did",
+      "attributes": {
+        "label": "induced to set about performing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "the great whale himself",
+      "attributes": {
+        "label": "of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "15"
+      }
+    },
+    {
+      "source": "I",
+      "target": "an everlasting itch for things remote",
+      "attributes": {
+        "label": "tormented with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "I",
+      "target": "forbidden seas",
+      "attributes": {
+        "label": "love to sail",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "I",
+      "target": "barbarous coasts",
+      "attributes": {
+        "label": "love to land",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "the whaling voyage",
+      "target": "welcome",
+      "attributes": {
+        "label": "was",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "the great flood-gates of the wonder-world",
+      "target": "in the wild conceits that swayed me",
+      "attributes": {
+        "label": "swung open",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "two and two",
+      "target": "",
+      "attributes": {
+        "label": "floated",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "16"
+      }
+    },
+    {
+      "source": "I",
+      "target": "Cape Horn",
+      "attributes": {
+        "label": "started for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "I",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "arrived in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "little packet",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "for",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "I",
+      "target": "embarking on their voyage",
+      "attributes": {
+        "label": "no idea of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "17"
+      }
+    },
+    {
+      "source": "Nantucket",
+      "target": "",
+      "attributes": {
+        "label": "craft",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "New Bedford",
+      "target": "business of whaling",
+      "attributes": {
+        "label": "monopolizing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "Nantucket",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "behind",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "Nantucket",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "original",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "American whale",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "stranded",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "Red-Men",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "sally out",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "adventurous little sloop",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "put forth",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "New Bedford",
+      "target": "embark for destined port",
+      "attributes": {
+        "label": "waiting",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "18"
+      }
+    },
+    {
+      "source": "me",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "located in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "me",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "to eat and sleep",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "me",
+      "target": "New Bedford",
+      "attributes": {
+        "label": "no one knew",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "Ishmael",
+      "target": "the price",
+      "attributes": {
+        "label": "should inquire",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "me",
+      "target": "",
+      "attributes": {
+        "label": "paced the streets",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "me",
+      "target": "The Crossed Harpoons",
+      "attributes": {
+        "label": "passed the sign of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "me",
+      "target": "Sword-Fish Inn",
+      "attributes": {
+        "label": "saw fervent rays",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "19"
+      }
+    },
+    {
+      "source": "Ishmael",
+      "target": "I",
+      "attributes": {
+        "label": "identifies with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "20"
+      }
+    },
+    {
+      "source": "a low, wide building",
+      "target": "that quarter of the town",
+      "attributes": {
+        "label": "was located in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "I",
+      "target": "a smoky light",
+      "attributes": {
+        "label": "came to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "I",
+      "target": "the building",
+      "attributes": {
+        "label": "entered",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "the building",
+      "target": "a careless look",
+      "attributes": {
+        "label": "had",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "I",
+      "target": "an ash-box",
+      "attributes": {
+        "label": "stumble over",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "a hundred black faces",
+      "target": "in their rows",
+      "attributes": {
+        "label": "peer",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "a black Angel of Doom",
+      "target": "a book",
+      "attributes": {
+        "label": "was beating",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "the preacher",
+      "target": "the blackness of darkness",
+      "attributes": {
+        "label": "preached on",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "21"
+      }
+    },
+    {
+      "source": "preacher",
+      "target": "blackness of darkness",
+      "attributes": {
+        "label": "text was about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "preacher",
+      "target": "weeping",
+      "attributes": {
+        "label": "text was about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "preacher",
+      "target": "wailing",
+      "attributes": {
+        "label": "text was about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "preacher",
+      "target": "teeth-gnashing",
+      "attributes": {
+        "label": "text was about",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "Ishmael",
+      "target": "Ha",
+      "attributes": {
+        "label": "backing out",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "I",
+      "target": "light",
+      "attributes": {
+        "label": "came to",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "I",
+      "target": "creaking",
+      "attributes": {
+        "label": "heard",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "I",
+      "target": "swinging sign",
+      "attributes": {
+        "label": "saw",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "sign",
+      "target": "white painting",
+      "attributes": {
+        "label": "had",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "painting",
+      "target": "jet of misty spray",
+      "attributes": {
+        "label": "representing",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "painting",
+      "target": "The Spouter-Inn",
+      "attributes": {
+        "label": "underneath",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "The Spouter-Inn",
+      "target": "Peter Coffin",
+      "attributes": {
+        "label": "owned by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "Peter",
+      "target": "Nantucket",
+      "attributes": {
+        "label": "emigrant from",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "sign",
+      "target": "creak",
+      "attributes": {
+        "label": "had",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "22"
+      }
+    },
+    {
+      "source": "swinging sign",
+      "target": "a poverty-stricken sort of creak",
+      "attributes": {
+        "label": "had",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "it",
+      "target": "a queer sort of place",
+      "attributes": {
+        "label": "was",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "house",
+      "target": "gable-ended",
+      "attributes": {
+        "label": "was",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "Euroclydon",
+      "target": "a worse howling",
+      "attributes": {
+        "label": "kept up",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "Euroclydon",
+      "target": "a mighty pleasant zephyr",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "I",
+      "target": "the only copy extant of the old writer's works",
+      "attributes": {
+        "label": "possess",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "thou",
+      "target": "at it (Euroclydon) from a glass window where the frost is all on the outside",
+      "attributes": {
+        "label": "lookest out",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "thou",
+      "target": "it (Euroclydon) from the sashless window where the frost is on both sides",
+      "attributes": {
+        "label": "observest",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "Death",
+      "target": "the only glazier of the sashless window with frost on both sides",
+      "attributes": {
+        "label": "is",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "23"
+      }
+    },
+    {
+      "source": "I",
+      "target": "old black-letter",
+      "attributes": {
+        "label": "thought",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "eyes",
+      "target": "body",
+      "attributes": {
+        "label": "are windows",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "universe",
+      "target": "copestone",
+      "attributes": {
+        "label": "is finished",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "Lazarus",
+      "target": "curbstone",
+      "attributes": {
+        "label": "chattering his teeth",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "Lazarus",
+      "target": "shiverings",
+      "attributes": {
+        "label": "shaking off his tatters",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "Euroclydon",
+      "target": "old Dives",
+      "attributes": {
+        "label": "says",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "Orion",
+      "target": "northern lights",
+      "attributes": {
+        "label": "glitters",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "24"
+      }
+    },
+    {
+      "source": "Lazarus",
+      "target": "Sumatra",
+      "attributes": {
+        "label": "prefers to be in",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "25"
+      }
+    },
+    {
+      "source": "Lazarus",
+      "target": "curbstone before the door of Dives",
+      "attributes": {
+        "label": "lies stranded",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "25"
+      }
+    },
+    {
+      "source": "Dives",
+      "target": "Czar in an ice palace",
+      "attributes": {
+        "label": "lives like",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "25"
+      }
+    },
+    {
+      "source": "Dives",
+      "target": "orphans",
+      "attributes": {
+        "label": "drinks the tears of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "25"
+      }
+    },
+    {
+      "source": "you",
+      "target": "gable-ended Spouter-Inn",
+      "attributes": {
+        "label": "entering",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "entry",
+      "target": "old-fashioned wainscots",
+      "attributes": {
+        "label": "has",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "26"
+      }
+    },
+    {
+      "source": "you",
+      "target": "black mass",
+      "attributes": {
+        "label": "was puzzled and confounded by",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "you",
+      "target": "painting",
+      "attributes": {
+        "label": "took an oath to find out meaning of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "Black Sea in a midnight gale",
+      "attributes": {
+        "label": "might be",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "unnatural combat of the four primal elements",
+      "attributes": {
+        "label": "might be",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "blasted heath",
+      "attributes": {
+        "label": "might be",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "Hyperborean winter scene",
+      "attributes": {
+        "label": "might be",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "idea",
+      "target": "breaking-up of ice-bound stream of Time",
+      "attributes": {
+        "label": "might be",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "27"
+      }
+    },
+    {
+      "source": "picture",
+      "target": "Cape-Horner",
+      "attributes": {
+        "label": "represents",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "ship",
+      "target": "hurricane",
+      "attributes": {
+        "label": "weltering",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "whale",
+      "target": "impaling himself",
+      "attributes": {
+        "label": "is in act of",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "impaling himself",
+      "target": "masts",
+      "attributes": {
+        "label": "upon",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "wall",
+      "target": "clubs and spears",
+      "attributes": {
+        "label": "hung with",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "28"
+      }
+    },
+    {
+      "source": "Nathan Swain",
+      "target": "fifteen whales",
+      "attributes": {
+        "label": "killed",
+        "size": 3,
+        "x": null,
+        "y": null,
+        "forceLabel": true,
+        "chunk_id": "29"
+      }
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}
