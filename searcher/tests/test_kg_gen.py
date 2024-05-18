@@ -15,7 +15,7 @@ class TestKG(unittest.TestCase):
 
     def test_chunks_to_triplet(self):
         # We assume that the elastic search index is already created
-        chunks = self.clients.elastic_search().search(index='moby_dick-chunk', size=30)
+        chunks = self.clients.elastic_search().search(index='capital_volume_1-chunk')
         triplets = self.kg_builder.chunk_to_triplets(self.clients.open_ai(), 'gpt-4o', chunks) # probar
         self.kg_builder.process_triplets(triplets)
         print(self.kg_builder.serialize())
