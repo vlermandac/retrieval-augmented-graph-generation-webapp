@@ -50,17 +50,35 @@ class KnowledgeGraphBuilder:
     def chunk_to_triplets(self, oa_client, llm, chunks):
         client = instructor.from_openai(oa_client)
         all_triplets = {}
-        for chunk in chunks:
+        total_chunks = len(chunks)
+        for i, chunk in enumerate(chunks):
+            print(f"\rProcessing chunk {i + 1}/{total_chunks}", end="")
             triplets = client.chat.completions.create(
                 model=llm,
                 messages=[{"role": "system",
-                           "content": """you are an expert in
-                           extracting important information from texts.
-                           You only extract relevant entities and
-                           relationships between them.
-                           In the sentence 'John eats pizza', you
-                           would extract only 'John', because 'pizza'
-                           is not a relevant entity."""},
+                           "content": """
+                           You are an expert in extracting the most important information from text.
+                           You only extract entities and relationships between them in a triplet 
+                           format, like {entity1, relationship, entity2}.
+                           """},
+                          {"role": "system",
+                           "content": """
+                            Here are examples of good triplets:
+                            "John is an engineer that works at Google from 9 to 5": {John, works at, Google}
+                            "John is the guitarist of the band The Beatles": {John, guitarist of, The Beatles},
+                            {John, plays, guitar}, {John, member of, The Beatles}, {John, is, musician}.
+                           """},
+                          {"role": "system",
+                           "content": """
+                            Examples of bad triplets that you should avoid:
+                            {John, is, a person}: The relationship is not relevant,
+                            and 'a person' is not a specific entity.
+                            {Beautiful red-haired Mary, is married to, John}: Mary should not
+                            be described in such detail, and instead 'Mary' should be used.
+                            Also, the relationship instead of 'is married to' should be 'married to'.
+                            {John, hates, traffics lights}: The relationship could be relevant, but the
+                            entity 'traffic lights' is not relevant.
+                           """},
                           {"role": "user",
                            "content": f"""
                            Obtain entities and relationships between
@@ -73,7 +91,11 @@ class KnowledgeGraphBuilder:
         return all_triplets
 
     def process_triplets(self, triplets):
+        triplets_size = len(triplets)
+        i = 0
         for id, values in triplets.items():
+            i += 1
+            print(f"\rProcessing chunk {i}/{triplets_size}", end="")
             for triplet in values:
                 src = triplet.entity1
                 trg = triplet.entity2
@@ -99,8 +121,8 @@ class KnowledgeGraphBuilder:
         att_map = {
             'label': key,
             'size': 20,
-            'x': round(random.uniform(0, 50), 1),
-            'y': round(random.uniform(0, 50), 1),
+            'x': round(random.uniform(0, 500), 2),
+            'y': round(random.uniform(0, 500), 2),
             'forceLabel': None,
             'chunk_id': None
         }
