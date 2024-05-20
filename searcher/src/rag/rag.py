@@ -1,6 +1,6 @@
 class RAG:
-    def __init__(self, Clients, index, embedding_model, dims, llm, k):
-        self.index = index
+    def __init__(self, Clients, index_to_query, embedding_model, dims, llm, k):
+        self.index = index_to_query
         self.vector_store = Clients.elastic_search()
         self.openai = Clients.open_ai()
         self.embedding_model = embedding_model

@@ -30,8 +30,9 @@ class Main:
             os.system(mv_cmd)
 
         if flag == "--RAG":
-            rag = RAG(self.clients, 'moby_dick-chunk',
-                      **self.cfg_vars('embedding_model', 'dims', 'llm', 'k'))
+            rag = RAG(self.clients,
+                      **self.cfg_vars('index_to_query', 'embedding_model',
+                                      'dims', 'llm', 'k'))
             return rag(query=query)
 
         if flag == "--KG":

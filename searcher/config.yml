@@ -1,13 +1,8 @@
-env-variables:
-  - openai_api_key: 
-  - elastic_url: https://localhost:9200
-  - elastic_password: 
-  - ca_cert: ./http_ca.crt
 data: 
   unprocessed_files: ./data/
   processed_files: ./data/processed_files/
 preprocess:
-  chunk_size: 1000
+  chunk_size: 5000
   overlap: 100
 embedding:
   dims: 200
@@ -15,5 +10,6 @@ embedding:
 rag:
   llm: gpt-3.5-turbo
   k: 5
+  index_to_query: 'goodfellas-chunk'
 test_control_variable:
   do_not_delete: 

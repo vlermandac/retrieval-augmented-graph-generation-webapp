@@ -7,7 +7,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "http://localhost:64851",
 ]
 
 app.add_middleware(
@@ -16,6 +17,13 @@ app.add_middleware(
         allow_methods=["*"],
         allow_headers=["*"],
 )
+
+
+@app.get("/load")
+async def load():
+    main = Main()
+    main.run("--load_data")
+    return {"status": "loaded"}
 
 
 @app.post("/submit")

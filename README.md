@@ -1,80 +1,93 @@
 # text_to_GDB
 
 ## Requirements
-- Docker.
-- Conda.
-- charmbracalet/gum (optional for pretty logging)
+- docker.
+- docker compose.
+- conda/mamba/micromamba.
+- charmbracalet/gum (optional for tests pretty logging).
+- an openai api key.
 
 ## Setup
 
-### Run elasticsearch with Docker
+Tested in macos ventura using micromamba for virtual environments.
 
+### Clone this repository
 ```bashrc
-docker network create elastic
+git clone ... 
+cd searcher-full  # enter the repository
 ```
 
+### Openai API key
 ```bashrc
-docker pull docker.elastic.co/elasticsearch/elasticsearch:8.13.4
-docker pull docker.elastic.co/kibana/kibana:8.13.4
+# from the project root directory, add the openai api key to the env variables
+echo "OPENAI_API_KEY=actualkey" >> .env
+```
+You can also change more build configuration in the .env file.
+
+### Create conda environment and install dependencies
+```bashrc
+conda create -n searcher -f searcher/conda-lock.yml
+conda activate searcher
 ```
 
+### Run the app
 ```bashrc
-docker run --name es01 --net elastic -p 9200:9200 -it -m 1GB docker.elastic.co/elasticsearch/elasticsearch:8.13.4
-docker run --name kib01 --net elastic -p 5601:5601 docker.elastic.co/kibana/kibana:8.13.4
+# internally runs docker compose and uvicorn
+./run_app.sh
 ```
 
-In case you lost one of this two:
+### Load data
+By now the app should be working.
+Now place some pdf files in the format {author_name-doc_name.pdf} in searcher/data directory. e.g.:
 ```bashrc
-docker exec -it es01 /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
-docker exec -it es01 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana
+mv somewhere/martin_scorcesse-goodfellas_script.pdf
 ```
-
+and load to the app with:
 ```bashrc
-docker cp es01:/usr/share/elasticsearch/config/certs/http_ca.crt .
+curl "http://localhost:8000/load"
 ```
-Be sure you don't have keys or password in your .bashrc o .zshrc that could conlfict with the local env variables.
-
-### Backend
-./searcher
-
-#### Env
-- conda activate llmenv
-- install environment.yml
-
-- Fill searcher/config.yml and move it to the container
-- Add the pdf files you want to load to elasticsearch in the data directory.
-- Load them with python main --load_data
-- docker exec fastapi sh -c "uvicorn app:app --host localhost --port 8000"
-
-### Frontend
-./react-app/
-- Run vite + react project with Docker.
-- Now the app is ready for usage in port 3000.
+Now you can use the app from your browser in [http://localhost:3000/].
 
 ## Usage
-- Enter your query
+- Configure the app variables in searcher/config.yml.
+- Write the query you want to ask the app about some of the texts you loaded
+and defined in config.yml in 'index_to_query' field.
+
+As results from your query you will recieve:
+1. A answer for the RAG inside the app.
+2. A knowledge graph visualization from the doc you are querying.
+The edges related to the answer made by the RAG will be displayed in a different color.
 
 ## Roadmap
 
-- Improve classes:
-    - Static typing and functions with pydantic.
-    - method/propery decorators.
-- Better documents and document chunks structure.
-    - Improve serialization.
-- File agnostic.
+## Troubleshooting
+- Be sure you don't have keys or password in your .bashrc o .zshrc that could conlfict with the local env variables.
+- Build memory surpass: [https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_macos_with_docker_for_mac]
 
-### Mid-term
+### Short-term
+- Integrate OCR: image -> pdf.
+- Improve classes:
+    - Static typing and functions with pydantic for all classes (currently 50% approx).
+    - ADTs for database and LLM.
+- Better chunking algorithm.
+- Evaluate knowledge graph creating and RAG with RAGAS.
 - Hallucination validation.
-- CI/CD (github actions).
 
 ### Long-term
-- Locally run LLM.
-- Ditch python. Re write from scracth in rust.
+- Load data from web app.
+- CI/CD (github actions).
+- Locally-runned LLM.
+- Ditch python. Re write from scracth in Rust.
+- Add more option for databases: MongoDB, others vectors DBs.
 - Add kubernetes. LLM, DB, backend, frontend could be clusters or nodes.
 
 
-## Depricated
+## Depricated ideas
 ### Keep the page number as metadata for the text chunks
 1. It adds enough complexity to make the cons surpass the pros.
 2. To get a chunk page it is as simple as searching the keywords in the original document.
 
+### Dockerize everything
+1. Couldn't configure elasticsearch to allow another container to make a request, even with the correct
+password, url, and certificates to do so.
+2. Thinking in adding kubernetes + containerd would make this unnecesary.
