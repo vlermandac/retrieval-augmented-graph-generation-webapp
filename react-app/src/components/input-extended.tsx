@@ -1,31 +1,28 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Input } from '@/components/input';
-import { useResponseCtx } from '@/lib/response-context';
-import { useGraphCtx } from '@/lib/graph-context';
+import { useContextValues } from '@/lib/response-context';
 
 export default function InputExtended() {
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const { responseCtx, setResponseCtx } = useResponseCtx();
-  const { graphCtx, setGraphCtx } = useGraphCtx();
+  const { setResponseCtx, setResponseCtxId } = useContextValues();
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-    const apiCall = async (query: string) => {
-      const response = await fetch('http://localhost:8000/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body:  'user_query=' + query
-      });
-      const data = await response.json();
-      console.log(data);
-      navigate('/response');
-      setResponseCtx(data.rag.content);
-      setGraphCtx(data.ids);
-      setLoading(false);
+  const apiCall = async (query: string) => {
+    const res = await fetch('http://localhost:8000/rag', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: 'query=' + query
+    });
+    const data = await res.json();
+    setResponseCtx(data.rag.content);
+    setResponseCtxId(data.ids);
+    navigate('/response');
+    setLoading(false);
   }
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
@@ -36,8 +33,8 @@ export default function InputExtended() {
   }
 
   return (
-    <div className='px-40'>
-      <Input placeholder='e.g., who is moby dick' ref={inputRef} onKeyDown={handleKeyDown} />
+    <div className='md:px-20'>
+      <Input placeholder='Ask something' ref={inputRef} onKeyDown={handleKeyDown} />
       {loading && <p>Loading...</p>}
     </div>
   )

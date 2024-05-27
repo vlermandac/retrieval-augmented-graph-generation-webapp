@@ -1,0 +1,8117 @@
+{
+  "attributes": {},
+  "edges": [
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "writer of",
+        "size": 1
+      },
+      "source": "Brent Dunham",
+      "target": "Goodfellas"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location in",
+        "size": 1
+      },
+      "source": "Queens",
+      "target": "New York"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "at",
+        "size": 1
+      },
+      "source": "Sergio Franchi",
+      "target": "jukebox"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "at",
+        "size": 1
+      },
+      "source": "Billy Batts",
+      "target": "The Suite"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "friend of",
+        "size": 1
+      },
+      "source": "Billy Batts",
+      "target": "Hood"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "near",
+        "size": 1
+      },
+      "source": "Henry Hill",
+      "target": "Billy Batts"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "near",
+        "size": 1
+      },
+      "source": "Jimmy Burke",
+      "target": "Billy Batts"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "Tommy DeSimone",
+      "target": "Beehive Blonde"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "knows",
+        "size": 1
+      },
+      "source": "Billy Batts",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "Henry Hill",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "holds",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Batts's arms"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hits",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Batts"
+    },
+    {
+      "attributes": {
+        "chunk_id": 0,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "knows a place in",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Upstate"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looks at",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "mother"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drives",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "embraces",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "shovel"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "flat"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "gangster"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "runs",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "cabstand"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "runs",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "pizzeria"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "solidly-built HOOD"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "PAUL",
+      "target": "boss"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "PAUL",
+      "target": "brother of TUDDY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "CARMELLA HILL",
+      "target": "HENRY's mother"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mother of",
+        "size": 1
+      },
+      "source": "Carmella Hill",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "brother of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Michael"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "father of",
+        "size": 1
+      },
+      "source": "Henry's father",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "Irish",
+        "size": 1
+      },
+      "source": "Henry's father",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mother of",
+        "size": 1
+      },
+      "source": "Carmella Hill",
+      "target": "Henry's brothers and sisters"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "siblings of",
+        "size": 1
+      },
+      "source": "Henry's brothers and sisters",
+      "target": "Michael"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "colleague of",
+        "size": 1
+      },
+      "source": "Toddy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "Sicilian",
+        "size": 1
+      },
+      "source": "Carmella Hill",
+      "target": "Henry's family"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "residence",
+        "size": 1
+      },
+      "source": "Henry's father",
+      "target": "tiny house with seven people"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "opinion on",
+        "size": 1
+      },
+      "source": "Henry's father",
+      "target": "cabstand bums"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "employee of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "cabstand"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "friend of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "other kids at cabstand"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "employer of",
+        "size": 1
+      },
+      "source": "Toddy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "relationship with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "construction worker father"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "THREE HOODS",
+      "target": "HENRI"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "watches",
+        "size": 1
+      },
+      "source": "HENRI",
+      "target": "HOODS"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in front of",
+        "size": 1
+      },
+      "source": "TUDDY VARIO",
+      "target": "pizza oven"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in the BG",
+        "size": 1
+      },
+      "source": "PAUL VARIO",
+      "target": "TUDDY VARIO"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "MAILMAN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "somebody"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hands",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "parked",
+        "size": 1
+      },
+      "source": "TUDDY",
+      "target": "up at the corner"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "carried",
+        "size": 1
+      },
+      "source": "KID(s) from the neighborhood",
+      "target": "HENRY's mother's groceries"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "opens",
+        "size": 1
+      },
+      "source": "HENRY's mother",
+      "target": "door of house"
+    },
+    {
+      "attributes": {
+        "chunk_id": 3,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands near",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "front of store"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "wraps",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Man's hand"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "soothes",
+        "size": 1
+      },
+      "source": "Benny",
+      "target": "Man"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "angry with",
+        "size": 1
+      },
+      "source": "Tuddy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "makes",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "sandwich"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "walks around",
+        "size": 1
+      },
+      "source": "Tuddy Vario",
+      "target": "tables"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands",
+        "size": 1
+      },
+      "source": "Paul Vario",
+      "target": "side"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hugs",
+        "size": 1
+      },
+      "source": "Paul Vario",
+      "target": "Jimmy Burke"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gives money to",
+        "size": 1
+      },
+      "source": "Jimmy Burke",
+      "target": "Doorman"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "introduces",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "Henry to Jimmy Burke"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gives",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "$20 bill to Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "makes",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "drink"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "first locked up at",
+        "size": 1
+      },
+      "source": "Jimmy Burke",
+      "target": "11"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands near",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "takes wallet from",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Driver"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "works with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy DeSimone"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "loads cartons into",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "School-Crossing Guard's car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "recognize",
+        "size": 1
+      },
+      "source": "Cops",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 4,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "tosses",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "cartons of cigarettes"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sells cartons to",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "WORKERS"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gets cartons out of",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "grabs",
+        "size": 1
+      },
+      "source": "DETECTIVE #1",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "grabs",
+        "size": 1
+      },
+      "source": "DETECTIVE #1",
+      "target": "HENRY's cigarette cartons"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "talks to",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "TUDDY and ASSORTED HOODS"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "waits with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "DOZENS OF HOOKERS, nodding JUNKIES, MUGGERS and SHOPLIFTERS"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "nods and smiles at",
+        "size": 1
+      },
+      "source": "MOB LAWYER",
+      "target": "JUDGE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sees",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "JIMMY BURKE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "embraces",
+        "size": 1
+      },
+      "source": "JIMMY BURKE",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "waits for",
+        "size": 1
+      },
+      "source": "PAUL VARIO",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "waits for",
+        "size": 1
+      },
+      "source": "TODDY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "waits for",
+        "size": 1
+      },
+      "source": "WHOLE CREW from the cabstand",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "waits with",
+        "size": 1
+      },
+      "source": "PAUL VARIO",
+      "target": "HENRY, TOMMY, TODDY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "belongs to",
+        "size": 1
+      },
+      "source": "AIRPORT",
+      "target": "Paulie"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in charge of",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "money-maker"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "leaves a tip and pays",
+        "size": 1
+      },
+      "source": "DRIVER",
+      "target": "CASHIER"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Anthony Stabile",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Angelo Sepe",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Fat Andy",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Frankie the Wop",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Freddy No Nose",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Pete the Killer",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Nicky Blanda",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Mikey Franzese",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 5,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of group with",
+        "size": 1
+      },
+      "source": "Johnny Echoes",
+      "target": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "enters",
+        "size": 1
+      },
+      "source": "Frenchy McMahon",
+      "target": "Bamboo Lounge"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "greets",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Frenchy McMahon"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "owns",
+        "size": 1
+      },
+      "source": "Sonny Bamboo",
+      "target": "Bamboo Lounge"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "works for",
+        "size": 1
+      },
+      "source": "Frenchy McMahon",
+      "target": "Air France"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "joins",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry and Frenchy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Sonny Bamboo"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks help from",
+        "size": 1
+      },
+      "source": "Sonny Bamboo",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "threatens",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Sonny Bamboo"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks help from",
+        "size": 1
+      },
+      "source": "Sonny Bamboo",
+      "target": "Paul Vario"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "supports",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Sonny Bamboo"
+    },
+    {
+      "attributes": {
+        "chunk_id": 6,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "partners with",
+        "size": 1
+      },
+      "source": "Sonny Bamboo",
+      "target": "Paul Vario"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Lawyer"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Lawyer"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Sonny Bamboo",
+      "target": "Lawyer"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "watches",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Bamboo Lounge"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "from",
+        "size": 1
+      },
+      "source": "Diane",
+      "target": "Five Towns"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tuddy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gets into",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gets into",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands up",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "makes",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Hoods",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sees",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sees",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sees",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Diane"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Violet Eyes"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "compares to",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Elizabeth Taylor's Eyes"
+    },
+    {
+      "attributes": {
+        "chunk_id": 7,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "friend of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen Hill"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "receives keys and money from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Doorman"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "leads",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen Hill"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "acknowledges",
+        "size": 1
+      },
+      "source": "Karen Hill",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "brings champagne to",
+        "size": 1
+      },
+      "source": "Captain",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "toasts",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen Hill"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "appears on stage with",
+        "size": 1
+      },
+      "source": "Henny Youngman",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "carries a suitcase with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "receives key from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Frenchy McMahon"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "kisses",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stands with",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "talks to",
+        "size": 1
+      },
+      "source": "Karen Hill",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "introduced to",
+        "size": 1
+      },
+      "source": "Bruce",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sends champagne to",
+        "size": 1
+      },
+      "source": "Billy Daniels",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "reflects on",
+        "size": 1
+      },
+      "source": "Karen Hill",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "introduces Karen Hill to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "everybody"
+    },
+    {
+      "attributes": {
+        "chunk_id": 8,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "owns",
+        "size": 1
+      },
+      "source": "Marty Krugman",
+      "target": "Queens Boulevard Wig and Beauty Salon"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "complaining to",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "agitated",
+        "size": 1
+      },
+      "source": "Mr. See",
+      "target": "Jimmy Burke"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looking toward",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Berry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looking toward",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "taking bets from",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "phone"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "busting chops of",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "speaking to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "owe money to",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "wrapping cord around",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Marty's neck"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "trying to stop",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "furious at",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "nodding agreement to",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "handing phone to",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "answering phone from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "crying to",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "meeting",
+        "size": 1
+      },
+      "source": "Bruce",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "grabbing hair of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Bruce"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "smashing gun on",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Bruce's face"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "handing gun to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hiding gun in",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "milk box"
+    },
+    {
+      "attributes": {
+        "chunk_id": 9,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "wrapping napkin around",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "object"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "broke",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "glass"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looking for",
+        "size": 1
+      },
+      "source": "KAREN'S PARENTS",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "brother of",
+        "size": 1
+      },
+      "source": "MICHAEL",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is present",
+        "size": 1
+      },
+      "source": "PAULIE VARIO",
+      "target": ""
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "introduced to",
+        "size": 1
+      },
+      "source": "KAREN",
+      "target": "VARIO FAMILY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "beaming",
+        "size": 1
+      },
+      "source": "JIMMY BURKE",
+      "target": ""
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asked",
+        "size": 1
+      },
+      "source": "KAREN'S MOTHER",
+      "target": "KAREN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in car",
+        "size": 1
+      },
+      "source": "TOMMY DESIMONE",
+      "target": ""
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "wife of",
+        "size": 1
+      },
+      "source": "MICKEY",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 10,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has tired face",
+        "size": 1
+      },
+      "source": "ANGIE",
+      "target": ""
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Angie",
+      "target": "Vince"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Jeannie",
+      "target": "husband and son in jail"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Grandmother",
+      "target": "heart attack"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "picked up by",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Jeannie",
+      "target": "husband"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "go to",
+        "size": 1
+      },
+      "source": "Nigger stick up men",
+      "target": "jail"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "curses",
+        "size": 1
+      },
+      "source": "Mickey Burke",
+      "target": "Detectives"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Jimmy Burke's house",
+      "target": "dining room"
+    },
+    {
+      "attributes": {
+        "chunk_id": 11,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Jesse James Burke",
+      "target": "nine-year-old birthday"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "birthday cake of",
+        "size": 1
+      },
+      "source": "Jesse James Burke",
+      "target": "nine-year-old"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "going to each other’s houses"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hugging",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hugging",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Mickey"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "first at hospital for",
+        "size": 1
+      },
+      "source": "Jimmy and Mickey",
+      "target": "Karen’s kids"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "embracing",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "embracing",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Mickey"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "maternity hospital",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "maternity hospital",
+      "target": "Mickey"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "maternity hospital",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "maternity hospital",
+      "target": "nurse"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentioned in",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "travel to Islands or Vegas with Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "being proud of her husband"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "neatly hung suits"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "sports jackets"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gives money to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Queens Boulevard",
+      "target": "cocktail lounge"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Queens Boulevard",
+      "target": "nightclub"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "killing"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "murder as accepted"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "smashing gun into head",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Billy Batt"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stuffing body into trunk of",
+        "size": 1
+      },
+      "source": "Tommy, Henry and Jimmy",
+      "target": "Billy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "burying",
+        "size": 1
+      },
+      "source": "Tommy, Henry and Jimmy",
+      "target": "Batts"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "part of",
+        "size": 1
+      },
+      "source": "Gambino crew",
+      "target": "Billy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Copacabana",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Copacabana",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Copacabana",
+      "target": "Angelo Sepe"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Copacabana",
+      "target": "Joe Manri"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated at",
+        "size": 1
+      },
+      "source": "Linda",
+      "target": "table behind Henry's table"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentioned by",
+        "size": 1
+      },
+      "source": "Sammy Davis",
+      "target": "Girl #1"
+    },
+    {
+      "attributes": {
+        "chunk_id": 12,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with arm around",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Linda"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "arrives with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "KAREN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "carries",
+        "size": 1
+      },
+      "source": "KAREN",
+      "target": "NEW BABY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "TWO-YEAR-OLD DAUGHTER"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "includes",
+        "size": 1
+      },
+      "source": "VARIO'S WIFE",
+      "target": "WOMEN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "pays off",
+        "size": 1
+      },
+      "source": "MARTY KRUGMAN",
+      "target": "bet"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "tells",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "problem"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "calls",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "coordinates with",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "coordinates with",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "TOMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sets up",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "LINDA"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "laughs with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "TOMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "laughs with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "SEPE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "laughs with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "MANRI"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "lifts off",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "LINDA"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "plays cards with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "plays cards with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "TOMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "plays cards with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "OTHER WISE GUYS"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "orders drink from",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "SPIDER"
+    },
+    {
+      "attributes": {
+        "chunk_id": 13,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "delivers drink to",
+        "size": 1
+      },
+      "source": "SPIDER",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "furious at",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "shoots",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Spider"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "holding",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "gun"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "upset by",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "shooting"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "visited by",
+        "size": 1
+      },
+      "source": "Linda",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "children"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "visits",
+        "size": 1
+      },
+      "source": "Pauli Vario",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 14,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "visits",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "enters with",
+        "size": 1
+      },
+      "source": "VARIO",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks cigarettes from",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "LINDA"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "upset with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "VARIO"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Mickey"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "supposed pick up with",
+        "size": 1
+      },
+      "source": "Jinny",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "pick up in Tampa for",
+        "size": 1
+      },
+      "source": "JINNY",
+      "target": "VARIO"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "beats",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "MAN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "beats",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "MAN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drags",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "BOOKIE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drags",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "BOOKIE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions feeding lions",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "BOOKIE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions feeding lions",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "BOOKIE"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "arrested with",
+        "size": 1
+      },
+      "source": "JIMMY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sister working for",
+        "size": 1
+      },
+      "source": "MAN",
+      "target": "FBI"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "surrounded by",
+        "size": 1
+      },
+      "source": "TYPIST",
+      "target": "MEN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "found guilty with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sentenced",
+        "size": 1
+      },
+      "source": "JUDGE",
+      "target": "JIMMY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "crying",
+        "size": 1
+      },
+      "source": "KAREN",
+      "target": "CHILDREN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "angry at",
+        "size": 1
+      },
+      "source": "KAREN",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drinking with",
+        "size": 1
+      },
+      "source": "TOMMY",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "turn himself in",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "KAREN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hugs kisses",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "KAREN"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "prep work",
+        "size": 1
+      },
+      "source": "PAULIE",
+      "target": "GARLIC"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "charge of sauce",
+        "size": 1
+      },
+      "source": "Vinnie",
+      "target": "TOMATO"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "did",
+        "size": 1
+      },
+      "source": "Johnny Dio",
+      "target": "MEAT"
+    },
+    {
+      "attributes": {
+        "chunk_id": 15,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "smelled up",
+        "size": 1
+      },
+      "source": "Johnny",
+      "target": "PRISON"
+    },
+    {
+      "attributes": {
+        "chunk_id": 16,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "VARIO"
+    },
+    {
+      "attributes": {
+        "chunk_id": 16,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "GUARD"
+    },
+    {
+      "attributes": {
+        "chunk_id": 16,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "related to",
+        "size": 1
+      },
+      "source": "KAREN",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 16,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "supplies",
+        "size": 1
+      },
+      "source": "HENRY",
+      "target": "drugs"
+    },
+    {
+      "attributes": {
+        "chunk_id": 16,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "visits",
+        "size": 1
+      },
+      "source": "Linda Rossi",
+      "target": "HENRY"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "takes drugs from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Paulie"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "afraid of",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Paulie"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Pittsburgh"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "parole officer"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "requests to visit",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Paulie"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "meets",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Vario"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "warns about",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "warns about",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mentions",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Gribbs"
+    },
+    {
+      "attributes": {
+        "chunk_id": 17,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "uses",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Robin's place"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Pittsburgh"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "joins with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "joins with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Parole Office",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Parole Office",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Parole Office",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "calls",
+        "size": 1
+      },
+      "source": "Parole Office",
+      "target": "Burke"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Marty Krugman",
+      "target": "Fran"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "invites",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Marty Krugman"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "invites",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Fran Krugman"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "speaks with",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "joins with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Robert's Lounge",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Robert's Lounge",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Robert's Lounge",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "contains",
+        "size": 1
+      },
+      "source": "Robert's Lounge",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "plans with",
+        "size": 1
+      },
+      "source": "Tansy",
+      "target": "Sepe"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "grabs",
+        "size": 1
+      },
+      "source": "Tansy",
+      "target": "outside guard"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "plays with",
+        "size": 1
+      },
+      "source": "Frenchy McMahon",
+      "target": "shuffle ball"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sprinkles",
+        "size": 1
+      },
+      "source": "Joe Buddha",
+      "target": "sawdust"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "weighs",
+        "size": 1
+      },
+      "source": "Fat Louie",
+      "target": "300 pounds"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "holds",
+        "size": 1
+      },
+      "source": "Fat Louie",
+      "target": "drink"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "annoys",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "steals",
+        "size": 1
+      },
+      "source": "Stacks Edwards",
+      "target": "panel truck"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "was",
+        "size": 1
+      },
+      "source": "Judy Wicks",
+      "target": "babysitter"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "dislikes",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Pittsburgh"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Judy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Judy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "baby"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Judy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "baby"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gets drugs from",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Judy's overnight bag"
+    },
+    {
+      "attributes": {
+        "chunk_id": 18,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "makes",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "cokeballs"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drug-related activities",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Robin"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hugs and praises",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry and Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "shows car to",
+        "size": 1
+      },
+      "source": "Fat Louie Cafora",
+      "target": "Jimmy and Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "accompanied by",
+        "size": 1
+      },
+      "source": "Angelo Sepe",
+      "target": "wife"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "criticizes",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Angelo Sepe"
+    },
+    {
+      "attributes": {
+        "chunk_id": 19,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "interacts with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Marty Krugman"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looking for",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "looking for",
+        "size": 1
+      },
+      "source": "Marty",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "owes money to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gave money to",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "wants to talk to",
+        "size": 1
+      },
+      "source": "Tommy",
+      "target": "Stacks"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "approved",
+        "size": 1
+      },
+      "source": "Paulie",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "pleased with",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 20,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "make",
+        "size": 1
+      },
+      "source": "Paulie",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "slam door on",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "visit",
+        "size": 1
+      },
+      "source": "Fran Krugman",
+      "target": "Henry and Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "married to",
+        "size": 1
+      },
+      "source": "Fat Louie Cafora",
+      "target": "Dolores"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "associate with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Paulie"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "leave with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Tommy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "hug",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Marty"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "drive away from",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "spot",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "FBI men"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "taunt",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "FBI agents"
+    },
+    {
+      "attributes": {
+        "chunk_id": 21,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "happy because",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Tommy was being made"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mother of",
+        "size": 1
+      },
+      "source": "Tommy Desimone",
+      "target": "Tommy Desimone's Mother"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Irish blood"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "excited"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "helpless"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "connected to",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Pittsburgh",
+      "target": "customers"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "is",
+        "size": 1
+      },
+      "source": "Billy Batts",
+      "target": "made man"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Pittsburgh",
+      "target": "guns"
+    },
+    {
+      "attributes": {
+        "chunk_id": 22,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "knows",
+        "size": 1
+      },
+      "source": "Michael",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 23,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gave",
+        "size": 1
+      },
+      "source": "Henri",
+      "target": "dealer"
+    },
+    {
+      "attributes": {
+        "chunk_id": 23,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "give",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "package"
+    },
+    {
+      "attributes": {
+        "chunk_id": 23,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "give",
+        "size": 1
+      },
+      "source": "dealer",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "talking to",
+        "size": 1
+      },
+      "source": "Judy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "working in",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "kitchen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "at",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Robin's place"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "mixing",
+        "size": 1
+      },
+      "source": "Robin",
+      "target": "heroin"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "grabbing",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "half-kilo packages"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "driving with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Judy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Henry's property",
+      "target": "traffic jam"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "having gun",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "head"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "flushing",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "heroin"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "surrounded by",
+        "size": 1
+      },
+      "source": "Henri",
+      "target": "FBI men"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "talking to",
+        "size": 1
+      },
+      "source": "Henri",
+      "target": "Edward McDonald"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "watched by",
+        "size": 1
+      },
+      "source": "Henri",
+      "target": "Narks"
+    },
+    {
+      "attributes": {
+        "chunk_id": 24,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "followed by",
+        "size": 1
+      },
+      "source": "Robin",
+      "target": "Cops"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "carrying",
+        "size": 1
+      },
+      "source": "Two Cops",
+      "target": "cardboard boxes"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated at",
+        "size": 1
+      },
+      "source": "Henri",
+      "target": "table in a visiting area"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated at",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "table in a visiting area"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "present in",
+        "size": 1
+      },
+      "source": "Guards",
+      "target": "visiting area"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "calling",
+        "size": 1
+      },
+      "source": "Jinny",
+      "target": "every day"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "offered",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "money"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "pissed at",
+        "size": 1
+      },
+      "source": "Paul",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "worried about",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "at",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "home"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "stay",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "alive"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "to Karen",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Where’s the stuff?"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "flushed down",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "toilet"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in",
+        "size": 1
+      },
+      "source": "Paul Vario",
+      "target": "kitchen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "fucked up since",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "got out"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "surrounding",
+        "size": 1
+      },
+      "source": "Hoods",
+      "target": "Paul Vario"
+    },
+    {
+      "attributes": {
+        "chunk_id": 25,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "clean now",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "believe me"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "spouse of",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "paces at",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Jukebox storefront"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "location of",
+        "size": 1
+      },
+      "source": "Sherwood Diner",
+      "target": "Henry and Jimmy meeting"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "accomplice of",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Anthony"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "has",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "gun"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "holds",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "cash"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Henry and Karen’s Bedroom"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "daughter of",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "her mother"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "gives",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asks about",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "another person"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "talks to",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "directions to",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "outside to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "holds",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Karen"
+    },
+    {
+      "attributes": {
+        "chunk_id": 26,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "embraces",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "asked",
+        "size": 1
+      },
+      "source": "Jinny",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "travel to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Florida"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "sipping coffee with",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "arguing with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "McDonald"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "in",
+        "size": 1
+      },
+      "source": "Jimmy",
+      "target": "FBI car"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "seated next to",
+        "size": 1
+      },
+      "source": "Karen",
+      "target": "Henry"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "handcuffed by",
+        "size": 1
+      },
+      "source": "Vario",
+      "target": "FBI Agents"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "cars registered to",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "his wife"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "house owned by",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "his mother-in-law"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "addressing",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "camera"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "going out with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "Jimmy"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "riding along with",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "wives, mothers, kids"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "crying near",
+        "size": 1
+      },
+      "source": "Mickey Burke",
+      "target": "Henry's belongings"
+    },
+    {
+      "attributes": {
+        "chunk_id": 27,
+        "color": "gray",
+        "forceLabel": true,
+        "label": "ordered",
+        "size": 1
+      },
+      "source": "Henry",
+      "target": "spaghetti"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 1,
+        "label": "Brent Dunham",
+        "size": 4,
+        "x": 226.18296257288964,
+        "y": -0.6876902423389573
+      },
+      "key": "Brent Dunham"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 2,
+        "label": "Goodfellas",
+        "size": 4,
+        "x": 292.1634055097302,
+        "y": 52.77134512339373
+      },
+      "key": "Goodfellas"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 3,
+        "label": "Queens",
+        "size": 4,
+        "x": 263.9085711422532,
+        "y": 88.92371410527834
+      },
+      "key": "Queens"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 4,
+        "label": "New York",
+        "size": 4,
+        "x": 213.5429557954256,
+        "y": 43.41289556410008
+      },
+      "key": "New York"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 5,
+        "label": "Sergio Franchi",
+        "size": 4,
+        "x": 219.58448195280113,
+        "y": 83.3262319355113
+      },
+      "key": "Sergio Franchi"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 6,
+        "label": "jukebox",
+        "size": 4,
+        "x": 170.97387919412182,
+        "y": 20.794078393084938
+      },
+      "key": "jukebox"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 7,
+        "label": "Billy Batts",
+        "size": 4,
+        "x": 100.07837864521952,
+        "y": 90.25932380665567
+      },
+      "key": "Billy Batts"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 8,
+        "label": "The Suite",
+        "size": 4,
+        "x": 177.08374864283164,
+        "y": 66.35595082128816
+      },
+      "key": "The Suite"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 9,
+        "label": "Hood",
+        "size": 4,
+        "x": 116.3387245719509,
+        "y": -44.00959900530297
+      },
+      "key": "Hood"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 10,
+        "label": "Henry Hill",
+        "size": 4,
+        "x": 121.19157844012472,
+        "y": 80.61263651442748
+      },
+      "key": "Henry Hill"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 11,
+        "label": "Jimmy Burke",
+        "size": 4,
+        "x": 76.75101340347649,
+        "y": 73.3763196455375
+      },
+      "key": "Jimmy Burke"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 12,
+        "label": "Tommy DeSimone",
+        "size": 4,
+        "x": 49.76355486591545,
+        "y": 14.547546985554703
+      },
+      "key": "Tommy DeSimone"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 13,
+        "label": "Beehive Blonde",
+        "size": 4,
+        "x": 91.004429386341,
+        "y": -23.92781189873118
+      },
+      "key": "Beehive Blonde"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 14,
+        "label": "Tommy",
+        "size": 6,
+        "x": -16.723253765931542,
+        "y": 29.222876922181054
+      },
+      "key": "Tommy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 15,
+        "label": "Jimmy",
+        "size": 5,
+        "x": -12.765549075869462,
+        "y": 2.1879367797361082
+      },
+      "key": "Jimmy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 16,
+        "label": "Batts's arms",
+        "size": 4,
+        "x": 130.34381395400965,
+        "y": -0.48989771039383356
+      },
+      "key": "Batts's arms"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 17,
+        "label": "Batts",
+        "size": 4,
+        "x": 48.695979824630115,
+        "y": -60.68787659061593
+      },
+      "key": "Batts"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 18,
+        "label": "Upstate",
+        "size": 4,
+        "x": 246.77068297439376,
+        "y": 46.40648915408881
+      },
+      "key": "Upstate"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 19,
+        "label": "TOMMY",
+        "size": 4,
+        "x": -34.48213982349108,
+        "y": 116.13948094365763
+      },
+      "key": "TOMMY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 20,
+        "label": "HENRY",
+        "size": 8,
+        "x": -51.686312702245814,
+        "y": 123.98391020488891
+      },
+      "key": "HENRY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 21,
+        "label": "JIMMY",
+        "size": 6,
+        "x": -34.10173008086916,
+        "y": 99.29764830278607
+      },
+      "key": "JIMMY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 22,
+        "label": "car",
+        "size": 4,
+        "x": 36.98019793665996,
+        "y": -16.43785965508203
+      },
+      "key": "car"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 23,
+        "label": "mother",
+        "size": 4,
+        "x": 353.9945355279682,
+        "y": 101.71747426456909
+      },
+      "key": "mother"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 24,
+        "label": "shovel",
+        "size": 4,
+        "x": 236.81924131153676,
+        "y": 125.72570088879819
+      },
+      "key": "shovel"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 25,
+        "label": "flat",
+        "size": 4,
+        "x": 281.03090870298655,
+        "y": 137.82621255374684
+      },
+      "key": "flat"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 26,
+        "label": "gangster",
+        "size": 4,
+        "x": 326.56507672810136,
+        "y": 142.86318299652274
+      },
+      "key": "gangster"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 27,
+        "label": "TUDDY",
+        "size": 4,
+        "x": -23.338816424517407,
+        "y": 139.7737293381028
+      },
+      "key": "TUDDY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 28,
+        "label": "cabstand",
+        "size": 4,
+        "x": 49.33369058548209,
+        "y": -4.939028687556801
+      },
+      "key": "cabstand"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 29,
+        "label": "pizzeria",
+        "size": 4,
+        "x": 298.72587788705994,
+        "y": 180.14494361798592
+      },
+      "key": "pizzeria"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 30,
+        "label": "solidly-built HOOD",
+        "size": 4,
+        "x": 253.04827621715447,
+        "y": 176.57812502894694
+      },
+      "key": "solidly-built HOOD"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 31,
+        "label": "PAUL",
+        "size": 4,
+        "x": 147.87033238131724,
+        "y": 101.74980266853247
+      },
+      "key": "PAUL"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 32,
+        "label": "boss",
+        "size": 4,
+        "x": 192.7585894031295,
+        "y": 111.16899198264844
+      },
+      "key": "boss"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 33,
+        "label": "brother of TUDDY",
+        "size": 4,
+        "x": 152.8582738318181,
+        "y": 133.60087916158145
+      },
+      "key": "brother of TUDDY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 34,
+        "label": "CARMELLA HILL",
+        "size": 4,
+        "x": 136.70748705446476,
+        "y": 160.2165503313123
+      },
+      "key": "CARMELLA HILL"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 35,
+        "label": "HENRY's mother",
+        "size": 4,
+        "x": 62.767594510907806,
+        "y": 117.09895426194623
+      },
+      "key": "HENRY's mother"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 36,
+        "label": "Carmella Hill",
+        "size": 4,
+        "x": 93.04263577918636,
+        "y": 167.7978090113074
+      },
+      "key": "Carmella Hill"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 37,
+        "label": "Henry",
+        "size": 12,
+        "x": -4.430011371740729,
+        "y": 15.258618651474464
+      },
+      "key": "Henry"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 38,
+        "label": "Michael",
+        "size": 4,
+        "x": 38.73737182661452,
+        "y": 53.5004048016086
+      },
+      "key": "Michael"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 39,
+        "label": "Henry's father",
+        "size": 4,
+        "x": 28.733827579472536,
+        "y": 6.38044924662976
+      },
+      "key": "Henry's father"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 40,
+        "label": "Henry's brothers and sisters",
+        "size": 4,
+        "x": 54.2170042138107,
+        "y": 90.24162575075044
+      },
+      "key": "Henry's brothers and sisters"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 41,
+        "label": "Toddy",
+        "size": 4,
+        "x": 24.38757041597286,
+        "y": 29.129349906486357
+      },
+      "key": "Toddy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 42,
+        "label": "Henry's family",
+        "size": 4,
+        "x": 214.80310251800088,
+        "y": 151.23226511437184
+      },
+      "key": "Henry's family"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 43,
+        "label": "tiny house with seven people",
+        "size": 4,
+        "x": 288.6055553392917,
+        "y": 224.88466638108306
+      },
+      "key": "tiny house with seven people"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 44,
+        "label": "cabstand bums",
+        "size": 4,
+        "x": 182.32269483398147,
+        "y": 155.9740470673099
+      },
+      "key": "cabstand bums"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 45,
+        "label": "other kids at cabstand",
+        "size": 4,
+        "x": 243.00540989994704,
+        "y": 221.2324835767541
+      },
+      "key": "other kids at cabstand"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 46,
+        "label": "construction worker father",
+        "size": 4,
+        "x": 204.6873649374172,
+        "y": 195.99810750949263
+      },
+      "key": "construction worker father"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 47,
+        "label": "THREE HOODS",
+        "size": 4,
+        "x": 217.36786264150385,
+        "y": 259.2410820316486
+      },
+      "key": "THREE HOODS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 48,
+        "label": "HENRI",
+        "size": 4,
+        "x": 220.1589713008535,
+        "y": 305.0050641391514
+      },
+      "key": "HENRI"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 49,
+        "label": "HOODS",
+        "size": 4,
+        "x": 158.89353619944512,
+        "y": 195.2723921336904
+      },
+      "key": "HOODS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 50,
+        "label": "TUDDY VARIO",
+        "size": 4,
+        "x": 24.240528627954703,
+        "y": 141.93821996499716
+      },
+      "key": "TUDDY VARIO"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 51,
+        "label": "pizza oven",
+        "size": 4,
+        "x": 127.6013002215087,
+        "y": 35.24452661362451
+      },
+      "key": "pizza oven"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 52,
+        "label": "PAUL VARIO",
+        "size": 4,
+        "x": -2.6351893784322398,
+        "y": 137.22918141065426
+      },
+      "key": "PAUL VARIO"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 53,
+        "label": "MAILMAN",
+        "size": 4,
+        "x": 178.1167130940555,
+        "y": 323.2257043013765
+      },
+      "key": "MAILMAN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 54,
+        "label": "somebody",
+        "size": 4,
+        "x": 133.3668596532964,
+        "y": 233.2664733524389
+      },
+      "key": "somebody"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 55,
+        "label": "up at the corner",
+        "size": 4,
+        "x": 155.68451997501094,
+        "y": 273.3408192340845
+      },
+      "key": "up at the corner"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 56,
+        "label": "KID(s) from the neighborhood",
+        "size": 4,
+        "x": 87.59427927813707,
+        "y": 315.9393707204066
+      },
+      "key": "KID(s) from the neighborhood"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 57,
+        "label": "HENRY's mother's groceries",
+        "size": 4,
+        "x": 133.3861181276408,
+        "y": 313.32529419291984
+      },
+      "key": "HENRY's mother's groceries"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 58,
+        "label": "door of house",
+        "size": 4,
+        "x": 109.8856289541348,
+        "y": 272.7301299979505
+      },
+      "key": "door of house"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 59,
+        "label": "front of store",
+        "size": 4,
+        "x": 114.51465803710593,
+        "y": 355.2070776785543
+      },
+      "key": "front of store"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 60,
+        "label": "Man's hand",
+        "size": 4,
+        "x": 84.03783385633645,
+        "y": 234.9168050412308
+      },
+      "key": "Man's hand"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 61,
+        "label": "Benny",
+        "size": 4,
+        "x": 108.06395431735297,
+        "y": 124.50214823267092
+      },
+      "key": "Benny"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 62,
+        "label": "Man",
+        "size": 4,
+        "x": 113.26974893942341,
+        "y": 199.56529525309742
+      },
+      "key": "Man"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 63,
+        "label": "Tuddy",
+        "size": 4,
+        "x": 42.406324239572086,
+        "y": 31.525810343045904
+      },
+      "key": "Tuddy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 64,
+        "label": "sandwich",
+        "size": 4,
+        "x": 68.95124556579927,
+        "y": 360.0
+      },
+      "key": "sandwich"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 65,
+        "label": "Tuddy Vario",
+        "size": 4,
+        "x": 29.790908228198827,
+        "y": 335.9789659733165
+      },
+      "key": "Tuddy Vario"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 66,
+        "label": "tables",
+        "size": 4,
+        "x": 23.95558150327435,
+        "y": 284.4582322279524
+      },
+      "key": "tables"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 67,
+        "label": "Paul Vario",
+        "size": 4,
+        "x": 41.42445292988763,
+        "y": 75.24422663185928
+      },
+      "key": "Paul Vario"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 68,
+        "label": "side",
+        "size": 4,
+        "x": -11.940898694081614,
+        "y": 312.9241382727286
+      },
+      "key": "side"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 69,
+        "label": "Doorman",
+        "size": 4,
+        "x": 68.16320606713391,
+        "y": 146.97367892268136
+      },
+      "key": "Doorman"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 70,
+        "label": "Vario",
+        "size": 4,
+        "x": -3.325040847174165,
+        "y": 35.18401226642731
+      },
+      "key": "Vario"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 71,
+        "label": "Henry to Jimmy Burke",
+        "size": 4,
+        "x": 67.80824270546603,
+        "y": 205.94929225528978
+      },
+      "key": "Henry to Jimmy Burke"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 72,
+        "label": "$20 bill to Henry",
+        "size": 4,
+        "x": 179.1640447887646,
+        "y": 233.9393826607711
+      },
+      "key": "$20 bill to Henry"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 73,
+        "label": "drink",
+        "size": 4,
+        "x": 87.09275341805406,
+        "y": 21.721963437551803
+      },
+      "key": "drink"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 74,
+        "label": "11",
+        "size": 4,
+        "x": -18.58385935341761,
+        "y": 267.5792323591061
+      },
+      "key": "11"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 75,
+        "label": "Driver",
+        "size": 4,
+        "x": -14.444584271523262,
+        "y": 358.6079546484193
+      },
+      "key": "Driver"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 76,
+        "label": "School-Crossing Guard's car",
+        "size": 4,
+        "x": 16.715051688712087,
+        "y": 212.86626710312066
+      },
+      "key": "School-Crossing Guard's car"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 77,
+        "label": "Cops",
+        "size": 4,
+        "x": -29.130779445882006,
+        "y": -48.32790256782899
+      },
+      "key": "Cops"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 78,
+        "label": "cartons of cigarettes",
+        "size": 4,
+        "x": 64.55575147762107,
+        "y": 276.4042186090769
+      },
+      "key": "cartons of cigarettes"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 79,
+        "label": "WORKERS",
+        "size": 4,
+        "x": 37.92743640716777,
+        "y": 240.80029325470872
+      },
+      "key": "WORKERS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 80,
+        "label": "DETECTIVE #1",
+        "size": 4,
+        "x": -66.1111693263488,
+        "y": 149.18149698949145
+      },
+      "key": "DETECTIVE #1"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 81,
+        "label": "HENRY's cigarette cartons",
+        "size": 4,
+        "x": -56.953097045772886,
+        "y": 340.3864789902255
+      },
+      "key": "HENRY's cigarette cartons"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 82,
+        "label": "TUDDY and ASSORTED HOODS",
+        "size": 4,
+        "x": -60.44689364151784,
+        "y": 248.99111138024648
+      },
+      "key": "TUDDY and ASSORTED HOODS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 83,
+        "label": "DOZENS OF HOOKERS, nodding JUNKIES, MUGGERS and SHOPLIFTERS",
+        "size": 4,
+        "x": -99.83919147810613,
+        "y": 321.7202815698476
+      },
+      "key": "DOZENS OF HOOKERS, nodding JUNKIES, MUGGERS and SHOPLIFTERS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 84,
+        "label": "MOB LAWYER",
+        "size": 4,
+        "x": -55.57949032081254,
+        "y": 294.6007916603379
+      },
+      "key": "MOB LAWYER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 85,
+        "label": "JUDGE",
+        "size": 4,
+        "x": -8.146432141757629,
+        "y": 109.49816765750718
+      },
+      "key": "JUDGE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 86,
+        "label": "JIMMY BURKE",
+        "size": 4,
+        "x": -41.359805277584876,
+        "y": 161.3755586298893
+      },
+      "key": "JIMMY BURKE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 87,
+        "label": "TODDY",
+        "size": 4,
+        "x": -59.13562223081177,
+        "y": 168.2070831655072
+      },
+      "key": "TODDY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 88,
+        "label": "WHOLE CREW from the cabstand",
+        "size": 4,
+        "x": -21.70563446338265,
+        "y": 160.04842883227053
+      },
+      "key": "WHOLE CREW from the cabstand"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 89,
+        "label": "HENRY, TOMMY, TODDY",
+        "size": 4,
+        "x": -35.57406223197243,
+        "y": 206.90211331702656
+      },
+      "key": "HENRY, TOMMY, TODDY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 90,
+        "label": "AIRPORT",
+        "size": 4,
+        "x": 49.02395511047128,
+        "y": 180.5145322378452
+      },
+      "key": "AIRPORT"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 91,
+        "label": "Paulie",
+        "size": 4,
+        "x": -36.55835039517448,
+        "y": 47.91535285927527
+      },
+      "key": "Paulie"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 92,
+        "label": "money-maker",
+        "size": 4,
+        "x": -191.1207723527278,
+        "y": 160.86987141701167
+      },
+      "key": "money-maker"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 93,
+        "label": "DRIVER",
+        "size": 4,
+        "x": -140.80976563902024,
+        "y": 301.06294161270773
+      },
+      "key": "DRIVER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 94,
+        "label": "CASHIER",
+        "size": 4,
+        "x": -15.655127100694383,
+        "y": 239.12341881537006
+      },
+      "key": "CASHIER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 95,
+        "label": "Anthony Stabile",
+        "size": 4,
+        "x": -97.54329385052611,
+        "y": 275.93830021307264
+      },
+      "key": "Anthony Stabile"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 96,
+        "label": "Jimmy, Tommy, Henry",
+        "size": 7,
+        "x": -103.97982685813281,
+        "y": 177.9702202050944
+      },
+      "key": "Jimmy, Tommy, Henry"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 97,
+        "label": "Angelo Sepe",
+        "size": 4,
+        "x": -70.95045688626038,
+        "y": 126.50715751892298
+      },
+      "key": "Angelo Sepe"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 98,
+        "label": "Fat Andy",
+        "size": 4,
+        "x": -132.2261856614676,
+        "y": 158.39835804041095
+      },
+      "key": "Fat Andy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 99,
+        "label": "Frankie the Wop",
+        "size": 4,
+        "x": -81.43111458919765,
+        "y": 208.26003486537718
+      },
+      "key": "Frankie the Wop"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 100,
+        "label": "Freddy No Nose",
+        "size": 4,
+        "x": -78.5399800953015,
+        "y": 188.15213066359823
+      },
+      "key": "Freddy No Nose"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 101,
+        "label": "Pete the Killer",
+        "size": 4,
+        "x": -108.38356103546957,
+        "y": 220.6546849717285
+      },
+      "key": "Pete the Killer"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 102,
+        "label": "Nicky Blanda",
+        "size": 4,
+        "x": -109.89278868931177,
+        "y": 154.8404002672073
+      },
+      "key": "Nicky Blanda"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 103,
+        "label": "Mikey Franzese",
+        "size": 4,
+        "x": -126.93202568897826,
+        "y": 203.92566968049155
+      },
+      "key": "Mikey Franzese"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 104,
+        "label": "Johnny Echoes",
+        "size": 4,
+        "x": -145.63743065854206,
+        "y": 183.45231266544573
+      },
+      "key": "Johnny Echoes"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 105,
+        "label": "Frenchy McMahon",
+        "size": 4,
+        "x": -138.39466502304518,
+        "y": 255.20738383627545
+      },
+      "key": "Frenchy McMahon"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 106,
+        "label": "Bamboo Lounge",
+        "size": 4,
+        "x": 8.514341678922431,
+        "y": 91.22151375473275
+      },
+      "key": "Bamboo Lounge"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 107,
+        "label": "Sonny Bamboo",
+        "size": 4,
+        "x": 13.476990321187373,
+        "y": 69.12278550103173
+      },
+      "key": "Sonny Bamboo"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 108,
+        "label": "Air France",
+        "size": 4,
+        "x": -142.19136328563846,
+        "y": 102.96809813580617
+      },
+      "key": "Air France"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 109,
+        "label": "Henry and Frenchy",
+        "size": 4,
+        "x": -179.99602146201687,
+        "y": 274.5825467679394
+      },
+      "key": "Henry and Frenchy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 110,
+        "label": "Lawyer",
+        "size": 4,
+        "x": -171.62636018589114,
+        "y": 223.61811727207925
+      },
+      "key": "Lawyer"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 111,
+        "label": "Diane",
+        "size": 4,
+        "x": -58.06399379008886,
+        "y": 8.983824245650517
+      },
+      "key": "Diane"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 112,
+        "label": "Five Towns",
+        "size": 4,
+        "x": 3.238748998516588,
+        "y": 182.70012728361843
+      },
+      "key": "Five Towns"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 113,
+        "label": "Karen",
+        "size": 5,
+        "x": -30.977068527696204,
+        "y": 20.22243400404637
+      },
+      "key": "Karen"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 114,
+        "label": "Car",
+        "size": 4,
+        "x": 31.791078776116702,
+        "y": -103.0556705119423
+      },
+      "key": "Car"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 115,
+        "label": "Hoods",
+        "size": 4,
+        "x": 23.1081236539776,
+        "y": 51.916891506403715
+      },
+      "key": "Hoods"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 116,
+        "label": "Violet Eyes",
+        "size": 4,
+        "x": -152.1158865331352,
+        "y": 136.8976240957359
+      },
+      "key": "Violet Eyes"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 117,
+        "label": "Elizabeth Taylor's Eyes",
+        "size": 4,
+        "x": -216.76698027770186,
+        "y": 247.23979409918553
+      },
+      "key": "Elizabeth Taylor's Eyes"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 118,
+        "label": "Karen Hill",
+        "size": 4,
+        "x": -22.780748900993512,
+        "y": -7.936432330881346
+      },
+      "key": "Karen Hill"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 119,
+        "label": "Captain",
+        "size": 4,
+        "x": -48.44616443751449,
+        "y": 27.713284742280567
+      },
+      "key": "Captain"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 120,
+        "label": "Henny Youngman",
+        "size": 4,
+        "x": -58.115852802093826,
+        "y": 41.64201676953098
+      },
+      "key": "Henny Youngman"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 121,
+        "label": "Bruce",
+        "size": 4,
+        "x": -16.16205608886066,
+        "y": 50.42269905435801
+      },
+      "key": "Bruce"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 122,
+        "label": "Billy Daniels",
+        "size": 4,
+        "x": -5.985826885992697,
+        "y": 63.7163125953572
+      },
+      "key": "Billy Daniels"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 123,
+        "label": "everybody",
+        "size": 4,
+        "x": -253.9191141588537,
+        "y": 219.82357119729215
+      },
+      "key": "everybody"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 124,
+        "label": "Marty Krugman",
+        "size": 4,
+        "x": -211.85023535919484,
+        "y": 201.649948983199
+      },
+      "key": "Marty Krugman"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 125,
+        "label": "Queens Boulevard Wig and Beauty Salon",
+        "size": 4,
+        "x": -143.74351533556927,
+        "y": 13.018158096734396
+      },
+      "key": "Queens Boulevard Wig and Beauty Salon"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 126,
+        "label": "Marty",
+        "size": 4,
+        "x": 4.927892575296207,
+        "y": 5.023389392707069
+      },
+      "key": "Marty"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 127,
+        "label": "Mr. See",
+        "size": 4,
+        "x": 84.20564971726907,
+        "y": 50.184816006681665
+      },
+      "key": "Mr. See"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 128,
+        "label": "Berry",
+        "size": 4,
+        "x": -119.88610710163078,
+        "y": 62.89751715442317
+      },
+      "key": "Berry"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 129,
+        "label": "phone",
+        "size": 4,
+        "x": -248.69231206112286,
+        "y": 174.37978022144932
+      },
+      "key": "phone"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 130,
+        "label": "Marty's neck",
+        "size": 4,
+        "x": -123.37940909181583,
+        "y": 1.6385807840616455
+      },
+      "key": "Marty's neck"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 131,
+        "label": "Bruce's face",
+        "size": 4,
+        "x": -292.249794857016,
+        "y": 188.61847135088115
+      },
+      "key": "Bruce's face"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 132,
+        "label": "milk box",
+        "size": 4,
+        "x": -153.57328681360167,
+        "y": 81.41481924053525
+      },
+      "key": "milk box"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 133,
+        "label": "object",
+        "size": 4,
+        "x": -296.0664803782171,
+        "y": 142.9972943527567
+      },
+      "key": "object"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 134,
+        "label": "glass",
+        "size": 4,
+        "x": -109.86879473034924,
+        "y": 43.76455833519898
+      },
+      "key": "glass"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 135,
+        "label": "KAREN'S PARENTS",
+        "size": 4,
+        "x": -50.3113421577661,
+        "y": 91.51831124200845
+      },
+      "key": "KAREN'S PARENTS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 136,
+        "label": "MICHAEL",
+        "size": 4,
+        "x": -90.82612202008974,
+        "y": 138.8648813449343
+      },
+      "key": "MICHAEL"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 137,
+        "label": "PAULIE VARIO",
+        "size": 4,
+        "x": -227.89619916566144,
+        "y": 133.44367901557263
+      },
+      "key": "PAULIE VARIO"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 138,
+        "label": "",
+        "size": 5,
+        "x": -182.0936631512669,
+        "y": 45.70580973466904
+      },
+      "key": ""
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 139,
+        "label": "KAREN",
+        "size": 4,
+        "x": -86.60842110727091,
+        "y": 115.33385939846787
+      },
+      "key": "KAREN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 140,
+        "label": "VARIO FAMILY",
+        "size": 4,
+        "x": -228.43316085655152,
+        "y": 41.98087471470673
+      },
+      "key": "VARIO FAMILY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 141,
+        "label": "KAREN'S MOTHER",
+        "size": 4,
+        "x": -116.11813396605237,
+        "y": 108.59437305315815
+      },
+      "key": "KAREN'S MOTHER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 142,
+        "label": "TOMMY DESIMONE",
+        "size": 4,
+        "x": -156.88264607698008,
+        "y": 35.84725004786558
+      },
+      "key": "TOMMY DESIMONE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 143,
+        "label": "MICKEY",
+        "size": 4,
+        "x": 10.824845770964743,
+        "y": 109.21001517685356
+      },
+      "key": "MICKEY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 144,
+        "label": "ANGIE",
+        "size": 4,
+        "x": -190.18002800927752,
+        "y": 67.27093407510112
+      },
+      "key": "ANGIE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 145,
+        "label": "Angie",
+        "size": 4,
+        "x": -186.9068016920992,
+        "y": 112.96103169153177
+      },
+      "key": "Angie"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 146,
+        "label": "Vince",
+        "size": 4,
+        "x": -225.16938438348822,
+        "y": 87.78387210625066
+      },
+      "key": "Vince"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 147,
+        "label": "Jeannie",
+        "size": 4,
+        "x": -187.23761862584087,
+        "y": 1.4812185456073483
+      },
+      "key": "Jeannie"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 148,
+        "label": "husband and son in jail",
+        "size": 4,
+        "x": -266.1165203862043,
+        "y": 108.16600342676563
+      },
+      "key": "husband and son in jail"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 149,
+        "label": "Grandmother",
+        "size": 4,
+        "x": -333.2671819149482,
+        "y": 116.1590972255498
+      },
+      "key": "Grandmother"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 150,
+        "label": "heart attack",
+        "size": 4,
+        "x": -263.4038152303933,
+        "y": 62.55970407796618
+      },
+      "key": "heart attack"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 151,
+        "label": "husband",
+        "size": 4,
+        "x": -346.78567002352764,
+        "y": 64.61913124201261
+      },
+      "key": "husband"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 152,
+        "label": "Nigger stick up men",
+        "size": 4,
+        "x": -304.0200219854118,
+        "y": 80.87985239512457
+      },
+      "key": "Nigger stick up men"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 153,
+        "label": "jail",
+        "size": 4,
+        "x": -302.7991500791679,
+        "y": 33.578648748827426
+      },
+      "key": "jail"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 154,
+        "label": "Mickey Burke",
+        "size": 4,
+        "x": -218.32762297072648,
+        "y": 10.122443059381204
+      },
+      "key": "Mickey Burke"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 155,
+        "label": "Detectives",
+        "size": 4,
+        "x": -193.77374285203797,
+        "y": -28.48129930250875
+      },
+      "key": "Detectives"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 156,
+        "label": "Jimmy Burke's house",
+        "size": 4,
+        "x": -360.2296012993167,
+        "y": 20.787536069525096
+      },
+      "key": "Jimmy Burke's house"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 157,
+        "label": "dining room",
+        "size": 4,
+        "x": -324.09245896911904,
+        "y": -7.377473800253134
+      },
+      "key": "dining room"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 158,
+        "label": "Jesse James Burke",
+        "size": 4,
+        "x": -285.2908632827486,
+        "y": -31.7017567027758
+      },
+      "key": "Jesse James Burke"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 159,
+        "label": "nine-year-old birthday",
+        "size": 4,
+        "x": -223.42150405107716,
+        "y": -73.4205080144782
+      },
+      "key": "nine-year-old birthday"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 160,
+        "label": "nine-year-old",
+        "size": 4,
+        "x": -264.02935398795705,
+        "y": 8.94082895228669
+      },
+      "key": "nine-year-old"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 161,
+        "label": "going to each other’s houses",
+        "size": 4,
+        "x": -344.77706214282466,
+        "y": -48.277497783873514
+      },
+      "key": "going to each other’s houses"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 162,
+        "label": "Mickey",
+        "size": 4,
+        "x": -67.42565751824014,
+        "y": -35.77942227348482
+      },
+      "key": "Mickey"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 163,
+        "label": "Jimmy and Mickey",
+        "size": 4,
+        "x": -239.4903618373423,
+        "y": -30.465450604538223
+      },
+      "key": "Jimmy and Mickey"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 164,
+        "label": "Karen’s kids",
+        "size": 4,
+        "x": -110.73709013734003,
+        "y": -20.70129928921164
+      },
+      "key": "Karen’s kids"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 165,
+        "label": "maternity hospital",
+        "size": 4,
+        "x": -43.005681261648874,
+        "y": -18.42762060272409
+      },
+      "key": "maternity hospital"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 166,
+        "label": "nurse",
+        "size": 4,
+        "x": -111.52405270780775,
+        "y": -44.96688644750094
+      },
+      "key": "nurse"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 167,
+        "label": "travel to Islands or Vegas with Karen",
+        "size": 4,
+        "x": -155.21768973033386,
+        "y": -31.261431758137054
+      },
+      "key": "travel to Islands or Vegas with Karen"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 168,
+        "label": "being proud of her husband",
+        "size": 4,
+        "x": -126.74121335472955,
+        "y": -69.52997007594809
+      },
+      "key": "being proud of her husband"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 169,
+        "label": "neatly hung suits",
+        "size": 4,
+        "x": -200.3100874234838,
+        "y": -54.25335167817237
+      },
+      "key": "neatly hung suits"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 170,
+        "label": "sports jackets",
+        "size": 4,
+        "x": -261.6117389392203,
+        "y": -70.9981798005133
+      },
+      "key": "sports jackets"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 171,
+        "label": "Queens Boulevard",
+        "size": 4,
+        "x": -307.2671181134473,
+        "y": -74.51344552369125
+      },
+      "key": "Queens Boulevard"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 172,
+        "label": "cocktail lounge",
+        "size": 4,
+        "x": -347.3728987313169,
+        "y": -96.79160692826058
+      },
+      "key": "cocktail lounge"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 173,
+        "label": "nightclub",
+        "size": 4,
+        "x": -337.94553106799935,
+        "y": -141.66486947582402
+      },
+      "key": "nightclub"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 174,
+        "label": "killing",
+        "size": 4,
+        "x": -323.07480193486754,
+        "y": -185.0504837172674
+      },
+      "key": "killing"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 175,
+        "label": "murder as accepted",
+        "size": 4,
+        "x": -110.52706627477917,
+        "y": -90.83468330755143
+      },
+      "key": "murder as accepted"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 176,
+        "label": "Billy Batt",
+        "size": 4,
+        "x": -155.98235919328113,
+        "y": -55.46651573269644
+      },
+      "key": "Billy Batt"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 177,
+        "label": "Tommy, Henry and Jimmy",
+        "size": 4,
+        "x": 29.899122137906907,
+        "y": -73.3230756649694
+      },
+      "key": "Tommy, Henry and Jimmy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 178,
+        "label": "Billy",
+        "size": 4,
+        "x": -182.05068535478517,
+        "y": -93.12480477288081
+      },
+      "key": "Billy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 179,
+        "label": "Gambino crew",
+        "size": 4,
+        "x": -160.78810551192518,
+        "y": -100.13336588468874
+      },
+      "key": "Gambino crew"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 180,
+        "label": "Copacabana",
+        "size": 4,
+        "x": -32.30027420355201,
+        "y": 70.56004910083267
+      },
+      "key": "Copacabana"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 181,
+        "label": "Joe Manri",
+        "size": 4,
+        "x": -73.6546278487238,
+        "y": -63.68439246463008
+      },
+      "key": "Joe Manri"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 182,
+        "label": "Linda",
+        "size": 4,
+        "x": -81.59911792015819,
+        "y": 23.095316943059665
+      },
+      "key": "Linda"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 183,
+        "label": "table behind Henry's table",
+        "size": 4,
+        "x": -272.95547599258725,
+        "y": -117.11037630518746
+      },
+      "key": "table behind Henry's table"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 184,
+        "label": "Sammy Davis",
+        "size": 4,
+        "x": -119.13742764123711,
+        "y": -135.86745074416112
+      },
+      "key": "Sammy Davis"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 185,
+        "label": "Girl #1",
+        "size": 4,
+        "x": -227.14485062778076,
+        "y": -114.73136793275417
+      },
+      "key": "Girl #1"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 186,
+        "label": "NEW BABY",
+        "size": 4,
+        "x": -144.23846841289836,
+        "y": -122.01005219739596
+      },
+      "key": "NEW BABY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 187,
+        "label": "TWO-YEAR-OLD DAUGHTER",
+        "size": 4,
+        "x": -187.4429726160834,
+        "y": -137.32019231939998
+      },
+      "key": "TWO-YEAR-OLD DAUGHTER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 188,
+        "label": "VARIO'S WIFE",
+        "size": 4,
+        "x": -281.19122725205796,
+        "y": -203.60411807413544
+      },
+      "key": "VARIO'S WIFE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 189,
+        "label": "WOMEN",
+        "size": 4,
+        "x": -237.4646638110508,
+        "y": -159.35301988225413
+      },
+      "key": "WOMEN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 190,
+        "label": "MARTY KRUGMAN",
+        "size": 4,
+        "x": -235.39629468760074,
+        "y": -205.06173104645222
+      },
+      "key": "MARTY KRUGMAN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 191,
+        "label": "bet",
+        "size": 4,
+        "x": -266.7950799929853,
+        "y": -247.11811899836437
+      },
+      "key": "bet"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 192,
+        "label": "problem",
+        "size": 4,
+        "x": -152.565201784665,
+        "y": -167.0409499027654
+      },
+      "key": "problem"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 193,
+        "label": "LINDA",
+        "size": 4,
+        "x": -196.26477994905937,
+        "y": -181.05707787249247
+      },
+      "key": "LINDA"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 194,
+        "label": "SEPE",
+        "size": 4,
+        "x": -195.09874228079875,
+        "y": -226.90530300959162
+      },
+      "key": "SEPE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 195,
+        "label": "MANRI",
+        "size": 4,
+        "x": -78.96109882547825,
+        "y": -158.00751893217975
+      },
+      "key": "MANRI"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 196,
+        "label": "OTHER WISE GUYS",
+        "size": 4,
+        "x": -153.43934162179198,
+        "y": -212.84256575624724
+      },
+      "key": "OTHER WISE GUYS"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 197,
+        "label": "SPIDER",
+        "size": 4,
+        "x": -87.8122586798614,
+        "y": 95.6039147793329
+      },
+      "key": "SPIDER"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 198,
+        "label": "Spider",
+        "size": 4,
+        "x": -107.0583074323693,
+        "y": -162.6821644477868
+      },
+      "key": "Spider"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 199,
+        "label": "gun",
+        "size": 4,
+        "x": -223.61530513570514,
+        "y": -262.69547614972055
+      },
+      "key": "gun"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 200,
+        "label": "shooting",
+        "size": 4,
+        "x": -179.15990178111403,
+        "y": -333.0185464466952
+      },
+      "key": "shooting"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 201,
+        "label": "children",
+        "size": 4,
+        "x": -156.52866250508168,
+        "y": -258.6123714640961
+      },
+      "key": "children"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 202,
+        "label": "Pauli Vario",
+        "size": 4,
+        "x": -22.9278876591681,
+        "y": -26.526121265523866
+      },
+      "key": "Pauli Vario"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 203,
+        "label": "VARIO",
+        "size": 4,
+        "x": -68.70455781933086,
+        "y": 58.3961203605535
+      },
+      "key": "VARIO"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 204,
+        "label": "Jinny",
+        "size": 4,
+        "x": -40.77848073482286,
+        "y": 2.251917971189076
+      },
+      "key": "Jinny"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 205,
+        "label": "JINNY",
+        "size": 4,
+        "x": -81.7247235726978,
+        "y": 7.857508932119998
+      },
+      "key": "JINNY"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 206,
+        "label": "MAN",
+        "size": 4,
+        "x": -217.7101011944485,
+        "y": -308.10282676942916
+      },
+      "key": "MAN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 207,
+        "label": "BOOKIE",
+        "size": 4,
+        "x": -92.62786729815554,
+        "y": -114.22134215415275
+      },
+      "key": "BOOKIE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 208,
+        "label": "FBI",
+        "size": 4,
+        "x": -115.43422726173782,
+        "y": -236.45544662753989
+      },
+      "key": "FBI"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 209,
+        "label": "TYPIST",
+        "size": 4,
+        "x": -137.43373252944664,
+        "y": -351.8053365507646
+      },
+      "key": "TYPIST"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 210,
+        "label": "MEN",
+        "size": 4,
+        "x": -110.24404834641118,
+        "y": -314.9971199267872
+      },
+      "key": "MEN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 211,
+        "label": "CHILDREN",
+        "size": 4,
+        "x": -113.3811431736354,
+        "y": -190.71176709663277
+      },
+      "key": "CHILDREN"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 212,
+        "label": "PAULIE",
+        "size": 4,
+        "x": -83.54580582142964,
+        "y": -203.68482352455334
+      },
+      "key": "PAULIE"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 213,
+        "label": "GARLIC",
+        "size": 4,
+        "x": -90.86343521300168,
+        "y": -356.50763908291276
+      },
+      "key": "GARLIC"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 214,
+        "label": "Vinnie",
+        "size": 4,
+        "x": -109.26734517330863,
+        "y": -273.0490904719015
+      },
+      "key": "Vinnie"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 215,
+        "label": "TOMATO",
+        "size": 4,
+        "x": -69.07236268412126,
+        "y": -294.9912097397395
+      },
+      "key": "TOMATO"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 216,
+        "label": "Johnny Dio",
+        "size": 4,
+        "x": -71.13535602246151,
+        "y": -247.77196719577165
+      },
+      "key": "Johnny Dio"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 217,
+        "label": "MEAT",
+        "size": 4,
+        "x": -52.9073547034159,
+        "y": -134.40006562346142
+      },
+      "key": "MEAT"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 218,
+        "label": "Johnny",
+        "size": 4,
+        "x": -32.35997443430078,
+        "y": -272.28326302465786
+      },
+      "key": "Johnny"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 219,
+        "label": "PRISON",
+        "size": 4,
+        "x": -30.571887498265824,
+        "y": -226.53445797598175
+      },
+      "key": "PRISON"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 220,
+        "label": "GUARD",
+        "size": 4,
+        "x": -48.006567800799765,
+        "y": -104.2247317861316
+      },
+      "key": "GUARD"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 221,
+        "label": "drugs",
+        "size": 4,
+        "x": -10.559005687759782,
+        "y": -312.5404463804145
+      },
+      "key": "drugs"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 222,
+        "label": "Linda Rossi",
+        "size": 4,
+        "x": -74.6860448089121,
+        "y": 84.35716476306251
+      },
+      "key": "Linda Rossi"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 223,
+        "label": "Pittsburgh",
+        "size": 4,
+        "x": -7.757459754533624,
+        "y": -126.09952752829193
+      },
+      "key": "Pittsburgh"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 224,
+        "label": "parole officer",
+        "size": 4,
+        "x": -49.60313009425892,
+        "y": -336.4249465060002
+      },
+      "key": "parole officer"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 225,
+        "label": "Gribbs",
+        "size": 4,
+        "x": -43.07441310076489,
+        "y": -179.20944356866661
+      },
+      "key": "Gribbs"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 226,
+        "label": "Robin's place",
+        "size": 4,
+        "x": -60.48696590401544,
+        "y": -81.63195789013591
+      },
+      "key": "Robin's place"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 227,
+        "label": "Parole Office",
+        "size": 4,
+        "x": 2.134537787042117,
+        "y": -11.26268448325828
+      },
+      "key": "Parole Office"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 228,
+        "label": "Burke",
+        "size": 4,
+        "x": -10.368915366062843,
+        "y": -359.99999999999994
+      },
+      "key": "Burke"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 229,
+        "label": "Fran",
+        "size": 4,
+        "x": 30.095314455222717,
+        "y": -338.41226325761954
+      },
+      "key": "Fran"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 230,
+        "label": "Fran Krugman",
+        "size": 4,
+        "x": -12.449289787343709,
+        "y": -91.10153525676205
+      },
+      "key": "Fran Krugman"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 231,
+        "label": "Robert's Lounge",
+        "size": 4,
+        "x": 10.600129712137733,
+        "y": 21.169395431592473
+      },
+      "key": "Robert's Lounge"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 232,
+        "label": "Tansy",
+        "size": 4,
+        "x": 6.278966666197704,
+        "y": -253.83958648147518
+      },
+      "key": "Tansy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 233,
+        "label": "Sepe",
+        "size": 4,
+        "x": -55.466149637266874,
+        "y": -204.64209103147246
+      },
+      "key": "Sepe"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 234,
+        "label": "outside guard",
+        "size": 4,
+        "x": -25.20247690333318,
+        "y": -146.07852150088348
+      },
+      "key": "outside guard"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 235,
+        "label": "shuffle ball",
+        "size": 4,
+        "x": 29.48449021248119,
+        "y": -219.6346981954446
+      },
+      "key": "shuffle ball"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 236,
+        "label": "Joe Buddha",
+        "size": 4,
+        "x": 30.70102062380745,
+        "y": -292.5765472771397
+      },
+      "key": "Joe Buddha"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 237,
+        "label": "sawdust",
+        "size": 4,
+        "x": 75.10356223955031,
+        "y": -347.1058395145161
+      },
+      "key": "sawdust"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 238,
+        "label": "Fat Louie",
+        "size": 4,
+        "x": 94.26904425473242,
+        "y": 3.6949544648562043
+      },
+      "key": "Fat Louie"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 239,
+        "label": "300 pounds",
+        "size": 4,
+        "x": 51.60217030433765,
+        "y": -259.68757306962635
+      },
+      "key": "300 pounds"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 240,
+        "label": "Stacks Edwards",
+        "size": 4,
+        "x": -10.053307054820799,
+        "y": -210.8314986088787
+      },
+      "key": "Stacks Edwards"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 241,
+        "label": "panel truck",
+        "size": 4,
+        "x": 75.62975735774538,
+        "y": -301.3316459158555
+      },
+      "key": "panel truck"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 242,
+        "label": "Judy Wicks",
+        "size": 4,
+        "x": 2.5769955762134473,
+        "y": -182.4912392664945
+      },
+      "key": "Judy Wicks"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 243,
+        "label": "babysitter",
+        "size": 4,
+        "x": 16.423530015194356,
+        "y": -165.02552995218767
+      },
+      "key": "babysitter"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 244,
+        "label": "Judy",
+        "size": 4,
+        "x": -2.226076186973077,
+        "y": -40.23524124818281
+      },
+      "key": "Judy"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 245,
+        "label": "baby",
+        "size": 4,
+        "x": 105.91250175714885,
+        "y": -74.66394312548437
+      },
+      "key": "baby"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 246,
+        "label": "Judy's overnight bag",
+        "size": 4,
+        "x": 120.93116565895164,
+        "y": -345.5284800360764
+      },
+      "key": "Judy's overnight bag"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 247,
+        "label": "cokeballs",
+        "size": 4,
+        "x": 73.68551108633534,
+        "y": -229.56900048798408
+      },
+      "key": "cokeballs"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 248,
+        "label": "Robin",
+        "size": 4,
+        "x": -15.922326672019338,
+        "y": -71.54335609853744
+      },
+      "key": "Robin"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 249,
+        "label": "Henry and Karen",
+        "size": 4,
+        "x": 81.88396813779372,
+        "y": -74.30663145544793
+      },
+      "key": "Henry and Karen"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 250,
+        "label": "Fat Louie Cafora",
+        "size": 4,
+        "x": 103.24968965430364,
+        "y": -264.6856070324375
+      },
+      "key": "Fat Louie Cafora"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 251,
+        "label": "Jimmy and Henry",
+        "size": 4,
+        "x": 130.3606466986689,
+        "y": -300.6181898234765
+      },
+      "key": "Jimmy and Henry"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 252,
+        "label": "wife",
+        "size": 4,
+        "x": 167.79390277233682,
+        "y": -327.0115315475006
+      },
+      "key": "wife"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 253,
+        "label": "Stacks",
+        "size": 4,
+        "x": 149.1637162578002,
+        "y": -256.31001522200575
+      },
+      "key": "Stacks"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 254,
+        "label": "Dolores",
+        "size": 4,
+        "x": 47.40041763444947,
+        "y": -192.1425267704602
+      },
+      "key": "Dolores"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 255,
+        "label": "FBI men",
+        "size": 4,
+        "x": 46.95481005053039,
+        "y": -146.24935026339077
+      },
+      "key": "FBI men"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 256,
+        "label": "FBI agents",
+        "size": 4,
+        "x": 185.21839014376567,
+        "y": -284.5739756967348
+      },
+      "key": "FBI agents"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 257,
+        "label": "Tommy was being made",
+        "size": 4,
+        "x": 118.75067168330509,
+        "y": -221.90614663064815
+      },
+      "key": "Tommy was being made"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 258,
+        "label": "Tommy Desimone",
+        "size": 4,
+        "x": 128.83338633378148,
+        "y": -179.78638401655272
+      },
+      "key": "Tommy Desimone"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 259,
+        "label": "Tommy Desimone's Mother",
+        "size": 4,
+        "x": 84.55417664555304,
+        "y": -191.47312477004314
+      },
+      "key": "Tommy Desimone's Mother"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 260,
+        "label": "Irish blood",
+        "size": 4,
+        "x": 197.20662600986014,
+        "y": -240.3921188627709
+      },
+      "key": "Irish blood"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 261,
+        "label": "excited",
+        "size": 4,
+        "x": 161.18553733636165,
+        "y": -212.02900193804476
+      },
+      "key": "excited"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 262,
+        "label": "helpless",
+        "size": 4,
+        "x": 230.46309085095032,
+        "y": -271.9245337732077
+      },
+      "key": "helpless"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 263,
+        "label": "customers",
+        "size": 4,
+        "x": 93.21260132506606,
+        "y": -118.57251601283731
+      },
+      "key": "customers"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 264,
+        "label": "made man",
+        "size": 4,
+        "x": 21.816044261432427,
+        "y": -121.55331110847467
+      },
+      "key": "made man"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 265,
+        "label": "guns",
+        "size": 4,
+        "x": 64.12934617504646,
+        "y": -103.89977175443308
+      },
+      "key": "guns"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 266,
+        "label": "Henri",
+        "size": 4,
+        "x": 65.15725417851822,
+        "y": -149.94473520286257
+      },
+      "key": "Henri"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 267,
+        "label": "dealer",
+        "size": 4,
+        "x": 22.75166375726949,
+        "y": -23.046090156982938
+      },
+      "key": "dealer"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 268,
+        "label": "package",
+        "size": 4,
+        "x": 70.54172500317117,
+        "y": -45.5668622013694
+      },
+      "key": "package"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 269,
+        "label": "kitchen",
+        "size": 4,
+        "x": 151.5934838154441,
+        "y": -160.0942202983938
+      },
+      "key": "kitchen"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 270,
+        "label": "heroin",
+        "size": 4,
+        "x": 114.32332372678803,
+        "y": -133.34163601787645
+      },
+      "key": "heroin"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 271,
+        "label": "half-kilo packages",
+        "size": 4,
+        "x": 192.55066470875525,
+        "y": -194.61832332120292
+      },
+      "key": "half-kilo packages"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 272,
+        "label": "Henry's property",
+        "size": 4,
+        "x": 267.65904356807624,
+        "y": -244.88082396120626
+      },
+      "key": "Henry's property"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 273,
+        "label": "traffic jam",
+        "size": 4,
+        "x": 234.351997731059,
+        "y": -213.52953462078932
+      },
+      "key": "traffic jam"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 274,
+        "label": "head",
+        "size": 4,
+        "x": 105.7929608142926,
+        "y": -162.66323065889557
+      },
+      "key": "head"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 275,
+        "label": "Edward McDonald",
+        "size": 4,
+        "x": 225.78933145829438,
+        "y": -163.036874952414
+      },
+      "key": "Edward McDonald"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 276,
+        "label": "Narks",
+        "size": 4,
+        "x": 295.96761680028897,
+        "y": -208.7879396646608
+      },
+      "key": "Narks"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 277,
+        "label": "Two Cops",
+        "size": 4,
+        "x": 261.84590362502985,
+        "y": -178.32288830626294
+      },
+      "key": "Two Cops"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 278,
+        "label": "cardboard boxes",
+        "size": 4,
+        "x": 216.42625579813122,
+        "y": -118.247563848784
+      },
+      "key": "cardboard boxes"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 279,
+        "label": "table in a visiting area",
+        "size": 4,
+        "x": 183.25253216491274,
+        "y": -149.84261530748995
+      },
+      "key": "table in a visiting area"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 280,
+        "label": "Guards",
+        "size": 4,
+        "x": 168.89104698255386,
+        "y": -67.01657084066889
+      },
+      "key": "Guards"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 281,
+        "label": "visiting area",
+        "size": 4,
+        "x": 304.4613499579198,
+        "y": -161.609611968702
+      },
+      "key": "visiting area"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 282,
+        "label": "every day",
+        "size": 4,
+        "x": 128.88969926491038,
+        "y": -89.55822091765356
+      },
+      "key": "every day"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 283,
+        "label": "money",
+        "size": 4,
+        "x": 138.96919605249155,
+        "y": -116.04230363485473
+      },
+      "key": "money"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 284,
+        "label": "Paul",
+        "size": 4,
+        "x": 13.61585325657497,
+        "y": -35.62431389399847
+      },
+      "key": "Paul"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 285,
+        "label": "home",
+        "size": 4,
+        "x": 141.1063559207462,
+        "y": -45.31986320144339
+      },
+      "key": "home"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 286,
+        "label": "alive",
+        "size": 4,
+        "x": 170.59225675084807,
+        "y": -118.34876343535826
+      },
+      "key": "alive"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 287,
+        "label": "Where’s the stuff?",
+        "size": 4,
+        "x": 185.9893967283902,
+        "y": -22.594209870849692
+      },
+      "key": "Where’s the stuff?"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 288,
+        "label": "toilet",
+        "size": 4,
+        "x": 261.7365374862343,
+        "y": -134.81001926374898
+      },
+      "key": "toilet"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 289,
+        "label": "got out",
+        "size": 4,
+        "x": 341.39432330150646,
+        "y": -134.52198570959368
+      },
+      "key": "got out"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 290,
+        "label": "believe me",
+        "size": 4,
+        "x": 178.34415345106066,
+        "y": -92.70690235697788
+      },
+      "key": "believe me"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 291,
+        "label": "Jukebox storefront",
+        "size": 4,
+        "x": 256.5489044364976,
+        "y": -96.0840389996999
+      },
+      "key": "Jukebox storefront"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 292,
+        "label": "Sherwood Diner",
+        "size": 4,
+        "x": 301.5206777024251,
+        "y": -111.96122744301728
+      },
+      "key": "Sherwood Diner"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 293,
+        "label": "Henry and Jimmy meeting",
+        "size": 4,
+        "x": 156.99694682536713,
+        "y": -22.85406255605588
+      },
+      "key": "Henry and Jimmy meeting"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 294,
+        "label": "Anthony",
+        "size": 4,
+        "x": 346.15425975294795,
+        "y": -88.8767790622867
+      },
+      "key": "Anthony"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 295,
+        "label": "cash",
+        "size": 4,
+        "x": 306.19012412364714,
+        "y": -66.32791229347801
+      },
+      "key": "cash"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 296,
+        "label": "Henry and Karen’s Bedroom",
+        "size": 4,
+        "x": 247.73211674098,
+        "y": -27.486119097012047
+      },
+      "key": "Henry and Karen’s Bedroom"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 297,
+        "label": "her mother",
+        "size": 4,
+        "x": 217.2861525666875,
+        "y": -72.45347036421745
+      },
+      "key": "her mother"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 298,
+        "label": "another person",
+        "size": 4,
+        "x": 261.0515081642993,
+        "y": -58.62963568879269
+      },
+      "key": "another person"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 299,
+        "label": "Florida",
+        "size": 4,
+        "x": 344.79042164678356,
+        "y": -41.56398783422218
+      },
+      "key": "Florida"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 300,
+        "label": "McDonald",
+        "size": 4,
+        "x": 196.85430664634112,
+        "y": 21.98826882649487
+      },
+      "key": "McDonald"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 301,
+        "label": "FBI car",
+        "size": 4,
+        "x": 207.54191961864714,
+        "y": -42.48855243721191
+      },
+      "key": "FBI car"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 302,
+        "label": "FBI Agents",
+        "size": 4,
+        "x": 360.22960129931664,
+        "y": 1.6197023071084569
+      },
+      "key": "FBI Agents"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 303,
+        "label": "his wife",
+        "size": 4,
+        "x": 270.1312778261946,
+        "y": 12.58054506393972
+      },
+      "key": "his wife"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 304,
+        "label": "his mother-in-law",
+        "size": 4,
+        "x": 293.5889155987959,
+        "y": -26.34828430687117
+      },
+      "key": "his mother-in-law"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 305,
+        "label": "camera",
+        "size": 4,
+        "x": 337.90026395750334,
+        "y": 54.64998736280092
+      },
+      "key": "camera"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 306,
+        "label": "wives, mothers, kids",
+        "size": 4,
+        "x": 315.92257051056873,
+        "y": 13.67486670741792
+      },
+      "key": "wives, mothers, kids"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 307,
+        "label": "Henry's belongings",
+        "size": 4,
+        "x": 308.14830632913146,
+        "y": 100.86031606746438
+      },
+      "key": "Henry's belongings"
+    },
+    {
+      "attributes": {
+        "color": "blue",
+        "id": 308,
+        "label": "spaghetti",
+        "size": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "key": "spaghetti"
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}

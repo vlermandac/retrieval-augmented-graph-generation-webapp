@@ -9,4 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    watch: {
+      // https://rollupjs.org/configuration-options/#watch
+    },
+  },
 })

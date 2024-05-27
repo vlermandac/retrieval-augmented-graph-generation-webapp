@@ -1,6 +1,6 @@
 data: 
-  unprocessed_files: ./data/
-  processed_files: ./data/processed_files/
+  unprocessed_files: ../data/
+  processed_files: ../data/processed_files/
 preprocess:
   chunk_size: 5000
   overlap: 100
@@ -8,8 +8,8 @@ embedding:
   dims: 200
   embedding_model: text-embedding-3-small
 rag:
-  llm: gpt-3.5-turbo
+  index: 'goodfellas-chunk'
+  llm: gpt-4o
   k: 5
-  index_to_query: 'goodfellas-chunk'
 test_control_variable:
   do_not_delete: 

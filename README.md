@@ -4,7 +4,7 @@
 - docker & docker compose.
 - conda/mamba/micromamba (one of the previous).
 - an openai api key.
-- charmbracalet/gum (optional for tests pretty logging).
+- gcc/g++ >= 12 compiler. (if needed to recompile).
 
 ## ⚙️ Setup
 
@@ -18,14 +18,14 @@ cd searcher-full  # enter the repository
 
 ### Openai API key
 ```bash
-# from the project root directory, add the openai api key to the env variables
+# from the project root directory, add your openai api key to the env variables
 echo "OPENAI_API_KEY=actualkey" >> .env
 ```
 You can also change more build configuration in the .env file.
 
 ### Create conda environment and install dependencies
 ```bash
-conda create -n searcher -f searcher/conda-lock.yml
+conda create -n searcher -f conda-lock.yml
 conda activate searcher
 ```
 
@@ -61,7 +61,6 @@ As results from your query you will recieve:
 The edges related to the answer made by the RAG will be displayed in a different color.
 <img width="600" alt="image2" src="https://github.com/vlermandac/searcher-full/assets/68314874/925e9829-3ba0-4059-9de2-179339fdc1de">
 
-
 ## Troubleshooting
 - Be sure you don't have keys or password in your .bashrc o .zshrc that could conlfict with the local env variables.
 - [Build memory surpass](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_macos_with_docker_for_mac)
@@ -84,6 +83,7 @@ The edges related to the answer made by the RAG will be displayed in a different
 - Ditch python. Re write from scracth in Rust.
 - Add more option for databases: MongoDB, others vectors DBs.
 - Add kubernetes. LLM, DB, backend, frontend could be clusters or nodes.
+- Graph algorithms (community detection and others).
 
 
 ## Depricated ideas

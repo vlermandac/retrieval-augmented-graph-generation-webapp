@@ -1,12 +1,13 @@
+import { FC, useState, useEffect } from "react";
 import "@react-sigma/core/lib/react-sigma.min.css";
 import Graph from "graphology";
 import { SerializedGraph } from "graphology-types";
 import { SigmaContainer } from "@react-sigma/core";
-import jsonGraph from "@/data/graph-data.json";
-import { useGraphCtx } from "@/lib/graph-context";
-import { useEffect } from 'react'
 
-const sigmaStyle = { height: "600px", width: "100%" };
+interface props {
+  list: number[];
+  onGraphRendered: (graphRendered: boolean) => void;
+}
 
 const sigmaSettings = {
   allowInvalidContainer: true,
@@ -18,30 +19,37 @@ const sigmaSettings = {
   zIndex: true,
 };
 
-const kgraph = Graph.from(jsonGraph as SerializedGraph);
+const sigmaStyle = { height: "800px", width: "100%" };
 
-export const DisplayGraph = () => {
+export const DisplayGraph:FC<props> = ({ list, onGraphRendered }) => {
 
-  const { graphCtx } = useGraphCtx();
+  const [jsonGraph, setJsonGraph] = useState<SerializedGraph | null>(null);
 
   useEffect(() => {
-    kgraph.forEachEdge(
-      (edge, attributes, source, target, sourceAttributes, targetAttributes) => {
-        if (graphCtx.includes(Number(attributes.chunk_id))) {
-          kgraph.updateEdgeAttributes(edge, attr => {
-            return { 
-              label: attributes.label,
-              size: 4,
-              color: "#0E4D92",
-              forceLabel: true,
-            };
-          });
-        }
-    });
-  }, [graphCtx]);
+    if (list.length === 0) return;
+    const apiCall = async (list: number[]) => {
+      const response = await fetch('http://localhost:8000/update-graph', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json '},
+        body: JSON.stringify({ values: list })
+      });
+      const data = await response.json();
+      setJsonGraph(data);
+    };
+    apiCall(list);
+  }, [list]);
+
+  useEffect(() => {
+    if (jsonGraph) onGraphRendered(true);
+  }, [jsonGraph, onGraphRendered]);
+
+  const kgraph = jsonGraph ? Graph.from(jsonGraph) : new Graph();
 
   return (
-    <SigmaContainer style={sigmaStyle} settings={sigmaSettings} graph={kgraph}>
-    </SigmaContainer>
+      <SigmaContainer style={sigmaStyle} settings={sigmaSettings} graph={kgraph}>
+      </SigmaContainer>
   );
+
 };
+
+

@@ -9,6 +9,7 @@ from config import ConfigVariables  # noqa: E402
 from clients import Clients  # noqa: E402
 from rag import RAG  # noqa: E402
 import data_loading  # noqa: E402
+from triplet import TripletBuilder  # noqa: E402
 
 
 class Main:
@@ -31,17 +32,24 @@ class Main:
 
         if flag == "--RAG":
             rag = RAG(self.clients,
-                      **self.cfg_vars('index_to_query', 'embedding_model',
+                      **self.cfg_vars('index', 'embedding_model',
                                       'dims', 'llm', 'k'))
             return rag(query=query)
 
-        if flag == "--KG":
-            pass
+        if flag == "--triplets":
+            tb = TripletBuilder()
+            v1 = list(self.cfg_vars('index').values())[0]
+            v2 = list(self.cfg_vars('llm').values())[0]
+            chunks = self.clients.elastic_search().search(v1)
+            triplets = tb.chunk_to_triplets(self.clients.open_ai(), v2, chunks)
+            triplets = triplets.model_dump_json(indent=2)
+            with open('../data/triplets.json', 'w') as f:
+                f.write(triplets)
+            return triplets
 
 
 if __name__ == "__main__":
-
-    parse_args = Arguments() | "--load_data" | "--RAG" | "--KG"
+    parse_args = Arguments() | "--load_data" | "--RAG" | "--triplets"
     selected_arg = parse_args()
     main = Main()
 
@@ -53,4 +61,4 @@ if __name__ == "__main__":
         print(response)
 
     if selected_arg.KG is not None:
-        main.run("--KG")
+        main.run("--triplets")
