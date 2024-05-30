@@ -19,7 +19,7 @@ KnowledgeGraph::KnowledgeGraph(const Json& json) {  // TODO: validate json struc
 void KnowledgeGraph::add_triplet(Str node1, Str relation, Str node2, int id) {
   add_node(node1); add_node(node2);
   this->edge_list.push_back({node_index[node1], node_index[node2]});
-  Attributes_e atts(id, 1, true, relation, "gray");
+  Attributes_e atts(id, 1, false, relation, "gray");
   auto e = std::make_shared<Edge>(node1, node2, atts);
   this->edges.push_back(e);
   this->id_ref_edges[id].push_back(e);

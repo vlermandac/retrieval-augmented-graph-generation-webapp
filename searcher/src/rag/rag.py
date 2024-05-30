@@ -1,16 +1,30 @@
+from typing import List, Tuple, Any, Literal
+
+
 class RAG:
-    def __init__(self, Clients, index, embedding_model, dims, llm, k):
-        self.index = index
+    def __init__(
+        self, Clients: Any,
+        index_name: str,
+        chat_model: Literal["gpt-4o", "gpt-3.5-turbo"],
+        embedding_model: str,
+        embedding_dimension: int, top_k: int
+    ) -> None:
+
+        self.index = index_name
         self.vector_store = Clients.elastic_search()
         self.openai = Clients.open_ai()
         self.embedding_model = embedding_model
-        self.dims = dims
-        self.k = k
-        self.llm = llm
+        self.dims = embedding_dimension
+        self.k = top_k
+        self.llm = chat_model
         self.prompt = ""
         self.result_ids = []
 
-    def __call__(self, query, system_message="you are a helpful assistant."):
+    def __call__(
+        self, query: str,
+        system_message: str = "You are a helpful assistant!",
+    ) -> Tuple[str, List[int]]:
+
         self.prompt = self.contextualized_query(query)
         answer = self.openai.chat.completions.create(
             model=self.llm,
@@ -21,7 +35,7 @@ class RAG:
         )
         return answer.choices[0].message, self.result_ids
 
-    def query_embedding(self, query):
+    def query_embedding(self, query: str) -> List[float]:
         embedd = self.openai.embeddings.create(
             input=query,
             model=self.embedding_model,
@@ -29,19 +43,22 @@ class RAG:
         )
         return embedd.data[0].embedding
 
-    def retrieval(self, vector_query) -> str:
-        knn = self.vector_store.semantic_search(self.index, vector_query, self.k)
+    def retrieval(self, vector_query: List[float]) -> str:
+        knn = self.vector_store.semantic_search(
+            self.index,
+            vector_query,
+            self.k
+        )
         retrieved_context = ""
         for chunk in knn:
             self.result_ids.append(chunk.id)
             retrieved_context += chunk.text + "\n\n"
         return retrieved_context
 
-    def contextualized_query(self, query):
+    def contextualized_query(self, query: str) -> str:
         vector_query = self.query_embedding(query)
         retrieved_context = self.retrieval(vector_query)
-        final_prompt = \
-            f"""
+        final_prompt = f"""
             Answer the following Query based on the Context below:
             Query:
             '''
@@ -50,6 +67,5 @@ class RAG:
             Context:
             '''
             {retrieved_context}
-            '''
-            """
+            ''' """
         return final_prompt

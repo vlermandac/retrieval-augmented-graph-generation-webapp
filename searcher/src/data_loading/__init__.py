@@ -1,12 +1,20 @@
 from .processes import read_documents, index_document, chunking, add_embedding, index_chunks  # noqa: F401
 
 
-def run(Client, unprocessed_files, chunk_size, overlap, embedding_model, dims):
+def run(
+    Client,
+    unprocessed_files: str,
+    chunk_size: int,
+    chunk_overlap: int,
+    embedding_model: str,
+    embedding_dimension: int,
+) -> list:
 
     chunk_mapping = {
         "properties": {
             "text": {"type": "text"},
-            "embedding": {"type": "dense_vector", "dims": dims}
+            "embedding": {"type": "dense_vector",
+                          "dims": embedding_dimension},
         }
     }
 
@@ -17,8 +25,9 @@ def run(Client, unprocessed_files, chunk_size, overlap, embedding_model, dims):
     docs_chunks = []
     for doc in documents:
         index_document(doc, es_client)
-        chunks = chunking(doc, chunk_size, overlap)
-        chunks = add_embedding(chunks, embedding_model, dims, oa_client)
+        chunks = chunking(doc, chunk_size, chunk_overlap)
+        chunks = add_embedding(chunks, embedding_model,
+                               embedding_dimension, oa_client)
         index_chunks(chunks, chunk_mapping, es_client)
         docs_chunks.append(chunks)
 

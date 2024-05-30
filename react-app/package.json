@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
     "@react-sigma/core": "^4.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -20,6 +25,7 @@
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
     "sigma": "^3.0.0-beta.18",
     "sort-by": "^1.2.0",

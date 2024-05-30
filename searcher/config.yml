@@ -1,15 +1,13 @@
-data: 
-  unprocessed_files: ../data/
+data:
   processed_files: ../data/processed_files/
-preprocess:
-  chunk_size: 5000
-  overlap: 100
-embedding:
-  dims: 200
+  unprocessed_files: ../data/
+llm:
+  chat_model: gpt-4o
+  embedding_dimension: 200
   embedding_model: text-embedding-3-small
+preprocess:
+  chunk_overlap: 100
+  chunk_size: 4000
 rag:
-  index: 'goodfellas-chunk'
-  llm: gpt-4o
-  k: 5
-test_control_variable:
-  do_not_delete: 
+  index_name: goodfellas-chunk
+  top_k: 7

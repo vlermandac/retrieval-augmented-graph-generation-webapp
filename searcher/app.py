@@ -1,5 +1,5 @@
 from typing import Annotated
-from fastapi import FastAPI, Form, Query
+from fastapi import FastAPI, Form, Query, File, UploadFile
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from main import Main
@@ -27,19 +27,55 @@ class ListRequest(BaseModel):
     values: Annotated[list[int] | None, Query()] = None
 
 
-@app.get("/load-data")
-async def load_data():
+class ConfigOptions(BaseModel):
+    chunk_size: int
+    chunk_overlap: int
+    embedding_model: str
+    chat_model: str
+    index_name: str
+    top_k: int
+
+
+@app.post("/update-config")
+async def update_config(new_config: ConfigOptions):
     main = Main()
-    main.run("--load_data")
-    return {"status": "Documents from './data' loaded."}
+    res = main.update_config(**new_config.dict())
+    return {"status": res}
+
+
+@app.get("/config")
+async def get_config():
+    main = Main()
+    res = main.get_config()
+    return res
+
+
+@app.post("/load-file")
+async def load_file(file: UploadFile = File(...)):
+    main = Main()
+    res = main.run("--load_data", request=file)
+    return {"status": res}
+
+
+@app.get("/list-files")
+async def list_files():
+    main = Main()
+    res = main.list_files()
+    return {"files": res}
 
 
 @app.get("/triplets")
 async def triplets():
     main = Main()
-    triplets = main.run("--triplets")
-    print("Triplets generated at '../data/triplets.json'")
-    return {"triplets": triplets}
+    res = main.run("--triplets")
+    return {"status": res}
+
+
+@app.post("/rag")
+async def rag(query: Annotated[str, Form()]):
+    main = Main()
+    rag, ids = main.run("--RAG", request=query)
+    return {"rag": rag, "ids": ids}
 
 
 @app.get("/clear")
@@ -59,10 +95,3 @@ async def update_graph(values: ListRequest):
             headers={"Content-Type": "application/json"},
             json=values.dict())
     return response.json()
-
-
-@app.post("/rag")
-async def rag(query: Annotated[str, Form()]):
-    main = Main()
-    rag, ids = main.run("--RAG", query=query)
-    return {"rag": rag, "ids": ids}

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Input } from '@/components/input';
+import { Input } from '@/components/ui/input';
 import { useContextValues } from '@/lib/response-context';
 
 export default function InputExtended() {
@@ -33,7 +33,7 @@ export default function InputExtended() {
   }
 
   return (
-    <div className='md:px-20'>
+    <div className='px-4'>
       <Input placeholder='Ask something' ref={inputRef} onKeyDown={handleKeyDown} />
       {loading && <p>Loading...</p>}
     </div>

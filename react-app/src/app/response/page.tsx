@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { DisplayGraph } from '@/components/graph';
 import { useContextValues } from "@/lib/response-context";
+import Header from '@/components/header';
 
 export default function ResponsePage() {
 
@@ -19,16 +20,19 @@ export default function ResponsePage() {
   console.log(graphRendered);
 
   return (
-  <div className="my-10 mx-10 items-center text-center">
+  <div>
+    <Header />
+  <div className="mx-5 items-center text-center">
 
-    <div className="p-5 border-dashed border-2 rounded">
+    <div className=" shadow-md rounded-l">
       <DisplayGraph list={ idList } onGraphRendered={handleGraphRendered} />
     </div>
 
-    <div className="p-10 w-full h-full text-pretty">
+    <div className="sticky bottom-4 shadow-md text-lg bg-white/80 p-10 w-full h-full text-pretty">
         {responseCtx ? responseCtx : "Loading..."}
     </div>
 
+  </div>
   </div>
   );
 
