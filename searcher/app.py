@@ -1,20 +1,20 @@
-from typing import Annotated
 from fastapi import FastAPI, Form, Query, File, UploadFile
-from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+from typing import Annotated
+from pydantic import BaseModel
+from dotenv import load_dotenv
 from main import Main
 import httpx
+import logging
+import os
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+load_dotenv()
+cpp_endpoint = str(os.getenv("CPP_ENDPOINT"))
 
 app = FastAPI()
-
-cpp_server_url = "http://localhost:8080"
-
-origins = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    "http://localhost:64851",
-]
-
+origins = ["http://localhost:3000"]
 app.add_middleware(
         CORSMiddleware,
         allow_origins=origins,
@@ -23,75 +23,73 @@ app.add_middleware(
 )
 
 
-class ListRequest(BaseModel):
+class GetGraphRequest(BaseModel):
+    index: str
     values: Annotated[list[int] | None, Query()] = None
 
 
-class ConfigOptions(BaseModel):
-    chunk_size: int
-    chunk_overlap: int
-    embedding_model: str
-    chat_model: str
-    index_name: str
-    top_k: int
+class StringRequest(BaseModel):
+    request: str
+
+
+@app.get("/get-indices")
+async def get_indices():
+    main = Main()
+    return {"files": main.list_indices()}
+
+
+@app.get("/get-config")
+async def get_config():
+    main = Main()
+    return main.get_config()
 
 
 @app.post("/update-config")
-async def update_config(new_config: ConfigOptions):
+async def update_config(new_config):
     main = Main()
-    res = main.update_config(**new_config.dict())
-    return {"status": res}
-
-
-@app.get("/config")
-async def get_config():
-    main = Main()
-    res = main.get_config()
-    return res
+    return main.update_config(new_config)
 
 
 @app.post("/load-file")
 async def load_file(file: UploadFile = File(...)):
     main = Main()
-    res = main.run("--load_data", request=file)
-    return {"status": res}
+    file_index = main.ingest_data(file)
+    triplets = main.generate_triplets(file_index).dict()
+    async with httpx.AsyncClient() as client:
+        response = await client.post(
+            f"{cpp_endpoint}/generate",
+            headers={"Content-Type": "application/json"},
+            json={"index": file_index, "triplet_lists": triplets}
+        )
+        return response.text
 
 
-@app.get("/list-files")
-async def list_files():
+@app.post("/query-rag")
+async def rag(query: StringRequest):
     main = Main()
-    res = main.list_files()
-    return {"files": res}
-
-
-@app.get("/triplets")
-async def triplets():
-    main = Main()
-    res = main.run("--triplets")
-    return {"status": res}
-
-
-@app.post("/rag")
-async def rag(query: Annotated[str, Form()]):
-    main = Main()
-    rag, ids = main.run("--RAG", request=query)
+    rag, ids = main.query_rag(query=query.request)
     return {"rag": rag, "ids": ids}
 
 
-@app.get("/clear")
-async def clear():
-    url = f"{cpp_server_url}/generate"
-    async with httpx.AsyncClient() as client:
-        response = await client.get(
-            url, headers={"Content-Type": "text/plain"})
-    return response.text
-
-
-@app.post("/update-graph")
-async def update_graph(values: ListRequest):
+@app.post("/get-graph")
+async def update_graph(request: GetGraphRequest):
     async with httpx.AsyncClient() as client:
         response = await client.post(
-            f"{cpp_server_url}/update",
+            f"{cpp_endpoint}/get",
             headers={"Content-Type": "application/json"},
-            json=values.dict())
-    return response.json()
+            json=request.dict()
+        )
+        return response.json()
+
+
+@app.post("/delete-index")
+async def delete_index(index: StringRequest):
+    main = Main()
+    main.delete_index(index.request)
+    async with httpx.AsyncClient() as client:
+        response = await client.post(
+            f"{cpp_endpoint}/delete",
+            headers={"Content-Type": "application/json"},
+            json={"index": index.request}
+        )
+        return response.text

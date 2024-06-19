@@ -91,7 +91,7 @@ The edges related to the answer made by the RAG will be displayed in a different
 1. It adds enough complexity to make the cons surpass the pros.
 2. To get a chunk page it is as simple as searching the keywords in the original document.
 
-### Dockerize everything
-1. Couldn't configure elasticsearch to allow another container to make a request, even with the correct
-password, url, and certificates to do so.
-2. Thinking in adding kubernetes + containerd would make this unnecesary.
+### Store the full text in the database
+1. You already have a full copy of the original file stored in the server.
+2. Most likely you will only use the chunked data.
+3. Adds a lot of extra space in the long run.

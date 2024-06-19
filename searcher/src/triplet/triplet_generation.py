@@ -1,41 +1,43 @@
-import instructor
+from pydantic import BaseModel, Field
 from typing import List
-from pydantic import BaseModel, RootModel, Field
-
-
-class Triplet(BaseModel):
-    entity1: str
-    relation: str
-    entity2: str
+import instructor
+from core_classes import (
+    Triplet, TripletListId, TripletLists, LLM, TextItem
+)
 
 
 class TripletList(BaseModel):
     triplets: List[Triplet] = Field(..., default_factory=list)
 
 
-class TripletListId(BaseModel):
-    id: int
-    triplets: TripletList
-
-
-class TripletLists(RootModel):
-    root: List[TripletListId] = Field(..., default_factory=list)
-
-
 class TripletBuilder:
-    def chunks_to_triplets(self, oa_client, llm, chunks) -> TripletLists:
-        client = instructor.from_openai(oa_client)
-        all_triplets = []
+    def __init__(self, chunks: List[TextItem], llm: LLM) -> None:
+        self.llm = llm
+        self.client = instructor.from_openai(llm.client)
+        self.all_triplets = []
         total_chunks = len(chunks)
         for i, chunk in enumerate(chunks):
             print(f"\rProcessing chunk {i + 1}/{total_chunks}", end="")
-            triplets = self.text_to_triplet(client, llm, chunk.text)
-            all_triplets.append(TripletListId(id=chunk.id, triplets=triplets))
-        return TripletLists(root=all_triplets)
+            triplets = self.text_to_triplet(chunk.text)
+            self.all_triplets.append(
+                TripletListId(
+                    id=chunk.id,
+                    triplets=triplets.triplets
+                )
+            )
 
-    def text_to_triplet(self, client, llm, text) -> TripletList:
-        triplets = client.chat.completions.create(
-            model=llm,
+    def get_triplets(self) -> TripletLists:
+        return TripletLists(root=self.all_triplets)
+
+    def save_as_json(self, path: str) -> str:
+        triplets = self.get_triplets()
+        with open(path, 'w') as file:
+            file.write(triplets.model_dump_json(indent=2))
+        return triplets
+
+    def text_to_triplet(self, text: str) -> TripletList:
+        triplets = self.client.chat.completions.create(
+            model=self.llm.model,
             messages=[
                 {
                     "role": "system",

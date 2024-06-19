@@ -11,10 +11,6 @@ interface props {
 
 const sigmaSettings = {
   allowInvalidContainer: true,
-  labelDensity: 0.07,
-  labelGridCellSize: 60,
-  labelRenderedSizeThreshold: 15,
-  renderEdgeLabels: true,
   defaultNodeColor: "#DFDBF9",
   zIndex: true,
 };

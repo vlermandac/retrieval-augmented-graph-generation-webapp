@@ -1,0 +1,36 @@
+{
+  "attributes": {},
+  "edges": [
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "#626880",
+        "forceLabel": false,
+        "label": "B",
+      },
+      "source": "A",
+      "target": "E"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 1,
+        "label": "A",
+      },
+      "key": "A"
+    },
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 3,
+        "label": "E",
+      },
+      "key": "E"
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}

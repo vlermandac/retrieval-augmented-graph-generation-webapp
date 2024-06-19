@@ -1,4 +1,0 @@
--std=c++17
--Wall                                                                     
--O2                                                                       
--I/Users/vlermanda/micromamba/envs/searcher/include

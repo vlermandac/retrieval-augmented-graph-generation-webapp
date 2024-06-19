@@ -11,7 +11,6 @@
 
 namespace ns{
 
-using Unordered_json = nlohmann::ordered_json;
 using Str = const std::string&;
 using Node_ptr = std::shared_ptr<Node>;
 using Edge_ptr = std::shared_ptr<Edge>;
@@ -21,16 +20,17 @@ class KnowledgeGraph {
 public:
   KnowledgeGraph() = default;
   KnowledgeGraph(const Json& triplet_chunks);
-  Json to_graphology_json();
-  void to_graphology_json(Str path);
-  void read_graph(Str path);
-  void update_edges(std::vector<int> id_list);
-  void update_nodes();
+  Json get_graphology_json();
+  Json get_graphology_json(std::vector<Node> node_list, std::vector<Edge> edge_list);
+  Json get_subgraph(const std::vector<int>& id_list);
+  void save_graphology_json(Str path);
+  void read_graph(const Json& json);
+  int num_nodes = 0;
 
 private:
   // Graph representations
-  adj_list::graph adj_list;
-  Json graphology_json;
+  Json json_graph;
+  std::unique_ptr<adjacency_list> adj_list;
 
   // Graph data
   std::vector<Node_ptr> nodes;
@@ -40,10 +40,10 @@ private:
   // Mappings
   std::unordered_map<std::string, int> node_index;
   std::unordered_map<int, Node_ptr> ref_nodes;
-  std::unordered_map<int, std::vector<Edge_ptr>> id_ref_edges;
+  std::unordered_map<int, std::vector<Edge_ptr>> ref_edges;
 
   // Internal methods
-  void get_layout(unsigned int width, unsigned int height, unsigned int iters_count);
+  void get_layout();
   void add_triplet(Str node1, Str relation, Str node2, int id);
   void add_node(Str node_name);
 };

@@ -1,0 +1,77 @@
+{
+  "attributes": {},
+  "edges": [
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "#626880",
+        "forceLabel": false,
+        "label": "B",
+        "size": 1
+      },
+      "source": "A",
+      "target": "C"
+    },
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "#626880",
+        "forceLabel": false,
+        "label": "D",
+        "size": 1
+      },
+      "source": "C",
+      "target": "E"
+    },
+    {
+      "attributes": {
+        "chunk_id": 2,
+        "color": "#626880",
+        "forceLabel": false,
+        "label": "B",
+        "size": 1
+      },
+      "source": "A",
+      "target": "E"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 1,
+        "label": "A",
+        "size": 4,
+        "x": 343.6574283768293,
+        "y": 343.6503629388851
+      },
+      "key": "A"
+    },
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 2,
+        "label": "C",
+        "size": 8,
+        "x": 0.006687873664989389,
+        "y": 486.0
+      },
+      "key": "C"
+    },
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 3,
+        "label": "E",
+        "size": 12,
+        "x": -343.6567895146397,
+        "y": 343.65100185476115
+      },
+      "key": "E"
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}
+

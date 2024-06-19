@@ -1,28 +1,35 @@
 #include "../include/adjacency_list.hpp"
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
-namespace adj_list {
+adjacency_list::adjacency_list(int n) : adj_list((n + 1), std::vector<int>()) {}
 
-graph from_edge_list(std::vector<std::pair<int, int>> edges, int n) {
-  graph adj_list;
-  adj_list.assign(n, std::vector<int>());
-  for (auto &[u, v] : edges) adj_list[u].push_back(v);
-  return adj_list;
-}
+std::vector<int>& adjacency_list::operator[](int index) {                          
+    return adj_list[index];                                           
+}                                                                     
 
-std::vector<double> page_rank(const graph &g, int iterations, double damping_factor) {
-  int n = g.size();
-  std::vector<double> ranks(n, 1.0 / n);
-  std::vector<double> new_ranks(n, 0.0);
+const std::vector<int>& adjacency_list::operator[](int index) const {              
+    return adj_list[index];                                           
+}                                                                     
 
+void adjacency_list::add_edge(int u, int v) {                                         
+    adj_list[u].push_back(v);                                         
+}                                                                     
+
+std::vector<double> adjacency_list::page_rank() {
+  int n = static_cast<int>(this->adj_list.size());
+  std::vector<double> ranks(n, 1.0 / n), new_ranks(n, 0.0);
+  int iterations = 100;
+  double damping_factor = 0.85;
   while (iterations--) {
     for (double &rank : new_ranks)
-      rank = (1.0 - damping_factor) / n;
+      rank = (1.0 - damping_factor) / static_cast<double>(n);
     for (int u = 0; u < n; u++) {
-      int out_degree = g[u].size();
+      int out_degree = this->adj_list[u].size();
       if (!out_degree) continue;
-      double share = ranks[u] / out_degree;
-      for (int v : g[u])
+      double share = ranks[u] / static_cast<double>(out_degree);
+      for (int v : this->adj_list[u])
         new_ranks[v] += damping_factor * share;
     }                                                                     
     ranks = new_ranks;
@@ -31,20 +38,14 @@ std::vector<double> page_rank(const graph &g, int iterations, double damping_fac
   return ranks;
 }
 
-std::vector<int> assign_size(const std::vector<double> &ranks, int min_size, int max_size) {
+std::vector<int> adjacency_list::assign_size(const std::vector<double> &ranks, int min_size, int max_size) {
   std::vector<int> sizes(ranks.size(), min_size);
   if (ranks.empty()) {std::cerr << "No ranks provided.\n"; return sizes;}
-
   double min_rank = *std::min_element(ranks.begin(), ranks.end());
   double max_rank = *std::max_element(ranks.begin(), ranks.end());
-
   if (min_rank == max_rank) {std::cerr << "All ranks are equal.\n"; return sizes;}
-
-  for(int i = 0; i < ranks.size(); i++)
+  for(unsigned int i = 0; i < ranks.size(); i++)
     sizes[i] = min_size + 
       static_cast<int>((ranks[i] - min_rank) / (max_rank - min_rank) * (max_size - min_size));
-
   return sizes;
 }
-
-} // namespace adj_list

@@ -1,11 +1,8 @@
 import yaml
 import os
-import sys
+from typing import Union
 from dotenv import load_dotenv
-
-pwd = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(pwd, '../src'))
-from core_classes import Config  # noqa: E402
+from core_classes import Config
 
 
 class ConfigVariables:
@@ -28,6 +25,17 @@ class ConfigVariables:
         self.config['preprocess'] = new_config.preprocess.dict()
         self.config['llm'] = new_config.llm.dict()
         self.config['rag'] = new_config.rag.dict()
+        with open(f'{self.root}config.yml', 'w') as ymlfile:
+            yaml.dump(self.config, ymlfile)
+        self.parse_config_file()
+
+    def update_config_option(self, option: str, value: Union[str, int, float]):
+        if (option in self.config['preprocess']):
+            self.config['preprocess'][option] = value
+        if (option in self.config['llm']):
+            self.config['llm'][option] = value
+        if (option in self.config['rag']):
+            self.config['rag'][option] = value
         with open(f'{self.root}config.yml', 'w') as ymlfile:
             yaml.dump(self.config, ymlfile)
         self.parse_config_file()

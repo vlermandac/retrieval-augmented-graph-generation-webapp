@@ -1,29 +1,48 @@
 from header import *
 
 
-class TestRAG(unittest.TestCase):
+class TestRAG(test.TestCase):
     def setUp(self, root=ROOT):
-        self.vars = ConfigVariables(root)
-        env_var = self.vars.env_vars('ELASTIC_URL', 'ELASTIC_PASSWORD',
-                                'CA_CERT', 'OPENAI_API_KEY')
-        cert_mod = root + env_var['CA_CERT']
-        env_var['CA_CERT'] = cert_mod
-        self.clients = Clients(**env_var)
 
-        self.rag = RAG(self.clients, 'goodfellas-chunk', # CAMBIAR GOODFELLAS
-                       **self.vars('embedding_model', 'dims', 'llm', 'k'))
+        # CONFIG VARIABLES
+        # Loaded from config and env files
+        vars = ConfigVariables(root)
+        db_vars = vars.env_vars('ELASTIC_URL', 'ELASTIC_PASSWORD', 'CA_CERT')
+        db_vars['CA_CERT'] = root + db_vars['CA_CERT']
+        oai_key = vars.env_vars('OPENAI_API_KEY')
+        # Manually set
+        test_file = "files/Ricardo_Meruane-Noctulo.pdf"
+        dims = 5
+        size = 20
+        overlap = 1
+
+        # CLIENTS
+        db = ElasticsearchClient(**db_vars)
+        embedding = OAIEmbeddingClient('text-embedding-3-small', dims, **oai_key)
+        llm = OAIChatClient('gpt-3.5-turbo', **oai_key)
+
+        # DATA LOADING
+        self.doc_name = doc_name_format(test_file).title
+        db.delete(index=self.doc_name)
+        self.chunks = (Pipeline() | read_pdf(test_file)
+                                  | chunk(size, overlap)
+                                  | embed(embedding)
+                                  | index(db)).chunks
+
+        # RAG
+        self.rag = RAG(
+            db=db,
+            llm=llm,
+            embedding=embedding,
+            index_name=self.doc_name,
+            top_k=1
+        )
 
     def test_generation(self):
-        print(self.vars('embedding_model', 'dims', 'llm', 'k'))
-        response = self.rag(query="What is the movie Goodfellas about?")
-        self.assertTrue(response)
-        print("Contextualized query:")
-        print(self.rag.prompt)
-        print("\nResponse:")
-        print(response)
-        print("\nResult IDs:")
-        print(self.rag.get_result_ids())
+        rag_response = self.rag(query="What does it seems to be the main topic of the text?")
+        print(rag_response)
+        self.assertIsNotNone(rag_response)
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=RichTestRunner())
+    test.main(testRunner=RTT())

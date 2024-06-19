@@ -1,22 +1,21 @@
-from typing import List, Tuple, Any, Literal
+from typing import List, Tuple, Literal
+from core_classes import Database, LLM, EmbeddingModel
 
 
 class RAG:
     def __init__(
-        self, Clients: Any,
+        self, db: Database,
+        embedding: EmbeddingModel,
+        llm: LLM,
         index_name: str,
-        chat_model: Literal["gpt-4o", "gpt-3.5-turbo"],
-        embedding_model: str,
-        embedding_dimension: int, top_k: int
+        top_k: int
     ) -> None:
 
+        self.db = db
+        self.llm = llm
+        self.embedding = embedding
         self.index = index_name
-        self.vector_store = Clients.elastic_search()
-        self.openai = Clients.open_ai()
-        self.embedding_model = embedding_model
-        self.dims = embedding_dimension
         self.k = top_k
-        self.llm = chat_model
         self.prompt = ""
         self.result_ids = []
 
@@ -26,25 +25,19 @@ class RAG:
     ) -> Tuple[str, List[int]]:
 
         self.prompt = self.contextualized_query(query)
-        answer = self.openai.chat.completions.create(
-            model=self.llm,
+        completion = self.llm.inference(
             messages=[
                 {"role": "system", "content": system_message},
                 {"role": "user", "content": self.prompt},
             ],
         )
-        return answer.choices[0].message, self.result_ids
+        return completion, self.result_ids
 
     def query_embedding(self, query: str) -> List[float]:
-        embedd = self.openai.embeddings.create(
-            input=query,
-            model=self.embedding_model,
-            dimensions=self.dims
-        )
-        return embedd.data[0].embedding
+        return self.embedding.create(input=query)
 
     def retrieval(self, vector_query: List[float]) -> str:
-        knn = self.vector_store.semantic_search(
+        knn = self.db.semantic_search(
             self.index,
             vector_query,
             self.k

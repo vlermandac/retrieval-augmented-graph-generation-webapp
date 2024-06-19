@@ -5,10 +5,6 @@ volumes:
     driver: local
   esdata01:
     driver: local
-  kibanadata:
-    driver: local
-  graphdata:
-    driver: local
 
 networks:
   default:
@@ -117,10 +113,22 @@ services:
       timeout: 10s
       retries: 120
 
-  react-vite:
+  cppgraph:
     depends_on:
       es01:
         condition: service_healthy
-    build: ./react-app/
-    ports:
-      - 3000:3000
+    build: ./graph
+    ports: 
+      - "5000:5000"
+
+  fastapi:
+    depends_on:
+      cppgraph:
+        condition: service_healthy
+    build: ./searcher
+    ports: 
+      - "8000:8000"
+    environment:
+          - PYTHONUNBUFFERED=1
+
+

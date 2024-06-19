@@ -1,0 +1,43 @@
+{
+  "attributes": {},
+  "edges": [
+    {
+      "attributes": {
+        "chunk_id": 1,
+        "color": "#626880",
+        "forceLabel": false,
+        "label": "es",
+        "size": 1
+      },
+      "source": "n octulo",
+      "target": "murci ela"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 39,
+        "label": "n octulo",
+        "size": 5,
+        "x": 41.55040910791102,
+        "y": -452.3487749627956
+      },
+      "key": "n octulo"
+    },
+    {
+      "attributes": {
+        "color": "#babbf1",
+        "id": 40,
+        "label": "murci ela",
+        "size": 6,
+        "x": 109.83520698145344,
+        "y": -441.5307542632115
+      },
+      "key": "murci ela"
+    }
+  ],
+  "options": {
+    "multi": true
+  }
+}

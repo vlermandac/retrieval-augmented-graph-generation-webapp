@@ -1,13 +1,12 @@
 data:
-  processed_files: ../data/processed_files/
-  unprocessed_files: ../data/
+  data_path: ./data/
 llm:
-  chat_model: gpt-4o
-  embedding_dimension: 200
+  chat_model: gpt-3.5-turbo
+  embedding_dimension: 5
   embedding_model: text-embedding-3-small
 preprocess:
-  chunk_overlap: 100
-  chunk_size: 4000
+  chunk_overlap: 3
+  chunk_size: 30
 rag:
   index_name: goodfellas-chunk
-  top_k: 7
+  top_k: 2

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/main.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/main.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/main.cpp"
+},
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/src/adjacency_list.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/adjacency_list.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/adjacency_list.cpp"
+},
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/src/json_defs.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/json_defs.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/json_defs.cpp"
+},
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/src/fruchterman_reingold.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/fruchterman_reingold.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/fruchterman_reingold.cpp"
+},
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/src/layout.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/layout.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/layout.cpp"
+},
+{
+  "directory": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build",
+  "command": "/usr/local/bin/g++-13 -DDATA_DIR=\\\"/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/data\\\" -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/include -I/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/build/_deps/json-src/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -O2 -std=c++17 -o CMakeFiles/KnowledgeGraph.dir/src/knowledge_graph.cpp.o -c /Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/knowledge_graph.cpp",
+  "file": "/Users/vlermanda/Main/Projects/Tesis/searcher-full/graph/src/knowledge_graph.cpp"
+}
+]

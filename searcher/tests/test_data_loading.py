@@ -1,46 +1,52 @@
 from header import *
 
 
-class TestDataLoading(unittest.TestCase):
+class TestDataLoading(test.TestCase):
     def setUp(self, root=ROOT):
         vars = ConfigVariables(root)
-        env_var = vars.env_vars('ELASTIC_URL', 'ELASTIC_PASSWORD',
-                                'CA_CERT', 'OPENAI_API_KEY')
-        cert_mod = root + env_var['CA_CERT']
-        env_var['CA_CERT'] = cert_mod
-        self.clients = Clients(**env_var)
+        db_vars = vars.env_vars('ELASTIC_URL', 'ELASTIC_PASSWORD', 'CA_CERT')
+        db_vars['CA_CERT'] = root + db_vars['CA_CERT']
+        oai_key = vars.env_vars('OPENAI_API_KEY')
+        self.db = ElasticsearchClient(**db_vars)
+        self.dims = 5
+        self.embedding = OAIEmbeddingClient('text-embedding-3-small', self.dims, **oai_key)
 
-        self.dir_path = "files/"
+        self.test_file = "files/Ricardo_Meruane-Noctulo.pdf"
+        self.doc_name = doc_name_format(self.test_file).title
+        self.db.delete(index=self.doc_name)
+
         self.chunk_size = 20
         self.overlap = 1
-        self.embedding_model = 'text-embedding-3-small'
-        self.dims = 10
-        self.chunks = data_loading.run(self.clients, self.dir_path, self.chunk_size,
-                                      self.overlap, self.embedding_model, self.dims)[0]
-        self.doc_name = self.chunks[0].metadata['document_name']
+        self.chunks = (Pipeline() | read_pdf(self.test_file)
+                                  | chunk(self.chunk_size, self.overlap)
+                                  | embed(self.embedding)
+                                  | index(self.db)).chunks
 
-    def test_document(self):
+    def test_data_ingestion(self):
+        num = self.db.client.count(index=self.doc_name)
+        print("Number of items: ", num)
+
         print(f"Document name: {self.doc_name}")
-        response = \
-            self.clients.elastic_search().search(index='document', id=str(self.doc_name))
-        self.assertIsNotNone(response, "Document not found")
+        response = self.db.search(index=self.doc_name, id=0)
+        self.assertIsNotNone(response, f"Item with id 0 not found in {self.doc_name} index")
+        print("Item: ", response)
 
-        print("Document info: ", response)
-        self.clients.elastic_search().delete(index='document', id=self.doc_name)
+        res = self.db.client.search(index=self.doc_name, body={"query": {"match_all": {}}})
+        print("All items: ", res)
 
-        response = self.clients.elastic_search().delete(index=f"{self.doc_name}-chunk")
-        print("Deleted chunks: ", response)
+        response = self.db.search(index=self.doc_name)
+        self.assertIsNotNone(response, f"Index {self.doc_name} not found")
+        print("Index items: ", response)
 
-    def test_chunks(self):
-        print(f"Document name: {self.doc_name}")
+        response = self.db.delete(index=self.doc_name)
+        print("Delete response: ", response)
 
-        response = self.clients.elastic_search().search(index=f"{self.doc_name}-chunk")
-        print("Search respond: ", response)
-        self.assertIsNotNone(response, "Indexed chunks not found")
-
-        response = self.clients.elastic_search().delete(index=f"{self.doc_name}-chunk")
-        print("Deleted chunks: ", response)
+    def test_semantic_search(self):
+        query = self.embedding.create(input="noctulo")
+        response = self.db.semantic_search(index=self.doc_name, vector=query, k=1)
+        self.assertIsNotNone(response, f"Semantic search failed for {query}")
+        print("Semantic search: ", response)
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=RichTestRunner())
+    test.main(testRunner=RTT())

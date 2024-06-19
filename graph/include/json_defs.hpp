@@ -46,6 +46,23 @@ struct Edge {
 void to_json(Json& j, const Edge& e);
 void from_json(const Json& j, Edge& e);
 
+struct Triplet {
+  std::string entity1, relation, entity2;
+  Triplet() : entity1(), relation(), entity2() {}
+  Triplet(std::string entity1, std::string relation, std::string entity2)
+    : entity1(entity1), relation(relation), entity2(entity2) {}
+};
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Triplet, entity1, relation, entity2);
+
+struct TripletList {
+  int id;
+  std::vector<Triplet> triplets;
+  TripletList() : id(), triplets() {}
+  TripletList(int id, std::vector<Triplet> triplets) : id(id), triplets(triplets) {}
+};
+void to_json(Json& j, const TripletList& t);
+void from_json(const Json& j, TripletList& t);
+
 } // namespace ns
 
 # endif // JSON_DEFS_HPP

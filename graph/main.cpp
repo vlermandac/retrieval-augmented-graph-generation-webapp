@@ -1,77 +1,135 @@
-#include "include/knowledge_graph.hpp"
 #include "include/httplib.h"
-#include "include/json_defs.hpp"
+#include "include/knowledge_graph.hpp"
+#include <filesystem>
 #include <fstream>
-#include <vector>
-#include <memory>
 #include <iostream>
+#include <memory>
 #include <nlohmann/json.hpp>
+#include <string>
+#include <vector>
+
+#ifndef DATA_DIR
+#define DATA_DIR "."
+#endif
 
 using Json = nlohmann::json;
 using KG = ns::KnowledgeGraph;
+using Str = std::string;
 
+const Str DATA = Str(DATA_DIR);
+Str path(const Str &index) { return DATA + "/" + index; }
+bool exists(const Str &index) { return std::ifstream(path(index)).good(); }
+Str CURR_INDEX = "";
 std::unique_ptr<KG> graph(nullptr);
+httplib::Server svr;
 
-void generate_graph() {
-  if (std::ifstream("../data/pristine_graph.json").good()) {
-    std::ifstream file("../data/pristine_graph.json");
-    graph = std::make_unique<KG>();
-    graph->read_graph("../data/pristine_graph.json");
+bool validate_req(const httplib::Request &req, httplib::Response &res) {
+  if (!req.has_header("Content-Type") ||
+      req.get_header_value("Content-Type") != "application/json") {
+    res.set_content("415 Unsupported Media Type", "text/plain");
+    res.status = 415;
+    return false;
+  }
+  return true;
+}
+
+void generate_graph(const std::string &index, const Json &tl) {
+  graph = std::make_unique<KG>(tl);
+  if (graph->num_nodes == 0)
     return;
-  }
-  std::ifstream file("../data/triplets.json");
-  graph = std::make_unique<KG>(Json::parse(file));
-  graph->to_graphology_json("../data/pristine_graph.json");
+  std::filesystem::create_directories(path(index));
+  graph->save_graphology_json(path(index) + "/graph.json");
+  CURR_INDEX = index;
 }
 
-void update_graph(const std::vector<int>& id_list) {
-  graph->update_edges(id_list);
+void retrieve_graph(const Str &index) {
+  if (CURR_INDEX == index)
+    return;
+  graph = std::make_unique<KG>();
+  std::ifstream file(path(index) + "/graph.json");
+  Json json = Json::parse(file);
+  graph->read_graph(json);
+  CURR_INDEX = index;
 }
 
-void handle_generate(const httplib::Request& req, httplib::Response& res) {
-  if (graph) res.set_content("\nPrevious graph will be overwritten\n", "text/plain");
-  generate_graph();
-  res.set_content("Graph generated successfully", "text/plain");
-}
-
-void handle_update(const httplib::Request& req, httplib::Response& res) {
-  if (!graph) { res.set_content("No graph found to update", "text/plain"); return; }
-  if (!req.has_header("Content-Type") || req.get_header_value("Content-Type") != "application/json") {
-    res.set_content("Content-Type must be application/json", "text/plain");
-    res.status = 415; return; // Unsupported Media Type
-  }
+void handle_generate(const httplib::Request &req, httplib::Response &res) {
+  if (!validate_req(req, res)) return;
+  std::cout << "HTTP POST /generate received\n";
   try {
-    auto json_payload = Json::parse(req.body);
-    if (!json_payload.contains("values") || !json_payload["values"].is_array()) {
-      res.set_content("Invalid JSON payload: 'values' array missing or not an array", "text/plain");
-      res.status = 400; return;
+    auto json = Json::parse(req.body);
+    Str index = json["index"].get<Str>();
+    generate_graph(index, json["triplet_lists"]);
+    if (graph->num_nodes == 0) {
+      res.set_content("error, empty graph", "text/plain");
+      return;
     }
-    std::vector<int> values = json_payload["values"].get<std::vector<int>>();
-    update_graph(values);
-    res.set_content(graph->to_graphology_json().dump(2), "application/json");
-  }
-  catch (const std::exception &e) {
+    res.set_content(Str("graph generated at " + path(index)), "text/plain");
+  } catch (const std::exception &e) {
+    res.set_content(e.what(), "text/plain");
     res.status = 400;
-    res.set_content(std::string("Invalid JSON payload: ") + e.what(), "text/plain");
   }
 }
 
-void handle_get(const httplib::Request& req, httplib::Response& res) {
-  if (!graph) { res.set_content("No graph found", "text/plain"); return; }
-  res.set_content(graph->to_graphology_json().dump(2), "application/json");
+void handle_get(const httplib::Request &req, httplib::Response &res) {
+  std::cout << "HTTP POST /get received\n";
+  if (!validate_req(req, res)) return;
+  try {
+    auto json = Json::parse(req.body);
+    Str index = json["index"].get<Str>();
+    if (!exists(index)) {
+      res.set_content("error index not found", "text/plain");
+      return;
+    }
+    retrieve_graph(index);
+    std::vector<int> values = json["values"].get<std::vector<int>>();
+    std::cout << "values: " << values.size() << std::endl;
+    for (int v : values)
+      std::cout << v << std::endl;
+    if (!values.empty()) {
+      res.set_content(graph->get_subgraph(values).dump(2), "application/json");
+      return;
+    }
+    res.set_content(graph->get_graphology_json().dump(2), "application/json");
+  } catch (const std::exception &e) {
+    res.set_content(e.what(), "text/plain");
+    res.status = 400;
+  }
+}
+
+void handle_delete(const httplib::Request &req, httplib::Response &res) {
+  std::cout << "HTTP POST /delete received\n";
+  if (!validate_req(req, res)) return;
+  try {
+    auto json = Json::parse(req.body);
+    Str index = json["index"].get<Str>();
+    if (!exists(index)) {
+      Str message = "error index " + index + " not found";
+      res.set_content(message, "text/plain");
+      return;
+    }
+    std::filesystem::remove_all(path(index));
+    Str message = "index " + index + " deleted";
+    res.set_content(message, "text/plain");
+  } catch (const std::exception &e) {
+    res.set_content(e.what(), "text/plain");
+    res.status = 400;
+  }
 }
 
 int main() {
-  httplib::Server svr;
-  const int& port = 8080;
+  const Str &host = "localhost";
+  const int &port = 8080;
 
-  svr.Get("/generate", handle_generate);
-  svr.Post("/update", handle_update);
-  svr.Get("/get", handle_get);
+  // (index: str, JSON: TripletLists) -> str
+  svr.Post("/generate", handle_generate);
 
-  std::cout << "Server started at http://localhost:" << port << std::endl;
-  generate_graph();
-  svr.listen("0.0.0.0", port);
+  // (index: str, values: List[int]) -> Graphology-JSON
+  svr.Post("/get", handle_get);
 
+  // (index: str) -> void
+  svr.Post("/delete", handle_delete);
+
+  std::cout << "Server started at http://" << host << ":" << port << std::endl;
+  svr.listen(host, port);
   return 0;
 }

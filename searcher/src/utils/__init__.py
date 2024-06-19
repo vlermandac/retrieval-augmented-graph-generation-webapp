@@ -1,2 +1,2 @@
-from .logger import error, info, warning, debug, pretty_print, print_traceback
 from .args import Arguments
+from .document_format import doc_name_format, DocName

@@ -5,120 +5,113 @@
 
 namespace ns {
 
-KnowledgeGraph::KnowledgeGraph(const Json& json) {  // TODO: validate json structure
-  for (const auto& triplets_list : json) {
-    int id = triplets_list["id"];
-    for(const auto& triplets : triplets_list["triplets"])
-      for(const auto& triplet : triplets)
-        add_triplet(triplet["entity1"], triplet["relation"], triplet["entity2"], id);
-  }
-  this->adj_list = adj_list::from_edge_list(this->edge_list, node_index.size());
-  this->get_layout(1920, 800, 5000);
+KnowledgeGraph::KnowledgeGraph(const Json &json) {
+  std::vector<TripletList> triplet_list = json.get<std::vector<TripletList>>();
+  if (triplet_list.empty()) return;
+  for (const auto &triplets_with_id : triplet_list)
+    for (const auto &triplet : triplets_with_id.triplets)
+      add_triplet(triplet.entity1, triplet.relation, triplet.entity2,
+                  triplets_with_id.id);
+  this->get_layout();
 }
 
 void KnowledgeGraph::add_triplet(Str node1, Str relation, Str node2, int id) {
-  add_node(node1); add_node(node2);
+  add_node(node1);
+  add_node(node2);
   this->edge_list.push_back({node_index[node1], node_index[node2]});
-  Attributes_e atts(id, 1, false, relation, "gray");
+  Attributes_e atts(id, 1, false, relation, "#626880");
   auto e = std::make_shared<Edge>(node1, node2, atts);
   this->edges.push_back(e);
-  this->id_ref_edges[id].push_back(e);
+  this->ref_edges[id].push_back(e);
 }
 
 void KnowledgeGraph::add_node(Str node_name) {
   if (node_index.count(node_name)) return;
-  int node_mapping = node_index.size() + 1;
-  node_index[node_name] = node_mapping;
-  Attributes_n atts(node_mapping, 3, 0.0, 0.0, node_name, "blue");
+  node_index[node_name] = ++(this->num_nodes);
+  Attributes_n atts(num_nodes, 3, 0.0, 0.0, node_name, "#babbf1");
   auto n = std::make_shared<Node>(node_name, atts);
   this->nodes.push_back(n);
-  this->ref_nodes[node_mapping] = n;
+  this->ref_nodes[num_nodes] = n;
 }
 
-void KnowledgeGraph::get_layout(unsigned int width, unsigned int height, unsigned int iters_count) {
-    std::vector<double> ranks = adj_list::page_rank(adj_list, 100, 0.85);
-    std::vector<int> sizes = adj_list::assign_size(ranks, 4, 12);
-
-    for (Node_ptr &node : nodes)
-      node->attributes.size = sizes[node->attributes.id];
-    std::cout << "sizes calculated\n";
-
-    std::vector<layout::Point2D> pos = layout::fruchterman_reingold(
-        adj_list, width, height, ranks, iters_count, 30);
-    std::cout << "layout calculated\n";
-
-    for (Node_ptr &node : this->nodes)
-      node->coords(pos[node->attributes.id].x, pos[node->attributes.id].y);
-    std::cout << "postitions setted\n";
+void KnowledgeGraph::get_layout() {
+  this->adj_list = std::make_unique<adjacency_list>(num_nodes);
+  for (auto &[u, v] : edge_list)
+    adj_list->add_edge(u, v);
+  std::vector<double> ranks = adj_list->page_rank();
+  std::vector<int> sizes = adj_list->assign_size(ranks, 4, 12);
+  for (Node_ptr &n : nodes)
+    n->attributes.size = sizes[n->attributes.id];
+  std::vector<layout::Point2D> pos =
+      layout::fr(adj_list->adj_list, ranks, 1000, 2000);
+  for (Node_ptr &n : this->nodes)
+    n->coords(pos[n->attributes.id].x, pos[n->attributes.id].y);
 }
 
-void KnowledgeGraph::update_edges(std::vector<int> id_list){
-  if (id_list.empty())
-    { std::cout << "No edge id provided for update.\n"; return; }
-  for (int id : id_list) 
-    if (id_ref_edges.count(id))
-      for (Edge_ptr &edge : id_ref_edges[id])
-        edge->attributes.color = "cyan";
+Json KnowledgeGraph::get_graphology_json(std::vector<Node> node_list,
+                                         std::vector<Edge> edge_list) {
+  json_graph["attributes"] = Json::object();
+  json_graph["nodes"] = node_list;
+  json_graph["edges"] = edge_list;
+  json_graph["options"] = {{"multi", true}};
+  return this->json_graph;
 }
 
-void KnowledgeGraph::update_nodes(){
-}
-
-Json KnowledgeGraph::to_graphology_json() {
+Json KnowledgeGraph::get_graphology_json() {
   std::vector<Node> node_list;
-  for (Node_ptr node : nodes)
-    node_list.push_back(*node);
-
+  for (Node_ptr n : this->nodes)
+    node_list.push_back(*n);
   std::vector<Edge> edge_list;
-  for (Edge_ptr edge : edges)
-    edge_list.push_back(*edge);
-
-  Json graph;
-  graph["attributes"] = Json::object();
-  graph["nodes"] = node_list;
-  graph["edges"] = edge_list;
-  graph["options"] = {{"multi", true}};
-
-  return this->graphology_json = graph;
+  for (Edge_ptr e : this->edges)
+    edge_list.push_back(*e);
+  return this->get_graphology_json(node_list, edge_list);
 }
 
-void KnowledgeGraph::to_graphology_json(Str path) {
-  Str new_path = "./graph.json";
-  std::cout << "Graph copy created at " << new_path << std::endl;
-  std::cout<<"reading from triplets.json\n";
-  this->to_graphology_json();
+void KnowledgeGraph::save_graphology_json(Str path) {
+  this->get_graphology_json();
   std::fstream file;
-  file.open(new_path, std::ios::out);
-  file << this->graphology_json.dump(2);
+  file.open(path, std::ios::out);
+  file << this->json_graph.dump(2);
 }
 
-void KnowledgeGraph::read_graph(Str path) {
-  if (this->node_index.size() > 0) 
-    { std::cout << "Graph already loaded. Only one graph can be read.\n"; return; }
+Json KnowledgeGraph::get_subgraph(const std::vector<int> &id_list) {
+  std::vector<Node> node_list;
+  std::vector<Edge> edge_list;
+  std::vector<bool> added(num_nodes, false);
+  for (int id : id_list) {
+    std::cout << "id: " << id << std::endl;
+    if (ref_edges.count(id))
+      for (Edge_ptr &e : ref_edges[id]) {
+        edge_list.push_back(*e);
+        int u = node_index[e->source];
+        int v = node_index[e->target];
+        if (added[u] || added[v]) continue;
+        node_list.push_back(*ref_nodes[u]);
+        node_list.push_back(*ref_nodes[v]);
+        added[u] = added[v] = true;
+      }
+  }
+  return get_graphology_json(node_list, edge_list);
+}
 
-  std::cout << "Reading graph from " << path << std::endl;
-  std::ifstream file(path);
-  Json json = Json::parse(file);
-
+void KnowledgeGraph::read_graph(const Json &json) {
   std::vector<Node> parsed_n = json["nodes"].get<std::vector<Node>>();
   std::vector<Edge> parsed_e = json["edges"].get<std::vector<Edge>>();
-
-  for (const Node &node : parsed_n) {
-    this->node_index[node.key] = node.attributes.id;
-    auto n = std::make_shared<Node>(node.attributes.label, node.attributes);
-    this->nodes.push_back(n);
-    this->ref_nodes[node.attributes.id] = n;
+  this->num_nodes = parsed_n.size();
+  for (const Node &n : parsed_n) {
+    this->node_index[n.key] = n.attributes.id;
+    auto np = std::make_shared<Node>(n.attributes.label, n.attributes);
+    this->nodes.push_back(np);
+    this->ref_nodes[n.attributes.id] = np;
   }
-
-  for (const Edge &edge : parsed_e) {
-    this->edge_list.push_back({node_index[edge.source], node_index[edge.target]});
-    Attributes_e atts = edge.attributes;
-    auto e = std::make_shared<Edge>(edge.source, edge.target, atts);
-    this->edges.push_back(e);
-    this->id_ref_edges[atts.chunk_id].push_back(e);
+  for (const Edge &e : parsed_e) {
+    this->edge_list.push_back({node_index[e.source], node_index[e.target]});
+    Attributes_e atts = e.attributes;
+    auto ep = std::make_shared<Edge>(e.source, e.target, atts);
+    this->edges.push_back(ep);
+    this->ref_edges[atts.chunk_id].push_back(ep);
   }
-
-  this->adj_list = adj_list::from_edge_list(this->edge_list, node_index.size());
+  this->get_layout();
 }
 
 } // namespace ns
