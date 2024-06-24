@@ -18,19 +18,18 @@ using Edge_ptr = std::shared_ptr<Edge>;
 class KnowledgeGraph {
 
 public:
-  KnowledgeGraph() = default;
-  KnowledgeGraph(const Json& triplet_chunks);
-  Json get_graphology_json();
+  KnowledgeGraph(const Json& json, const std::string& read_from);
+  void read_triplets(const Json& triplet_chunks);
+  void read_graph(const Json& json);
+  Json get_graph();
   Json get_graphology_json(std::vector<Node> node_list, std::vector<Edge> edge_list);
   Json get_subgraph(const std::vector<int>& id_list);
-  void save_graphology_json(Str path);
-  void read_graph(const Json& json);
+  void save_graph(Str path);
   int num_nodes = 0;
 
 private:
   // Graph representations
-  Json json_graph;
-  std::unique_ptr<adjacency_list> adj_list;
+  adjacency_list adj_list;
 
   // Graph data
   std::vector<Node_ptr> nodes;

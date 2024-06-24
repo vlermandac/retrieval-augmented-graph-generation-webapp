@@ -3,49 +3,56 @@ import "@react-sigma/core/lib/react-sigma.min.css";
 import Graph from "graphology";
 import { SerializedGraph } from "graphology-types";
 import { SigmaContainer } from "@react-sigma/core";
+import { fetchGraph } from "@/lib/fetch";
+import { useCurrentIndex } from "@/lib/current-index-context";
 
-interface props {
-  list: number[];
-  onGraphRendered: (graphRendered: boolean) => void;
-}
-
+const sigmaStyle = { height: "800px", width: "100%" };
 const sigmaSettings = {
   allowInvalidContainer: true,
+  renderEdgeLabels: true,
   defaultNodeColor: "#DFDBF9",
   zIndex: true,
 };
 
-const sigmaStyle = { height: "800px", width: "100%" };
+interface props {
+  list: number[];
+}
 
-export const DisplayGraph:FC<props> = ({ list, onGraphRendered }) => {
-
+export const DisplayGraph: FC<props> = ({ list }) => {
   const [jsonGraph, setJsonGraph] = useState<SerializedGraph | null>(null);
+  const [graph, setGraph] = useState<Graph | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const { currentIndex } = useCurrentIndex();
 
   useEffect(() => {
-    if (list.length === 0) return;
-    const apiCall = async (list: number[]) => {
-      const response = await fetch('http://localhost:8000/update-graph', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json '},
-        body: JSON.stringify({ values: list })
-      });
-      const data = await response.json();
+    const apiCall = async () => {
+      if (!currentIndex || list.length < 1) return;
+      const data = await fetchGraph(currentIndex, list);
+      console.log("fetch graph response: ", data);
       setJsonGraph(data);
+      console.log("jsonGraph: ", jsonGraph);
     };
-    apiCall(list);
-  }, [list]);
+    apiCall();
+  }, [currentIndex, list]);
 
   useEffect(() => {
-    if (jsonGraph) onGraphRendered(true);
-  }, [jsonGraph, onGraphRendered]);
+    if (jsonGraph){
+      setGraph(Graph.from(jsonGraph));
+      setLoading(false);
+    }
+  }, [jsonGraph]);
 
-  const kgraph = jsonGraph ? Graph.from(jsonGraph) : new Graph();
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
-      <SigmaContainer style={sigmaStyle} settings={sigmaSettings} graph={kgraph}>
-      </SigmaContainer>
+    <div>
+    {graph ? 
+    <SigmaContainer style={sigmaStyle} settings={sigmaSettings} graph={graph}>
+    </SigmaContainer>
+    : <div>Loading...</div>}
+    </div>
   );
 
 };
-
-

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { useContextValues } from '@/lib/response-context';
+import { fetchRAG } from '@/lib/fetch';
 
 export default function InputExtended() {
 
@@ -11,14 +12,7 @@ export default function InputExtended() {
   const navigate = useNavigate();
 
   const apiCall = async (query: string) => {
-    const res = await fetch('http://localhost:8000/rag', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: 'query=' + query
-    });
-    const data = await res.json();
+    const data = await fetchRAG(query);
     setResponseCtx(data.rag.content);
     setResponseCtxId(data.ids);
     navigate('/response');

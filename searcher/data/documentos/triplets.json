@@ -1,0 +1,4467 @@
+[
+  {
+    "id": 36,
+    "triplets": [
+      {
+        "entity1": "mario vila",
+        "relation": "is the son of",
+        "entity2": "doris reyes"
+      },
+      {
+        "entity1": "arturo villegas",
+        "relation": "is the relative of",
+        "entity2": "mario vila"
+      },
+      {
+        "entity1": "doris reyes",
+        "relation": "is the relative of",
+        "entity2": "arturo villegas"
+      },
+      {
+        "entity1": "juan antonio acuna concha",
+        "relation": "was detained at",
+        "entity2": "san rosendo"
+      },
+      {
+        "entity1": "juan antonio acuna concha",
+        "relation": "was married to",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "juan antonio acuna concha",
+        "relation": "is the parent of",
+        "entity2": "three children"
+      },
+      {
+        "entity1": "juan antonio acuna concha",
+        "relation": "was detained by",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "juan antonio acuna concha",
+        "relation": "was last seen at",
+        "entity2": "tenencia de laja"
+      },
+      {
+        "entity1": "luis ulloa valenzuela",
+        "relation": "was detained at",
+        "entity2": "tenencia de laja"
+      },
+      {
+        "entity1": "luis ulloa valenzuela",
+        "relation": "was executed at",
+        "entity2": "fundo san juan"
+      },
+      {
+        "entity1": "luis ulloa valenzuela",
+        "relation": "was buried at",
+        "entity2": "cemetery in yumbel"
+      },
+      {
+        "entity1": "jack gutierrez rodriguez",
+        "relation": "was detained at",
+        "entity2": "tenencia de laja"
+      },
+      {
+        "entity1": "federico riquelme concha",
+        "relation": "was detained at",
+        "entity2": "tenencia de laja"
+      },
+      {
+        "entity1": "federico riquelme concha",
+        "relation": "was executed at",
+        "entity2": "fundo san juan"
+      },
+      {
+        "entity1": "federico riquelme concha",
+        "relation": "was buried at",
+        "entity2": "cemetery in yumbel"
+      },
+      {
+        "entity1": "manuela cristi",
+        "relation": "was married to",
+        "entity2": "jecar nehgme"
+      },
+      {
+        "entity1": "jecar nehgme",
+        "relation": "was detained at",
+        "entity2": "temuco"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "is the son of",
+        "entity2": "jecar nehgme"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "was commander in chief of",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "nelson caucoto",
+        "relation": "is the lawyer of",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "dictator",
+        "relation": "was present at",
+        "entity2": "the zone in n/a"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "triplets": [
+      {
+        "entity1": "jecar",
+        "relation": "detenido",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "jecar",
+        "relation": "participaba",
+        "entity2": "mdp"
+      },
+      {
+        "entity1": "jecar",
+        "relation": "relegado",
+        "entity2": "puerto cisnes"
+      },
+      {
+        "entity1": "jecar",
+        "relation": "vicepresidente",
+        "entity2": "iu"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "asesinado",
+        "entity2": "desconocidos"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "encontrarse",
+        "entity2": "agueda sez"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "partido",
+        "entity2": "moneda 2423"
+      },
+      {
+        "entity1": "ministro en visita",
+        "relation": "incompetencia",
+        "entity2": "jusiticia militar"
+      },
+      {
+        "entity1": "juez",
+        "relation": "orden",
+        "entity2": "guardar"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "triplets": [
+      {
+        "entity1": "corte suprema",
+        "relation": "confirmó condenas a",
+        "entity2": "nueve ex carabineros"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "condenó a",
+        "entity2": "nueve ex carabineros"
+      },
+      {
+        "entity1": "trabajadores forestales",
+        "relation": "fueron asesinados en",
+        "entity2": "agosto de 2021"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "dictó la sentencia en",
+        "entity2": "agosto de 2021"
+      },
+      {
+        "entity1": "pedro luis jarpa foerster",
+        "relation": "fue absuelto como",
+        "entity2": "cómplice de los homicidios"
+      },
+      {
+        "entity1": "alberto juan fernández mitchell",
+        "relation": "fue condenado a",
+        "entity2": "pena de presidio perpetuo"
+      },
+      {
+        "entity1": "josé jacinto ñotrola sanhueza",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "mario sebastián montoya burgos",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "manuel enrique cerda robledo",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "gerson nilo saavedra reinike",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "pedro del carmen parra utreras",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "víctor manuel campos dávila",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "nelson casanova salgado",
+        "relation": "fue condenado a",
+        "entity2": "pena de 15 años y un día de presidio"
+      },
+      {
+        "entity1": "anselmo del carmen san martín navarrete",
+        "relation": "fue sentenciado a",
+        "entity2": "5 años de reclusión"
+      },
+      {
+        "entity1": "fernando grandón gálvez",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "jorge andrés lamana abarza",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "rubén antonio campos lópez",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "juan carlos jara herrera",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "raúl urra parada",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "luis armando ulloa valenzuela",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "óscar omar sanhueza contreras",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "dagoberto enrique garfias gatica",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "luis alberto del carmen araneda reyes",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "juan de dios villarroel espinoza",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "heraldo del carmen muñoz muñoz",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "federico riquelme concha",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "jorge lautaro zorrilla rubio",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "manuel mario becerra avello",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "jack eduardo gutiérrez rodríguez",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "mario jara jara",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "wilson gamadiel muñoz rodríguez",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "alfonso segundo macaya barrales",
+        "relation": "fue detenido en el lugar de trabajo",
+        "entity2": "planta papelera cmpc laja"
+      },
+      {
+        "entity1": "trabajadores",
+        "relation": "fueron detenidos en",
+        "entity2": "septiembre de 1973"
+      },
+      {
+        "entity1": "trabajadores",
+        "relation": "fueron asesinados en",
+        "entity2": "septiembre de 1973"
+      },
+      {
+        "entity1": "jueza corina mera",
+        "relation": "dispuso traslado de los cuerpos a",
+        "entity2": "cementerio"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "triplets": [
+      {
+        "entity1": "agrupación",
+        "relation": "pedido",
+        "entity2": "edil de coelemu"
+      },
+      {
+        "entity1": "edil de coelemu",
+        "relation": "comprometido",
+        "entity2": "llevar a cabo el acto"
+      },
+      {
+        "entity1": "municipalidad de coelemu",
+        "relation": "impulsa",
+        "entity2": "memorial"
+      },
+      {
+        "entity1": "edil de coelemu",
+        "relation": "señaló",
+        "entity2": "importancia de la memoria"
+      },
+      {
+        "entity1": "municipalidad de coelemu",
+        "relation": "publicó",
+        "entity2": "bases para propuestas"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "detenido",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "desaparecido",
+        "entity2": "30 de abril de 1974"
+      },
+      {
+        "entity1": "alejandro pedreros",
+        "relation": "confirmado",
+        "entity2": "llamado a concurso"
+      },
+      {
+        "entity1": "omar manríquez lópez",
+        "relation": "detenido",
+        "entity2": "6 de septiembre de 1974"
+      },
+      {
+        "entity1": "carmen ramírez",
+        "relation": "cónyuge de",
+        "entity2": "omar manríquez lópez"
+      },
+      {
+        "entity1": "carabineros",
+        "relation": "interrogaron",
+        "entity2": "presos políticos"
+      },
+      {
+        "entity1": "municipalidad de coelemu",
+        "relation": "anunció",
+        "entity2": "concurso"
+      },
+      {
+        "entity1": "ramón alfonso abarca alarcón",
+        "relation": "detenido",
+        "entity2": "16 de septiembre de 1983"
+      },
+      {
+        "entity1": "instituto médico legal",
+        "relation": "emitió",
+        "entity2": "certificado de defunción"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "triplets": [
+      {
+        "entity1": "ramon alfonso abarca alarcon",
+        "relation": "took refuge",
+        "entity2": "attic of the property"
+      },
+      {
+        "entity1": "ramon alfonso abarca alarcon",
+        "relation": "rescued by",
+        "entity2": "neighbors"
+      },
+      {
+        "entity1": "ramon alfonso abarca alarcon",
+        "relation": "taken to",
+        "entity2": "central post"
+      },
+      {
+        "entity1": "ramon alfonso abarca alarcon",
+        "relation": "died at",
+        "entity2": "central post"
+      },
+      {
+        "entity1": "ramon alfonso abarca alarcon",
+        "relation": "declared as",
+        "entity2": "victim of human rights violations"
+      },
+      {
+        "entity1": "afep",
+        "relation": "supported by",
+        "entity2": "ministry of cultures, arts, and heritage"
+      },
+      {
+        "entity1": "afep",
+        "relation": "supported by",
+        "entity2": "chair of human rights of the university of chile"
+      },
+      {
+        "entity1": "lvaro gómez",
+        "relation": "responsible for",
+        "entity2": "illustrations"
+      },
+      {
+        "entity1": "afep",
+        "relation": "based on",
+        "entity2": "national truth and reconciliation commission report 1991"
+      },
+      {
+        "entity1": "afep",
+        "relation": "based on",
+        "entity2": "national reparation and reconciliation commission report 1996"
+      },
+      {
+        "entity1": "logistics battalion no. 6 pisagua",
+        "relation": "located at",
+        "entity2": "iquique"
+      },
+      {
+        "entity1": "logistics battalion no. 6 pisagua",
+        "relation": "used as",
+        "entity2": "detention and torture center"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "responsible for crimes of",
+        "entity2": "violation of human rights"
+      },
+      {
+        "entity1": "air base los cóndores",
+        "relation": "used as",
+        "entity2": "political prisoner detention center"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "triplets": [
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was mayor of",
+        "entity2": "coelemu"
+      },
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was detained by",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was last seen at",
+        "entity2": "4th commissariat of concepción"
+      },
+      {
+        "entity1": "omar manríquez lópez",
+        "relation": "was militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "rudy cárcamo ruiz",
+        "relation": "was last seen in",
+        "entity2": "november 1974"
+      },
+      {
+        "entity1": "juan abello mendoza",
+        "relation": "was sentenced to",
+        "entity2": "5 years and one day of imprisonment"
+      },
+      {
+        "entity1": "sergio arévalo cid",
+        "relation": "was sentenced to",
+        "entity2": "5 years and one day of imprisonment"
+      },
+      {
+        "entity1": "guillermo rodríguez sullivan",
+        "relation": "was sentenced to",
+        "entity2": "5 years and one day of imprisonment"
+      },
+      {
+        "entity1": "beniamino bozzo basso",
+        "relation": "was sentenced to",
+        "entity2": "3 years of imprisonment"
+      },
+      {
+        "entity1": "carlos aguillón henríquez",
+        "relation": "was sentenced to",
+        "entity2": "3 years of imprisonment"
+      },
+      {
+        "entity1": "heriberto rojas jiménez",
+        "relation": "was sentenced to",
+        "entity2": "300 days of imprisonment"
+      },
+      {
+        "entity1": "fisco",
+        "relation": "was ordered to pay",
+        "entity2": "200 million pesos"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "triplets": [
+      {
+        "entity1": "josé r. córdoba croxato",
+        "relation": "administrator of",
+        "entity2": "port of iquique"
+      },
+      {
+        "entity1": "juan valencia hinojosa",
+        "relation": "employee of",
+        "entity2": "eca"
+      },
+      {
+        "entity1": "mario morris barrios",
+        "relation": "officer of",
+        "entity2": "customs"
+      },
+      {
+        "entity1": "humberto lizardi flores",
+        "relation": "militant of",
+        "entity2": "mir"
+      },
+      {
+        "entity1": "freddy taberna gallegos",
+        "relation": "militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "josé sampson ocaranza",
+        "relation": "militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "juan a. ruz díaz",
+        "relation": "councilor of",
+        "entity2": "iquique"
+      },
+      {
+        "entity1": "rodolfo fuenzalida fernández",
+        "relation": "pilot of",
+        "entity2": "pesquera iquique"
+      },
+      {
+        "entity1": "germán palominos lamas",
+        "relation": "militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "luis higuera",
+        "relation": "executed in",
+        "entity2": "january 1974"
+      },
+      {
+        "entity1": "nelson márquez",
+        "relation": "executed in",
+        "entity2": "january 1974"
+      },
+      {
+        "entity1": "luis toro castillo",
+        "relation": "executed on",
+        "entity2": "february 11, 1974"
+      },
+      {
+        "entity1": "alberto yáñez carvajal",
+        "relation": "executed on",
+        "entity2": "february 11, 1974"
+      },
+      {
+        "entity1": "marcelino lamas largo",
+        "relation": "executed on",
+        "entity2": "december 26, 1974"
+      },
+      {
+        "entity1": "juan patricio abarza cáceres",
+        "relation": "detained by",
+        "entity2": "investigations police"
+      },
+      {
+        "entity1": "juan patricio abarza cáceres",
+        "relation": "member of",
+        "entity2": "patria y libertad"
+      },
+      {
+        "entity1": "juan patricio abarza cáceres",
+        "relation": "founded on",
+        "entity2": "april 1, 1971"
+      },
+      {
+        "entity1": "joaquín billard",
+        "relation": "judge of",
+        "entity2": "santiago court of appeals"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "minister of",
+        "entity2": "concepción court of appeals"
+      },
+      {
+        "entity1": "nelson gonzález bustos",
+        "relation": "author of",
+        "entity2": "testimonial statement"
+      },
+      {
+        "entity1": "mauricio aedo",
+        "relation": "member of",
+        "entity2": "memoria viva"
+      },
+      {
+        "entity1": "pato abarza",
+        "relation": "group of",
+        "entity2": "patria y libertad"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "triplets": [
+      {
+        "entity1": "base aérea los cóndores",
+        "relation": "ubicación",
+        "entity2": "alto hospicio"
+      },
+      {
+        "entity1": "base aérea los cóndores",
+        "relation": "ubicación",
+        "entity2": "iquique"
+      },
+      {
+        "entity1": "servicio de inteligencia de la fuerza aérea",
+        "relation": "rama",
+        "entity2": "fuerza aérea"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "rango",
+        "entity2": "coronel de la fach"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "agente",
+        "entity2": "sifa"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "comandante",
+        "entity2": "ala 1 los cóndores"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "responsable",
+        "entity2": "delitos de violación a los derechos humanos"
+      },
+      {
+        "entity1": "c redwing",
+        "relation": "fotógrafo de",
+        "entity2": "base aérea los cóndores"
+      },
+      {
+        "entity1": "augusto pinochet ugarte",
+        "relation": "comandante en jefe de",
+        "entity2": "ejército"
+      },
+      {
+        "entity1": "josé t. merino castro",
+        "relation": "comandante en jefe de",
+        "entity2": "armada"
+      },
+      {
+        "entity1": "gustavo leigh guzmán",
+        "relation": "comandante en jefe de",
+        "entity2": "fuerza aérea"
+      },
+      {
+        "entity1": "césar mendoza durán",
+        "relation": "director general de",
+        "entity2": "carabineros"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "triplets": [
+      {
+        "entity1": "jueza",
+        "relation": "dispone traslados",
+        "entity2": "cementerio parroquial"
+      },
+      {
+        "entity1": "oficial policial",
+        "relation": "cumplió orden utilizando",
+        "entity2": "coloso tirado por tractor"
+      },
+      {
+        "entity1": "abarzúa zamorano, carlos",
+        "relation": "fecha detención",
+        "entity2": "12/09/1973"
+      },
+      {
+        "entity1": "abarzúa zamorano, carlos",
+        "relation": "lugar detención",
+        "entity2": "santiago"
+      },
+      {
+        "entity1": "abarzúa zamorano, carlos",
+        "relation": "fecha asesinato",
+        "entity2": "12/09/1973"
+      },
+      {
+        "entity1": "abarzúa zamorano, carlos",
+        "relation": "lugar asesinato",
+        "entity2": "santiago"
+      },
+      {
+        "entity1": "instituto médico legal",
+        "relation": "emitió",
+        "entity2": "certificados médicos de defunción"
+      },
+      {
+        "entity1": "comisión chilena de derechos humanos",
+        "relation": "presentó casos a",
+        "entity2": "corporación"
+      },
+      {
+        "entity1": "abarca maggi, lizardo simón",
+        "relation": "comandante",
+        "entity2": "regimiento de caballería n°3 húsares"
+      },
+      {
+        "entity1": "morel donoso, alejandro",
+        "relation": "teniente coronel",
+        "entity2": "regimiento de caballería n°3 húsares"
+      },
+      {
+        "entity1": "oryan munita, patricio",
+        "relation": "mayor",
+        "entity2": "regimiento de caballería n°3 húsares"
+      },
+      {
+        "entity1": "bacigalupo sorucco, elio",
+        "relation": "comandante",
+        "entity2": "regimiento de artillería n°4 miraflores"
+      },
+      {
+        "entity1": "gonzález, héctor",
+        "relation": "comandante",
+        "entity2": "regimiento de artillería n°4 miraflores"
+      },
+      {
+        "entity1": "bravo pantoja, patricio",
+        "relation": "comandante",
+        "entity2": "regimiento de telecomunicaciones n°4 membrillar"
+      },
+      {
+        "entity1": "abarca maggi, lizardo",
+        "relation": "teniente coronel",
+        "entity2": "regimiento de ingenieros motorizado n°4 arauco"
+      },
+      {
+        "entity1": "ramírez parga, antonio",
+        "relation": "mayor",
+        "entity2": "regimiento de ingenieros motorizado n°4 arauco"
+      },
+      {
+        "entity1": "vega fonseca, luis renán",
+        "relation": "teniente coronel",
+        "entity2": "batallón logístico n°4 victoria"
+      },
+      {
+        "entity1": "celia ruth y ana",
+        "relation": "admiradoras de",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "director",
+        "entity2": "dina"
+      },
+      {
+        "entity1": "lizó simón abarca maggi",
+        "relation": "jefe",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "labbe",
+        "relation": "coronel",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "contreras",
+        "relation": "general",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "odlanier mena",
+        "relation": "entierro",
+        "entity2": "funeral"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "general",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "contreras",
+        "relation": "detenido",
+        "entity2": "chile"
+      },
+      {
+        "entity1": "círculo 5 estrellas",
+        "relation": "formado por",
+        "entity2": "mujeres cercanas a militares"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "triplets": [
+      {
+        "entity1": "arturo segundo villegas villagrán",
+        "relation": "was detained by",
+        "entity2": "juan lorenzo abello vildsola"
+      },
+      {
+        "entity1": "arturo segundo villegas villagrán",
+        "relation": "was seen in",
+        "entity2": "isla quiriquina"
+      },
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was detained by",
+        "entity2": "carabineros de coelemu"
+      },
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was detained in",
+        "entity2": "april 30, 1974"
+      },
+      {
+        "entity1": "luis bernardo acevedo andrade",
+        "relation": "was taken to",
+        "entity2": "4th commissariat of concepción"
+      },
+      {
+        "entity1": "omar lautaro manríquez lópez",
+        "relation": "was detained by",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "omar lautaro manríquez lópez",
+        "relation": "was detained on",
+        "entity2": "september 9, 1974"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "was mayor of",
+        "entity2": "coelemu"
+      },
+      {
+        "entity1": "rodolfo rivera vera",
+        "relation": "wrote",
+        "entity2": "a book on torture, imprisonment, and missing detainees"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "was detained and disappeared from",
+        "entity2": "talcahuano naval base"
+      },
+      {
+        "entity1": "omar manríquez lópez",
+        "relation": "was detained and disappeared",
+        "entity2": "1974"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "triplets": [
+      {
+        "entity1": "luis a. lizardi lizardi",
+        "relation": "member of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "luis a. lizardi lizardi",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "marcelo o. guzmán fuentes",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "marcelo o. guzmán fuentes",
+        "relation": "member of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "nolberto jesús cañas",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "michel selim nash saez",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "michel selim nash saez",
+        "relation": "member of",
+        "entity2": "communist youth"
+      },
+      {
+        "entity1": "juan calderón villalón",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "juan jiménez vidal",
+        "relation": "executed by",
+        "entity2": "law of escape on september 29, 1973"
+      },
+      {
+        "entity1": "juan jiménez vidal",
+        "relation": "member of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "julio c. cabezas gacitúa",
+        "relation": "executed by",
+        "entity2": "war council on october 11, 1973"
+      },
+      {
+        "entity1": "pisagua",
+        "relation": "used as",
+        "entity2": "concentration camp and site of executions"
+      },
+      {
+        "entity1": "nelson márquez",
+        "relation": "killed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "luis a. lizardi lizardi",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "marcelo o. guzmán fuentes",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "nolberto jesús cañas",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "michel selim nash saez",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "juan calderón villalón",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "juan jiménez vidal",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "julio c. cabezas gacitúa",
+        "relation": "executed at",
+        "entity2": "pisagua"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "triplets": [
+      {
+        "entity1": "pedro guzmán olivares",
+        "relation": "is a",
+        "entity2": "funcionario de ejército en servicio"
+      },
+      {
+        "entity1": "luis sanhueza ross",
+        "relation": "is a",
+        "entity2": "funcionario de ejército en servicio"
+      },
+      {
+        "entity1": "jaime norambuena aguilar",
+        "relation": "is a",
+        "entity2": "funcionario de ejército en servicio"
+      },
+      {
+        "entity1": "manuel allende tello",
+        "relation": "is a",
+        "entity2": "funcionario de ejército en servicio"
+      },
+      {
+        "entity1": "silvio corssini escrate",
+        "relation": "is a",
+        "entity2": "funcionario de ejército en servicio"
+      },
+      {
+        "entity1": "enrique leddy araneda",
+        "relation": "is a",
+        "entity2": "brigadier"
+      },
+      {
+        "entity1": "gustavo abarza rivadeneira",
+        "relation": "is a",
+        "entity2": "general"
+      },
+      {
+        "entity1": "nibaldo segura",
+        "relation": "is a",
+        "entity2": "ministro de la sala penal de la corte suprema"
+      },
+      {
+        "entity1": "rubén ballesteros",
+        "relation": "is a",
+        "entity2": "ministro de la sala penal de la corte suprema"
+      },
+      {
+        "entity1": "carlos künsemüller",
+        "relation": "is a",
+        "entity2": "ministro de la sala penal de la corte suprema"
+      },
+      {
+        "entity1": "juan carlos cárcamo",
+        "relation": "is a",
+        "entity2": "abogado integrante"
+      },
+      {
+        "entity1": "oscar herrera",
+        "relation": "is a",
+        "entity2": "abogado integrante"
+      },
+      {
+        "entity1": "jecar neghme cornejo",
+        "relation": "is a",
+        "entity2": "militante y dirigente del partido socialista"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "is a",
+        "entity2": "ex miembro de la cni"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "is a",
+        "entity2": "cerebro de la financiera ilegal la cutufa"
+      },
+      {
+        "entity1": "álvaro corbalán castilla",
+        "relation": "is a",
+        "entity2": "ex jefe operativo de la cni"
+      },
+      {
+        "entity1": "carolina arregui",
+        "relation": "is a",
+        "entity2": "actriz"
+      },
+      {
+        "entity1": "gastón ramos cid",
+        "relation": "is a",
+        "entity2": "teniente"
+      },
+      {
+        "entity1": "marcos libedinsky",
+        "relation": "is a",
+        "entity2": "ministro en visita"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "triplets": [
+      {
+        "entity1": "crucel buen pastor de iquique",
+        "relation": "was located in",
+        "entity2": "calle luis cruz martinez n 1260"
+      },
+      {
+        "entity1": "crucel buen pastor de iquique",
+        "relation": "had",
+        "entity2": "political prisoners"
+      },
+      {
+        "entity1": "crucel pública de arica",
+        "relation": "was located in",
+        "entity2": "calle baquedano n 01 poblacion el morro"
+      },
+      {
+        "entity1": "crucel pública de arica",
+        "relation": "had",
+        "entity2": "political prisoners"
+      },
+      {
+        "entity1": "arica",
+        "relation": "was defined as",
+        "entity2": "state of emergency"
+      },
+      {
+        "entity1": "luis pino soto",
+        "relation": "disappeared in",
+        "entity2": "1986"
+      },
+      {
+        "entity1": "gustavo abarzua rivadeneira",
+        "relation": "was director of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "gustavo abarzua rivadeneira",
+        "relation": "was director of",
+        "entity2": "dine"
+      },
+      {
+        "entity1": "gustavo abarzua rivadeneira",
+        "relation": "served in",
+        "entity2": "iquique"
+      },
+      {
+        "entity1": "gustavo abarzua rivadeneira",
+        "relation": "served in",
+        "entity2": "linares"
+      },
+      {
+        "entity1": "gustavo abarzua rivadeneira",
+        "relation": "served in",
+        "entity2": "traiguen"
+      },
+      {
+        "entity1": "jose antonio munoz",
+        "relation": "was a member of",
+        "entity2": "team of torturers in iquique and pisagua"
+      },
+      {
+        "entity1": "blas barraza quintero",
+        "relation": "was a member of",
+        "entity2": "team of torturers in iquique and pisagua"
+      },
+      {
+        "entity1": "rene egidio valdivia",
+        "relation": "was a member of",
+        "entity2": "team of torturers in iquique and pisagua"
+      },
+      {
+        "entity1": "froilan moncada",
+        "relation": "was a member of",
+        "entity2": "team of torturers in iquique and pisagua"
+      },
+      {
+        "entity1": "dina",
+        "relation": "operated in",
+        "entity2": "arica"
+      },
+      {
+        "entity1": "cni",
+        "relation": "operated in",
+        "entity2": "arica"
+      },
+      {
+        "entity1": "luis pino soto",
+        "relation": "was a student of",
+        "entity2": "liceo a1"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "triplets": [
+      {
+        "entity1": "el burro",
+        "relation": "apelación",
+        "entity2": "el burro leddy"
+      },
+      {
+        "entity1": "coronel r pedro guzmn olivares",
+        "relation": "condena",
+        "entity2": "tres aos de pena remitida"
+      },
+      {
+        "entity1": "norambuena y corsini",
+        "relation": "acción",
+        "entity2": "dos aos de presidio"
+      },
+      {
+        "entity1": "coronel r juan morales salgado",
+        "relation": "envió documento",
+        "entity2": "general r manuel contreras"
+      },
+      {
+        "entity1": "general r gustavo abarza rivadeneira",
+        "relation": "cargo",
+        "entity2": "central nacional de informaciones"
+      },
+      {
+        "entity1": "alejandro sols",
+        "relation": "testimonio",
+        "entity2": "general r gustavo abarza rivadeneira"
+      },
+      {
+        "entity1": "brigadier r pedro espinoza",
+        "relation": "entregó documento",
+        "entity2": "alejandro sols"
+      },
+      {
+        "entity1": "alvaro corbaln",
+        "relation": "reemplazado por",
+        "entity2": "el burro leddy"
+      },
+      {
+        "entity1": "ren alegra",
+        "relation": "declarante",
+        "entity2": "alejandro sols"
+      },
+      {
+        "entity1": "general carlos prats",
+        "relation": "asesinato",
+        "entity2": "esposa"
+      },
+      {
+        "entity1": "general carlos forestier",
+        "relation": "visita",
+        "entity2": "campamento de prisioneros de pisagua"
+      },
+      {
+        "entity1": "sergio espinoza davies",
+        "relation": "acompañante",
+        "entity2": "general carlos forestier"
+      },
+      {
+        "entity1": "general carlos forestier",
+        "relation": "mando ejecución",
+        "entity2": "germn palominos"
+      },
+      {
+        "entity1": "gustavo abarza rivadeneira",
+        "relation": "implicado",
+        "entity2": "ejecución de germn palominos"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "asesinato",
+        "entity2": "funcionarios de ejrcito pedro guzmn olivares luis sanhueza ross jaime norambuena aguilar manuel allende tello y silvio corssini"
+      },
+      {
+        "entity1": "general gustavo abarza",
+        "relation": "orden",
+        "entity2": "brigadier enrique leddy araneda"
+      },
+      {
+        "entity1": "brigadier enrique leddy araneda",
+        "relation": "orden",
+        "entity2": "general gustavo abarza"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "asesinato",
+        "entity2": "funcionarios de ejrcito pedro guzmn olivares luis sanhueza ross"
+      },
+      {
+        "entity1": "militante y dirigente del partido socialista",
+        "relation": "militares fusilaron",
+        "entity2": "jecar nehgme cornejo"
+      },
+      {
+        "entity1": "sala penal de la corte suprema",
+        "relation": "fallo definitivo",
+        "entity2": "los criminales"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "triplets": [
+      {
+        "entity1": "emilio daroch",
+        "relation": "presidente de",
+        "entity2": "corporación solidaria ute-usach"
+      },
+      {
+        "entity1": "juan pablo de la torre",
+        "relation": "presidente de",
+        "entity2": "federación de estudiantes de la universidad de santiago"
+      },
+      {
+        "entity1": "pedro acevedo gallardo",
+        "relation": "ciudad de secuestro",
+        "entity2": "copiapó"
+      },
+      {
+        "entity1": "roman herrera",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "vivian guaita",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "francisco len jamett",
+        "relation": "condenado a",
+        "entity2": "3 años y un día de presidio"
+      },
+      {
+        "entity1": "patricio roman herrera",
+        "relation": "condenado a",
+        "entity2": "5 años de presidio"
+      },
+      {
+        "entity1": "vivian guaita",
+        "relation": "condenado a",
+        "entity2": "5 años de presidio"
+      },
+      {
+        "entity1": "francisco len jamett",
+        "relation": "condenado a",
+        "entity2": "5 años de presidio"
+      },
+      {
+        "entity1": "mario carroza",
+        "relation": "condena por",
+        "entity2": "secuestro calificado de nicza beaz mondaca"
+      },
+      {
+        "entity1": "patricio roman herrera",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "felipe gonzalez astorga",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "juan valderrama molina",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "cristobal marihual suazo",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "hernan portillo aranda",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "jose quintanilla fernandez",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "adolfo lapostol sprovera",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "hector navarrete jara",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "erasmo vega sobarzo",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "pedro",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      },
+      {
+        "entity1": "vivian guaita",
+        "relation": "condenado a",
+        "entity2": "6 años de presidio"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "triplets": [
+      {
+        "entity1": "ante de las juventudes socialistas",
+        "relation": "ubicación",
+        "entity2": "los angeles"
+      },
+      {
+        "entity1": "quiebre democrtico",
+        "relation": "evento",
+        "entity2": "1973"
+      },
+      {
+        "entity1": "juan patricio mauricio aedo",
+        "relation": "miembro",
+        "entity2": "la filial biobense de la agrupacion memoria viva"
+      },
+      {
+        "entity1": "patricio martínez moena",
+        "relation": "general del ejército en retiro",
+        "entity2": "nacionales"
+      },
+      {
+        "entity1": "patricio martínez moena",
+        "relation": "condena",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "juventudes comunistas",
+        "relation": "militante",
+        "entity2": "juan heredia olivares"
+      },
+      {
+        "entity1": "jaime araya palominos",
+        "relation": "dirigente",
+        "entity2": "universidad de concepción sede los angeles"
+      },
+      {
+        "entity1": "jaime araya palominos",
+        "relation": "dirigente",
+        "entity2": "mir"
+      },
+      {
+        "entity1": "oscar wenten dos",
+        "relation": "militante",
+        "entity2": "mir de los angeles"
+      },
+      {
+        "entity1": "oscar wenten dos",
+        "relation": "militante",
+        "entity2": "mir de santa bárbara"
+      },
+      {
+        "entity1": "los angeles",
+        "relation": "ubicación",
+        "entity2": "regimiento n 17"
+      },
+      {
+        "entity1": "patricio martínez moena",
+        "relation": "condena",
+        "entity2": "secuestro calificado de luis ngel ariel cornejo fernndez"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "confirmar sentencia",
+        "entity2": "patricio martínez moena"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "confirmar sentencia",
+        "entity2": "juan patricio abarza caceres"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "ministro en visita",
+        "entity2": "tribunal de alzada"
+      },
+      {
+        "entity1": "luis ngel ariel cornejo fernández",
+        "relation": "militante",
+        "entity2": "juventudes comunistas"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "militante",
+        "entity2": "juventudes comunistas"
+      },
+      {
+        "entity1": "francisco len jamett",
+        "relation": "teniente de carabineros",
+        "entity2": "cire"
+      },
+      {
+        "entity1": "pedro eduardo vivian guaita",
+        "relation": "sargento de carabineros",
+        "entity2": "cire"
+      },
+      {
+        "entity1": "manuel jess retamal cifuentes",
+        "relation": "sargento de carabineros",
+        "entity2": "cire"
+      },
+      {
+        "entity1": "valderrama",
+        "relation": "sargento de ejército",
+        "entity2": "cire"
+      },
+      {
+        "entity1": "ana virginia gallardo morn",
+        "relation": "madre",
+        "entity2": "pedro gabriel acevedo gallardo"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "triplets": [
+      {
+        "entity1": "jos antonio muñoz",
+        "relation": "was",
+        "entity2": "teniente de carabineros"
+      },
+      {
+        "entity1": "blas barraza quintero",
+        "relation": "was",
+        "entity2": "cabo"
+      },
+      {
+        "entity1": "ren egidio valdivia",
+        "relation": "was",
+        "entity2": "cabo"
+      },
+      {
+        "entity1": "froilán moncada",
+        "relation": "was",
+        "entity2": "cabo"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "was murdered by",
+        "entity2": "pedro guzmán olivares"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "was murdered by",
+        "entity2": "luis sanhueza ross"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "was murdered by",
+        "entity2": "jaime norambuena aguilar"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "was murdered by",
+        "entity2": "manuel allende tello"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "was murdered by",
+        "entity2": "silvio corsini escrate"
+      },
+      {
+        "entity1": "enrique leddy araneda",
+        "relation": "ordered murder of",
+        "entity2": "jecar nehgme cristi"
+      },
+      {
+        "entity1": "gustavo abarza rivadeneira",
+        "relation": "ordered murder of",
+        "entity2": "jecar nehgme cristi"
+      },
+      {
+        "entity1": "conrado garcía giaier",
+        "relation": "is",
+        "entity2": "teniente"
+      },
+      {
+        "entity1": "carlos irigoyen lafuente",
+        "relation": "is",
+        "entity2": "teniente"
+      },
+      {
+        "entity1": "enrique rosales",
+        "relation": "is",
+        "entity2": "teniente"
+      },
+      {
+        "entity1": "conrado garcía giaier",
+        "relation": "ascended to",
+        "entity2": "general"
+      },
+      {
+        "entity1": "conrado garcía giaier",
+        "relation": "tortured",
+        "entity2": "jorge verdejo magna"
+      },
+      {
+        "entity1": "hernán sánchez marr",
+        "relation": "is",
+        "entity2": "judge"
+      },
+      {
+        "entity1": "juan guzmán tapia",
+        "relation": "is",
+        "entity2": "judge"
+      },
+      {
+        "entity1": "ricardo lagos",
+        "relation": "is",
+        "entity2": "president of chile"
+      },
+      {
+        "entity1": "adil brkovic",
+        "relation": "is",
+        "entity2": "lawyer"
+      },
+      {
+        "entity1": "luis tapia hidalgo",
+        "relation": "accused",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "joaquín naranjo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "juan petersen barreda",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "benito muñoz zavala",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "haroldo quintero bugueo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "hernán núñez vega",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "ernesto pérez fuentes",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "joaquín naranjo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "juan petersen barreda",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "benito muñoz zavala",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "haroldo quintero bugueo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "hernán núñez vega",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "ernesto pérez fuentes",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "joaquín naranjo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "juan petersen barreda",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "benito muñoz zavala",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "haroldo quintero bugueo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "hernán núñez vega",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "ernesto pérez fuentes",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "joaquín naranjo",
+        "relation": "witnessed torture by",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "luis gonzález vivias",
+        "relation": "accused",
+        "entity2": "conrado garcía giaier"
+      },
+      {
+        "entity1": "joaquín naranjo",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "juan petersen barreda",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "benito muñoz zavala",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "haroldo quintero bugueo",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "hernán núñez vega",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "ernesto pérez fuentes",
+        "relation": "witnessed torture by",
+        "entity2": "andrés carl"
+      },
+      {
+        "entity1": "nelson caocoto",
+        "relation": "is",
+        "entity2": "lawyer"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "triplets": [
+      {
+        "entity1": "ana virginia gallardo morn",
+        "relation": "mother of",
+        "entity2": "pedro gabriel acevedo gallardo"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "detained by",
+        "entity2": "carabineros and the army"
+      },
+      {
+        "entity1": "sargento valderrama",
+        "relation": "accompanied by",
+        "entity2": "other agents"
+      },
+      {
+        "entity1": "copiapó",
+        "relation": "location of",
+        "entity2": "regimiento de infantería motorizada n°23"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "detained in",
+        "entity2": "regimiento de infantería motorizada n°23"
+      },
+      {
+        "entity1": "ana virginia gallardo morn",
+        "relation": "asked for information about",
+        "entity2": "pedro gabriel acevedo gallardo"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "transferred to",
+        "entity2": "tenencia de carabineros de tierra amarilla"
+      },
+      {
+        "entity1": "arturo álvarez sgolia",
+        "relation": "commander of",
+        "entity2": "regimiento de infantería motorizada n°23"
+      },
+      {
+        "entity1": "tenencia de carabineros de tierra amarilla",
+        "relation": "location of",
+        "entity2": "francisco león jamett"
+      },
+      {
+        "entity1": "ana virginia gallardo morn",
+        "relation": "filed a complaint for",
+        "entity2": "pedro gabriel acevedo gallardo"
+      },
+      {
+        "entity1": "juan nielsen stambuk",
+        "relation": "officer of",
+        "entity2": "regimiento de infantería motorizada n°23"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "accused of possessing",
+        "entity2": "marxist literature"
+      },
+      {
+        "entity1": "francisco león jamett",
+        "relation": "accused of",
+        "entity2": "illegal detention"
+      },
+      {
+        "entity1": "university of santiago",
+        "relation": "inaugurated",
+        "entity2": "memorial de la dignidad"
+      },
+      {
+        "entity1": "pedro gabriel acevedo gallardo",
+        "relation": "subject of",
+        "entity2": "corte de santiago ruling"
+      },
+      {
+        "entity1": "juan manuel zolezzi",
+        "relation": "rector of",
+        "entity2": "university of santiago"
+      },
+      {
+        "entity1": "emilio daroch",
+        "relation": "president of",
+        "entity2": "corporación solidaria ute-usach"
+      },
+      {
+        "entity1": "juan pablo de la torre",
+        "relation": "president of",
+        "entity2": "federación de estudiantes de la universidad de santiago"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "triplets": [
+      {
+        "entity1": "sergio abarca",
+        "relation": "injured by",
+        "entity2": "unidentified civilians"
+      },
+      {
+        "entity1": "sergio abarca",
+        "relation": "taken to",
+        "entity2": "hospital stero del ro"
+      },
+      {
+        "entity1": "sergio abarca",
+        "relation": "died at",
+        "entity2": "hospital stero del ro"
+      },
+      {
+        "entity1": "sergio abarca",
+        "relation": "resided at",
+        "entity2": "30 de mayo población, la cisterna"
+      },
+      {
+        "entity1": "sergio antonio abarca castillo",
+        "relation": "declared as",
+        "entity2": "victim of political violence"
+      },
+      {
+        "entity1": "campamento/camping las machas, arica",
+        "relation": "used as",
+        "entity2": "camp and torture center"
+      },
+      {
+        "entity1": "military",
+        "relation": "controlled",
+        "entity2": "camping las machas"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "agent of",
+        "entity2": "sifa"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "commander of",
+        "entity2": "ala 1, los cóndores"
+      },
+      {
+        "entity1": "erick otto frederich claussen sparenberg",
+        "relation": "responsible for",
+        "entity2": "human rights violations"
+      },
+      {
+        "entity1": "juan caldern villaln",
+        "relation": "executed by",
+        "entity2": "application of law of flight"
+      },
+      {
+        "entity1": "jos r crdova croxato",
+        "relation": "executed by",
+        "entity2": "war council"
+      },
+      {
+        "entity1": "military",
+        "relation": "used",
+        "entity2": "base aérea los cóndores"
+      },
+      {
+        "entity1": "juan jimnez vidal",
+        "relation": "executed by",
+        "entity2": "application of law of flight"
+      },
+      {
+        "entity1": "julio c cabezas gacita",
+        "relation": "executed by",
+        "entity2": "war council"
+      },
+      {
+        "entity1": "humberto lizardi flores",
+        "relation": "executed by",
+        "entity2": "war council"
+      },
+      {
+        "entity1": "manuel sanhueza mellado",
+        "relation": "died under",
+        "entity2": "torture"
+      },
+      {
+        "entity1": "criminals",
+        "relation": "used",
+        "entity2": "prison good shepherd of iquique"
+      },
+      {
+        "entity1": "political prisoners",
+        "relation": "mistreated at",
+        "entity2": "public prison of arica"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "triplets": [
+      {
+        "entity1": "cárcel buen pastor de iquique",
+        "relation": "ubicado en",
+        "entity2": "calle luis cruz martínez n° 1260"
+      },
+      {
+        "entity1": "cárcel pública de arica",
+        "relation": "ubicado en",
+        "entity2": "calle baquedano n° 01"
+      },
+      {
+        "entity1": "campamento de prisioneros de pisagua",
+        "relation": "período de uso",
+        "entity2": "septiembre de 1973 - octubre de 1974"
+      },
+      {
+        "entity1": "campamento de prisioneros de pisagua",
+        "relation": "administrado por",
+        "entity2": "sexta división del ejército"
+      },
+      {
+        "entity1": "luis a. lizardi lizardi",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "marcelo o. guzmán fuentes",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "nolberto jesús cañas",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "michel selim nash sáez",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "juan calderón villalón",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "juan jiménez vidal",
+        "relation": "fusilado por",
+        "entity2": "ley de fuga"
+      },
+      {
+        "entity1": "julio c. cabezas gacita",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "josé r. córdova croxato",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "juan valencia hinojosa",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "mario morris barrios",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "humberto lizardi flores",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "freddy taberna gallegos",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "josé sampson ocaranza",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "juan a. ruz díaz",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "rodolfo fuenzalida fernández",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "germán palominos lamas",
+        "relation": "fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "luis higuera",
+        "relation": "ejecutado en",
+        "entity2": "enero de 1974"
+      },
+      {
+        "entity1": "nelson márquez",
+        "relation": "ejecutado en",
+        "entity2": "enero de 1974"
+      },
+      {
+        "entity1": "luis toro castillo",
+        "relation": "ejecutado en",
+        "entity2": "11 de febrero de 1974"
+      },
+      {
+        "entity1": "alberto yañez carvajal",
+        "relation": "ejecutado en",
+        "entity2": "11 de febrero de 1974"
+      },
+      {
+        "entity1": "manuel sanhueza mellado",
+        "relation": "muerto en tortura",
+        "entity2": "10 de julio de 1974"
+      },
+      {
+        "entity1": "marcelino lamas largo",
+        "relation": "ejecutado en",
+        "entity2": "26 de diciembre de 1974"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "triplets": [
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "detained in",
+        "entity2": "santiago"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "assassinated in",
+        "entity2": "santiago"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "detained by",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "carabineros",
+        "relation": "effective",
+        "entity2": "la victoria"
+      },
+      {
+        "entity1": "pisagua prisoners camp",
+        "relation": "location",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "pisagua prisoners camp",
+        "relation": "controlled by",
+        "entity2": "army"
+      },
+      {
+        "entity1": "pisagua prisoners camp",
+        "relation": "detained 800 people",
+        "entity2": "north zone"
+      },
+      {
+        "entity1": "nelson marquez",
+        "relation": "killed by",
+        "entity2": "immediate gunshot"
+      },
+      {
+        "entity1": "augusto pinochet",
+        "relation": "led caravan of death",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "killed by",
+        "entity2": "caravan of death"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "detained by",
+        "entity2": "military group"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "nationality",
+        "entity2": "chilean"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "age",
+        "entity2": "22 years"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "age",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "marital status",
+        "entity2": "single"
+      },
+      {
+        "entity1": "pisagua prisoners camp",
+        "relation": "used for",
+        "entity2": "detention and torture"
+      },
+      {
+        "entity1": "augusto pinochet",
+        "relation": "visit purpose",
+        "entity2": "reinforce the forces"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "triplets": [
+      {
+        "entity1": "pedro arancibia",
+        "relation": "was",
+        "entity2": "ex detenido del campamento de prisioneros de pisagua"
+      },
+      {
+        "entity1": "general augusto pinochet",
+        "relation": "inaugurated",
+        "entity2": "campamento de prisioneros de pisagua"
+      },
+      {
+        "entity1": "vladislav kuzmicic",
+        "relation": "was",
+        "entity2": "ex prisionero en el lugar"
+      },
+      {
+        "entity1": "alberto newmann",
+        "relation": "was",
+        "entity2": "un médico prisionero en pisagua"
+      },
+      {
+        "entity1": "julio cabezas",
+        "relation": "was fusilado por",
+        "entity2": "consejo de guerra"
+      },
+      {
+        "entity1": "carlos villá",
+        "relation": "is",
+        "entity2": "presidente de la comisión de derechos humanos de iquique"
+      },
+      {
+        "entity1": "haroldo quinteros",
+        "relation": "is",
+        "entity2": "ex detenido de pisagua"
+      },
+      {
+        "entity1": "general augusto pinochet",
+        "relation": "presided over",
+        "entity2": "government"
+      },
+      {
+        "entity1": "jaime estévez",
+        "relation": "is",
+        "entity2": "diputado"
+      },
+      {
+        "entity1": "felipe valenzuela",
+        "relation": "is",
+        "entity2": "diputado por antofagasta"
+      },
+      {
+        "entity1": "patricio aylwin",
+        "relation": "became",
+        "entity2": "president of chile"
+      },
+      {
+        "entity1": "héctor salazar",
+        "relation": "is",
+        "entity2": "abogado"
+      },
+      {
+        "entity1": "carlos vilas",
+        "relation": "is",
+        "entity2": "abogado"
+      },
+      {
+        "entity1": "ernesto montoya",
+        "relation": "is",
+        "entity2": "abogado"
+      },
+      {
+        "entity1": "nelson muñoz morales",
+        "relation": "is",
+        "entity2": "juez"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "triplets": [
+      {
+        "entity1": "vicara de la solidaridad",
+        "relation": "connected to",
+        "entity2": "comisión de derechos humanos"
+      },
+      {
+        "entity1": "juez",
+        "relation": "nelson muñoz morales",
+        "entity2": "secretario"
+      },
+      {
+        "entity1": "médico comunista",
+        "relation": "alberto neumann lagos",
+        "entity2": "organismo"
+      },
+      {
+        "entity1": "concertación",
+        "relation": "government led by",
+        "entity2": "patricio aylwin"
+      },
+      {
+        "entity1": "campo de concentración de pisagua",
+        "relation": "location of",
+        "entity2": "detenidos"
+      },
+      {
+        "entity1": "comandante",
+        "relation": "larraín",
+        "entity2": "200 pescadores"
+      },
+      {
+        "entity1": "francisco prieto enríquez",
+        "relation": "ex prisionero",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "comisión de verdad y reconciliación",
+        "relation": "created by",
+        "entity2": "presidente aylwin"
+      },
+      {
+        "entity1": "teniente coronel",
+        "relation": "ramón larraín",
+        "entity2": "comandante del campo de concentración"
+      },
+      {
+        "entity1": "fiscal militar",
+        "relation": "mario acuña",
+        "entity2": "abogado de iquique"
+      },
+      {
+        "entity1": "investigación realizada por",
+        "relation": "julio cabezas",
+        "entity2": "destacado integrante del consejo de defensa del estado"
+      },
+      {
+        "entity1": "juez militar",
+        "relation": "carlos forestier",
+        "entity2": "fiscal militar"
+      },
+      {
+        "entity1": "ejército",
+        "relation": "expressed their concern through",
+        "entity2": "cuerpo de generales"
+      },
+      {
+        "entity1": "director",
+        "relation": "academia de guerra",
+        "entity2": "coronel ricardo izurieta"
+      },
+      {
+        "entity1": "comandante en jefe del ejército",
+        "relation": "pinochet",
+        "entity2": "ejército"
+      },
+      {
+        "entity1": "comandante en jefe del ejército",
+        "relation": "augusto pinochet",
+        "entity2": "general"
+      },
+      {
+        "entity1": "francisco prieto",
+        "relation": "remembered by",
+        "entity2": "revista análisis de junio de 1990"
+      },
+      {
+        "entity1": "jorge 'chino' navarrete",
+        "relation": "detained in",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "universidad de chile",
+        "relation": "organized with",
+        "entity2": "universidad arturo prat y el municipio local"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "triplets": [
+      {
+        "entity1": "luis henríquez",
+        "relation": "was",
+        "entity2": "ex jefe de asuntos internos de la policía de investigaciones"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "empresario gastronómico italiano"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "inversionista de la financiera"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "dueño del restaurante el rodizzio"
+      },
+      {
+        "entity1": "gastón ramos",
+        "relation": "was",
+        "entity2": "teniente"
+      },
+      {
+        "entity1": "maría eugenia camus",
+        "relation": "is",
+        "entity2": "journalist"
+      },
+      {
+        "entity1": "maría eugenia camus",
+        "relation": "published",
+        "entity2": "book la cutufa su historia secreta"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "was",
+        "entity2": "captain"
+      },
+      {
+        "entity1": "luis henríquez",
+        "relation": "is",
+        "entity2": "ex policeman"
+      },
+      {
+        "entity1": "guatavo ignacio abarzúa rivadeneira",
+        "relation": "is",
+        "entity2": "criminal"
+      },
+      {
+        "entity1": "manuel alberto gaete gaete",
+        "relation": "is",
+        "entity2": "retired from the armed forces"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "appointed",
+        "entity2": "name la cutufa to the financial system"
+      },
+      {
+        "entity1": "silvio aurelio sichel garcs",
+        "relation": "was",
+        "entity2": "sister of silvio aurelio sichel"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "was",
+        "entity2": "associate of sichel"
+      },
+      {
+        "entity1": "felipe errázuriz",
+        "relation": "was",
+        "entity2": "alias of patricio castro"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "friend of patricio castro"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "admirer of the dictatorship"
+      },
+      {
+        "entity1": "silvio aurelio sichel",
+        "relation": "was",
+        "entity2": "supporter of the political police of pinochet"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "triplets": [
+      {
+        "entity1": "isabel margarita",
+        "relation": "spouse",
+        "entity2": "sichel"
+      },
+      {
+        "entity1": "sichel",
+        "relation": "friend",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "gustavo abarza",
+        "relation": "ex director",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "hugo salas wenzel",
+        "relation": "ex director",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "isabel margarita",
+        "relation": "widow",
+        "entity2": "sichel"
+      },
+      {
+        "entity1": "isabel margarita pizarro",
+        "relation": "widow",
+        "entity2": "sichel"
+      },
+      {
+        "entity1": "sandro gaete",
+        "relation": "ex chief",
+        "entity2": "pdi human rights brigade"
+      },
+      {
+        "entity1": "isabel margarita",
+        "relation": "went",
+        "entity2": "el tabo spa"
+      },
+      {
+        "entity1": "sichel",
+        "relation": "killed",
+        "entity2": "july 19, 1989"
+      },
+      {
+        "entity1": "luis henríquez",
+        "relation": "ex policeman",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "juan meyerholz",
+        "relation": "friend",
+        "entity2": "marcelo jadue"
+      },
+      {
+        "entity1": "marcelo jadue",
+        "relation": "friend",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "gastón ramos",
+        "relation": "partner",
+        "entity2": "sichel"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "involved",
+        "entity2": "cutufa ii case"
+      },
+      {
+        "entity1": "francisco zúñiga",
+        "relation": "ex-agent",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "francisco zúñiga",
+        "relation": "informant",
+        "entity2": "police"
+      },
+      {
+        "entity1": "isabel margarita",
+        "relation": "never knew",
+        "entity2": "the content of the conversation with corbalán"
+      },
+      {
+        "entity1": "sichel",
+        "relation": "received a summons",
+        "entity2": "cni's operational chief"
+      },
+      {
+        "entity1": "isabel margarita",
+        "relation": "went",
+        "entity2": "el tabo spa"
+      },
+      {
+        "entity1": "sichel",
+        "relation": "remained alone",
+        "entity2": "his house in santiago"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "involved",
+        "entity2": "cutufa case"
+      },
+      {
+        "entity1": "aurelio sichel",
+        "relation": "killed",
+        "entity2": "back shot"
+      },
+      {
+        "entity1": "cni",
+        "relation": "linked",
+        "entity2": "sichel"
+      },
+      {
+        "entity1": "gastón ureta",
+        "relation": "lawyer",
+        "entity2": "francisco zúñiga"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "installed",
+        "entity2": "minimarket in rinconada de maipú"
+      },
+      {
+        "entity1": "cni",
+        "relation": "dissolved",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "jorge morales",
+        "relation": "ex-legal advisor",
+        "entity2": "director of investigations"
+      },
+      {
+        "entity1": "jorge morales",
+        "relation": "traveled",
+        "entity2": "paraguay"
+      },
+      {
+        "entity1": "horacio toro",
+        "relation": "director",
+        "entity2": "investigations"
+      },
+      {
+        "entity1": "jorge morales",
+        "relation": "brought back to chile",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "mónica tagle",
+        "relation": "judge",
+        "entity2": "n/a"
+      },
+      {
+        "entity1": "mónica tagle",
+        "relation": "found burned",
+        "entity2": "her car (renault 9)"
+      },
+      {
+        "entity1": "horacio toro",
+        "relation": "director",
+        "entity2": "investigations"
+      },
+      {
+        "entity1": "ricardo lagos",
+        "relation": "president",
+        "entity2": "chile"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "triplets": [
+      {
+        "entity1": "juez 49",
+        "relation": "interact",
+        "entity2": "detectives"
+      },
+      {
+        "entity1": "jadue",
+        "relation": "associate",
+        "entity2": "un amigo"
+      },
+      {
+        "entity1": "jadue",
+        "relation": "visit",
+        "entity2": "ex cabaret maeba"
+      },
+      {
+        "entity1": "martin scorsese",
+        "relation": "create",
+        "entity2": "la última película \"el lobo de wall street\""
+      },
+      {
+        "entity1": "castro",
+        "relation": "lives with",
+        "entity2": "su pareja"
+      },
+      {
+        "entity1": "castro",
+        "relation": "owns",
+        "entity2": "empresa de seguridad y aseo"
+      },
+      {
+        "entity1": "castro",
+        "relation": "socializes with",
+        "entity2": "sandro gaete"
+      },
+      {
+        "entity1": "maria eliana acosta velasco",
+        "relation": "detained by",
+        "entity2": "grupo de civiles armados"
+      },
+      {
+        "entity1": "maria eliana acosta velasco",
+        "relation": "associated with",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "erp",
+        "relation": "associated with",
+        "entity2": "maria eliana acosta velasco"
+      },
+      {
+        "entity1": "esteban benito badell",
+        "relation": "detained with",
+        "entity2": "maria eliana acosta velasco"
+      },
+      {
+        "entity1": "esteban benito badell",
+        "relation": "member of",
+        "entity2": "policía de buenos aires"
+      },
+      {
+        "entity1": "esteban benito badell",
+        "relation": "related to",
+        "entity2": "pariente policiaco"
+      },
+      {
+        "entity1": "ernesto ledjerman valos",
+        "relation": "parents were killed by",
+        "entity2": "militares del regimiento arica"
+      },
+      {
+        "entity1": "juan emilio cheyre",
+        "relation": "gave child to",
+        "entity2": "religiosas de la providencia"
+      },
+      {
+        "entity1": "ernesto ledjerman valos",
+        "relation": "is",
+        "entity2": "ciudadano argentino"
+      },
+      {
+        "entity1": "bernardo ledjerman konujowska",
+        "relation": "parents of",
+        "entity2": "ernesto ledjerman valos"
+      },
+      {
+        "entity1": "mara valos castaeda",
+        "relation": "parents of",
+        "entity2": "ernesto ledjerman valos"
+      },
+      {
+        "entity1": "juan emilio cheyre",
+        "relation": "was",
+        "entity2": "jefe del ejército"
+      },
+      {
+        "entity1": "ernesto ledjerman valos",
+        "relation": "represented by",
+        "entity2": "hctor salazar"
+      },
+      {
+        "entity1": "ernesto ledjerman valos",
+        "relation": "is",
+        "entity2": "técnico electrónico"
+      },
+      {
+        "entity1": "novena sala",
+        "relation": "ordered compensation to",
+        "entity2": "ernesto ledjerman valos"
+      },
+      {
+        "entity1": "luis antonio abarca sanchez",
+        "relation": "detained by",
+        "entity2": "efectivos de carabineros"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "triplets": [
+      {
+        "entity1": "castro",
+        "relation": "married to",
+        "entity2": "luca campeny"
+      },
+      {
+        "entity1": "silvio aurelio sichel garcs",
+        "relation": "sister of",
+        "entity2": "unnamed sister"
+      },
+      {
+        "entity1": "silvio aurelio sichel garcs",
+        "relation": "owner of",
+        "entity2": "el rodizzio"
+      },
+      {
+        "entity1": "silvio aurelio sichel garcs",
+        "relation": "friend of",
+        "entity2": "álvaro corbalán"
+      },
+      {
+        "entity1": "álvaro corbalán",
+        "relation": "director of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "gustavo abarza",
+        "relation": "director of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "enrique cowell",
+        "relation": "member of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "jerónimo pantoja",
+        "relation": "subdirector of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "álvaro bardón",
+        "relation": "president of",
+        "entity2": "banco del estado"
+      },
+      {
+        "entity1": "álvaro corbalán",
+        "relation": "founder of",
+        "entity2": "santa bárbara"
+      },
+      {
+        "entity1": "santa bárbara",
+        "relation": "operated in",
+        "entity2": "chuquicamata"
+      },
+      {
+        "entity1": "santa bárbara",
+        "relation": "operated in",
+        "entity2": "el salvador"
+      },
+      {
+        "entity1": "álvaro corbalán",
+        "relation": "associated with",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "enrique leddy",
+        "relation": "director of",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "ricardo solari",
+        "relation": "interrogated by",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "marcelo schilling",
+        "relation": "interrogated by",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "ricardo lagos",
+        "relation": "office searched by",
+        "entity2": "patricio castro"
+      },
+      {
+        "entity1": "álvaro corbalán",
+        "relation": "connected to",
+        "entity2": "gastón ramos"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "partner of",
+        "entity2": "silvio aurelio sichel garcs"
+      },
+      {
+        "entity1": "patricio castro",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      },
+      {
+        "entity1": "silvio aurelio sichel garcs",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      },
+      {
+        "entity1": "gustavo abarza",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      },
+      {
+        "entity1": "enrique cowell",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      },
+      {
+        "entity1": "jerónimo pantoja",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      },
+      {
+        "entity1": "enrique leddy",
+        "relation": "associated with",
+        "entity2": "cutufa"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "triplets": [
+      {
+        "entity1": "prisioneros",
+        "relation": "provenientes de",
+        "entity2": "valparaiso"
+      },
+      {
+        "entity1": "comitiva",
+        "relation": "llegada de",
+        "entity2": "valparaiso"
+      },
+      {
+        "entity1": "efectivos de la armada",
+        "relation": "trato recibido de",
+        "entity2": "prisioneros"
+      },
+      {
+        "entity1": "comandante larran",
+        "relation": "dijo a",
+        "entity2": "prisioneros"
+      },
+      {
+        "entity1": "comandante larran",
+        "relation": "dijo a",
+        "entity2": "militares"
+      },
+      {
+        "entity1": "cementerio antiguo",
+        "relation": "ubicado en",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "capellán murillo",
+        "relation": "presente en",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "oficial",
+        "relation": "dijo a",
+        "entity2": "capellán murillo"
+      },
+      {
+        "entity1": "juan valencia",
+        "relation": "fusilado por",
+        "entity2": "pelotón de fusilamiento"
+      },
+      {
+        "entity1": "humberto lizardi",
+        "relation": "fusilado por",
+        "entity2": "pelotón de fusilamiento"
+      },
+      {
+        "entity1": "mario morris",
+        "relation": "fusilado por",
+        "entity2": "pelotón de fusilamiento"
+      },
+      {
+        "entity1": "jose cordova",
+        "relation": "fusilado por",
+        "entity2": "pelotón de fusilamiento"
+      },
+      {
+        "entity1": "julio cabezas",
+        "relation": "fusilado por",
+        "entity2": "pelotón de fusilamiento"
+      },
+      {
+        "entity1": "juan valencia",
+        "relation": "tiro de gracia dado por",
+        "entity2": "oficial"
+      },
+      {
+        "entity1": "instituto médico legal de iquique",
+        "relation": "ubicado en",
+        "entity2": "iquique"
+      },
+      {
+        "entity1": "jini arancibia",
+        "relation": "viuda de",
+        "entity2": "freddy taberna"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "miembro de la dirección de",
+        "entity2": "partido socialista de iquique"
+      },
+      {
+        "entity1": "pisagua",
+        "relation": "campo de prisioneros de",
+        "entity2": "central nacional de informaciones"
+      },
+      {
+        "entity1": "pedro arancibia",
+        "relation": "ex detenido de",
+        "entity2": "campamento de prisioneros de pisagua"
+      },
+      {
+        "entity1": "campamento de prisioneros de pisagua",
+        "relation": "inaugurado por",
+        "entity2": "general augusto pinochet"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "triplets": [
+      {
+        "entity1": "temuco",
+        "relation": "location",
+        "entity2": "home of jecar negmeh cornejo"
+      },
+      {
+        "entity1": "temuco",
+        "relation": "location",
+        "entity2": "military group"
+      },
+      {
+        "entity1": "manuela cristi",
+        "relation": "spouse",
+        "entity2": "jecar negmeh cornejo"
+      },
+      {
+        "entity1": "manuela cristi",
+        "relation": "family",
+        "entity2": "three children"
+      },
+      {
+        "entity1": "teniente coronel pablo iturriaga marchesse",
+        "relation": "in charge",
+        "entity2": "regiment n°8 tucapel"
+      },
+      {
+        "entity1": "gastón elgueta",
+        "relation": "friend",
+        "entity2": "jecar negmeh cornejo"
+      },
+      {
+        "entity1": "general pinochet",
+        "relation": "comitiva",
+        "entity2": "helicopter n°256"
+      },
+      {
+        "entity1": "general pinochet",
+        "relation": "comitiva",
+        "entity2": "members of military junta in the province"
+      },
+      {
+        "entity1": "coronel intendente hernán ramírez",
+        "relation": "role",
+        "entity2": "commander of regiment tucapel"
+      },
+      {
+        "entity1": "comandante andrés pacheco",
+        "relation": "role",
+        "entity2": "commander of group n°3 of helicopters"
+      },
+      {
+        "entity1": "gregorio san martín",
+        "relation": "role",
+        "entity2": "prefect of carabineros"
+      },
+      {
+        "entity1": "luis a. lizardi lizardi",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "marcelo o. guzmán fuentes",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "nolberto jesús cañas",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "michel selim nash saez",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "juan calderón villalón",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "juan jiménez vidal",
+        "relation": "death",
+        "entity2": "executed on september 29, 1973"
+      },
+      {
+        "entity1": "julio c. cabezas gacita",
+        "relation": "death",
+        "entity2": "executed on october 11, 1973"
+      },
+      {
+        "entity1": "josé r. córdova croxato",
+        "relation": "death",
+        "entity2": "executed on october 11, 1973"
+      },
+      {
+        "entity1": "juan valencia hinojosa",
+        "relation": "death",
+        "entity2": "executed on october 11, 1973"
+      },
+      {
+        "entity1": "mario morris barrios",
+        "relation": "death",
+        "entity2": "executed on october 11, 1973"
+      },
+      {
+        "entity1": "humberto lizardi flores",
+        "relation": "death",
+        "entity2": "executed on october 11, 1973"
+      },
+      {
+        "entity1": "freddy taberna gallegos",
+        "relation": "death",
+        "entity2": "executed on october 30, 1973"
+      },
+      {
+        "entity1": "josé sampson ocaranza",
+        "relation": "death",
+        "entity2": "executed on october 30, 1973"
+      },
+      {
+        "entity1": "juan a. ruz díaz",
+        "relation": "death",
+        "entity2": "executed on october 30, 1973"
+      },
+      {
+        "entity1": "rodolfo fuenzalida fernández",
+        "relation": "death",
+        "entity2": "executed on october 30, 1973"
+      },
+      {
+        "entity1": "germán palominos lamas",
+        "relation": "death",
+        "entity2": "executed on october 30, 1973"
+      },
+      {
+        "entity1": "luis higuera",
+        "relation": "death",
+        "entity2": "executed in january 1974"
+      },
+      {
+        "entity1": "nelson márquez",
+        "relation": "death",
+        "entity2": "executed in january 1974"
+      },
+      {
+        "entity1": "luis toro castillo",
+        "relation": "death",
+        "entity2": "executed on february 11, 1974"
+      },
+      {
+        "entity1": "alberto yañez carvajal",
+        "relation": "death",
+        "entity2": "executed on february 11, 1974"
+      },
+      {
+        "entity1": "manuel sanhueza mellado",
+        "relation": "death",
+        "entity2": "tortured and died on july 10, 1974"
+      },
+      {
+        "entity1": "marcelino lamas largo",
+        "relation": "death",
+        "entity2": "executed on december 26, 1974"
+      },
+      {
+        "entity1": "dr. alberto neumann",
+        "relation": "role",
+        "entity2": "prisoner of pisagua"
+      },
+      {
+        "entity1": "ramón larraín larraín",
+        "relation": "role",
+        "entity2": "military chief of detention center"
+      },
+      {
+        "entity1": "dr. alberto neumann",
+        "relation": "role",
+        "entity2": "medical officer for political prisoners"
+      },
+      {
+        "entity1": "comandante larraín",
+        "relation": "military chief",
+        "entity2": "pisagua detention center"
+      },
+      {
+        "entity1": "valparaíso",
+        "relation": "role",
+        "entity2": "group of prisoners and 3 doctors"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "triplets": [
+      {
+        "entity1": "pinochet",
+        "relation": "visited",
+        "entity2": "concepción"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "visited",
+        "entity2": "valdivia"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "position",
+        "entity2": "comandante en jefe del ejército"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "ordered",
+        "entity2": "secuestros y ejecuciones"
+      },
+      {
+        "entity1": "comandante iturriaga marchesse",
+        "relation": "signed",
+        "entity2": "bando comunicó muerte"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "joined",
+        "entity2": "juventudes socialistas"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "married",
+        "entity2": "manuela cristi"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "worked at",
+        "entity2": "servicio nacional de salud"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "worked at",
+        "entity2": "universidad de chile"
+      },
+      {
+        "entity1": "federación nacional de trabajadores de la salud (fenats)",
+        "relation": "member",
+        "entity2": "manuela nehgme"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "rejected",
+        "entity2": "recursos de casación"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "condemned",
+        "entity2": "siete exagentes de estado"
+      },
+      {
+        "entity1": "sergio benavides villarreal",
+        "relation": "sentenced to",
+        "entity2": "presidio perpetuo"
+      },
+      {
+        "entity1": "manuel vega collao",
+        "relation": "sentenced to",
+        "entity2": "presidio perpetuo"
+      },
+      {
+        "entity1": "roberto ampuero alarcón",
+        "relation": "sentenced to",
+        "entity2": "10 años de presidio"
+      },
+      {
+        "entity1": "gabriel guerrero reeve",
+        "relation": "sentenced to",
+        "entity2": "10 años de presidio"
+      },
+      {
+        "entity1": "arturo contador rosales",
+        "relation": "sentenced to",
+        "entity2": "10 años de presidio"
+      },
+      {
+        "entity1": "sergio figueroa lópez",
+        "relation": "sentenced to",
+        "entity2": "12 años de presidio"
+      },
+      {
+        "entity1": "miguel aguirre álvarez",
+        "relation": "sentenced to",
+        "entity2": "10 años y un día de presidio"
+      },
+      {
+        "entity1": "mario acuña",
+        "relation": "received",
+        "entity2": "documentos falsos"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "triplets": [
+      {
+        "entity1": "angel veas",
+        "relation": "position",
+        "entity2": "intendente de iquique"
+      },
+      {
+        "entity1": "felix morales cortes",
+        "relation": "position",
+        "entity2": "poeta comunista"
+      },
+      {
+        "entity1": "felix morales cortes",
+        "relation": "died in",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "gonzalez videla",
+        "relation": "policy",
+        "entity2": "ley de defensa de la democracia"
+      },
+      {
+        "entity1": "anselmo blanlot",
+        "relation": "wrote",
+        "entity2": "novela revolución"
+      },
+      {
+        "entity1": "nelson muñoz morales",
+        "relation": "position",
+        "entity2": "juez de pozo almonte"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "victim",
+        "entity2": "1973 fusilamiento"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "brother",
+        "entity2": "héctor taberna"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "ordered",
+        "entity2": "1973 golpe de estado"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "position",
+        "entity2": "general"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "executed with",
+        "entity2": "josé sampson ocaranza"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "executed with",
+        "entity2": "juan antonio ruz"
+      },
+      {
+        "entity1": "freddy taberna",
+        "relation": "executed with",
+        "entity2": "rodolfo fuenzalida"
+      },
+      {
+        "entity1": "javier prado aránguiz",
+        "relation": "position",
+        "entity2": "obispo"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "visited",
+        "entity2": "sur"
+      },
+      {
+        "entity1": "luis anselmo fernández barrera",
+        "relation": "detained with",
+        "entity2": "celso avendaño alarcón"
+      },
+      {
+        "entity1": "guillermo hernández elgueta",
+        "relation": "position",
+        "entity2": "ex subdelegado de cunco"
+      },
+      {
+        "entity1": "eliseo segundo jara ros",
+        "relation": "position",
+        "entity2": "militante del partido socialista"
+      },
+      {
+        "entity1": "pedro muñoz apablaza",
+        "relation": "executed with",
+        "entity2": "eliseo segundo jara ros"
+      },
+      {
+        "entity1": "pedro muñoz apablaza",
+        "relation": "executed by",
+        "entity2": "patrulla de boinas negras del ejército"
+      },
+      {
+        "entity1": "francisco segundo curamil castillo",
+        "relation": "detained with",
+        "entity2": "mauricio huenucoi antil"
+      },
+      {
+        "entity1": "francisco segundo curamil castillo",
+        "relation": "detained with",
+        "entity2": "bernardo nahuelcoi chihuaicura"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "position",
+        "entity2": "comandante en jefe del ejército"
+      },
+      {
+        "entity1": "pedro muñoz apablaza",
+        "relation": "detained by",
+        "entity2": "patrulla de boinas negras del ejército"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "ordered",
+        "entity2": "secuestros y ejecuciones"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "member of",
+        "entity2": "juventudes socialistas"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "commander",
+        "entity2": "iii y iv divisiones de ejército"
+      },
+      {
+        "entity1": "iturriaga marchesse",
+        "relation": "position",
+        "entity2": "comandante"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "triplets": [
+      {
+        "entity1": "lugareños",
+        "relation": "dieron aviso a",
+        "entity2": "autoridad"
+      },
+      {
+        "entity1": "carabineros",
+        "relation": "levantaron",
+        "entity2": "cuerpos"
+      },
+      {
+        "entity1": "carabineros de yumbel",
+        "relation": "enterraron en",
+        "entity2": "fosa común del cementerio local"
+      },
+      {
+        "entity1": "familiares",
+        "relation": "buscaron",
+        "entity2": "cuerpos"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "declarado sin lugar recursos para",
+        "entity2": "familiares"
+      },
+      {
+        "entity1": "carabineros",
+        "relation": "mantuvieron versión de",
+        "entity2": "traslado a los ángeles"
+      },
+      {
+        "entity1": "juez del juzgado del crimen",
+        "relation": "ordenó guardar sin iniciar",
+        "entity2": "debido proceso"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "fue ejecutado junto a",
+        "entity2": "otros 19 detenidos"
+      },
+      {
+        "entity1": "funcionarios de carabineros de yumbel",
+        "relation": "trasladaron hasta",
+        "entity2": "cementerio de yumbel"
+      },
+      {
+        "entity1": "jecar nehgme cornejo",
+        "relation": "fue asesinado cerca de",
+        "entity2": "calle bulnes"
+      },
+      {
+        "entity1": "comisión nacional de verdad y reconciliación",
+        "relation": "declaró",
+        "entity2": "asesinato de esposo de manuela cristi"
+      },
+      {
+        "entity1": "familia nehgme",
+        "relation": "solicitaron inhabilitación a",
+        "entity2": "juez en visita alfredo pfeiffer"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "recuerda",
+        "entity2": "muerte de su padre"
+      },
+      {
+        "entity1": "nelson caucoto",
+        "relation": "afirma que justicia depende de",
+        "entity2": "recursos para investigar"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "comenzó a estudiar en",
+        "entity2": "pedagógico"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "ingresó al",
+        "entity2": "mir"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "impulsó creación de",
+        "entity2": "uned"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "fue detenido por",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "formaba parte de",
+        "entity2": "iu"
+      },
+      {
+        "entity1": "jecar nehgme cristi",
+        "relation": "fue acribillado frente a",
+        "entity2": "número 14 de la calle bulnes"
+      },
+      {
+        "entity1": "familia de jecar nehgme cristi",
+        "relation": "condenó",
+        "entity2": "cni"
+      },
+      {
+        "entity1": "manuela cristi",
+        "relation": "murió a principios de 1996 a los",
+        "entity2": "51 años"
+      },
+      {
+        "entity1": "iv división del ejército",
+        "relation": "tenía jurisdicción en",
+        "entity2": "provincias de malleco a llanquihue"
+      },
+      {
+        "entity1": "general héctor bravo muñoz",
+        "relation": "comandaba",
+        "entity2": "iv división del ejército"
+      },
+      {
+        "entity1": "farmiliares",
+        "relation": "realizaron funerales de",
+        "entity2": "19 ejecutados"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "aprobó fallo de",
+        "entity2": "3er juzgado militar"
+      },
+      {
+        "entity1": "corte de concepción",
+        "relation": "condenó a",
+        "entity2": "nueve carabineros en retiro"
+      },
+      {
+        "entity1": "patricia acuña",
+        "relation": "es hija de",
+        "entity2": "juan acuña"
+      },
+      {
+        "entity1": "corte de concepción",
+        "relation": "incrementó indemnización a",
+        "entity2": "familiares de víctimas"
+      },
+      {
+        "entity1": "estado de chile",
+        "relation": "debe pagar indemnización a",
+        "entity2": "familiares de víctimas"
+      },
+      {
+        "entity1": "ex carabineros",
+        "relation": "incriminados por",
+        "entity2": "inhumación ilegal de ejecutados políticos"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "triplets": [
+      {
+        "entity1": "lalo cabrera",
+        "relation": "associated with",
+        "entity2": "radio pisaga"
+      },
+      {
+        "entity1": "universidad de chile",
+        "relation": "organized",
+        "entity2": "escuela de temporada iquique sin fronteras"
+      },
+      {
+        "entity1": "universidad arturo prat",
+        "relation": "co-organized with",
+        "entity2": "municipio local"
+      },
+      {
+        "entity1": "universidad de chile",
+        "relation": "visited",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "juana torres",
+        "relation": "position",
+        "entity2": "president of corporación de ex presos políticos de pisagua"
+      },
+      {
+        "entity1": "claudio nash",
+        "relation": "position",
+        "entity2": "coordinator of cátedra de derechos humanos"
+      },
+      {
+        "entity1": "oscar varela",
+        "relation": "association",
+        "entity2": "integrante de la corporación de ex presos políticos de pisagua"
+      },
+      {
+        "entity1": "juan ramírez",
+        "relation": "member",
+        "entity2": "equipo técnico de la organización"
+      },
+      {
+        "entity1": "jaime coronil",
+        "relation": "member",
+        "entity2": "equipo técnico de la organización"
+      },
+      {
+        "entity1": "josé manuel balmaceda",
+        "relation": "mentioned in context",
+        "entity2": "destitution during guerra civil de 1891"
+      },
+      {
+        "entity1": "anselmo blanlot holley",
+        "relation": "wrote",
+        "entity2": "revolución (novel)"
+      },
+      {
+        "entity1": "enrique vedia",
+        "relation": "mentioned as",
+        "entity2": "a prisoner in pisagua"
+      },
+      {
+        "entity1": "pinochet",
+        "relation": "mentioned in context",
+        "entity2": "dictatorship"
+      },
+      {
+        "entity1": "félix morales cortés",
+        "relation": "described as",
+        "entity2": "a communist poet"
+      },
+      {
+        "entity1": "gonzález videla",
+        "relation": "government",
+        "entity2": "cancellation of commitments with partido de recabarren"
+      },
+      {
+        "entity1": "olegario apablaza",
+        "relation": "relegated to",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "luis gallardo",
+        "relation": "relegated to",
+        "entity2": "pisagua"
+      },
+      {
+        "entity1": "f. arellano",
+        "relation": "relegated to",
+        "entity2": "pisagua"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "triplets": [
+      {
+        "entity1": "carlos aldana",
+        "relation": "ordered detention of",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "ordered exhumation of",
+        "entity2": "vila's remains"
+      },
+      {
+        "entity1": "ximena leiva",
+        "relation": "in charge of",
+        "entity2": "sml case"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "authorized",
+        "entity2": "dna samples"
+      },
+      {
+        "entity1": "arturo villegas",
+        "relation": "present in",
+        "entity2": "mario vila's burial"
+      },
+      {
+        "entity1": "mario carroza",
+        "relation": "informed",
+        "entity2": "villegas' children"
+      },
+      {
+        "entity1": "mario carroza",
+        "relation": "oversaw",
+        "entity2": "villegas' burial"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "detained by",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "san rosendo",
+        "relation": "location of",
+        "entity2": "juan antonio's detention"
+      },
+      {
+        "entity1": "alberto fernández mitchel",
+        "relation": "involved in",
+        "entity2": "juan antonio's detention"
+      },
+      {
+        "entity1": "pedro rodríguez ceballos",
+        "relation": "involved in",
+        "entity2": "juan antonio's detention"
+      },
+      {
+        "entity1": "laja",
+        "relation": "location of",
+        "entity2": "juan antonio's reclusion"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "tortured in",
+        "entity2": "laja"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "visited by",
+        "entity2": "his spouse"
+      },
+      {
+        "entity1": "los angeles",
+        "relation": "intended location of",
+        "entity2": "juan antonio’s transfer"
+      },
+      {
+        "entity1": "san juan",
+        "relation": "location of",
+        "entity2": "juan antonio's execution"
+      },
+      {
+        "entity1": "yumbel",
+        "relation": "location of",
+        "entity2": "juan antonio's burial"
+      },
+      {
+        "entity1": "juan antonio acuña concha",
+        "relation": "executed with",
+        "entity2": "other detainees"
+      },
+      {
+        "entity1": "yumbel",
+        "relation": "discovered clandestine burial of",
+        "entity2": "juan antonio's body"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "handled",
+        "entity2": "amparo case of juan antonio"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "triplets": [
+      {
+        "entity1": "rudy corts",
+        "relation": "said",
+        "entity2": "guillermo vera"
+      },
+      {
+        "entity1": "abello",
+        "relation": "said",
+        "entity2": "guillermo vera"
+      },
+      {
+        "entity1": "guillermo vera",
+        "relation": "said",
+        "entity2": "arturo villegas"
+      },
+      {
+        "entity1": "juan abello",
+        "relation": "was accused by",
+        "entity2": "family of arturo villegas"
+      },
+      {
+        "entity1": "guillermo vera",
+        "relation": "testified about",
+        "entity2": "arturo villegas"
+      },
+      {
+        "entity1": "teniente abello",
+        "relation": "detained",
+        "entity2": "arturo villegas"
+      },
+      {
+        "entity1": "juan abello",
+        "relation": "arrested by",
+        "entity2": "guillermo vera"
+      },
+      {
+        "entity1": "arturo villegas",
+        "relation": "was tortured by",
+        "entity2": "police officers"
+      },
+      {
+        "entity1": "omar manrquez",
+        "relation": "was associated with",
+        "entity2": "ps de coelemu"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "was",
+        "entity2": "mayor of the town"
+      },
+      {
+        "entity1": "estrella",
+        "relation": "is",
+        "entity2": "daughter of arturo villegas"
+      },
+      {
+        "entity1": "mara eliana zrate",
+        "relation": "is",
+        "entity2": "wife of arturo villegas"
+      },
+      {
+        "entity1": "juan abello",
+        "relation": "led",
+        "entity2": "the squad"
+      },
+      {
+        "entity1": "cuñado de abello",
+        "relation": "drove",
+        "entity2": "the car"
+      },
+      {
+        "entity1": "alejandro sols",
+        "relation": "sentenced",
+        "entity2": "juan abello"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "reduced the sentence of",
+        "entity2": "juan abello"
+      },
+      {
+        "entity1": "juan abello",
+        "relation": "was imprisoned in",
+        "entity2": "punta peuco"
+      },
+      {
+        "entity1": "mara eliana zrate",
+        "relation": "died before",
+        "entity2": "juan abello"
+      },
+      {
+        "entity1": "mario vila",
+        "relation": "was",
+        "entity2": "president of js de penco"
+      },
+      {
+        "entity1": "mario vila hijo",
+        "relation": "is the son of",
+        "entity2": "mario vila"
+      },
+      {
+        "entity1": "arturo villegas",
+        "relation": "was detained with",
+        "entity2": "mario vila"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "is",
+        "entity2": "judge"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "opened the file in",
+        "entity2": "2014"
+      },
+      {
+        "entity1": "tomé",
+        "relation": "worked at",
+        "entity2": "mario vila"
+      },
+      {
+        "entity1": "mario vila",
+        "relation": "was found dead in",
+        "entity2": "quebrada honda"
+      },
+      {
+        "entity1": "mario vila hijo",
+        "relation": "learned about",
+        "entity2": "father's death"
+      },
+      {
+        "entity1": "carlos aldana",
+        "relation": "ordered the exhumation of the remains of",
+        "entity2": "mario vila"
+      },
+      {
+        "entity1": "servicio médico legal",
+        "relation": "examined the remains of",
+        "entity2": "mario vila"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "triplets": [
+      {
+        "entity1": "omar henríquez lópez",
+        "relation": "associate",
+        "entity2": "arturo villegas villagrán"
+      },
+      {
+        "entity1": "raúl meza",
+        "relation": "reported",
+        "entity2": "identity of mario vila maldonado"
+      },
+      {
+        "entity1": "juan lorenzo abello vildósola",
+        "relation": "associated with",
+        "entity2": "carabineros"
+      },
+      {
+        "entity1": "arturo villegas villagrán",
+        "relation": "associated with",
+        "entity2": "penco"
+      },
+      {
+        "entity1": "arturo villegas villagrán",
+        "relation": "member of",
+        "entity2": "partido socialista"
+      },
+      {
+        "entity1": "arturo villegas villagrán",
+        "relation": "employee",
+        "entity2": "fanaloza"
+      },
+      {
+        "entity1": "estrella villegas",
+        "relation": "daughter of",
+        "entity2": "arturo villegas villagrán"
+      },
+      {
+        "entity1": "mario villegas",
+        "relation": "son of",
+        "entity2": "arturo villegas villagrán"
+      },
+      {
+        "entity1": "mario vila",
+        "relation": "friend",
+        "entity2": "arturo villegas villagrán"
+      },
+      {
+        "entity1": "juan abello vildósola",
+        "relation": "associated with",
+        "entity2": "detained arturo villegas villagrán"
+      },
+      {
+        "entity1": "guillermo vera",
+        "relation": "friend of",
+        "entity2": "arturo villegas villagrán"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "triplets": [
+      {
+        "entity1": "familiares",
+        "relation": "indemnización",
+        "entity2": "estado de chile"
+      },
+      {
+        "entity1": "corte penquista",
+        "relation": "indemnización",
+        "entity2": "familiares de las víctimas"
+      },
+      {
+        "entity1": "estado de chile",
+        "relation": "indemnización total",
+        "entity2": "5 mil 440 millones de pesos"
+      },
+      {
+        "entity1": "grupo de ex carabineros",
+        "relation": "servicio",
+        "entity2": "tenencia de laja"
+      },
+      {
+        "entity1": "investigación",
+        "relation": "caso",
+        "entity2": "laja-san rosendo"
+      },
+      {
+        "entity1": "corte de apelaciones de concepción",
+        "relation": "ministro en visita para derechos humanos",
+        "entity2": "carlos aldana fuentes"
+      },
+      {
+        "entity1": "carlos aldana fuentes",
+        "relation": "indagado",
+        "entity2": "caso laja-san rosendo"
+      },
+      {
+        "entity1": "funcionarios de dicha unidad",
+        "relation": "arrestaron",
+        "entity2": "19 personas"
+      },
+      {
+        "entity1": "ex carabineros",
+        "relation": "inhumación ilegal",
+        "entity2": "19 ejecutados políticos"
+      },
+      {
+        "entity1": "samuel francisco vidal riquelme",
+        "relation": "procesado",
+        "entity2": "homicidios"
+      },
+      {
+        "entity1": "familia de los asesinos",
+        "relation": "historia",
+        "entity2": "asesinos"
+      },
+      {
+        "entity1": "corte suprema",
+        "relation": "condenó",
+        "entity2": "nueve ex carabineros"
+      },
+      {
+        "entity1": "corte penquista",
+        "relation": "condenó",
+        "entity2": "alberto juan fernández mitchell"
+      },
+      {
+        "entity1": "alberto juan fernández mitchell",
+        "relation": "pena",
+        "entity2": "presidio perpetuo"
+      },
+      {
+        "entity1": "pedro luis jarpa foerster",
+        "relation": "acusación",
+        "entity2": "inocente"
+      },
+      {
+        "entity1": "trabajadores",
+        "relation": "detenidos",
+        "entity2": "carabineros"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "triplets": [
+      {
+        "entity1": "pisagua",
+        "relation": "location of",
+        "entity2": "fosa común"
+      },
+      {
+        "entity1": "juzgado de pozo almonte",
+        "relation": "under jurisdiction of",
+        "entity2": "corte de apelaciones de arica"
+      },
+      {
+        "entity1": "general augusto pinochet",
+        "relation": "left power date",
+        "entity2": "1990"
+      },
+      {
+        "entity1": "andrés vargas",
+        "relation": "directed",
+        "entity2": "documental huellas de sal"
+      },
+      {
+        "entity1": "juan lorenzo abello vildósola",
+        "relation": "author of",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "josé rené jara caro",
+        "relation": "author of",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "heriberto osvaldo rojas jiménez",
+        "relation": "author of",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "carlos aguillón henríquez",
+        "relation": "accomplice of",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "beniamino antonio bozzo basso",
+        "relation": "accomplice of",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "sergio arévalo cid",
+        "relation": "accessory to",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "renato guillermo rodríguez sullivan",
+        "relation": "accessory to",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "maximino cares lara",
+        "relation": "accessory to",
+        "entity2": "secuestro calificado"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "victim of",
+        "entity2": "case coelemu"
+      },
+      {
+        "entity1": "omar lautaro henríquez lópez",
+        "relation": "victim of",
+        "entity2": "case coelemu"
+      },
+      {
+        "entity1": "arturo segundo villegas villagrán",
+        "relation": "victim of",
+        "entity2": "case coelemu"
+      },
+      {
+        "entity1": "alejandro solís muñoz",
+        "relation": "judge of",
+        "entity2": "corte de apelaciones de santiago"
+      },
+      {
+        "entity1": "hugo gutiérrez",
+        "relation": "opposed",
+        "entity2": "sebastián piñera"
+      },
+      {
+        "entity1": "tucapel jiménez",
+        "relation": "opposed",
+        "entity2": "sebastián piñera"
+      },
+      {
+        "entity1": "alicia lira",
+        "relation": "position",
+        "entity2": "presidenta de la afep"
+      },
+      {
+        "entity1": "milton juica",
+        "relation": "position",
+        "entity2": "president of the corte suprema"
+      },
+      {
+        "entity1": "felipe bulnes",
+        "relation": "position",
+        "entity2": "ministro de justicia"
+      },
+      {
+        "entity1": "raúl meza",
+        "relation": "advocate for",
+        "entity2": "juan lorenzo abello vildósola"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "was",
+        "entity2": "alcalde de coelemu"
+      },
+      {
+        "entity1": "corte de apelaciones de santiago",
+        "relation": "location of",
+        "entity2": "región metropolitana de santiago"
+      },
+      {
+        "entity1": "prision cordillera",
+        "relation": "holds",
+        "entity2": "exmilitares"
+      },
+      {
+        "entity1": "punta peuco",
+        "relation": "holds",
+        "entity2": "exmilitares"
+      },
+      {
+        "entity1": "tucapel jiménez",
+        "relation": "victim of",
+        "entity2": "carlos lópez tapia"
+      },
+      {
+        "entity1": "carlos lópez tapia",
+        "relation": "directed",
+        "entity2": "centro de torturas villa grimaldi"
+      },
+      {
+        "entity1": "juan guzmán",
+        "relation": "role",
+        "entity2": "exjuez"
+      },
+      {
+        "entity1": "luis acevedo andrade",
+        "relation": "militant of",
+        "entity2": "comunist party"
+      },
+      {
+        "entity1": "omar henríquez lópez",
+        "relation": "militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "arturo villegas villagrán",
+        "relation": "militant of",
+        "entity2": "socialist party"
+      },
+      {
+        "entity1": "penco",
+        "relation": "contains",
+        "entity2": "cementerio"
+      },
+      {
+        "entity1": "radio bío-bío",
+        "relation": "reported",
+        "entity2": "discovery of remains"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "triplets": [
+      {
+        "entity1": "manuel contreras",
+        "relation": "was not",
+        "entity2": "a asesino"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "was",
+        "entity2": "un libertador de nuestra patria"
+      },
+      {
+        "entity1": "ruth garca",
+        "relation": "prayed",
+        "entity2": "rosario completo de la misericordia"
+      },
+      {
+        "entity1": "junta de gobierno de la república de chile",
+        "relation": "declares",
+        "entity2": "state of emergency"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "deserves",
+        "entity2": "honor"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "triplets": [
+      {
+        "entity1": "papelera cmpc",
+        "relation": "belongs to",
+        "entity2": "vehículos"
+      },
+      {
+        "entity1": "perales",
+        "relation": "location of",
+        "entity2": "puente"
+      },
+      {
+        "entity1": "san juan",
+        "relation": "location of",
+        "entity2": "fundo"
+      },
+      {
+        "entity1": "yumbel",
+        "relation": "location of",
+        "entity2": "comuna"
+      },
+      {
+        "entity1": "laja",
+        "relation": "location of",
+        "entity2": "tenencia"
+      },
+      {
+        "entity1": "instituto médico legal",
+        "relation": "issued by",
+        "entity2": "certificados médicos de defunción"
+      },
+      {
+        "entity1": "comisión chilena de derechos humanos",
+        "relation": "presented by",
+        "entity2": "casos"
+      },
+      {
+        "entity1": " consejo superior",
+        "relation": "considered by",
+        "entity2": "existencia de factores comunes"
+      },
+      {
+        "entity1": "santiago",
+        "relation": "location of",
+        "entity2": "ciudad"
+      },
+      {
+        "entity1": "chile",
+        "relation": "location of",
+        "entity2": "país"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "leader of",
+        "entity2": "dina"
+      },
+      {
+        "entity1": "carlos abarzúa zamorano",
+        "relation": "died in",
+        "entity2": "12 de septiembre de 1973"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "supported by",
+        "entity2": "celia, ruth, ana"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "associated with",
+        "entity2": "dina"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "triplets": [
+      {
+        "entity1": "ruth garcía",
+        "relation": "prays for",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "liked",
+        "entity2": "pineapple cake"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "taken to",
+        "entity2": "punta peuco"
+      },
+      {
+        "entity1": "group of women",
+        "relation": "visited",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "manuel contreras",
+        "relation": "favorite cake",
+        "entity2": "pineapple cake"
+      },
+      {
+        "entity1": "ruth garcía",
+        "relation": "organized gatherings for",
+        "entity2": "manuel contreras"
+      },
+      {
+        "entity1": "communists",
+        "relation": "worse than",
+        "entity2": "termites"
+      },
+      {
+        "entity1": "chile",
+        "relation": "declares",
+        "entity2": "state of emergency"
+      },
+      {
+        "entity1": "republic of chile",
+        "relation": "state of emergency",
+        "entity2": "91 provinces"
+      },
+      {
+        "entity1": "ministry of national defense",
+        "relation": "related to",
+        "entity2": "decree law no. 4"
+      }
+    ]
+  }
+]

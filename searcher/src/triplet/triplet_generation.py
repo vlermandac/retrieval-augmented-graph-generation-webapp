@@ -29,7 +29,7 @@ class TripletBuilder:
     def get_triplets(self) -> TripletLists:
         return TripletLists(root=self.all_triplets)
 
-    def save_as_json(self, path: str) -> str:
+    def save_as_json(self, path: str) -> TripletLists:
         triplets = self.get_triplets()
         with open(path, 'w') as file:
             file.write(triplets.model_dump_json(indent=2))
@@ -65,6 +65,6 @@ class TripletBuilder:
                 }
             ],
             response_model=TripletList,
-            max_retries=3
+            max_retries=2
         )
         return triplets

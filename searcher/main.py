@@ -47,7 +47,8 @@ class Main:
             **self.c_vars.env_vars("OPENAI_API_KEY")
         )
 
-    def update_config(self, new_config: EditableOptions) -> str:
+    def update_config(self, **kwargs) -> str:
+        new_config = EditableOptions(**kwargs)
         self.c_vars.update_config(new_config.config_format())
         return "Config updated."
 
@@ -87,7 +88,7 @@ class Main:
 
     def query_rag(self, query: str) -> Tuple[str, List[str]]:
         rag = RAG(
-            self.db, self.llm, self.embedding,
+            self.db, self.embedding, self.llm,
             **self.c_vars('index_name', 'top_k')
         )
         response_text, retrieval_ids = rag(query=query)

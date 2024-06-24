@@ -12,8 +12,8 @@ class RAG:
     ) -> None:
 
         self.db = db
-        self.llm = llm
         self.embedding = embedding
+        self.llm = llm
         self.index = index_name
         self.k = top_k
         self.prompt = ""

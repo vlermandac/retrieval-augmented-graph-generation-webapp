@@ -6,7 +6,7 @@ import { Settings } from '@/components/settings';
 const Header: React.FC = () => {
   const navigate = useNavigate();
   const goHome = () => {
-    navigate('/');
+    navigate('/search');
   };
   return (                                                              
     <header className="sticky top-0 flex z-20 justify-between items-center p-4 px-8 shadow-md">

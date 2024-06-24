@@ -20,52 +20,65 @@ import {
 import { FaCog } from 'react-icons/fa';
 import { FileUpload } from "@/components/submit";
 import { Separator } from "@/components/ui/separator"
+import { 
+  fetchIndices,
+  fetchSettings,
+  updateSettings,
+  deleteIndex
+} from "@/lib/fetch";
+import { useCurrentIndex } from "@/lib/current-index-context";
 
 export function Settings() {
   const [settings, setSettings] = useState({
     index_name: "",
     chat_model: "",
     embedding_model: "",
+    embedding_dimension: "200",
     chunk_size: "",
     chunk_overlap: "",
     top_k: "",
   });
 
+  const { setCurrentIndex } = useCurrentIndex();
   const [indexList, setIndexList] = useState<string[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
   const [configSaved, setConfigSaved] = useState<boolean>(false);
+  const [fileUploaded, setFileUploaded] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    const getIndexList = async () => {
+      try {
+        const data = await fetchIndices();
+        const list = data.indices;
+        console.log("Fetched indices:", list);
+        setIndexList(list || []);
+      } catch (err) {
+        console.error("Error fetching index list:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    getIndexList();
+    console.log("Fetched indices:", indexList);
+    setFileUploaded(false);
+  }, [fileUploaded]);
 
   useEffect(() => {
     setConfigSaved(false);
-    const fetchIndexList = async () => {
-      try {
-        const response = await fetch('http://localhost:8000/list-files');
-        const data = await response.json();
-        setIndexList(data.files);
-        setLoading(false);
-      } catch (error) {
-        console.error('Error fetching index list:', error);
-        setLoading(false);
-      }
+    const getSettings = async () => {
+      const data = await fetchSettings();
+      setSettings({
+        index_name: data.index_name,
+        chat_model: data.chat_model,
+        embedding_model: data.embedding_model,
+        embedding_dimension: data.embedding_dimension.toString(),
+        chunk_size: data.chunk_size.toString(),
+        chunk_overlap: data.chunk_overlap.toString(),
+        top_k: data.top_k.toString(),
+      });
+      setCurrentIndex(data.index_name);
     };
-    const fetchSettings = async () => {
-      try {
-        const response = await fetch('http://localhost:8000/config');
-        const data = await response.json();
-        setSettings({
-          index_name: data.index_name,
-          chat_model: data.chat_model,
-          embedding_model: data.embedding_model,
-          chunk_size: data.chunk_size.toString(),
-          chunk_overlap: data.chunk_overlap.toString(),
-          top_k: data.top_k.toString(),
-        });
-      } catch (error) {
-        console.error('Error fetching settings:', error);
-      }
-    };
-    fetchIndexList();
-    fetchSettings();
+    getSettings();
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -84,27 +97,27 @@ export function Settings() {
   };
 
   const handleSubmit = async () => {
-    const settingsJson = JSON.stringify(settings);
-    console.log(settingsJson);
-    const res = await fetch('http://localhost:8000/update-config', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: settingsJson
-    });
-    const data = await res.json();
-    console.log(data);
+    await updateSettings(settings);
     setConfigSaved(true);
-    // wait 2 seconds before hiding the success message
     setTimeout(() => {
       setConfigSaved(false);
     }, 2000);
   };
 
-  if (loading) {
-    return <div>Loading...</div>;
+  const handleFileUpload = (fileUpload: boolean) => {
+    setFileUploaded(fileUpload);
   }
+
+  const handleDeleteAll = async () => {
+    for (let index of indexList) {
+      await deleteIndex(index);
+    }
+    console.log("All indices removed");
+    setIndexList([]);
+    setFileUploaded(true);
+  };
+
+  if (loading) return <p>Loading...</p>;
 
   return (
     <Sheet>
@@ -125,17 +138,18 @@ export function Settings() {
         <div className="grid gap-4 p-2">
           <div className="grid grid-cols-2 items-center">
             Index name
-            <Select onValueChange={(value) => handleSelectChange("index_name", value)} 
+            <Select onValueChange={(value) => handleSelectChange("index_name", value)}
               defaultValue={settings.index_name}>
               <SelectTrigger className="w-full">
                 <SelectValue placeholder="Select an index" />
               </SelectTrigger>
               <SelectContent>
-                {indexList.map((index) => (
+                {indexList.length > 0 ? indexList.map((index) => (
                   <SelectItem key={index} value={index}>
                     {index}
                   </SelectItem>
-                ))}
+                )) : <p>No indices available</p>  
+                }
               </SelectContent>
             </Select>
           </div>
@@ -190,7 +204,12 @@ export function Settings() {
           {configSaved && <p className="text-center text-green-500">Config saved!</p>}
         </SheetFooter>
         <Separator className="my-5" />
-        <FileUpload />
+        <FileUpload onFileUpload={handleFileUpload}/>
+        <Separator className="my-5" />
+          Remove all indices
+          <Button type="button" className="m-6" onClick={handleDeleteAll}>
+            Remove
+          </Button>
       </SheetContent>
     </Sheet>
   );

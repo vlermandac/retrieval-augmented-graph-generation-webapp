@@ -7,6 +7,7 @@
 #include <nlohmann/json.hpp>
 #include <string>
 #include <vector>
+#include <mutex>
 
 #ifndef DATA_DIR
 #define DATA_DIR "."
@@ -19,9 +20,9 @@ using Str = std::string;
 const Str DATA = Str(DATA_DIR);
 Str path(const Str &index) { return DATA + "/" + index; }
 bool exists(const Str &index) { return std::ifstream(path(index)).good(); }
-Str CURR_INDEX = "";
-std::unique_ptr<KG> graph(nullptr);
+std::unique_ptr<KG> graph;
 httplib::Server svr;
+std::mutex request_mutex;
 
 bool validate_req(const httplib::Request &req, httplib::Response &res) {
   if (!req.has_header("Content-Type") ||
@@ -34,30 +35,29 @@ bool validate_req(const httplib::Request &req, httplib::Response &res) {
 }
 
 void generate_graph(const std::string &index, const Json &tl) {
-  graph = std::make_unique<KG>(tl);
+  graph = std::make_unique<KG>(tl, "triplet");
   if (graph->num_nodes == 0)
     return;
   std::filesystem::create_directories(path(index));
-  graph->save_graphology_json(path(index) + "/graph.json");
-  CURR_INDEX = index;
+  graph->save_graph(path(index) + "/graph.json");
 }
 
-void retrieve_graph(const Str &index) {
-  if (CURR_INDEX == index)
-    return;
-  graph = std::make_unique<KG>();
+void retrieve_graph(Str &index) {
+  std::cout << "retrieving graph\n";
   std::ifstream file(path(index) + "/graph.json");
   Json json = Json::parse(file);
-  graph->read_graph(json);
-  CURR_INDEX = index;
+  graph = std::make_unique<KG>(json, "graph");
 }
 
 void handle_generate(const httplib::Request &req, httplib::Response &res) {
+  std::lock_guard<std::mutex> guard(request_mutex);
   if (!validate_req(req, res)) return;
   std::cout << "HTTP POST /generate received\n";
   try {
     auto json = Json::parse(req.body);
+    std::cout<<"Request body parsed\n";
     Str index = json["index"].get<Str>();
+    std::cout<<"Index: "<<index<<" parsed"<<std::endl;
     generate_graph(index, json["triplet_lists"]);
     if (graph->num_nodes == 0) {
       res.set_content("error, empty graph", "text/plain");
@@ -67,10 +67,14 @@ void handle_generate(const httplib::Request &req, httplib::Response &res) {
   } catch (const std::exception &e) {
     res.set_content(e.what(), "text/plain");
     res.status = 400;
+    std::cout<<"Request failed\n";
+    std::cout<<e.what()<<std::endl;
+    std::cout<<req.body<<std::endl;
   }
 }
 
 void handle_get(const httplib::Request &req, httplib::Response &res) {
+  std::lock_guard<std::mutex> guard(request_mutex);
   std::cout << "HTTP POST /get received\n";
   if (!validate_req(req, res)) return;
   try {
@@ -82,21 +86,24 @@ void handle_get(const httplib::Request &req, httplib::Response &res) {
     }
     retrieve_graph(index);
     std::vector<int> values = json["values"].get<std::vector<int>>();
-    std::cout << "values: " << values.size() << std::endl;
+    std::cout << "values size: " << values.size() << std::endl;
     for (int v : values)
       std::cout << v << std::endl;
     if (!values.empty()) {
       res.set_content(graph->get_subgraph(values).dump(2), "application/json");
       return;
     }
-    res.set_content(graph->get_graphology_json().dump(2), "application/json");
+    res.set_content(graph->get_graph().dump(2), "application/json");
   } catch (const std::exception &e) {
     res.set_content(e.what(), "text/plain");
     res.status = 400;
+    std::cout<<"Request failed\n";
+    std::cout<<e.what()<<std::endl;
   }
 }
 
 void handle_delete(const httplib::Request &req, httplib::Response &res) {
+  std::lock_guard<std::mutex> guard(request_mutex);
   std::cout << "HTTP POST /delete received\n";
   if (!validate_req(req, res)) return;
   try {
@@ -117,7 +124,7 @@ void handle_delete(const httplib::Request &req, httplib::Response &res) {
 }
 
 int main() {
-  const Str &host = "localhost";
+  const Str &host = "0.0.0.0";
   const int &port = 8080;
 
   // (index: str, JSON: TripletLists) -> str

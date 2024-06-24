@@ -22,7 +22,7 @@ set(SRCS
 add_executable(KnowledgeGraph ${SRCS})
 
 target_link_libraries(KnowledgeGraph PRIVATE nlohmann_json::nlohmann_json)
-target_compile_options(KnowledgeGraph PRIVATE -Wall -O2 -std=c++17)
+target_compile_options(KnowledgeGraph PRIVATE -Wall -O3 -std=c++17)
 target_include_directories(KnowledgeGraph PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")                                     
