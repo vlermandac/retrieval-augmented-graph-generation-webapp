@@ -38,20 +38,6 @@ async def passcode_middleware(request: Request, call_next):
     return response
 
 
-@app.post("/login")
-async def login(request: Request):
-    passcode = request.headers.get("x-passcode")
-    if passcode == PASSCODE:
-        global verified
-        verified = True
-        return {"message": "Login successful"}
-    else:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="401",
-        )
-
-
 class GetGraphRequest(BaseModel):
     index: str
     values: Annotated[list[int] | None, Query()] = None
@@ -69,6 +55,19 @@ class ConfigRequest(BaseModel):
     chunk_size: int
     chunk_overlap: int
     top_k: int
+
+
+@app.post("/login")
+async def login(passcode: StringRequest):
+    if passcode.request == PASSCODE:
+        global verified
+        verified = True
+        return {"message": "Login successful"}
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="401",
+        )
 
 
 @app.get("/get-indices")

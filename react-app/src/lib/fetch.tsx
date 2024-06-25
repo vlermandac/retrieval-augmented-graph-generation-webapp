@@ -6,10 +6,8 @@ export async function login(passcode: string) {
   try {
     const response = await fetch(`${url}/login`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-passcode': passcode
-      }
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ request: passcode })
     });
     return response.json();
   } catch (error) {
