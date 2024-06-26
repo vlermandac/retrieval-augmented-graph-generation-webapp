@@ -11,7 +11,9 @@ sys.path.append(os.path.join(pwd, './src'))
 from rag import RAG  # noqa: E402
 from config import ConfigVariables  # noqa: E402
 from triplet import TripletBuilder  # noqa: E402
-from core_classes import EditableOptions  # noqa: E402
+from core_classes import (
+    EditableOptions, TextItem, TripletLists
+)  # noqa: E402
 from utils import doc_name_format  # noqa: E402
 from data_ingestion import (
     Pipeline, read_pdf, chunk, embed, index, local_storage
@@ -79,12 +81,15 @@ class Main:
                     | index(self.db))
         return doc_name_format(file_path).title
 
-    def generate_triplets(self, index: str) -> str:
+    def generate_triplets(self, index: str) -> TripletLists:
         file_path = os.path.join(self.data_path, index, 'triplets.json')
-        return TripletBuilder(
+        triplets = TripletBuilder(
             chunks=self.db.search(index),
             llm=self.llm
-        ).save_as_json(file_path)
+        )
+        item = TextItem(id=index, text='', metadata=triplets.get_entities())
+        self.db.index(index, item)
+        return triplets.save_as_json(file_path)
 
     def query_rag(self, query: str) -> Tuple[str, List[str]]:
         rag = RAG(

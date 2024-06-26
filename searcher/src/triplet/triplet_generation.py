@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Dict
 import instructor
 from core_classes import (
     Triplet, TripletListId, TripletLists, LLM, TextItem
@@ -68,3 +68,13 @@ class TripletBuilder:
             max_retries=2
         )
         return triplets
+
+    def get_entities(self) -> Dict[str, int]:
+        if (self.all_triplets is None) or (len(self.all_triplets) == 0):
+            return {"error": "No triplets found."}
+        entities = {}
+        for triplet in self.all_triplets:
+            for t in triplet.triplets:
+                entities[t.entity1] = entities.get(t.entity1, 0) + 1
+                entities[t.entity2] = entities.get(t.entity2, 0) + 1
+        return entities

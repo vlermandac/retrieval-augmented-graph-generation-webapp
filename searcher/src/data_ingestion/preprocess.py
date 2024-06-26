@@ -5,6 +5,7 @@ import os
 import re
 from utils import doc_name_format
 from core_classes import TextItem
+from collections import Counter
 
 logger = logging.getLogger(__name__)
 
@@ -36,5 +37,14 @@ def chunking(doc: TextItem, size: int, overlap: int) -> List[TextItem]:
     for i, start in enumerate(range(0, n, size - overlap)):
         text = clean_text(doc.text[start:start + size])
         chunk = doc.create_child(new_id=str(i), new_text=text)
-        chunks.append(chunk)
+        chunks.append(add_words_freq(chunk))
     return chunks
+
+
+def add_words_freq(item: TextItem) -> TextItem:
+    words = item.text.split()
+    words_count = len(words)
+    words_freq = Counter(words)
+    item.metadata['words_count'] = words_count
+    item.metadata['words_freq'] = words_freq
+    return item
