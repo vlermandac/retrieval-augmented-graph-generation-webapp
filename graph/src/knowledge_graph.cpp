@@ -19,8 +19,10 @@ void KnowledgeGraph::read_triplets(const Json &json) {
   std::vector<TripletList> triplet_list = json.get<std::vector<TripletList>>();
   if (triplet_list.empty()) return;
   for (const auto &triplets_with_id : triplet_list)
-    for (const auto &triplet : triplets_with_id.triplets)
+    for (const auto &triplet : triplets_with_id.triplets){
+      if (triplet.entity1 == "n/a" || triplet.entity2 == "n/a" || triplet.entity1 == "N/A" || triplet.entity2 == "N/A") continue;
       add_triplet(triplet.entity1, triplet.relation, triplet.entity2, triplets_with_id.id);
+    }
 }
 
 void KnowledgeGraph::read_graph(const Json &json) {

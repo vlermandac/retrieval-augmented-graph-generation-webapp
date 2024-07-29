@@ -20,3 +20,4 @@ COPY --from=build /app/dist /var/www/html/
 EXPOSE 3000
 
 ENTRYPOINT ["nginx","-g","daemon off;"]
+

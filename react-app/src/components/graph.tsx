@@ -43,7 +43,7 @@ export const DisplayGraph: FC<props> = ({ list }) => {
   }, [jsonGraph]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div>Cargando Grafo...</div>;
   }
 
   return (
@@ -51,7 +51,7 @@ export const DisplayGraph: FC<props> = ({ list }) => {
     {graph ? 
     <SigmaContainer style={sigmaStyle} settings={sigmaSettings} graph={graph}>
     </SigmaContainer>
-    : <div>Loading...</div>}
+    : <div>Cargando Grafo...</div>}
     </div>
   );
 

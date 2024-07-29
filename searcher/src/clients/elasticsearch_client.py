@@ -118,11 +118,14 @@ class ElasticsearchClient(Database):
             return response
         else:
             for hit in response["hits"]["hits"]:
+                index = hit["_index"]
+                metadata = hit["_source"].get("metadata")
+                metadata["index"] = index
                 output.append(
                     TextItem(
                         id=hit["_id"],
                         text=hit["_source"]["text"],
-                        metadata=hit["_source"].get("metadata"),
+                        metadata=metadata,
                         embedding=hit["_source"].get(self.vector_field)
                     )
                 )

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { DisplayGraph } from '@/components/graph';
 import { useContextValues } from "@/lib/response-context";
 import Header from '@/components/header';
@@ -7,10 +7,13 @@ export default function ResponsePage() {
 
   const { responseCtx, responseCtxId } = useContextValues();
   const [idList, setIdList] = useState<number[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     if (responseCtxId) setIdList(responseCtxId);
   }, [responseCtxId]);
+
+  console.log(responseCtx);
 
   return (
   <div>
@@ -21,8 +24,17 @@ export default function ResponsePage() {
       <DisplayGraph list={ idList } />
     </div>
 
-    <div className="sticky bottom-4 shadow-md text-lg bg-white/80 p-10 w-full h-full text-pretty">
-      {responseCtx ? responseCtx : "Loading..."}
+    <div className="bottom-4 shadow-md text-lg bg-white/80 p-10 w-full h-1/6 text-pretty text-left">
+      {
+        responseCtx ?
+        responseCtx.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              {index < responseCtx.split('\n').length - 1 && <br />}
+            </React.Fragment>
+          ))
+        : "Cargando..."
+      }
     </div>
 
   </div>

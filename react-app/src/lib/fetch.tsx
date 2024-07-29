@@ -1,20 +1,5 @@
-const host = 'localhost';
-const port = 8000;
-const url = `http://${host}:${port}`;
-
-export async function login(passcode: string) {
-  try {
-    const response = await fetch(`${url}/login`, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({ request: passcode })
-    });
-    return response.json();
-  } catch (error) {
-    console.error('Error logging in:', error);
-    return null;
-  }
-}
+const url = 'http://localhost:3000/api';
+//const url = 'http://localhost:8000';
 
 export async function fetchIndices(){
   try {
@@ -33,7 +18,7 @@ export async function loadFile(file: FormData) {
     console.log("file: ", file);
     const response = await fetch(`${url}/load-file`, {
       method: 'POST',
-      body: file
+      body: file,
     });
     return response;
   } catch (error) {

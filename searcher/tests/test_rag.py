@@ -11,15 +11,15 @@ class TestRAG(test.TestCase):
         db_vars['CA_CERT'] = root + db_vars['CA_CERT']
         oai_key = vars.env_vars('OPENAI_API_KEY')
         # Manually set
-        test_file = "files/Ricardo_Meruane-Noctulo.pdf"
-        dims = 5
-        size = 20
-        overlap = 1
+        test_file = "../../data/output/documentos-varios.pdf"
+        dims = 200
+        size = 20000
+        overlap = 100
 
         # CLIENTS
         db = ElasticsearchClient(**db_vars)
         embedding = OAIEmbeddingClient('text-embedding-3-small', dims, **oai_key)
-        llm = OAIChatClient('gpt-3.5-turbo', **oai_key)
+        llm = OAIChatClient('gpt-4o-mini', **oai_key)
 
         # DATA LOADING
         self.doc_name = doc_name_format(test_file).title
@@ -35,7 +35,7 @@ class TestRAG(test.TestCase):
             llm=llm,
             embedding=embedding,
             index_name=self.doc_name,
-            top_k=1
+            top_k=2
         )
 
     def test_generation(self):

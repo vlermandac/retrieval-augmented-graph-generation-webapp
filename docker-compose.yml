@@ -125,7 +125,9 @@ services:
     depends_on:
       es01:
         condition: service_healthy
-    build: ./searcher
+    build: ${FASTAPI_WORKDIR}
+    volumes:
+          - ${FASTAPI_WORKDIR}:/app
     ports: 
       - "8000:8000"
 

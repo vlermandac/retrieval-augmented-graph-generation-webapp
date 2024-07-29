@@ -13,7 +13,7 @@ export default function InputExtended() {
 
   const apiCall = async (query: string) => {
     const data = await fetchRAG(query);
-    setResponseCtx(data.rag.content);
+    setResponseCtx(data.rag);
     setResponseCtxId(data.ids);
     navigate('/response');
     setLoading(false);
@@ -28,7 +28,7 @@ export default function InputExtended() {
 
   return (
     <div className='px-4'>
-      <Input placeholder='Ask something' ref={inputRef} onKeyDown={handleKeyDown} />
+      <Input placeholder='Consulta acerca de fechas, hechos, personas, instituciones, lugares, etc...' ref={inputRef} onKeyDown={handleKeyDown} />
       {loading && <p>Loading...</p>}
     </div>
   )

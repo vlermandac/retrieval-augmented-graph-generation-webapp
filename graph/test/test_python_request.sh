@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# ../build/KnowledgeGraph &
-# SERVER_PID=$!
+../build/KnowledgeGraph &
+SERVER_PID=$!
 
-# sleep 2
+sleep 2
 
 test_file=../../searcher/tests/files/Ricardo_Meruane-Noctulo.pdf
 

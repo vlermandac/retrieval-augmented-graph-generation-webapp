@@ -12,7 +12,7 @@ from rag import RAG  # noqa: E402
 from config import ConfigVariables  # noqa: E402
 from triplet import TripletBuilder  # noqa: E402
 from core_classes import (
-    EditableOptions, TextItem, TripletLists
+    EditableOptions, TripletLists
 )  # noqa: E402
 from utils import doc_name_format  # noqa: E402
 from data_ingestion import (
@@ -82,13 +82,13 @@ class Main:
         return doc_name_format(file_path).title
 
     def generate_triplets(self, index: str) -> TripletLists:
-        file_path = os.path.join(self.data_path, index, 'triplets.json')
         triplets = TripletBuilder(
             chunks=self.db.search(index),
             llm=self.llm
         )
-        item = TextItem(id=index, text='', metadata=triplets.get_entities())
-        self.db.index(index, item)
+        dir_path = os.path.join(self.data_path, index)
+        triplets.entities_freq_to_json(dir_path)
+        file_path = os.path.join(dir_path, 'triplets.json')
         return triplets.save_as_json(file_path)
 
     def query_rag(self, query: str) -> Tuple[str, List[str]]:

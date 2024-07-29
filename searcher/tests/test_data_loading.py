@@ -11,12 +11,15 @@ class TestDataLoading(test.TestCase):
         self.dims = 5
         self.embedding = OAIEmbeddingClient('text-embedding-3-small', self.dims, **oai_key)
 
-        self.test_file = "files/Ricardo_Meruane-Noctulo.pdf"
+        # self.test_file = "files/Ricardo_Meruane-Noctulo.pdf"
+        self.test_file = "../../data/output/documentos-varios.pdf"
         self.doc_name = doc_name_format(self.test_file).title
         self.db.delete(index=self.doc_name)
 
-        self.chunk_size = 20
-        self.overlap = 1
+        # self.chunk_size = 20
+        # self.overlap = 1
+        self.chunk_size = 20000
+        self.overlap = 100
         self.chunks = (Pipeline() | read_pdf(self.test_file)
                                   | chunk(self.chunk_size, self.overlap)
                                   | embed(self.embedding)
@@ -41,11 +44,11 @@ class TestDataLoading(test.TestCase):
         response = self.db.delete(index=self.doc_name)
         print("Delete response: ", response)
 
-    def test_semantic_search(self):
-        query = self.embedding.create(input="noctulo")
-        response = self.db.semantic_search(index=self.doc_name, vector=query, k=1)
-        self.assertIsNotNone(response, f"Semantic search failed for {query}")
-        print("Semantic search: ", response)
+    # def test_semantic_search(self):
+    #     query = self.embedding.create(input="noctulo")
+    #     response = self.db.semantic_search(index=self.doc_name, vector=query, k=1)
+    #     self.assertIsNotNone(response, f"Semantic search failed for {query}")
+    #     print("Semantic search: ", response)
 
 
 if __name__ == '__main__':

@@ -14,4 +14,4 @@ conda activate env
 set -euo pipefail
 
 # exec the final command:
-exec uvicorn app:app --host 0.0.0.0 --port 8000
+exec uvicorn app:app --host 0.0.0.0 --port 8000 --reload

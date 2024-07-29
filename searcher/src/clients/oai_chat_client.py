@@ -15,4 +15,4 @@ class OAIChatClient(LLM):
             model=self.model,
             messages=messages
         )
-        return response.choices[0].message
+        return response.choices[0].message.content

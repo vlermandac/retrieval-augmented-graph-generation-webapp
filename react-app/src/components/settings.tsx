@@ -163,7 +163,7 @@ export function Settings() {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="gpt-4o">gpt-4o</SelectItem>
-                <SelectItem value="gpt-3.5-turbo">gpt-3.5-turbo</SelectItem>
+                <SelectItem value="gpt-4o-mini">gpt-4o-mini</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -177,6 +177,7 @@ export function Settings() {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="text-embedding-3-small">text-embedding-3-small</SelectItem>
+                <SelectItem value="text-embedding-3-large">text-embedding-3-large</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -206,11 +207,11 @@ export function Settings() {
         <Separator className="my-5" />
         <FileUpload onFileUpload={handleFileUpload}/>
         <Separator className="my-5" />
-          Remove all indices
-          <Button type="button" className="m-6" onClick={handleDeleteAll}>
-            Remove
-          </Button>
       </SheetContent>
     </Sheet>
   );
 }
+          //Remove all indices
+          //<Button type="button" className="m-6" onClick={handleDeleteAll}>
+          //  Remove
+          //</Button>

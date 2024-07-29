@@ -1,12 +1,12 @@
 data:
   data_path: ./data/
 llm:
-  chat_model: gpt-4o
+  chat_model: gpt-4o-mini
   embedding_dimension: 200
   embedding_model: text-embedding-3-small
 preprocess:
   chunk_overlap: 1000
-  chunk_size: 10000
+  chunk_size: 20000
 rag:
-  index_name: documentos
-  top_k: 10
+  index_name: varios
+  top_k: 5

@@ -1,46 +1,33 @@
 from fastapi import (
-    FastAPI, Query, File, UploadFile, Request, HTTPException, status)
+    FastAPI, Query, File, UploadFile)
 from fastapi.middleware.cors import CORSMiddleware
-from typing import Annotated
+from typing import Annotated, List
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from main import Main
 import httpx
 import logging
 import os
+import time
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 load_dotenv()
 cpp_endpoint = str(os.getenv("CPP_ENDPOINT"))
-PASSCODE = str(os.getenv("PASSCODE"))
-verified = False
 
 app = FastAPI()
-origins = ["http://localhost:3000", "http://fastapi:3000"]
+origins = ["http://localhost", "http://localhost:3000"]
 app.add_middleware(
         CORSMiddleware,
-        allow_origins=origins,
+        allow_origins=["*"],
         allow_methods=["*"],
         allow_headers=["*"],
 )
 
 
-@app.middleware("http")
-async def passcode_middleware(request: Request, call_next):
-    if request.url.path not in ["/login"]:
-        if verified is False:
-            raise HTTPException(
-                status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid passcode",
-            )
-    response = await call_next(request)
-    return response
-
-
 class GetGraphRequest(BaseModel):
     index: str
-    values: Annotated[list[int] | None, Query()] = None
+    values: List[int]
 
 
 class StringRequest(BaseModel):
@@ -55,19 +42,6 @@ class ConfigRequest(BaseModel):
     chunk_size: int
     chunk_overlap: int
     top_k: int
-
-
-@app.post("/login")
-async def login(passcode: StringRequest):
-    if passcode.request == PASSCODE:
-        global verified
-        verified = True
-        return {"message": "Login successful"}
-    else:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="401",
-        )
 
 
 @app.get("/get-indices")
@@ -98,6 +72,8 @@ async def update_config(new_config: ConfigRequest):
 
 @app.post("/load-file")
 async def load_file(file: UploadFile = File(...)):
+    start_time = time.time()
+    logger.info("loading file...")
     main = Main()
     file_index = main.ingest_data(file)
     logger.info(f"file successfully ingested with index: {file_index}")
@@ -108,24 +84,36 @@ async def load_file(file: UploadFile = File(...)):
             headers={"Content-Type": "application/json"},
             json={"index": file_index, "triplet_lists": triplets}
         )
+        end_time = time.time()
+        logger.info(f"file successfully loaded in {end_time - start_time} seconds")
         return response.text
 
 
 @app.post("/query-rag")
 async def rag(query: StringRequest):
+    start_time = time.time()
+    logger.info("RAG query received")
     main = Main()
     rag, ids = main.query_rag(query=query.request)
+    end_time = time.time()
+    logger.info(f"RAG query successfully completed in {end_time - start_time} seconds")
+    logger.info(f"RAG: {rag}")
     return {"rag": rag, "ids": ids}
 
 
 @app.post("/get-graph")
 async def update_graph(request: GetGraphRequest):
+    start_time = time.time()
+    logger.info(f"graph query received for index: {request.index} and values: {request.values}")
     async with httpx.AsyncClient(timeout=None) as client:
         response = await client.post(
             f"{cpp_endpoint}/get",
             headers={"Content-Type": "application/json"},
             json=request.dict()
         )
+        end_time = time.time()
+        logger.info(f"graph query successfully completed in {end_time - start_time} seconds")
+        # logger.info(f"graph: {response.text}")
         return response.json()
 
 
