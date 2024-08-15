@@ -49,6 +49,7 @@ class RAG:
         retrieved_context = ""
         for chunk in knn:
             self.result_ids.append(chunk.id)
+            print(f'"id": {chunk.id}, "text": "{chunk.text}"')
             doc_name = chunk.metadata["doc_name"]
             chunk_pages = f"(p. {chunk.metadata['start_page']} - {chunk.metadata['end_page']})"
             source = f"{doc_name} {chunk_pages}"
