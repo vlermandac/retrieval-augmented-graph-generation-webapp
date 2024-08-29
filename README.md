@@ -1,5 +1,6 @@
 # Retrieval Augmented Knowledge Graph Generation
 [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)](./LICENSE.md)
+
 RAG system that recieves a Natural Language query as input, and gives a textual response and a related Knowledge Graph (RDF).
 
 ## Run with Docker
