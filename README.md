@@ -3,6 +3,9 @@
 
 RAG system that recieves a Natural Language query as input, and gives a textual response and a related Knowledge Graph (RDF).
 
+## System Design
+<img width="690" alt="image" src="https://github.com/user-attachments/assets/83a57c00-2651-4c5b-a36d-28396b9d6832">
+
 ## Run with Docker
 
 ### Requirements
