@@ -1,5 +1,0 @@
-NAME,CPU %,MEM USAGE / LIMIT
-searcher-full_reactapp_1,0.00%,6.961MiB / 3.841GiB
-searcher-full_fastapi_1,7.41%,169MiB / 3.841GiB
-searcher-full_cppgraph_1,0.00%,109.6MiB / 3.841GiB
-searcher-full_es01_1,1.13%,1.042GiB / 1.093GiB
