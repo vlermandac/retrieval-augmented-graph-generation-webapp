@@ -1,5 +1,4 @@
-const url = 'http://localhost:3000/api';
-//const url = 'http://localhost:8000';
+const url = '/api';
 
 export async function fetchIndices(){
   try {
