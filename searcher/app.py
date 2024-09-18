@@ -16,9 +16,10 @@ load_dotenv()
 cpp_endpoint = str(os.getenv("CPP_ENDPOINT"))
 
 app = FastAPI()
-origins = ["http://localhost", "http://localhost:3000"]
+origins = ["http://localhost", "http://localhost:3000", "http://reactapp"]
 app.add_middleware(
         CORSMiddleware,
+        allow_credentials=True,
         allow_origins=["*"],
         allow_methods=["*"],
         allow_headers=["*"],
