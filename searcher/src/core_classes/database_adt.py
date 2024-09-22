@@ -19,7 +19,7 @@ class Database(ABC):
         pass
 
     @abstractmethod
-    def semantic_search(self, index: str, vector: List[float], k: int):
+    def semantic_search(self, index: str, vector: List[float], k: int) -> List[TextItem]:
         pass
 
     @abstractmethod

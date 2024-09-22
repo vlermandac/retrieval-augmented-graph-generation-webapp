@@ -1,0 +1,31 @@
+version: "3.8"
+
+volumes:
+  certs:
+    driver: local
+  esdata01:
+    driver: local
+
+networks:
+  default:
+    name: elastic
+    external: false
+
+services:
+  cppgraph:
+    build: ./graph
+    ports: 
+      - "8080:8080"
+
+  fastapi:
+    build: ${FASTAPI_WORKDIR}
+    volumes:
+          - ${FASTAPI_WORKDIR}:/app
+    ports: 
+      - "8000:8000"
+
+  reactapp:
+    build: ./react-app
+    ports:
+      - "3000:3000"
+

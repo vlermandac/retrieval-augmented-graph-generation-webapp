@@ -5,8 +5,8 @@ llm:
   embedding_dimension: 200
   embedding_model: text-embedding-3-small
 preprocess:
-  chunk_overlap: 10
-  chunk_size: 2800
+  chunk_overlap: 100
+  chunk_size: 12000
 rag:
-  index_name: completo
+  index_name: rocky
   top_k: 5

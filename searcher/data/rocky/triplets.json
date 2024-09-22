@@ -1,0 +1,1127 @@
+[
+  {
+    "id": 6,
+    "triplets": [
+      {
+        "entity1": "rocky",
+        "relation": "pounds",
+        "entity2": "a heavy bag"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "removes",
+        "entity2": "a piece of string"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "motivate",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "tells",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "creed",
+        "relation": "is champion of",
+        "entity2": "the whole world"
+      },
+      {
+        "entity1": "goldmills gym",
+        "relation": "is located in",
+        "entity2": "philadelphia"
+      },
+      {
+        "entity1": "rocky balboa",
+        "relation": "is an underdog",
+        "entity2": "heavyweight"
+      },
+      {
+        "entity1": "reporter",
+        "relation": "covers",
+        "entity2": "the prefight training"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "owned",
+        "entity2": "the gym"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "approaches",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is a contender",
+        "entity2": "in the fight"
+      },
+      {
+        "entity1": "dipper",
+        "relation": "is in",
+        "entity2": "the gym"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is accompanied by",
+        "entity2": "his dog butkus"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "enters",
+        "entity2": "rocky's apartment"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "feels for",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "jogs to",
+        "entity2": "eastern packing company"
+      },
+      {
+        "entity1": "reporters",
+        "relation": "surround",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "commentator",
+        "relation": "is reporting on",
+        "entity2": "rocky's training method"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "introduced",
+        "entity2": "rocky to training with beef"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "invents",
+        "entity2": "pounding raw meat"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "triplets": [
+      {
+        "entity1": "apollo",
+        "relation": "has",
+        "entity2": "broken ribs"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has",
+        "entity2": "dangerous condition"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "trainer"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is fighting against",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "spits blood on",
+        "entity2": "the canvas"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "the champion"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is",
+        "entity2": "heavyweight champion of the world"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "battered"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is embraced by",
+        "entity2": "mickey"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is celebrated by",
+        "entity2": "fans"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is celebrated by",
+        "entity2": "fans"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is",
+        "entity2": "rocky's partner"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "embraces",
+        "entity2": "adrian"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "triplets": [
+      {
+        "entity1": "joe frazier",
+        "relation": "is",
+        "entity2": "challenger"
+      },
+      {
+        "entity1": "rocky balboa",
+        "relation": "is",
+        "entity2": "challenger"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "is",
+        "entity2": "champion"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "trainer"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is",
+        "entity2": "boxer"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "boxer"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is",
+        "entity2": "rocky's partner"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is",
+        "entity2": "rocky's friend"
+      },
+      {
+        "entity1": "mr gazzo",
+        "relation": "is",
+        "entity2": "rocky's friend"
+      },
+      {
+        "entity1": "andy",
+        "relation": "is",
+        "entity2": "bar owner"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "triplets": [
+      {
+        "entity1": "adrian",
+        "relation": "nods",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "exits",
+        "entity2": "the shop"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "picks up",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "mr. gazzo",
+        "relation": "sits with",
+        "entity2": "his young bodyguard"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "in the back seat"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is good for",
+        "entity2": "the rest next week"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "hands",
+        "entity2": "rocky a twenty"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "collects from",
+        "entity2": "del rio"
+      },
+      {
+        "entity1": "bodyguard",
+        "relation": "looks at",
+        "entity2": "rocky's bruised face"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is flustered about",
+        "entity2": "his locker"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "sees",
+        "entity2": "a set of flashy clothes"
+      },
+      {
+        "entity1": "mike",
+        "relation": "enters",
+        "entity2": "the dressing room"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is taken aback by",
+        "entity2": "the flashy clothes"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "sits with",
+        "entity2": "another fighter"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "the owner"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "approaches",
+        "entity2": "mickey"
+      },
+      {
+        "entity1": "dipper",
+        "relation": "is sparring with",
+        "entity2": "another fighter"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "moves past",
+        "entity2": "the fighters training"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is eating",
+        "entity2": "fried chicken"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is arranging",
+        "entity2": "pet toys"
+      },
+      {
+        "entity1": "andy",
+        "relation": "sets a mug of beer in front of",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is trying to comb",
+        "entity2": "his hair"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is",
+        "entity2": "rocky's sister's boyfriend"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "asks about",
+        "entity2": "paulie"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "talks about",
+        "entity2": "rocky's feelings for adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is guided out",
+        "entity2": "of the restroom"
+      },
+      {
+        "entity1": "creed",
+        "relation": "is",
+        "entity2": "the heavyweight champion"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "is followed by",
+        "entity2": "an entourage of trainers"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "triplets": [
+      {
+        "entity1": "apollo creed",
+        "relation": "follows",
+        "entity2": "entourage"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "interviews",
+        "entity2": "commentator"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "referring to",
+        "entity2": "mac lee green"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "rate",
+        "entity2": "henry wilcoxson"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "rating",
+        "entity2": "last british challenger"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "says",
+        "entity2": "greatest sporting event"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "has fight",
+        "entity2": "bicentennial heavyweight championship"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "speaks with",
+        "entity2": "wife"
+      },
+      {
+        "entity1": "andy",
+        "relation": "speaks about",
+        "entity2": "sports"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "crosses to",
+        "entity2": "paulie"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "ignores",
+        "entity2": "chipped tooth"
+      },
+      {
+        "entity1": "marie",
+        "relation": "interacts with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "makes impact on",
+        "entity2": "marie"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "advises",
+        "entity2": "marie"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "meets with",
+        "entity2": "miles jergens"
+      },
+      {
+        "entity1": "jergens",
+        "relation": "is a",
+        "entity2": "promoter"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "is consulted by",
+        "entity2": "lawyer"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "promises to fight",
+        "entity2": "underdog"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is in",
+        "entity2": "loan shark's car"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "is with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "bodyguard",
+        "relation": "drives for",
+        "entity2": "gazzo"
+      },
+      {
+        "entity1": "bodyguard",
+        "relation": "does not like",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is annoyed by",
+        "entity2": "bodyguard"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "triplets": [
+      {
+        "entity1": "rocky",
+        "relation": "interacts with",
+        "entity2": "gazzo"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "oversees",
+        "entity2": "record book"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "refers to",
+        "entity2": "rocky balboa"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "discusses with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "meets",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "asks",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "invites",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "enters",
+        "entity2": "kitchen"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "commands",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "talks to",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "observes",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "takes",
+        "entity2": "adrian out"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "interacts with",
+        "entity2": "cleaner"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "discusses",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "mentions",
+        "entity2": "his mother"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "describes",
+        "entity2": "his fight career"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is a friend of",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "acknowledges",
+        "entity2": "apollo"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "is associated with",
+        "entity2": "paulie"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "triplets": [
+      {
+        "entity1": "afroamericans",
+        "relation": "prove",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "wants",
+        "entity2": "gazzo"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "gives",
+        "entity2": "150 grand"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "had to beat up",
+        "entity2": "gallager"
+      },
+      {
+        "entity1": "mickey goldmill",
+        "relation": "stands",
+        "entity2": "doorway"
+      },
+      {
+        "entity1": "mickey goldmill",
+        "relation": "is",
+        "entity2": "gym owner"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "feels",
+        "entity2": "uncomfortable"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "very lucky guy"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "manager"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "50 years"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "has",
+        "entity2": "experience"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is compared to",
+        "entity2": "marciano"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has",
+        "entity2": "pain"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "a fighter"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "has",
+        "entity2": "knowledge"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "gives respect to",
+        "entity2": "mickey"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "an experienced boxer"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "manager"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is treated like",
+        "entity2": "dogs"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "has",
+        "entity2": "a past"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "gives",
+        "entity2": "wisdom"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "runs to",
+        "entity2": "mickey"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "a fighter"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is",
+        "entity2": "a friend of rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "will fight",
+        "entity2": "apollo creed"
+      },
+      {
+        "entity1": "jose",
+        "relation": "wishes",
+        "entity2": "good luck"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is",
+        "entity2": "rocky's trainer"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "a manager"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "wants",
+        "entity2": "to protect rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "runs through",
+        "entity2": "streets"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "triplets": [
+      {
+        "entity1": "rocky",
+        "relation": "calls",
+        "entity2": "bruce"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is",
+        "entity2": "rocky's partner"
+      },
+      {
+        "entity1": "goldmills gym",
+        "relation": "is located in",
+        "entity2": "philadelphia"
+      },
+      {
+        "entity1": "micky",
+        "relation": "is",
+        "entity2": "rocky's trainer"
+      },
+      {
+        "entity1": "apollo creed",
+        "relation": "is",
+        "entity2": "opponent of rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is fighting",
+        "entity2": "apollo creed"
+      },
+      {
+        "entity1": "pennzoil",
+        "relation": "is associated with",
+        "entity2": "rocky's robe"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "is",
+        "entity2": "assistant for rocky"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is",
+        "entity2": "rocky's girlfriend"
+      },
+      {
+        "entity1": "philadelphia spectrum",
+        "relation": "is the venue for",
+        "entity2": "the bicentennial fight"
+      },
+      {
+        "entity1": "joe frazier",
+        "relation": "is a former heavyweight champion",
+        "entity2": "of boxing"
+      },
+      {
+        "entity1": "jack dempsey",
+        "relation": "is a former champion",
+        "entity2": "boxing"
+      },
+      {
+        "entity1": "jake lamotta",
+        "relation": "is a former middleweight champion",
+        "entity2": "of boxing"
+      },
+      {
+        "entity1": "joe louis",
+        "relation": "is a former champion",
+        "entity2": "boxing"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "triplets": [
+      {
+        "entity1": "rocky balboa",
+        "relation": "is present with",
+        "entity2": "diane lewis"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "sits behind",
+        "entity2": "jergens desk"
+      },
+      {
+        "entity1": "jergens",
+        "relation": "is not present at",
+        "entity2": "the office"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is advised by",
+        "entity2": "lawyer"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "staggers across",
+        "entity2": "the street"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "enters",
+        "entity2": "his building"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is watching",
+        "entity2": "tv"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is talking to",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "has a nervous breakdown related to",
+        "entity2": "rocky and adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is engaged with",
+        "entity2": "mickey"
+      },
+      {
+        "entity1": "mickey",
+        "relation": "instructs",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is running up",
+        "entity2": "the stairs"
+      },
+      {
+        "entity1": "mayor rizzos",
+        "relation": "is meeting with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has a conversation with",
+        "entity2": "the mayor"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is in a relationship with",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "bruce",
+        "relation": "is a friend of",
+        "entity2": "rocky"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "triplets": [
+      {
+        "entity1": "adrian",
+        "relation": "is in a relationship with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has an apartment in",
+        "entity2": "rocky's apartment"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "is nervous about",
+        "entity2": "rocky's apartment"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "offers",
+        "entity2": "a glass of water to adrian"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has a brother named",
+        "entity2": "paulie"
+      },
+      {
+        "entity1": "adrian",
+        "relation": "has a brother named",
+        "entity2": "paulie"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is associated with",
+        "entity2": "goldmill's gym"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is offered a deal by",
+        "entity2": "miles jergens promotions"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has a large payday for",
+        "entity2": "fighting apollo creed"
+      },
+      {
+        "entity1": "apollo",
+        "relation": "is a boxer from",
+        "entity2": "philadelphia"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has a girlfriend named",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "paulie",
+        "relation": "is the brother of",
+        "entity2": "adrian"
+      },
+      {
+        "entity1": "jergens productions",
+        "relation": "is associated with",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has a business card from",
+        "entity2": "miles jergens promotions"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is known as",
+        "entity2": "the italian stallion"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "is a bodyguard for",
+        "entity2": "rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "receives money for",
+        "entity2": "training expenses from gazzo"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "triplets": [
+      {
+        "entity1": "rocky balboa",
+        "relation": "is",
+        "entity2": "white fighter"
+      },
+      {
+        "entity1": "philadelphia",
+        "relation": "is",
+        "entity2": "location of the fight"
+      },
+      {
+        "entity1": "the black fighter",
+        "relation": "is",
+        "entity2": "opponent of rocky"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "fighter"
+      },
+      {
+        "entity1": "boxing ring",
+        "relation": "is",
+        "entity2": "location of the fight"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has",
+        "entity2": "cornerman"
+      },
+      {
+        "entity1": "fan",
+        "relation": "is",
+        "entity2": "fight spectator"
+      },
+      {
+        "entity1": "promoter",
+        "relation": "is",
+        "entity2": "businessman"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "deals with",
+        "entity2": "fats"
+      },
+      {
+        "entity1": "fats",
+        "relation": "is",
+        "entity2": "heavy man"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "has",
+        "entity2": "turtle"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "fighter with scars"
+      },
+      {
+        "entity1": "adrian klein",
+        "relation": "is",
+        "entity2": "girl behind the counter"
+      },
+      {
+        "entity1": "butkus",
+        "relation": "is",
+        "entity2": "dog owned by rocky"
+      },
+      {
+        "entity1": "trolley",
+        "relation": "is",
+        "entity2": "mode of transport in the story"
+      },
+      {
+        "entity1": "south philly",
+        "relation": "is",
+        "entity2": "location of rocky's apartment"
+      },
+      {
+        "entity1": "the club",
+        "relation": "is",
+        "entity2": "location of the fight"
+      },
+      {
+        "entity1": "gazzo",
+        "relation": "is",
+        "entity2": "rocky's boss"
+      },
+      {
+        "entity1": "two dollar bet",
+        "relation": "is",
+        "entity2": "bet placed by a housewife"
+      },
+      {
+        "entity1": "boxers",
+        "relation": "are",
+        "entity2": "competitors in the ring"
+      },
+      {
+        "entity1": "rocky",
+        "relation": "is",
+        "entity2": "assisted by his cornerman"
+      },
+      {
+        "entity1": "the animal town pet shop",
+        "relation": "is",
+        "entity2": "pet shop where rocky visits"
+      },
+      {
+        "entity1": "rocky's apartment",
+        "relation": "is",
+        "entity2": "rocky's living location"
+      },
+      {
+        "entity1": "the crowd",
+        "relation": "is",
+        "entity2": "spectators at the fight"
+      }
+    ]
+  }
+]

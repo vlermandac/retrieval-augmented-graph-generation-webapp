@@ -66,13 +66,8 @@ void KnowledgeGraph::get_layout() {
   this->adj_list = adjacency_list(this->num_nodes);
   for (auto &[u, v] : edge_list)
     adj_list.add_edge(u, v);
-  std::vector<double> ranks = adj_list.page_rank();
-  std::vector<int> sizes = adj_list.assign_size(ranks, 4, 12);
   for (Node_ptr &n : nodes)
-    n->attributes.size = sizes[n->attributes.id];
-  std::vector<layout::Point2D> pos = layout::fr(adj_list.adj_list, ranks, 1000, 2000);
-  for (Node_ptr &n : this->nodes)
-    n->coords(pos[n->attributes.id].x, pos[n->attributes.id].y);
+    n->attributes.size = 5;
 }
 
 Json KnowledgeGraph::get_graphology_json(std::vector<Node> node_list,
@@ -144,10 +139,8 @@ Json KnowledgeGraph::get_subgraph(const std::vector<int> &id_list) {
   for (Node &n : node_list)
     n.attributes.size = sizes[n.attributes.id];
 
-  std::vector<layout::Point2D> pos = layout::fr(al.adj_list, ranks, 1000, 2000);
-
   for (Node &n : node_list)
-    n.coords(pos[n.attributes.id].x, pos[n.attributes.id].y);
+    n.coords(0,0);
 
   std::cout << "positions and sizes assigned\n";
 

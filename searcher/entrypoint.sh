@@ -9,6 +9,7 @@ set -euo pipefail
 # Temporarily disable strict mode and activate conda:
 set +euo pipefail
 conda activate env
+pip install vecs
 
 # Re-enable strict mode:
 set -euo pipefail
